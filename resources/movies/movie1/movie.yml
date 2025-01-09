@@ -1,0 +1,17 @@
+id: 80216e4e-4718-4c05-80d4-3d1271ec6b55
+title: Movie 1
+producer: Producer 1
+duration: 130
+language: en
+links:
+  platform: https://www.youtube.com/@aantonop
+  trailer: https://www.youtube.com/watch?v=s-aGTK5da4Q
+description: |
+  Movie Description 1
+
+  Movie Description 2
+tags:
+  - deep-dive
+  - guides
+contributors:
+  - another-satoshi
