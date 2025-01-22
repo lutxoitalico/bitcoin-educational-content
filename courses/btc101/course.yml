@@ -41,84 +41,84 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 38092
+    reward: 21.46
   - language: de
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 20296
+    reward: 10.78
   - language: en
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 20296
+    reward: 10.78
   - language: es
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 29194
+    reward: 16.12
   - language: fi
     last_contribution_date: 2024-04-02
     urgency: 1
     contributors_id:
       - KryptoKeskus
-    reward: 19046
+    reward: 10.73
   - language: fr
     last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
       - Asi0Flammeus
-    reward: 10148
+    reward: 5.39
   - language: it
     last_contribution_date: 2023-10-10
     urgency: 1
     contributors_id:
       - TinF0ilHat1
-    reward: 14597
+    reward: 8.06
   - language: ja
     last_contribution_date: 2023-12-03
     urgency: 1
     contributors_id:
       - yutaro21jp
-    reward: 27944
+    reward: 16.07
   - language: pt
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 20296
+    reward: 10.78
   - language: ru
     last_contribution_date:
     urgency: 1
     contributors_id:
       - Reshetenko
-    reward: 19046
+    reward: 10.73
   - language: vi
     last_contribution_date: 2024-05-05
     urgency: 1
     contributors_id:
       - Henry-Da0
-    reward: 27944
+    reward: 16.07
   - language: et
     last_contribution_date: 2024-09-24
     urgency: 1
     contributors_id:
       - taneltheplanet
-    reward: 19046
+    reward: 10.73
   - language: id
     last_contribution_date: 2024-09-24
     urgency: 1
     contributors_id:
       - AraleB
-    reward: 23495
+    reward: 13.4
   - language: zh-Hans
     last_contribution_date: 2024-09-24
     urgency: 1
     contributors_id:
       - MilankovicProtocol
-    reward: 23495
+    reward: 13.4
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 38092
+    reward: 21.46
