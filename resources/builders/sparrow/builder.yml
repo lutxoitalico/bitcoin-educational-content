@@ -80,3 +80,15 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2595
+
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2576
+
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2576

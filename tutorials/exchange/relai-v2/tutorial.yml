@@ -23,3 +23,8 @@ proofreading:
     contributors_id:
       - LoicPandul
     reward:
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward:

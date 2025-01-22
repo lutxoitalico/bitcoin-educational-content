@@ -1,4 +1,4 @@
-author: Vernor Vinge 
+author: Vernor Vinge
 level: advanced
 tags:
   - cyberpunk
@@ -75,6 +75,12 @@ proofreading:
     contributors_id:
     reward: 3452
   - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 3262
+
+  - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributors_id:

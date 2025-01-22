@@ -78,3 +78,9 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 2874
+
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2874

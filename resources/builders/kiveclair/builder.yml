@@ -1,6 +1,6 @@
 name: Kiveclair
 category: communities
-address_line_1:   Goma, Congo
+address_line_1: Goma, Congo
 address_line_2:
 address_line_3:
 language:
@@ -85,6 +85,12 @@ proofreading:
     contributors_id:
     reward: 2720
   - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2676
+
+  - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributors_id:

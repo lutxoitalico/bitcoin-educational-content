@@ -41,74 +41,80 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 180112
+    reward: 138664
   - language: de
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 91306
+    reward: 70582
   - language: en
     last_contribution_date: 2024-06-30
     urgency: 1
     contributors_id:
       - melontwist
-    reward: 45653
+    reward: 35291
   - language: es
     last_contribution_date: 2024-11-16
     urgency: 1
     contributors_id:
       - OscarG673
-    reward: 67845
+    reward: 52311
   - language: fi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 180112
+    reward: 138664
   - language: fr
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 91306
+    reward: 70582
   - language: it
     last_contribution_date: 2024-11-16
     urgency: 1
     contributors_id:
       - TinF0ilHat1
-    reward: 67845
+    reward: 52311
   - language: ja
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 268918
+    reward: 206746
   - language: pt
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 91306
+    reward: 70582
   - language: ru
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 180112
+    reward: 138664
   - language: vi
     last_contribution_date: 2024-09-24
     urgency: 1
     contributors_id:
       - Henry-Da0
-    reward: 134459
+    reward: 103373
   - language: et
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 180112
+    reward: 138664
   - language: id
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 224515
+    reward: 172705
   - language: zh-Hans
     last_contribution_date: 2024-09-24
     urgency: 1
     contributors_id:
       - MilankovicProtocol
-    reward: 112257
+    reward: 86352
+
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 138664

@@ -14,12 +14,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 2712
+    reward: 2714
   - language: de
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 2606
+    reward: 2607
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
@@ -30,34 +30,64 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 2659
+    reward: 2660
   - language: fi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 2712
+    reward: 2714
   - language: fr
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 2606
+    reward: 2607
   - language: it
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 2659
+    reward: 2660
   - language: ja
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 2818
+    reward: 2821
   - language: pt
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 2606
+    reward: 2607
   - language: vi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 2818
+    reward: 2821
+
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2714
+
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2767
+
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2714
+
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2714
+
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 2767

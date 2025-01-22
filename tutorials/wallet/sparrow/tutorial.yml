@@ -17,70 +17,76 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 6166
+    reward: 4762
   - language: de
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 4333
+    reward: 3631
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
     contributors_id:
       - Asi0Flammeus
-    reward: 2166
+    reward: 1815
   - language: es
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 5249
+    reward: 4196
   - language: fi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 6166
+    reward: 4762
   - language: fr
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 4333
+    reward: 3631
   - language: it
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 5249
+    reward: 4196
   - language: ja
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 7999
+    reward: 5893
   - language: pt
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 4333
+    reward: 3631
   - language: ru
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 6166
+    reward: 4762
   - language: vi
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 7999
+    reward: 5893
   - language: et
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 6166
+    reward: 4762
   - language: id
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 7082
+    reward: 5327
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributors_id:
-    reward: 7082
+    reward: 5327
+
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 4762
