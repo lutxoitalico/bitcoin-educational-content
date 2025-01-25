@@ -7,7 +7,7 @@ objectives:
   - Avere una comprensione generale della tecnologia Blockchain
   - Essere familiari con il concetto di Lightning Network
   - Comprendere l'impatto geopolitico e sociale di Bitcoin
----
+---sdvdzfbad
 
 # La tua prima avventura con Bitcoin
 
