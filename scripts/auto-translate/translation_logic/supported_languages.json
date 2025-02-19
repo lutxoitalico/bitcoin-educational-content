@@ -103,6 +103,12 @@
       "code_translator": "Thai"
     },
     {
+      "code": "uk",
+      "name": "Ukranian",
+      "translator": "deepl",
+      "code_translator": "uk"
+    },
+    {
       "code": "vi",
       "name": "Vietnamese",
       "translator": "google",
