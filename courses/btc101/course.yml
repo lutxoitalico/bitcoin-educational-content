@@ -124,3 +124,9 @@ proofreading:
     urgency: 1
     contributors_id:
     reward: 21.72
+
+  - language: ha
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+    reward: 27.12
