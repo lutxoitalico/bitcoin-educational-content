@@ -79,7 +79,7 @@ gpg:               imported: 1
 
 NOTE: If you see that 1 key has been processed and 0 keys have been imported, it likely means you have already imported the same key previously, which is perfectly fine.
 
-2. Verify the signature of the certificate or diploma with following command:
+2. Verify the signature of the certificate or diploma using the following command:
 
 ```bash
 gpg --verify certificate.txt
@@ -89,7 +89,7 @@ This command should show you details about the signature, including:
 
 - Who signed it (Plan ₿ Network)
 - When it was signed
-- Whether the signature is valid
+- Whether the signature is valid or not
 
 This is an example of the result:
 
@@ -108,19 +108,19 @@ If you see a message like "BAD signature", that means that the file has been tam
 
 1. Visit the OpenTimestamps website: https://opentimestamps.org/
 2. Click on the "Stamp & Verify" tab.
-3. Drag and drop the OTS file (e.g., `certificate.txt.ots`) into the designated area.
+3. Drag and drop the OTS file (e.g. `certificate.txt.ots`) into the designated area.
 4. Drag and drop the timestamped file (e.g. `certificate.txt`) into the designated area.
 5. The website will automatically verify the open timestamp and display the result.
 
-If you see a message like the following you time timestamp is valid:
+If you see a message like the following, the timestamp is valid:
 
 ![cover](assets/opentimestamp_wegui_verified.webp)
 
-### CLI Method
+### The CLI Method
 
-NOTE: this procedure **will require a local Bitcoin node running**
+NOTE: this procedure **will require a running local Bitcoin node**
 
-1. Install the OpenTimestamps client from the official repository: https://github.com/opentimestamps/opentimestamps-client by running the following command:
+1. Install the OpenTimestamps client from the official [repository](https://github.com/opentimestamps/opentimestamps-client) by running the following command:
 
 ```
 pip install opentimestamps-client
@@ -136,15 +136,15 @@ ots verify certificate.txt.ots
 
 This command will:
 
-- Check the timestamp against Bitcoin's blockchain
-- Show you when exactly the file was timestamped
+- Check the timestamp against the Bitcoin's blockchain
+- Show you exactly when the file was timestamped
 - Confirm the timestamp's authenticity
 
 ### Final results
 
-Note that the verification is successful if following **both** message are displayed:
+The verification is successful if **both** the following messages are displayed:
 
 1. The GPG signature is reported as **"Good signature from Plan ₿ Network"**
 2. The OpenTimestamps verification shows a specific Bitcoin block timestamp and reports **"Success! Bitcoin block [blockheight] attests data existed as of [timestamp]"**
 
-Now that you know how Plan ₿ Network issue verifiable proof for any Bitcoin Certificate and Diploma of Course Completion, you can easily verify the integrity of it.
+Now that you know how Plan ₿ Network issues verifiable proofs for any B-CERT Certificate and Diploma, you can easily verify the integrity of it.
