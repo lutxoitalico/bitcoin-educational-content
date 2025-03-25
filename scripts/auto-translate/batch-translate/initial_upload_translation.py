@@ -106,11 +106,7 @@ def main():
     print(f"\nFound {len(english_files)} English files to translate.")
     print("Note: Files in courses/btc101/ will be skipped")
     files_list = "\n".join(english_files)
-    print(f"\nFiles to be translated:\n{files_list}")
     
-    if get_input("\nProceed with translation? (y/n): ").lower() != 'y':
-        print("Translation cancelled.")
-        return
     
     success_count = 0
     error_count = 0
@@ -136,4 +132,5 @@ def main():
  
 if __name__ == "__main__":
     main()
+
 
