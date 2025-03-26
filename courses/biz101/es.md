@@ -199,7 +199,7 @@ Bitcoin es un **sistema de intercambio de moneda digital entre pares** (dinero e
 - Red física** de máquinas conectadas a Internet (nodos, mineros, etc.) operadas por particulares y empresas, que forman un sistema descentralizado (sin autoridad central ni punto único de control).
 - La unidad de cuenta** dentro del sistema. Nunca existirán más de 21 millones de bitcoins. Cada bitcoin es divisible en 100 millones de unidades llamadas "satoshis", denominadas así en honor de su anónimo creador.
 
-Juntos hacen de Bitcoin un **activo portador** y una moneda digital **sin emisor**. La propiedad se garantiza únicamente mediante la posesión de la **clave criptográfica privada**, lo que otorga un control total **sin intermediarios ni terceros de confianza**. Cuando se transfiere, la **finalidad** de la propiedad es inmediata: el nuevo titular la posee plenamente sin depender de una autoridad central para su protección o convertibilidad. Las transacciones son **inmutables**: una vez registradas en la cadena de bloques, no pueden alterarse ni borrarse.
+Juntos hacen de Bitcoin un **activo al portador** y una moneda digital **sin emisor**. La propiedad se garantiza únicamente mediante la posesión de la **clave criptográfica privada**, lo que otorga un control total **sin intermediarios ni terceros de confianza**. Cuando se transfiere, la **finalidad** de la propiedad es inmediata: el nuevo titular la posee plenamente sin depender de una autoridad central para su protección o convertibilidad. Las transacciones son **inmutables**: una vez registradas en la cadena de bloques, no pueden alterarse ni borrarse.
 
 ![BIZ101](assets/en/11.webp)
 
