@@ -156,19 +156,15 @@ En general, este proceso es intrincado, largo y costoso para lo que debería ser
 
 ### Comparación de los métodos de pago
 
-| Método de pago Autorización necesaria           | Tiempo de aprobación de la transacción (vista del comerciante) Velocidad de liquidación (fondos totalmente liquidados) Finalidad (facilidad de anulación) Número de intermediarios
+| Método de pago                     | Autorización necesaria                        | Tiempo de aprobación (vista del comerciante)             | Velocidad de liquidación (fondos totalmente liquidados)  | Finalidad (facilidad de anulación)                      | Número de intermediarios            | Typical Fees (to Payee)                |
+|------------------------------------|-----------------------------------------------|----------------------------------------------------------|----------------------------------------------------------|----------------------------------------------------------|-------------------------------------|----------------------------------------|
+| **Cash**                           | No                                            | Inmediato (Intercambio físico)                           | Inmediato (Sin demora en la liquidación)                 | Alta (Irreversible una vez pagado)                       | Ninguno                             | Ninguno                                |
+| **Cheques**                        | Sí (Compensación bancaria)                    | Aceptación al depósito (No garantizada)                  | Varios días (Proceso de compensación de cheques)         | Media (Puede rebotar o cancelarse antes de compensarse)  | Banco                               | **Baja a media** (Comisiones bancarias)    |
+| **Transferencias electrónicas**    | Sí (banco/red)                                | Confirmación en cuestión de horas                        | Mismo día o día siguiente (nacional)                     | Alta (Normalmente irreversible una vez enviado)          | Bancos, redes de pago               | **Medio** (fijo o porcentaje)              |
+| **Tarjetas de Pago**               | Sí (Autorización del emisor de la tarjeta)    | Segundos a minutos (Código de autorización)              | Unos días (Liquidación interbancaria)                    | Media (Posibilidad de devolución de cargos)              | Emisor, Adquirente, Red de la Tarjeta | **Variable** (1-3% de la transacción)      |
+| **Billeteras digitales/Pagos móviles** | Sí (Proveedor de la billetera/banco)          | Segundos (Confirmación instantánea)                      | Normalmente 1-2 días (depende de la fuente de financiación)| Media (Posibilidad de reembolso o disputa)               | Bancos, operadores de billeteras    | **Baja a media** (Varía según el proveedor)|
 
-| ------------------------------ | ------------------------------- | ----------------------------------------- | ---------------------------------------------- | ---------------------------------------- | ------------------------------ | ---------------------------------- |
 
-| **Cash** | No | Inmediato (Intercambio físico) | Inmediato (Sin demora en la liquidación) | Alto (Irreversible una vez pagado) | Ninguno | Ninguno | Ninguno
-
-| **Cheques** | Sí (Compensación bancaria) | Aceptación en el momento del depósito (No garantizada) | Varios días (Proceso de compensación de cheques) | Media (Puede rebotar/pararse antes de compensarse) | Banco | De baja a media** (Comisiones bancarias) | Banco | De baja a media** (Comisiones bancarias)
-
-| **Transferencias electrónicas** | Sí (banco/red) | Confirmación en cuestión de horas | Mismo día o día siguiente (nacional) | Alto (normalmente irreversible una vez enviado) | Bancos, redes de pago | **Medio**(Fijo/Porcentaje) | | Pago en línea
-
-| **Tarjetas de Pago** | Sí (Autorización del Emisor de la Tarjeta) | Segundos a Minutos (Código de Autorización) | Unos Días (Liquidación Interbancaria) | Medio (Posibilidad de Devolución de Cargos) | Emisor, Adquirente, Red de la Tarjeta | **Variable (1-3% de la Transacción)** |
-
-| **Billeteras digitales/Pagos móviles** | Sí (proveedor de la billetera/banco) | Segundos (confirmación instantánea) | Normalmente 1-2 días (depende de la fuente de financiación) | Media (posibilidad de reembolso/disputa) | Bancos, operadores de billeteras | **Baja a media (varía)** | Billeteras digitales/Pagos móviles
 
 ### Limitaciones de las soluciones existentes
 
