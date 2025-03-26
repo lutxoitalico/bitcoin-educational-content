@@ -94,13 +94,13 @@ El papel moneda también mejoró la escalabilidad. En lugar de depender del limi
 
 El paso del papel moneda al dinero electrónico mejoró aún más la red monetaria al aumentar la accesibilidad y la rapidez. Con el auge de los sistemas bancarios, las tarjetas de crédito y las transacciones digitales, el dinero no sólo se hizo **portátil**, sino casi **instantáneo**. Las transferencias electrónicas eliminaron la necesidad del intercambio físico, permitiendo transacciones a través de grandes distancias en cuestión de segundos.
 
-Este cambio también democratizó el acceso a la moneda. La banca electrónica y los sistemas de pago redujeron las barreras de entrada para particulares y empresas, permitiendoles la participación en la economía mundial. La rapidez y comodidad del dinero electrónico amplió las redes comerciales y fomentó nuevos modelos de negocio que habrían sido imposibles en un sistema basado en el papel.
+Este cambio también democratizó el acceso a la moneda. La banca electrónica y los sistemas de pago redujeron las barreras de entrada para particulares y empresas, facilitando la participación en la economía mundial. La rapidez y comodidad del dinero electrónico amplió las redes comerciales y fomentó nuevos modelos de negocio que habrían sido imposibles en un sistema basado en el papel.
 
 Estas redes monetarias modernas tenían un inconveniente importante: la **falta de auditabilidad y transparencia en la gestión de la masa monetaria**, lo que a menudo provocaba una inflación descontrolada y una pérdida de confianza en los sistemas centralizados. Por ejemplo, sólo en los últimos cuatro años se imprimió más del 20% de todos los dólares estadounidenses en circulación. Esta persistente tentación de emitir más moneda -devaluando así el valor que poseen los actuales tenedores- puede atribuirse en gran medida a un defecto sistémico: los políticos suelen estar incentivados para evitar decisiones presupuestarias difíciles, optando en su lugar por aplazar los retos a las futuras administraciones "pateando la lata por el camino"
 
-**De la moneda centralizada a la descentralizada: Aumentar la confianza y la soberanía**
+**De la moneda centralizada a la descentralizada: Aumentar la confianza y la soberanía**  
 
-En la actualidad, la aparición de la moneda descentralizada Bitcoin representa el siguiente salto en las redes monetarias. El dinero electrónico tradicional depende de autoridades centralizadas, como bancos o gobiernos, para gestionar y verificar las transacciones. Aunque eficaces, estos sistemas son vulnerables a la ineficacia, la censura y los puntos únicos de fallo. Las monedas descentralizadas mejoran estas propiedades de la red al **distribuir la confianza y eliminar intermediarios**. También significa que el dinero puede circular mucho **más rápido** y **más barato**, porque no hay pasos de autorización. Por último, ningún ser humano puede tener la tentación de alterar el suministro de la moneda Bitcoin, el software se encarga de ello.
+En la actualidad, la aparición de la moneda descentralizada Bitcoin representa el siguiente salto en las redes monetarias. El dinero electrónico tradicional depende de autoridades centralizadas, como bancos o gobiernos, para gestionar y verificar las transacciones. Aunque eficaces, estos sistemas son vulnerables a la ineficacia, la censura y los puntos débiles de fallo. Las monedas descentralizadas mejoran estas propiedades de la red al **distribuir la confianza y eliminar intermediarios**. También significa que el dinero puede circular mucho **más rápido** y **más barato**, porque no hay pasos de autorización. Por último, ningún ser humano puede tener la tentación de alterar el suministro de la moneda Bitcoin, el software se encarga de ello.
 
 En los sistemas descentralizados, las transacciones son verificadas por una red mundial de participantes que utilizan la tecnología blockchain, lo que garantiza la seguridad, la transparencia y la resistencia. Esta estructura minimiza el riesgo de fraude, reduce la dependencia de las autoridades centrales y permite a las personas tener un mayor control sobre sus finanzas. Al eliminar las barreras geográficas e institucionales, las monedas descentralizadas ofrecen un sistema monetario verdaderamente global e inclusivo.
 
@@ -118,7 +118,7 @@ Los sistemas de pago son métodos e infraestructuras que permiten la transferenc
 
 ### Tipos de pago habituales
 
-1. **Cash:** Moneda física intercambiada directamente entre dos partes.
+1. **Contado:** Moneda física intercambiada directamente entre dos partes.
 
 2. **Cheques:** Documentos en papel por los que se ordena a un banco pagar una cantidad determinada de la cuenta del ordenante al beneficiario.
 
@@ -126,13 +126,13 @@ Los sistemas de pago son métodos e infraestructuras que permiten la transferenc
 
 4. **Tarjetas de pago (crédito/débito):** Tarjetas de plástico o digitales conectadas a una red de tarjetas, que permiten transferir fondos de la cuenta bancaria (o línea de crédito) del titular a un comerciante.
 
-5. **Billeteras digitales y pagos móviles:** Aplicaciones o dispositivos que almacenan información de pago (por ejemplo, Apple Pay, WeChatPay, AliPay,PayPal), permitiendo transferencias rápidas y a menudo sin contacto.
+5. **Billeteras digitales y pagos móviles:** Aplicaciones o dispositivos que almacenan información de pago (por ejemplo, Apple Pay, WeChatPay, AliPay,PayPal), permitiendo transferencias rápidas y a menudo sin contacto (contactless).
 
 **Utilización en B2C y B2B:**
 
 
 - B2C (Empresa a consumidor):**
-    - Los consumidores utilizan con frecuencia dinero en efectivo, tarjetas y monederos digitales para sus compras cotidianas, como la compra de alimentos, las compras en línea o servicios como el transporte en coche.
+    - Los consumidores utilizan con frecuencia dinero en efectivo, tarjetas y monederos digitales para sus compras cotidianas, como la compra de alimentos, las compras en línea o servicios como el transporte.
     - La rapidez, la comodidad y las comisiones bajas (para el consumidor) suelen ser prioridades clave.
     - Los pagos sin contacto y por móvil son cada vez más populares en este espacio debido a su facilidad de uso.
 - B2B (Empresa a Empresa):**
@@ -142,15 +142,15 @@ Los sistemas de pago son métodos e infraestructuras que permiten la transferenc
 
 ![BIZ101](assets/en/01.webp)
 
-*Gráfico: Global Trends in Point-of-Sale (POS) Payment Methods (2023-2027), The Global Payments Report 2024, Worldpay.*
+*Gráfico: Tendencia global de Point-of-Sale (POS) Metodos de pago (2023-2027), Reporte del 2024 sobre pagos globales, Worldpay.*
 
 ### La complejidad de un simple pago con tarjeta
 
-Cuando un cliente utiliza una tarjeta de crédito en un comercio, el terminal de punto de venta lee la tarjeta y transmite de forma segura los datos de la transacción al banco adquirente del comerciante. El banco adquirente transmite esta información a la red de tarjetas correspondiente (por ejemplo, Visa o Mastercard), que a su vez dirige la solicitud al emisor, es decir, al banco que proporcionó la tarjeta al cliente. El emisor comprueba la cuenta o la línea de crédito del cliente y devuelve una autorización a través de la red y la entidad adquirente, permitiendo al comerciante aceptar el pago.
+Cuando un cliente utiliza una tarjeta de crédito en un comercio, el terminal de punto de venta (POS) lee la tarjeta y transmite de forma segura los datos de la transacción al banco adquirente del comerciante. El banco adquirente transmite esta información a la red de tarjetas correspondiente (por ejemplo, Visa o Mastercard), que a su vez dirige la solicitud al emisor, es decir, al banco que proporcionó la tarjeta al cliente. El emisor comprueba la cuenta o la línea de crédito del cliente y devuelve una autorización a través de la red y la entidad adquirente, permitiendo al comerciante aceptar el pago.
 
 ![BIZ101](assets/en/02.webp)
 
-Esta transacción aparentemente sencilla implica en realidad más de 15 pasos, 7 intermediarios, y el comerciante tarda una media de entre 48 horas y 5 días en recibir los fondos. En los días siguientes se produce un proceso de compensación y liquidación. La red de tarjetas agrega las transacciones del día y coordina el intercambio de fondos entre el adquirente y el emisor. Un banco central garantiza la exactitud y estabilidad de estas liquidaciones interbancarias. Finalmente, la cuenta bancaria del comerciante recibe el importe neto (menos las comisiones) abonado por la entidad adquirente, con lo que se completa el ciclo de vida de la transacción.
+Esta transacción aparentemente sencilla implica en realidad más de 15 pasos, 7 intermediarios, y el comerciante tarda una media de entre 48 horas y 5 días en recibir los fondos. En los días siguientes se produce un proceso de compensación y liquidación. La red de tarjetas agrega las transacciones del día y coordina el intercambio de fondos entre el adquirente y el emisor. Un banco central garantiza la exactitud y estabilidad de estas liquidaciones interbancarias. Finalmente, la cuenta bancaria del comerciante recibe el importe neto abonado por la entidad adquirente (menos las comisiones) , con lo que se completa el ciclo de vida de la transacción.
 
 En general, este proceso es intrincado, largo y costoso para lo que debería ser el simple acto de trasladar valor de una parte a otra.
 
