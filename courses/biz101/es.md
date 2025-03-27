@@ -391,10 +391,10 @@ La Escuela Austriaca de Economía debe su nombre a sus fundadores y primeros col
 Desde el punto de vista austriaco, el capital está profundamente relacionado con la idea de aplazar el consumo para construir herramientas o recursos que mejoren la producción futura. Este proceso, conocido como acumulación de capital, es fundamental en la teoría económica austriaca. Los elementos clave de esta perspectiva incluyen:
 
 
-- Preferencia temporal y consumo diferido**: Los individuos prefieren naturalmente consumir ahora antes que más tarde, pero pueden optar por aplazar el consumo si esperan mayores recompensas en el futuro. Al ahorrar hoy, los recursos pueden invertirse en bienes de capital (herramientas, máquinas, infraestructuras) que mejoran la productividad con el tiempo. Las sociedades o individuos con menor preferencia temporal ahorran más e invierten en proyectos a largo plazo, fomentando el crecimiento sostenible.
-- El capital como motor de la producción futura**: Los bienes de capital se consideran herramientas intermedias utilizadas para producir bienes de consumo finales. Al acumular capital, los empresarios pueden aumentar la productividad y crear más riqueza en el futuro. Por ejemplo, en lugar de producir bienes de consumo inmediatamente, los recursos pueden utilizarse para construir fábricas o máquinas. Aunque esto reduce el consumo a corto plazo, la eficiencia resultante permite una mayor producción y prosperidad más adelante.
-- Producción indirecta y eficiencia**: Los economistas austriacos, como Eugen Böhm-Bawerk, destacaron la idea de la producción indirecta: procesos de producción más largos y complejos que implican múltiples etapas. Aunque estos procesos llevan tiempo, al final producen resultados más eficientes y productivos, como construir un aserradero para procesar la madera en lugar de recoger los troncos a mano.
-- Los tipos de interés como señales**: Desde el punto de vista austriaco, los tipos de interés reflejan naturalmente las preferencias temporales de los individuos. Los tipos altos indican una preferencia por el consumo inmediato, mientras que los tipos bajos fomentan el ahorro y la inversión a largo plazo. Cuando los bancos centrales manipulan artificialmente los tipos de interés, distorsionan estas señales naturales, lo que conduce a una mala asignación de los recursos y a inversiones insostenibles (mala inversión).
+-**Preferencia temporal y consumo diferido**: Mayormente los individuos prefieren gastar de inmediato que que conservar para más tarde, pero pueden optar por aplazar el consumo si esperan mayores recompensas en el futuro. Al ahorrar hoy, los recursos pueden invertirse en bienes de capital (herramientas, máquinas, infraestructuras) que mejoran la productividad con el tiempo. Las sociedades o individuos con menor preferencia temporal ahorran más e invierten en proyectos a largo plazo, fomentando el crecimiento sostenible.
+-**El capital como motor de la producción futura**: Los bienes de capital se consideran herramientas intermedias utilizadas para producir bienes de consumo finales. Al acumular capital, los empresarios pueden aumentar la productividad y crear más riqueza en el futuro. Por ejemplo, en lugar de producir bienes de consumo inmediatamente, los recursos pueden utilizarse para construir fábricas o máquinas. Aunque esto reduce el consumo a corto plazo, la eficiencia resultante permite una mayor producción y prosperidad más adelante.
+-**Producción indirecta y eficiencia**: Los economistas austriacos, como Eugen Böhm-Bawerk, destacaron la idea de la producción indirecta: procesos de producción más largos y complejos que implican múltiples etapas. Aunque estos procesos llevan tiempo, al final producen resultados más eficientes y productivos, como construir un aserradero para procesar la madera en lugar de recoger los troncos a mano.
+-**Los tipos de interés como señales**: Desde el punto de vista austriaco, los tipos de interés reflejan naturalmente las preferencias temporales de los individuos. Los tipos altos indican una preferencia por el consumo inmediato, mientras que los tipos bajos fomentan el ahorro y la inversión a largo plazo. Cuando los bancos centrales manipulan artificialmente los tipos de interés, distorsionan estas señales naturales, lo que conduce a una mala asignación de los recursos y a inversiones insostenibles (mala inversión).
 
 **Dos formas de capital en las economías modernas**
 
@@ -421,22 +421,22 @@ La **Escuela Austriaca de Economía** es una tradición de pensamiento económic
 **Figuras clave de la Escuela Austriaca**
 
 
-- Carl Menger**: Fundador de la Escuela Austriaca, Menger desarrolló la teoría del valor subjetivo, que afirma que el valor de los bienes depende de las preferencias individuales y no de los costes de producción.
-- Ludwig von Mises**: Piedra angular de la Escuela Austriaca, Mises introdujo la praxeología (teoría de la acción humana) y fue autor de _La acción humana_, una profunda crítica del socialismo y la planificación central.
-- Friedrich Hayek**: Alumno de Mises, Hayek ganó el Premio Nobel de Economía en 1974 por sus trabajos sobre el conocimiento descentralizado y la espontaneidad del mercado. En su libro _El camino hacia la servidumbre_, criticó duramente el control centralizado.
-- Murray Rothbard**: Discípulo de Mises y firme defensor del libertarismo, Rothbard desarrolló la teoría del anarcocapitalismo, imaginando una sociedad sin Estado regida por contratos voluntarios. Su libro _El hombre, la economía y el Estado_ es una obra fundamental de la economía austriaca.
+- **Carl Menger**: Fundador de la Escuela Austriaca, Menger desarrolló la teoría del valor subjetivo, que afirma que el valor de los bienes depende de las preferencias individuales y no de los costes de producción.
+- **Ludwig von Mises**: Piedra angular de la Escuela Austriaca, Mises introdujo la praxeología (teoría de la acción humana) y fue autor de _La acción humana_, una profunda crítica del socialismo y la planificación central.
+- **Friedrich Hayek**: Alumno de Mises, Hayek ganó el Premio Nobel de Economía en 1974 por sus trabajos sobre el conocimiento descentralizado y la espontaneidad del mercado. En su libro _El camino hacia la servidumbre_, criticó duramente el control centralizado.
+- **Murray Rothbard**: Discípulo de Mises y firme defensor del libertarismo, Rothbard desarrolló la teoría del anarcocapitalismo, imaginando una sociedad sin Estado regida por contratos voluntarios. Su libro _El hombre, la economía y el Estado_ es una obra fundamental de la economía austriaca.
 
-**Otros economistas influyentes
+**Otros economistas influyentes**
 
 
-- Milton Friedman**: Aunque no se le asocia directamente con la Escuela Austriaca, Friedman apoyó muchas ideas liberales y favorables al mercado. Su política monetarista difiere del pensamiento austriaco, pero comparte su crítica a la excesiva intervención estatal en la economía.
-- Frédéric Bastiat**: Economista francés del siglo XIX, Bastiat influyó en la Escuela Austriaca con sus trabajos sobre el libre comercio y las consecuencias invisibles de las políticas económicas. Su ensayo _Lo que se ve y lo que no se ve_ es un texto fundacional del liberalismo económico.
+- **Milton Friedman**: Aunque no se le asocia directamente con la Escuela Austriaca, Friedman apoyó muchas ideas liberales y favorables al mercado. Su política monetarista difiere del pensamiento austriaco, pero comparte su crítica a la excesiva intervención estatal en la economía.
+- **Frédéric Bastiat**: Economista francés del siglo XIX, Bastiat influyó en la Escuela Austriaca con sus trabajos sobre el libre comercio y las consecuencias invisibles de las políticas económicas. Su ensayo _Lo que se ve y lo que no se ve_ es un texto fundacional del liberalismo económico.
 
 ![BIZ101](assets/en/06.webp)
 
 *Atribución: Instituto Ludwig von Mises*
 
-**Principales contribuciones e ideas
+**Principales contribuciones e ideas**
 
 Estos pensadores forjaron la idea de que la intervención estatal distorsiona los mercados y de que la libertad económica es esencial para la prosperidad y la coordinación armoniosa de las acciones humanas. Sus ideas ponen de relieve la importancia de la descentralización de la toma de decisiones y los peligros del control centralizado en los sistemas económicos.
 
