@@ -195,17 +195,17 @@ Del mismo modo que pasamos de pagar por minuto las llamadas de voz a utilizar co
 Bitcoin es un **sistema de intercambio de moneda digital entre pares** (dinero electrónico). El término "Bitcoin" hace referencia a los siguientes componentes:
 
 
-- Protocolo informático** que facilita el intercambio de valores en Internet sin intermediarios, sin necesidad de autorización y de forma seudónima. Emplea principios criptográficos avanzados.
-- Red física** de máquinas conectadas a Internet (nodos, mineros, etc.) operadas por particulares y empresas, que forman un sistema descentralizado (sin autoridad central ni punto único de control).
-- La unidad de cuenta** dentro del sistema. Nunca existirán más de 21 millones de bitcoins. Cada bitcoin es divisible en 100 millones de unidades llamadas "satoshis", denominadas así en honor de su anónimo creador.
+- **Protocolo informático** que facilita el intercambio de valores en Internet sin intermediarios, sin necesidad de autorización y de forma seudónima. Emplea principios criptográficos avanzados.
+- **Red física** de máquinas conectadas a Internet (nodos, mineros, etc.) operadas por particulares y empresas, que forman un sistema descentralizado (sin autoridad central ni punto único de control).
+- **La unidad de cuenta** dentro del sistema. Nunca existirán más de 21 millones de bitcoins. Cada bitcoin es divisible en 100 millones de unidades llamadas "satoshis", denominadas así en honor de su anónimo creador.
 
 Juntos hacen de Bitcoin un **activo al portador** y una moneda digital **sin emisor**. La propiedad se garantiza únicamente mediante la posesión de la **clave criptográfica privada**, lo que otorga un control total **sin intermediarios ni terceros de confianza**. Cuando se transfiere, la **finalidad** de la propiedad es inmediata: el nuevo titular la posee plenamente sin depender de una autoridad central para su protección o convertibilidad. Las transacciones son **inmutables**: una vez registradas en la cadena de bloques, no pueden alterarse ni borrarse.
 
 ![BIZ101](assets/en/11.webp)
 
-Bitcoin tiene una política monetaria fija, con un **cap de 21 millones de bitcoins**, de los que ya se han distribuido ~19,8 millones. Esto hace que sea **deflaccionario**, y que su valor aumente con el tiempo a medida que los usuarios almacenan en él ahorros y ganancias de productividad.
+Bitcoin tiene una política monetaria fija, con un **màximo de 21 millones de bitcoins**, de los que ya se han distribuido ~19,8 millones. Esto hace que sea **deflaccionario**, y que su valor aumente con el tiempo a medida que los usuarios almacenan en él ahorros y ganancias de productividad.
 
-Sus características técnicas superan las del oro y el dólar juntos, lo que lo convierte en el activo financiero más difícil jamás creado. Bitcoin es a la vez un depósito de valor y un medio de intercambio, una moneda en ciernes. Imagínese transferir valor de la tesorería de una empresa a otra con rapidez, sin intermediarios, a un coste mínimo, sin fraudes, 24 horas al día, 7 días a la semana, y sin que intervenga ningún tercero.
+Sus características técnicas superan las del oro y el dólar juntos, lo que lo convierte en el activo financiero más duro jamás creado. Bitcoin es a la vez un depósito de valor y un medio de intercambio, una moneda en proceso de formacion. Imagínese transferir valor de la tesorería de una empresa a otra con rapidez, sin intermediarios, a un coste mínimo, sin fraudes, 24 horas al día, 7 días a la semana, y sin que intervenga ningún tercero.
 
 ![BIZ101](assets/en/03.webp)
 
@@ -213,16 +213,15 @@ Bitcoin preserva eficazmente su valor porque su libro de contabilidad es a prueb
 
 Bitcoin es disruptivo porque nos anima a aprender conceptos de matemáticas, criptografía, economía e historia que nunca nos enseñaron. Aunque a menudo se percibe como algo complejo, en realidad es una innovación accesible mediante la práctica y la experimentación.
 
-Bitcoin nos reta a reconsiderar la naturaleza misma del dinero. ¿Podría explicar qué es realmente el dinero? Un trabajador asalariado o un empresario puede pasar entre 50.000 y 100.000 horas de su vida ganando dinero, pero ¿cuántos **dedican siquiera 100 horas a entenderlo mejor** y a preservarlo? Bitcoin nos anima a cuestionar las razones fundamentales de nuestra necesidad de dinero y nuestra perspectiva temporal. ¿Es el dinero un lujo inmediato o una resistencia a largo plazo? Si tuviéramos un activo que se revalorizara y nos permitiera retrasar las compras, ¿qué decisiones tomaríamos? ¿Qué conversaciones desearíamos tener con nosotros mismos dentro de 20 o 30 años?
+Bitcoin nos reta a reconsiderar la naturaleza misma del dinero. ¿Podría explicar qué es realmente el dinero? Un trabajador asalariado o un empresario puede pasar entre 50.000 y 100.000 horas de su vida ganando dinero, pero ¿cuántos **dedican siquiera 100 horas a entenderlo mejor** y a preservarlo? Bitcoin nos anima a cuestionar las razones fundamentales de nuestra necesidad de dinero y nuestra perspectiva temporal. ¿El dinero es para lujos o para ser resiliente a largo plazo? Si tuviéramos un activo que se revalorizara y nos permitiera retrasar las compras, ¿qué decisiones tomaríamos? ¿Qué conversaciones desearíamos tener con nosotros mismos dentro de 20 o 30 años?
 
 **DOCUMENTO DE IDENTIDAD BITCOIN**
-
 
 - Edad:** 15 años (3 de enero de 2009)
 - Valor de cambio diario:** 10.000 millones de dólares (> CAC40)
 - Capitalización bursátil:** 1,8 billones de dólares (> Meta, Visa, Plata ; < Apple, Google, Oro)
 - Usuarios:** ~100 a 200 millones (1-2% de la población mundial)
-- Volatilidad:** Intrínsecamente ninguna (1 Bitcoin = 1 Bitcoin), externamente muy alta (en los intercambios de moneda fiduciaria)
+- Volatilidad:** Intrínsecamente ninguna (1 Bitcoin = 1 Bitcoin), externamente muy alta (en las plataformas de intercambios de moneda fiduciaria)
 - Resultados:** Primera transacción a 0,0009 $; ahora 100.000 $ (x100 millones)
 - Disponibilidad de la red (tiempo de actividad):** 100% desde 2013
 - Declarado muerto o criticado:** Una vez al mes
@@ -230,7 +229,7 @@ Bitcoin nos reta a reconsiderar la naturaleza misma del dinero. ¿Podría explic
 **Una maravilla de la cooperación humana:**
 
 
-- Completamente **de código abierto**
+- Completamente **open source** (de código abierto)
 - Entidad jurídica:** Ninguna
 - CEO:** Ninguno
 - Inversión de capital riesgo:** Ninguna
@@ -239,23 +238,23 @@ Bitcoin nos reta a reconsiderar la naturaleza misma del dinero. ¿Podría explic
 - Gobernanza:** Por los usuarios
 - Modelo económico innovador:** La creación de bloques se subvenciona mediante tarifas de transacción (basadas en subastas)
 
-Para más información sobre Bitcoin, su historia, su funcionamiento y su uso, también sugiero seguir este otro curso completo:
+Para más información sobre Bitcoin, su historia, su funcionamiento y su uso, también sugiero seguir este curso:
 
 https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
-## Introducción a la Red del Rayo
+## Introducción a la Lightning Network
 
 <chapterId>c095c7ad-5469-4c7b-9510-b6c0b86244e7</chapterId>
 
-**¿QUÉ ES UN RAYO?*
+**¿QUÉ ES LIGHTNING?*
 
 La Lightning Network es **un protocolo y una red** que facilita las transacciones de Bitcoin con una interacción mínima con la blockchain principal de Bitcoin. Así es como funciona:
 
 
 - Configuración inicial:** Los fondos se bloquean (escrowed) en la blockchain principal para establecer un canal de pago entre 2 partes.
 - Red de pagos:** Una red de canales de pago entre múltiples partes forma una red de pagos (encaminamiento e interconexión).
-- Transacciones fuera de la cadena:** Las transacciones se producen entre las partes pero **no se publican inmediatamente** en la cadena de bloques principal de Bitcoin (**"fuera de la cadena "**).
-- Liquidaciones en cadena:** Sólo **el saldo final** de las transacciones de un canal se publica en la cadena de bloques principal de Bitcoin (**"en cadena**"), permitiendo que se produzcan numerosas transacciones mientras tanto. Esta agrupación de múltiples pagos reduce la congestión y, por tanto, las comisiones en comparación con la realización de muchas transacciones en la cadena.
+- Transacciones off-chain:** Las transacciones se producen entre las partes pero **no se publican inmediatamente** en la cadena de bloques principal de Bitcoin. Se ejecutan **" off-chain "**.
+- Liquidaciones on-chain:** Sólo **el saldo final** de las transacciones de un canal se publica en la cadena de bloques principal de Bitcoin (**"on-chain**"), permitiendo que se produzcan numerosas transacciones a la vez. Esta agrupación de múltiples pagos reduce la congestión y por tanto las comisiones, en comparación con la realización de muchas transacciones on-chain.
 - Cierre del canal:** Un usuario puede cerrar su canal en cualquier momento y reclamar su Bitcoin publicando el último estado de la transacción. Este es el principio de que las transacciones sean **"publicables" en cualquier momento pero "no publicables "** hasta que sea necesario. La salida (cierre del canal) puede ser unilateral (decidida por cualquiera de las 2 partes en cualquier momento) o decidida mutuamente (resultando en menores comisiones en la cadena)
 
 ![BIZ101](assets/en/04.webp)
@@ -275,9 +274,9 @@ Lightning Network permite el intercambio instantáneo de valor a la velocidad de
 
 - Rapidez:** Transacciones instantáneas.
 - Comisiones bajas:** Costes mucho más bajos en comparación con las redes bancarias tradicionales.
-- Facilidad de adopción:** Las empresas pueden configurarse rápidamente para aceptar pagos Lightning utilizando sólo una aplicación para smartphone o un botón de pago en su sitio web.
+- Facilidad de adopción:** Las empresas pueden aceptar pagos Lightning utilizando simplemente una aplicación para smartphone o un botón de pago en su pàgina web.
 
-La infraestructura Lightning supera a los sistemas de pago tradicionales en términos de velocidad, coste y eficiencia energética. Con la creciente adopción por parte de los comerciantes, el impulso se acelerará: si los pagos pueden eludir la red interbancaria cautiva, ¿por qué seguir cediendo un porcentaje significativo de los ingresos a los intermediarios actuales?
+La infraestructura Lightning supera a los sistemas de pago tradicionales en términos de velocidad, coste y eficiencia energética. Con la creciente adopción por parte de los comerciantes, el impulso se acelerará: 
 
 **Casos de uso infinitos
 
@@ -293,14 +292,14 @@ Lightning permite vislumbrar un futuro en el que todos los negocios basados en I
 
 **Pagos con Bitcoin en Lightning: Un caso típico de uso comercial**
 
-La Lightning Network es ideal para pagos con Bitcoin en tiendas físicas u online por su rapidez y finalidad de pago.
+La Lightning Network es ideal para pagos con Bitcoin en tiendas físicas u online por su rapidez de envio y acreditaciòn definitiva.
 
 
 - Velocidad:** Lightning (~500ms a unos pocos segundos) es significativamente más rápido que la red principal de Bitcoin, donde las transacciones pueden tardar unos 30 minutos en confirmarse. Para compras grandes (de más de 1.000 dólares), la red principal de Bitcoin puede seguir siendo preferible, ya que la velocidad es menos crítica. Sin embargo, estos detalles suelen quedar ocultos para el usuario medio, ya que las aplicaciones gestionan estas decisiones sin problemas en segundo plano.
 - Finalidad:** Una vez que se realiza un pago en Lightning, es definitivo. No hay posibilidad de devoluciones de cargo por parte de terceros ni de disputas relacionadas con fraudes.
 - Comisiones:** Las comisiones por transacción en la red Lightning son mínimas y las paga el usuario, no el comerciante. Los comerciantes solo incurren en comisiones si posteriormente necesitan transferir su Bitcoin a otra red o servicio.
 
-**CARNET DE IDENTIDAD RELÁMPAGO**
+**DOCUMENTO DE IDENTIDAD LIGHTNING**
 
 
 - Invención:** 2015
@@ -313,7 +312,7 @@ La Lightning Network es ideal para pagos con Bitcoin en tiendas físicas u onlin
 - Finalidad del pago:** Casi instantánea (a menudo ~500 milisegundos, a veces unos segundos).
 - Consumo de energía:** ~8% del sistema monetario mundial tradicional.
 - Características:**
-    - Entre iguales
+    - Persona a persona
     - Universal
     - Sin permiso
     - Buena privacidad
@@ -329,7 +328,7 @@ https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 <partId>bf45c1e8-af97-4b6b-af42-2866f493b14d</partId>
 
-## Beneficios, capital y las claves de la resistencia empresarial
+## Beneficios, capital y las claves de un negocio resiliente
 
 <chapterId>656ad88f-3c27-4054-a94e-b29727009b8e</chapterId>
 
