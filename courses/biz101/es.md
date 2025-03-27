@@ -278,7 +278,7 @@ Lightning Network permite el intercambio instantáneo de valor a la velocidad de
 
 La infraestructura Lightning supera a los sistemas de pago tradicionales en términos de velocidad, coste y eficiencia energética. Con la creciente adopción por parte de los comerciantes, el impulso se acelerará: 
 
-**Casos de uso infinitos
+**Casos de uso infinitos**
 
 Las aplicaciones de Lightning van mucho más allá de las comisiones bajas y la velocidad. Al ofrecer una vía de pago completamente gratuita e instantánea, abre enormes oportunidades en toda la economía.
 
