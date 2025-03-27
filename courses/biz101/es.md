@@ -386,9 +386,9 @@ Esta historia ilustra el papel fundamental del capital, la paciencia y la previs
 
 La Escuela Austriaca de Economía debe su nombre a sus fundadores y primeros colaboradores, originarios de Austria. El nombre se mantuvo, y desde entonces la escuela se ha asociado estrechamente con el pensamiento liberal clásico, que hace hincapié en la libertad individual, el libre mercado y la intervención mínima del Estado.
 
-**La perspectiva austriaca del capital
+**La perspectiva austriaca del capital**
 
-Desde el punto de vista austriaco, el capital está profundamente relacionado con la idea de aplazar el consumo para construir herramientas o recursos productivos que mejoren la producción futura. Este proceso, conocido como acumulación de capital, es fundamental en la teoría económica austriaca. Los elementos clave de esta perspectiva incluyen:
+Desde el punto de vista austriaco, el capital está profundamente relacionado con la idea de aplazar el consumo para construir herramientas o recursos que mejoren la producción futura. Este proceso, conocido como acumulación de capital, es fundamental en la teoría económica austriaca. Los elementos clave de esta perspectiva incluyen:
 
 
 - Preferencia temporal y consumo diferido**: Los individuos prefieren naturalmente consumir ahora antes que más tarde, pero pueden optar por aplazar el consumo si esperan mayores recompensas en el futuro. Al ahorrar hoy, los recursos pueden invertirse en bienes de capital (herramientas, máquinas, infraestructuras) que mejoran la productividad con el tiempo. Las sociedades o individuos con menor preferencia temporal ahorran más e invierten en proyectos a largo plazo, fomentando el crecimiento sostenible.
