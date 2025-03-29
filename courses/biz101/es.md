@@ -502,43 +502,32 @@ La adopción de Bitcoin por las instituciones financieras refuerza aún más su 
 
 Recientes declaraciones de **BlackRock** destacan el potencial de Bitcoin como activo de reserva de valor y herramienta de diversificación de carteras. El gigante institucional mundial sugirió recientemente que **el crecimiento de usuarios de Bitcoin está superando al de Internet** o los teléfonos móviles, impulsado sobre todo por **cambios demográficos y generacionales**, así como por la creciente desconfianza en las instituciones financieras tradicionales (!). Debido a su naturaleza escasa, no soberana y descentralizada, algunos inversores ven en Bitcoin una opción de refugio seguro **en tiempos de inestabilidad fiscal y monetaria**, miedo o acontecimientos geopolíticos perturbadores.
 
-El **Spot Bitcoin ETFs**, lanzado en enero de 2024, ha disfrutado de un éxito fenomenal -el **lanzamiento de ETF más exitoso** de la historia- con casi 20.000 millones de dólares en entradas netas. de enero a noviembre. Eso es unas cuatro veces mejor que el siguiente mejor lanzamiento de ETF, el Nasdaq-100 QQQ. Estos ETF proporcionan un acceso más fácil y regulado al Bitcoin, lo que lo ha **legitimado** aún más y ha atraído una importante afluencia de capital institucional.
+El ** ETF Spot de Bitcoin**, lanzado en enero de 2024, ha disfrutado de un éxito fenomenal -el **lanzamiento de ETF más exitoso** de la historia- con casi 20.000 millones de dólares en entradas netas. de enero a noviembre. Eso es unas cuatro veces mejor que el siguiente mejor lanzamiento de ETF, el Nasdaq-100 QQQ. Estos ETF proporcionan un acceso más fácil y regulado al Bitcoin, lo que lo ha **legitimado** aún más y ha atraído una importante afluencia de capital institucional.
 
 Los ETF de Bitcoin lideran por un amplio margen en términos de **adopción institucional**, superando a los diez ETF de más rápido crecimiento, ya sea en términos de número de instituciones involucradas o de tamaño de los activos bajo gestión (AUM). El éxito de estos ETF de Bitcoin subraya la creciente demanda de vehículos de inversión vinculados a activos digitales, consolidando así el lugar de Bitcoin en el panorama financiero tradicional.
 
 Bitcoin juega ahora en el **mercado** de los "almacenes de valor". No representa más que una gota de agua en términos de escala: apenas unos 1.800 billones de dólares en comparación con los 18.000 billones de dólares del oro o los 500.000 billones de dólares de los bienes inmuebles. Sin embargo, su cuota de mercado de aproximadamente el 0,1% le da un enorme margen de crecimiento, sobre todo teniendo en cuenta que sus competidores luchan por atraer a nuevos usuarios.
 
-| Flujo 1D (M USD) Flujo 1W (M USD) Flujo 1M (M USD) Flujo 3M (M USD) Flujo YTD (M USD)
 
-| ------- | --------------- | --------------- | --------------- | --------------- | ---------------- |
 
+| Ticker | Flujo 1D (M USD) | Flujo 1W (M USD) | Flujo 1M (M USD) | Flujo 3M (M USD) | Flujo YTD (M USD) |
+|-------|------------------|------------------|------------------|------------------|-------------------|
 | **Suma** | +457,19 | +1.507,95 | +2.888,01 | +3.672,29 | **+20.262,94** |
+| IBIT  | +393,40          | +750,91          | +1.536,47        | +3.821,37        | +22.460,44        |
+| FBTC  | +14,81           | +372,40          | +627,16          | +458,71          | +10.266,69        |
+| ARKB  | +11,51           | +163,26          | +295,92          | -3,88            | +2.647,32         |
+| BITB  | +12,93           | +146,50          | +263,30          | +97,46           | +2.262,69         |
+| HODL  | +5,75            | +38,77           | +94,54           | +100,39          | +682,03           |
+| BRRR  | +1,92            | +4,72            | +17,76           | +20,54           | +540,19           |
+| EZBC  | +11,79           | +17,53           | +39,29           | +47,48           | +439,45           |
+| BTC   | 0,00             | -3,13            | +36,59           | +419,18          | +419,18           |
+| BTCO  | +6,43            | +19,25           | +47,30           | +56,41           | +394,82           |
+| BTCW  | 0,00             | +2,84            | +6,04            | +146,69          | +217,47           |
+| YBIT  | -1,34            | -10,26           | +5,06            | +13,81           | +76,30            |
+| DEFI  | 0,00             | 0,00             | 0,00             | -2,03            | -1,79             |
+| GBTC  | 0,00             | +5,16            | -81,42           | -1.503,84        | -20.141,85        |
 
-| IBIT | +393,40 | +750,91 | +1.536,47 | +3.821,37 | +22.460,44 | IBIT
 
-| FBTC | +14,81 | +372,40 | +627,16 | +458,71 | +10.266,69 |
-
-| ARKB | +11,51 | +163,26 | +295,92 | -3,88 | +2.647,32 | |
-
-| BITB | +12,93 | +146,50 | +263,30 | +97,46 | +2.262,69 | |
-
-| HODL | +5,75 | +38,77 | +94,54 | +100,39 | +682,03 |
-
-| BRRR | +1,92 | +4,72 | +17,76 | +20,54 | +540,19 |
-
-| EZBC | +11,79 | +17,53 | +39,29 | +47,48 | +439,45 |
-
-| BTC | .00 | -3.13 | +36.59 | +419.18 | +419.18 |
-
-| BTCO | +6,43 | +19,25 | +47,30 | +56,41 | +394,82 |
-
-| BTCW | .00 | +2.84 | +6.04 | +146.69 | +217.47 | |
-
-| YBIT | -1,34 | -10,26 | +5,06 | +13,81 | +76,30 |
-
-| DEFI | .00 | .00 | .00 | -2.03 | -1.79 |
-
-| GBTC | .00 | +5.16 | -81.42 | -1503.84 | -20.141.85 | |
 
 *20.000 millones de dólares en 10 meses: Los ETF de bitcoin lograron en menos de un año lo que los ETF de oro tardaron 5 años en conseguir. Fuente: Flujos de inversión de fondos en USD. Bloomberg Terminal, Bloomberg L.P., 2024.*
 
@@ -553,9 +542,9 @@ En resumen, para el caso de uso más común -invertir el exceso de tesorería du
 Otros casos de uso hacen del Bitcoin un activo estratégico de tesorería, por ejemplo:
 
 
-- Poder depositar **colateral** o liquidez 24/7
-- Poder transferir a la tesorería de otra empresa **rápidamente, en cualquier momento**
-- Cobertura del **riesgo de cambio**
+- Puede depositar **colateral** o liquidez 24/7
+- Puede transferir a la tesorería de otra empresa **rápidamente, en cualquier momento**
+- Cobertura del **riesgo de cambio** contra monedas extranjeras
 - Pagar a un **proveedor** que lo acepte, sobre todo en situaciones de emergencia
 
 ### ¿Es Bitcoin demasiado caro?
@@ -577,14 +566,14 @@ En este segundo escenario, armonizar diferentes puntos de vista se convierte en 
 Actualmente, el escenario en el que un propietario mayoritario toma la decisión es el más representativo entre las empresas que poseen Bitcoin. He aquí algunos ejemplos reales :
 
 
-- Profesionales independientes**: Consultores, profesionales sanitarios o abogados que invierten parte de su tesorería a largo plazo en Bitcoin. Por lo general, estos profesionales ya disponen de cuentas de ahorro o depósitos a plazo con escasa rentabilidad.
-- Ejecutivos del sector tecnológico**: Un ejecutivo que vendió su empresa e invirtió parte de los beneficios de su sociedad de cartera personal en Bitcoin hace unos años. Hoy disfruta de una situación financiera desahogada y reinvierte en nuevas empresas.
-- Propietarios de empresas muy pequeñas** : Empresarios de servicios, agricultura o artesanía que han comprendido el potencial de Bitcoin y le destinan una parte de su tesorería. Su principal motivación radica en la diversificación y la libertad que proporciona
-- Empresas que cotizan en bolsa** como MicroStrategy han sentado un precedente al convertir una parte significativa de su tesorería corporativa en Bitcoin, demostrando un cambio global en las estrategias de asignación de capital de las empresas. En otoño de 2024, muchas otras empresas habían seguido su ejemplo, legitimando aún más esta tendencia.
+- **Profesionales independientes**: Consultores, profesionales sanitarios o abogados que invierten parte de su tesorería a largo plazo en Bitcoin. Por lo general, estos profesionales ya disponen de cuentas de ahorro o depósitos a plazo con escasa rentabilidad.
+- **Ejecutivos del sector tecnológico**: Un ejecutivo que vendió su empresa e invirtió parte de los beneficios de su sociedad de cartera personal en Bitcoin hace unos años. Hoy disfruta de una situación financiera desahogada y reinvierte en nuevas empresas.
+- **Propietarios de empresas muy pequeñas** : Empresarios de servicios, agricultura o artesanía que han comprendido el potencial de Bitcoin y le destinan una parte de su tesorería. Su principal motivación radica en la diversificación y la libertad que proporciona
+- **Empresas que cotizan en bolsa** como MicroStrategy han sentado un precedente al convertir una parte significativa de su tesorería corporativa en Bitcoin, demostrando un cambio global en las estrategias de asignación de capital de las empresas. En otoño de 2024, muchas otras empresas habían seguido su ejemplo, legitimando aún más esta tendencia.
 
 ### Fiscalidad del bitcoin en manos de empresas
 
-Para las empresas que no están estructuradas como entidades jurídicas separadas -como las empresas unipersonales u otras entidades no constituidas en sociedad- la fiscalidad de las transacciones de Bitcoin a menudo refleja el tratamiento aplicado a las personas físicas. En muchos casos, se aplican las mismas normas que rigen las ganancias de capital o ingresos, al igual que lo harían si un individuo estuviera vendiendo Bitcoin. Por ejemplo, en algunos países, los beneficios pueden considerarse parte de la renta personal del empresario, sujeta a ** tramos del impuesto sobre la renta de las personas físicas**.
+Para las empresas que no están estructuradas como entidades jurídicas separadas -como las empresas unipersonales u otras entidades no constituidas en sociedad- la fiscalidad de las transacciones de Bitcoin a menudo refleja el tratamiento aplicado a las personas físicas. En muchos casos, se aplican las mismas normas que rigen las ganancias de capital o ingresos, al igual que lo harían si un individuo estuviera vendiendo Bitcoin. Por ejemplo, en algunos países, los beneficios pueden considerarse parte de la renta personal del empresario, sujeta a **tramos del impuesto sobre la renta de las personas físicas**.
 
 Sin embargo, las **empresas constituidas en sociedad** -aquellas sujetas al impuesto de sociedades- suelen beneficiarse de un marco fiscal más favorable. A diferencia de las personas físicas, que pueden enfrentarse a restricciones a la hora de compensar ganancias y pérdidas entre distintas clases de activos, las empresas pueden, por lo general, integrar las ganancias o pérdidas realizadas en operaciones con Bitcoins directamente en sus cuentas anuales de pérdidas y ganancias. Esto puede conducir a una posición fiscal más flexible y a veces más ventajosa.
 
@@ -603,19 +592,19 @@ Hay tres formas de adquirir Bitcoin:
 ![BIZ101](assets/en/09.webp)
 
 
-- A cambio de bienes o servicios:**
+- **A cambio de bienes o servicios:**
 
 Dado que Bitcoin funciona como medio de intercambio, es posible imaginar una economía circular. Aunque esto sigue siendo poco común hoy en día, cada vez más negocios están empezando a aceptar pagos con Bitcoin, ¿por qué no el suyo? (Véase nuestro próximo capítulo)
 
 
-- Minado de Bitcoin:**
+- **Minado de Bitcoin:**
 
 Se trata de obtener recompensas por la explotación de máquinas mineras. Para las empresas no especializadas, esto sigue siendo relativamente marginal. Puede participar a través de intermediarios que le venderán o alquilarán la informática, la red y el mantenimiento. Si es propietario de las máquinas, puede contabilizarlas como activos amortizables. A gran escala, tendrá que calcular cuidadosamente el rendimiento de la inversión porque el mercado es muy competitivo y exige una buena anticipación de los costes, sobre todo de la electricidad.
 
 Para saber más sobre los métodos de minería, puede [consultar la sección "minería" en nuestros tutoriales](https://planb.network/tutorials/mining).
 
 
-- Comprar Bitcoin:**
+- **Comprar Bitcoin:**
 
 Este es, con diferencia, el método más habitual, ya sea a través de intercambios entre pares o, más habitualmente, en plataformas de negociación especializadas. Pero cuando se adquiere Bitcoin como activo de tesorería corporativa, las empresas deben cumplir unas estrictas normas reguladoras y procedimientos de "conozca a su cliente" (KYC). Cuando lo compran en plataformas de negociación especializadas, las empresas suelen tener que facilitar información detallada sobre la empresa, como documentos de identidad, estados financieros y comprobantes de domicilio, para cumplir los requisitos de conocimiento del cliente y lucha contra el blanqueo de capitales.
 
@@ -647,7 +636,7 @@ Visualice este espectro como una escala, desde una exposición mínima, que gara
 
 No existe una regla fija. Intentar cronometrar el mercado a la caza de "caídas" puede ser menos eficaz y más estresante que limitarse a comprar a intervalos regulares. Incluso los inversores más experimentados se equivocan a veces. Apostar todo a la vez puede ser un arma de doble filo.
 
-En realidad, el potencial de revalorización de Bitcoin es tal que, incluso si empezara a invertirlo dentro de unos pocos años, probablemente seguiría obteniendo beneficios a largo plazo. Es cierto que es probable que las grandes oscilaciones de precios disminuyan en intensidad con el tiempo. Sin embargo, como moneda deflacionaria, Bitcoin está diseñada para almacenar valor de forma efectiva y reflejar las ganancias de productividad de sus usuarios. Por establecer una analogía: actualmente nos encontramos en la "fase de lanzamiento" de Bitcoin, una moneda en ciernes, y nadie conoce aún su valor justo. Más adelante, quizá dentro de 20 o 40 años, cuando se encuentre en una "fase de crucero" estable, podría ser increíblemente estable y crecer de forma constante con los aumentos de productividad de la sociedad.
+En realidad, el potencial de revalorización de Bitcoin es tal que, incluso si empezara a invertirlo dentro de unos pocos años, probablemente seguiría obteniendo beneficios a largo plazo. Es cierto que es probable que las grandes oscilaciones de precios disminuyan en intensidad con el tiempo. Sin embargo, como moneda deflacionaria, Bitcoin está diseñada para almacenar valor de forma efectiva y reflejar las ganancias de productividad de sus usuarios. Por establecer una analogía: actualmente nos encontramos en la "fase de lanzamiento" de Bitcoin, una moneda en maduraciòn, y nadie conoce aún su valor justo. Más adelante, quizá dentro de 20 o 40 años, cuando se encuentre en una "fase de crucero" estable, podría ser increíblemente estable y crecer de forma constante con los aumentos de productividad de la sociedad.
 
 El sector inmobiliario repite a menudo que "siempre es el momento adecuado para comprar", olvidando que si los inmuebles perdieran su función como depósito de valor -pasándose a activos como Bitcoin- los precios podrían volver más cerca de su valor de utilidad (refugio). Bitcoin, por el contrario, no sirve para otra cosa que almacenar valor, lo que podría significar que "siempre es el momento adecuado para comprar" El futuro lo dirá.
 
@@ -655,7 +644,7 @@ El sector inmobiliario repite a menudo que "siempre es el momento adecuado para 
 
 *Crédito: [Bitcoin Office](https://bitcoin.gob.sv/)*
 
-### ¿En qué forma comprar? (Métodos de custodia)
+### ¿De qué forma comprar? (Métodos de custodia)
 
 Usted no posee físicamente Bitcoin. En su lugar, posee una clave criptográfica que le permite transferir la propiedad de algunas o todas sus unidades de cuenta a otra u otras claves criptográficas. Todo esto ocurre en la cadena de bloques de Bitcoin, que se replica en decenas de miles de nodos de todo el mundo.
 
