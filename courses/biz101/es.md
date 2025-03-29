@@ -653,17 +653,17 @@ Esta clave criptográfica es un número aleatorio extremadamente grande. Para si
 Esto nos lleva a la cuestión de la custodia: tener Bitcoin significa tener la(s) llave(s). O las tiene usted mismo, o delega la tarea en un tercero. También existen soluciones intermedias. Repasemos los escenarios más comunes:
 
 
-- Autocustodia:**
+- **Autocustodia:**
 
 Esta es la opción recomendada por los verdaderos entusiastas de Bitcoin, ya que se ajusta al diseño original de Bitcoin. Usted actúa como su propio banco: no hay riesgo de que un tercero le estafe, pero usted es responsable de asegurar la(s) clave(s). Tiene acceso total a sus fondos 24 horas al día, 7 días a la semana. En un entorno empresarial, si varias personas necesitan realizar transacciones, necesitarás herramientas y procedimientos adecuados para gestionar el acceso y la seguridad.
 
 
-- Custodia de terceros:**
+- **Custodia de terceros:**
 
-Por ejemplo, una casa de cambio o un servicio de compra puede crear una cuenta para usted, convertir su moneda tradicional en Bitcoin y guardarla en su nombre utilizando sus sistemas de seguridad. La mayoría de estos servicios le permiten retirar sus bitcoins a un monedero en el que sólo usted tiene la llave. Hasta que no lo hagas, los bitcoins no te pertenecen de verdad, sino que dependes de su promesa de devolvértelos. Esto implica equilibrar los riesgos de seguridad (los suyos frente a los tuyos) y el riesgo de contraparte (podrían quebrar o desaparecer). Algunas empresas lo consideran aceptable, aunque en general no se aconseja para el almacenamiento a largo plazo o para el 100% de su asignación. Los servicios de custodia también pueden cobrar comisiones de almacenamiento.
+Por ejemplo, una casa de cambio, un exchange puede crear una cuenta para usted, convertir su moneda tradicional en Bitcoin y guardarla a su nombre utilizando sus sistemas de seguridad. La mayoría de estos servicios le permiten retirar sus bitcoins a un monedero en el que sólo usted tiene la llave. Hasta que no lo hagas, los bitcoins no te pertenecen de verdad, sino que dependes de su promesa de devolvértelos. Esto implica equilibrar los riesgos de seguridad (los suyos frente a los tuyos) y el riesgo de contraparte (podrían quebrar o desaparecer). Algunas empresas lo consideran aceptable, aunque en general no se aconseja para el almacenamiento a largo plazo o para el 100% de su asignación. Los servicios de custodia también pueden cobrar comisiones de almacenamiento.
 
 
-- "Bitcoin de papel" (ETF o ETP):**
+- **"Bitcoin de papel" (ETF o ETP):**
 
 Se trata de instrumentos financieros tradicionales que representan fracciones de Bitcoin, replicando el comportamiento de su precio. La institución que está detrás del producto teóricamente compra y mantiene el Bitcoin subyacente. Sus aportaciones y retiradas se realizan en moneda tradicional (por ejemplo, dólares o euros), no en Bitcoin. A excepción de algunos productos que permiten la retirada en Bitcoin real (para evitar un hecho imponible en algunas jurisdicciones), estos instrumentos implican comisiones anuales de gestión. En este caso, usted confía en la seguridad de la institución y se enfrenta al riesgo de contraparte (por ejemplo, si un gobierno decidiera confiscar todos los Bitcoin en manos de la institución, como ocurrió con el oro en 1933 en virtud de la Orden Ejecutiva 6102 de EE.UU.). Su principal ventaja es la facilidad de acceso, ya que se distribuyen a través de los canales financieros tradicionales. Evitan la necesidad de proteger las claves criptográficas, pero no ofrecen ninguna de las propiedades inherentes de Bitcoin: no se puede utilizar la red Bitcoin 24 horas al día, 7 días a la semana, para mover valor libremente sin permiso. Sólo reproducen el rendimiento financiero, no la funcionalidad ni la soberanía del propio Bitcoin.
 
@@ -680,12 +680,12 @@ Si opta por el "Bitcoin de papel", acudirá a entidades financieras como bancos 
 Si opta por comprar Bitcoin real a través de un mercado (exchange) o un broker, tiene varias categorías principales:
 
 
-- Grandes plataformas internacionales o extranjeras:**
+- **Grandes plataformas internacionales o extranjeras:**
 
 Algunos ejemplos son Kraken, Coinbase o Binance, utilizados históricamente por muchos particulares. Algunos han tenido problemas, y es difícil hacer una recomendación clara. Un consejo: si los utilizas, no dejes tus bitcoins allí más tiempo del necesario.
 
 
-- Proveedores de Servicios Regulados (Proveedores de Servicios de Activos Digitales Registrados)**
+- **Proveedores de Servicios Regulados (Proveedores de Servicios de Activos Digitales Registrados)**
 
 Por ejemplo, en Francia, plataformas como Paymium (exchange) o BullBitcoin (broker) son conocidas por contar con verdaderos entusiastas del Bitcoin al timón y han construido un sólido historial. En Estados Unidos hay proveedores de servicios como River o Swann. En general, es importante examinar el pedigrí del proveedor: su reputación, trayectoria, popularidad dentro de la comunidad Bitcoin y si su liderazgo está alineado con los valores fundamentales de Bitcoin.
 
@@ -698,12 +698,12 @@ Por ejemplo, en Francia, plataformas como Paymium (exchange) o BullBitcoin (brok
 Más allá de las comisiones y la velocidad de ejecución -que importan menos si se piensa a largo plazo (varios años)-, una empresa también debe tener en cuenta:
 
 
-- Interfaz de usuario:** ¿Es la plataforma fácil de usar?
-- Funciones de contabilidad:** Como mínimo, la capacidad de exportar el historial de transacciones en formato .CSV.
-- Custodia y seguridad:** ¿La plataforma custodia los bitcoins en tu nombre o te transfiere la propiedad? ¿Cuál es su sistema de seguridad? ¿Tienen "bloqueos de retirada" u otras limitaciones de retirada?
-- Atención al cliente:** La calidad, la capacidad de respuesta y la asistencia personalizada, especialmente cuando estás empezando.
-- Reputación y valores:** Confianza y valores de la plataforma.
-- Soporte para Compras Recurrentes:** Si planeas acumular Bitcoin a lo largo del tiempo con compras programadas.
+- **Interfaz de usuario:** ¿Es la plataforma fácil de usar?
+- **Funciones de contabilidad:** Como mínimo, la capacidad de exportar el historial de transacciones en formato .CSV.
+- **Custodia y seguridad:** ¿La plataforma custodia los bitcoins en tu nombre o te transfiere la propiedad? ¿Cuál es su sistema de seguridad? ¿Tienen "bloqueos de retirada" u otras limitaciones de retirada?
+- **Atención al cliente:** La calidad, la capacidad de respuesta y la asistencia personalizada, especialmente cuando estás empezando.
+- **Reputación y valores:** Confianza y valores de la plataforma.
+- **Soporte para Compras Recurrentes:** Si planeas acumular Bitcoin a lo largo del tiempo con compras programadas.
 
 # Soluciones de pago con Bitcoin a la medida de cada empresa
 
@@ -724,32 +724,32 @@ Bitcoin es una infraestructura de confianza, cuya primera aplicación es elimina
 Ahora, considere la perspectiva de un negocio práctico cuya actividad principal no tenga nada que ver con Bitcoin. ¿Por qué iba a aceptar pagos con Bitcoin?
 
 
-- Construir una tesorería Bitcoin:**
+- **Construir una tesorería Bitcoin:**
 
 Consulte nuestro artículo anterior sobre la compra de Bitcoin. Ya sea por convicción o como estrategia de diversificación, algunos profesionales optan por aceptar pagos en Bitcoin. Algunos Bitcoiners argumentan que cuanto menos inclinada financieramente esté una empresa -lo que significa que no tiene ni el tiempo ni las herramientas para involucrarse en complejas maniobras financieras-** más crítico se vuelve para esa empresa cobrar en la forma más dura de dinero disponible**. De este modo, se igualan las condiciones, permitiendo incluso a las pequeñas empresas con limitaciones de tiempo preservar el valor sin verse atrapadas en juegos financieros.
 
 
-- Llegar a un nuevo grupo demográfico
+- **Llegar a un nuevo grupo demográfico**
 
-El número de usuarios de Bitcoin crece y su poder adquisitivo es considerable. Naturalmente, gravitarán hacia los negocios que acepten su moneda. Además, al tratarse de la primera moneda universal y nativa de Internet, también puede atraer a clientes internacionales de paso.
+El número de usuarios de Bitcoin crece y su poder adquisitivo es considerable. Naturalmente, gravitarán hacia los negocios que acepten su moneda. Además, al tratarse de la primera moneda universal y nativa de Internet, también puede atraer al mismo tiempo a clientes internacionales.
 
 
-- Aumentar la visibilidad:**
+- **Aumentar la visibilidad:**
 
 Por ejemplo, publicando su negocio en plataformas como BTCmap.org. Actualmente son pocos los negocios que aceptan Bitcoin, por lo que el boca a boca juega a su favor. Además, le distingue de sus competidores.
 
 
-- Tasas más bajas:**
+- **Tasas más bajas:**
 
 Los pagos instantáneos de Bitcoin se producen a través de la Lightning Network. **Las comisiones son mínimas y las paga el comprador**. No hay gastos de terminal de pago, no hay fallos de autorización de pago y no hay fraude. En comparación, la industria de pagos (tarjetas, terminales, transferencias, PSP, etc.) cuesta alrededor de 2,2 billones de dólares al año en todo el mundo. Si a esto añadimos las devoluciones de cargos y el fraude, en total se "roba" a las empresas productivas de todo el mundo casi una décima parte del equivalente al PIB de EE.UU. sólo por transferir valor. Sea cual sea su negocio, las comisiones financieras son una carga que debe optimizarse y, en algunos casos, unas comisiones elevadas pueden ahogar determinados modelos de negocio.
 
 
-- Libertad y sin permiso, 24/7:**
+- **Libertad y sin permiso, 24/7:**
 
 No es necesario pedir permiso para usar Bitcoin. Cualquiera puede participar en la economía en cuestión de minutos utilizando una aplicación para smartphone. Puede enviar o recibir un pago de cualquier persona, física o jurídica, en cualquier momento, sin limitaciones de horarios ni retrasos.
 
 
-- Aprovechar las ventajas de la red Bitcoin:**
+- **Aprovechar las ventajas de la red Bitcoin:**
 
 No está obligado a mantener sus pagos en forma de Bitcoin, especialmente si necesita pagar a proveedores o remitir el IVA. Algunos servicios pueden convertir la totalidad o parte de sus pagos en Bitcoin a la moneda de su elección (por ejemplo, euros a su IBAN) a cambio de una comisión. En este caso, el beneficio de aceptar Bitcoin puede residir en atraer a nuevos usuarios o en las ventajas intrínsecas de Bitcoin (como comisiones más bajas, funcionamiento ininterrumpido y ausencia de riesgo de fraude o devoluciones).
 
