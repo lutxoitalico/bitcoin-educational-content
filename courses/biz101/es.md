@@ -9,7 +9,7 @@ objectives:
   - Estar preparado para gestionar los requisitos fiscales y contables
 
 ---
-# Inicie el camino de su empresa en la red bitcoin
+# Los primeros pasos de su empresa en la red Bitcoin.
 
 Descubra las capacidades prácticas de Bitcoin y Lightning Network y vera cómo, al igual que Internet, pueden **transformar sus operaciones empresariales**. Desde capital digital hasta pagos rápidos, económicos y escalables, Bitcoin ofrece un amplio espectro de **casos de uso para las empresas**.
 
