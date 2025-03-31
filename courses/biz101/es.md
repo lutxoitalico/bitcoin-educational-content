@@ -63,22 +63,22 @@ En conclusión, las monedas son redes diseñadas para mover valor de forma efici
 Una buena moneda posee varias propiedades esenciales que la hacen eficaz para facilitar el intercambio de valores. He aquí una explicación concisa de cada una de ellas:
 
 
-- Seguridad**: Una moneda debe estar protegida contra el robo o el acceso no autorizado, garantizando que los usuarios puedan poseerla y transferirla con confianza. La seguridad es fundamental para generar confianza en el sistema.
-- A prueba de falsificaciones**: Una moneda debe ser extremadamente difícil o imposible de falsificar. Esto garantiza que cada unidad sea auténtica, mantenga su valor y evite la inflación causada por la entrada en circulación de unidades falsas. Por ejemplo, históricamente, el oro se ha valorado no sólo por su belleza y rareza, sino porque es extremadamente difícil de producir. A diferencia de los billetes de papel o el dinero digital, el oro no se puede "fabricar", sino que hay que extraerlo de la tierra. Esta escasez natural y dificultad de producción han ayudado al oro a mantener su estatus como un depósito de valor confiable y un referente de autenticidad.
-- Escasa**: Una buena moneda debe tener una oferta limitada o una emisión controlada. La escasez garantiza que su valor se mantenga a lo largo del tiempo, evitando la sobreproducción, que erosionaría el poder adquisitivo. Por ejemplo, algunas tribus nativas americanas utilizaban bolillas o abalorios como moneda. Al principio, estas bolillas eran difíciles de producir, lo que mantenía su escasez y su valor. Sin embargo, cuando los comerciantes europeos empezaron a producirlas en masa y a inundar el mercado de bolillas, su rareza desapareció. Al dispararse la oferta, las bolillas perdieron poder adquisitivo, lo que socavó su rol como depósito fiable de valor.
-- Sin permiso**: En el pasado, monedas como las de oro y plata solían ser acuñadas por particulares, autoridades locales o comerciantes que tenían acceso a las materias primas. Este sistema funcionaba a veces en virtud de acuerdos o licencias concedidas por reyes o gobernantes. Con el tiempo, reyes y gobiernos centralizaron este proceso para obtener un mayor control sobre la estabilidad económica, la fiscalidad y el sistema monetario. Un ejemplo famoso es el **thaler**, una moneda de plata acuñada por primera vez en 1518 en el **Valle de Joachimsthal** (actual Jáchymov, en la República Checa) por mineros y autoridades locales. El nombre "thaler" deriva de la palabra alemana **"Thal "**, que significa "valle" Estas monedas, conocidas por su plata de alta calidad, llegaron a circular ampliamente por toda Europa. Con el tiempo, el término evolucionó lingüística y geográficamente, dando lugar finalmente al nombre "dólar", adoptado en Estados Unidos para su moneda.
+- **Seguridad**: Una moneda debe estar protegida contra el robo o el acceso no autorizado, garantizando que los usuarios puedan poseerla y transferirla con confianza. La seguridad es fundamental para generar confianza en el sistema.
+- **A prueba de falsificaciones**: Una moneda debe ser extremadamente difícil o imposible de falsificar. Esto garantiza que cada unidad sea auténtica, mantenga su valor y evite la inflación causada por la entrada en circulación de unidades falsas. Por ejemplo, históricamente, el oro se ha valorado no sólo por su belleza y rareza, sino porque es extremadamente difícil de producir. A diferencia de los billetes de papel o el dinero digital, el oro no se puede "fabricar", sino que hay que extraerlo de la tierra. Esta escasez natural y dificultad de producción han ayudado al oro a mantener su estatus como un depósito de valor confiable y un referente de autenticidad.
+- **Escasa**: Una buena moneda debe tener una oferta limitada o una emisión controlada. La escasez garantiza que su valor se mantenga a lo largo del tiempo, evitando la sobreproducción, que erosionaría el poder adquisitivo. Por ejemplo, algunas tribus nativas americanas utilizaban bolillas o abalorios como moneda. Al principio, estas bolillas eran difíciles de producir, lo que mantenía su escasez y su valor. Sin embargo, cuando los comerciantes europeos empezaron a producirlas en masa y a inundar el mercado de bolillas, su rareza desapareció. Al dispararse la oferta, las bolillas perdieron poder adquisitivo, lo que socavó su rol como depósito fiable de valor.
+- **Sin permiso**: En el pasado, monedas como las de oro y plata solían ser acuñadas por particulares, autoridades locales o comerciantes que tenían acceso a las materias primas. Este sistema funcionaba a veces en virtud de acuerdos o licencias concedidas por reyes o gobernantes. Con el tiempo, reyes y gobiernos centralizaron este proceso para obtener un mayor control sobre la estabilidad económica, la fiscalidad y el sistema monetario. Un ejemplo famoso es el **thaler**, una moneda de plata acuñada por primera vez en 1518 en el **Valle de Joachimsthal** (actual Jáchymov, en la República Checa) por mineros y autoridades locales. El nombre "thaler" deriva de la palabra alemana **"Thal "**, que significa "valle" Estas monedas, conocidas por su plata de alta calidad, llegaron a circular ampliamente por toda Europa. Con el tiempo, el término evolucionó lingüística y geográficamente, dando lugar finalmente al nombre "dólar", adoptado en Estados Unidos para su moneda.
 
 En la era moderna, las monedas pasaron a estar totalmente autorizadas en virtud del sistema de señoreaje, lo que significa que sólo las entidades autorizadas -como los bancos centrales o los tesoros públicos- pueden acuñar monedas o imprimir billetes. Los particulares ya no están legalmente autorizados a producir moneda, lo que garantiza un control centralizado de su emisión y suministro.
 
 Hoy en día, el principio de señoreaje está siendo cuestionado por la criptomoneda Bitcoin, que funciona sin control centralizado. Bitcoin es un sistema "sin permisos" en el que cualquiera puede participar en el uso de la moneda sin necesidad de autorizacion y, a través de la minería, en su creación. Esta descentralización elimina el monopolio de emisión de los gobiernos, lo que plantea interrogantes sobre un posible retorno a sistemas monetarios competitivos de libre mercado.
 
 
-- Unidad de cuenta**: Una moneda debe proporcionar una medida estándar para comparar el valor de los bienes y servicios. Esto simplifica el comercio y hace que los precios sean transparentes y coherentes en todas las transacciones.
-- Duradera**: Una moneda debe resistir el desgaste con el paso del tiempo. Las monedas físicas, como las monedas o los billetes, deben resistir los daños, mientras que las monedas digitales deben permanecer almacenadas de forma segura sin riesgo de pérdida de datos.
-- Portátil**: Una moneda debe ser fácil de transportar y utilizar, permitiendo el comercio a distancia. Esto puede lograrse mediante la portabilidad física (monedas o billetes ligeros) o sistemas de transferencia digital.
-- Divisible**: Una moneda debe ser divisible en unidades más pequeñas para facilitar las transacciones de diversos tamaños. Esta flexibilidad garantiza que sea práctica tanto para las compras pequeñas como para el comercio a gran escala.
-- Fungible**: Todas las unidades de una moneda deben ser intercambiables y de igual valor. Por ejemplo, un billete de un dólar debe ser equivalente a cualquier otro billete de un dólar. Esta uniformidad garantiza la equidad y la simplicidad en las transacciones.
-- Reconocible**: Una moneda debe ser fácilmente identificable y fiable. Las monedas físicas lo consiguen mediante diseños únicos y elementos de seguridad, mientras que las digitales pueden basarse en protocolos de verificación. Esto garantiza una amplia aceptación y reduce el riesgo de fraude.
+- **Unidad de cuenta**: Una moneda debe proporcionar una medida estándar para comparar el valor de los bienes y servicios. Esto simplifica el comercio y hace que los precios sean transparentes y coherentes en todas las transacciones.
+- **Duradera**: Una moneda debe resistir el desgaste con el paso del tiempo. Las monedas físicas, como las monedas o los billetes, deben resistir los daños, mientras que las monedas digitales deben permanecer almacenadas de forma segura sin riesgo de pérdida de datos.
+- **Portátil**: Una moneda debe ser fácil de transportar y utilizar, permitiendo el comercio a distancia. Esto puede lograrse mediante la portabilidad física (monedas o billetes ligeros) o sistemas de transferencia digital.
+- **Divisible**: Una moneda debe ser divisible en unidades más pequeñas para facilitar las transacciones de diversos tamaños. Esta flexibilidad garantiza que sea práctica tanto para las compras pequeñas como para el comercio a gran escala.
+- **Fungible**: Todas las unidades de una moneda deben ser intercambiables y de igual valor. Por ejemplo, un billete de un dólar debe ser equivalente a cualquier otro billete de un dólar. Esta uniformidad garantiza la equidad y la simplicidad en las transacciones.
+- **Reconocible**: Una moneda debe ser fácilmente identificable y fiable. Las monedas físicas lo consiguen mediante diseños únicos y elementos de seguridad, mientras que las digitales pueden basarse en protocolos de verificación. Esto garantiza una amplia aceptación y reduce el riesgo de fraude.
 
 Estas características hacen que una moneda sea práctica, fiable y eficaz para facilitar el comercio y almacenar valor en una economía.
 
@@ -104,7 +104,7 @@ En la actualidad, la aparición de la moneda descentralizada Bitcoin representa 
 
 En los sistemas descentralizados, las transacciones son verificadas por una red mundial de participantes que utilizan la tecnología blockchain, lo que garantiza la seguridad, la transparencia y la resistencia. Esta estructura minimiza el riesgo de fraude, reduce la dependencia de las autoridades centrales y permite a las personas tener un mayor control sobre sus finanzas. Al eliminar las barreras geográficas e institucionales, las monedas descentralizadas ofrecen un sistema monetario verdaderamente global e inclusivo.
 
-**La evolución de las redes monetarias
+**La evolución de las redes monetarias**
 
 Cada etapa en la evolución de las redes monetarias ha mejorado propiedades clave: portabilidad, escalabilidad, accesibilidad, velocidad, seguridad y confianza. Las monedas dieron paso al papel moneda para mejorar la portabilidad y la eficiencia. El papel evolucionó hacia el dinero electrónico, permitiendo el acceso global y las transacciones instantáneas. Ahora, Bitcoin está redefiniendo la confianza y la seguridad, creando un sistema monetario abierto y resistente. Esta progresión histórica pone de relieve el continuo impulso de la humanidad para crear mejores redes de intercambio de valor, cada iteración construyendo sobre las limitaciones de la anterior y superándolas.
 
@@ -131,11 +131,11 @@ Los sistemas de pago son métodos e infraestructuras que permiten la transferenc
 **Utilización en B2C y B2B:**
 
 
-- B2C (Empresa a consumidor):**
+- **B2C (Empresa a consumidor):**
     - Los consumidores utilizan con frecuencia dinero en efectivo, tarjetas y monederos digitales para sus compras cotidianas, como la compra de alimentos, las compras en línea o servicios como el transporte.
     - La rapidez, la comodidad y las comisiones bajas (para el consumidor) suelen ser prioridades clave.
     - Los pagos sin contacto y por móvil son cada vez más populares en este espacio debido a su facilidad de uso.
-- B2B (Empresa a Empresa):**
+- **B2B (Empresa a Empresa):**
     - Las empresas suelen recurrir a transferencias bancarias, cheques y sistemas de facturación para pagar a sus proveedores, liquidar grandes facturas o gestionar pagos periódicos.
     - A menudo se hace hincapié en la trazabilidad, la documentación y la capacidad de gestionar transacciones de mayor valor.
     - El uso de tarjetas existe, pero tiende a ser menos habitual debido a las comisiones y los límites de transacción más elevados. Están surgiendo soluciones digitales, como plataformas de pago integradas, para agilizar y automatizar los procesos de cobros y pagos.
@@ -190,7 +190,7 @@ Del mismo modo que pasamos de pagar por minuto las llamadas de voz a utilizar co
 
 <chapterId>4488fe33-663f-41a3-a668-e9ca2fb7122e</chapterId>
 
-**¿QUÉ ES BITCOIN?
+**¿QUÉ ES BITCOIN?**
 
 Bitcoin es un **sistema de intercambio de moneda digital entre pares** (dinero electrónico). El término "Bitcoin" hace referencia a los siguientes componentes:
 
@@ -217,26 +217,26 @@ Bitcoin nos reta a reconsiderar la naturaleza misma del dinero. ¿Podría explic
 
 **DOCUMENTO DE IDENTIDAD BITCOIN**
 
-- Edad:** 15 años (3 de enero de 2009)
-- Valor de cambio diario:** 10.000 millones de dólares (> CAC40)
-- Capitalización bursátil:** 1,8 billones de dólares (> Meta, Visa, Plata ; < Apple, Google, Oro)
-- Usuarios:** ~100 a 200 millones (1-2% de la población mundial)
-- Volatilidad:** Intrínsecamente ninguna (1 Bitcoin = 1 Bitcoin), externamente muy alta (en las plataformas de intercambios de moneda fiduciaria)
-- Resultados:** Primera transacción a 0,0009 $; ahora 100.000 $ (x100 millones)
-- Disponibilidad de la red (tiempo de actividad):** 100% desde 2013
-- Declarado muerto o criticado:** Una vez al mes
+- **Edad:** 15 años (3 de enero de 2009)
+- **Valor de cambio diario:** 10.000 millones de dólares (> CAC40)
+- **Capitalización bursátil:** 1,8 billones de dólares (> Meta, Visa, Plata ; < Apple, Google, Oro)
+- **Usuarios:** ~100 a 200 millones (1-2% de la población mundial)
+- **Volatilidad:** Intrínsecamente ninguna (1 Bitcoin = 1 Bitcoin), externamente muy alta (en las plataformas de intercambios de moneda fiduciaria)
+- **Resultados:** Primera transacción a 0,0009 $; ahora 100.000 $ (x100 millones)
+- **Disponibilidad de la red (tiempo de actividad):** 100% desde 2013
+- **Declarado muerto o criticado:** Una vez al mes
 
 **Una maravilla de la cooperación humana:**
 
 
-- Completamente **open source** (de código abierto)
-- Entidad jurídica:** Ninguna
-- CEO:** Ninguno
-- Inversión de capital riesgo:** Ninguna
-- Marketing:** Ninguno
-- I+D:** Impulsado por voluntarios
-- Gobernanza:** Por los usuarios
-- Modelo económico innovador:** La creación de bloques se subvenciona mediante tarifas de transacción (basadas en subastas)
+- **Completamente open source** (de código abierto)
+- **Entidad jurídica:** Ninguna
+- **CEO:** Ninguno
+- **Inversión de capital riesgo:** Ninguna
+- **Marketing:** Ninguno
+- **I+D:** Impulsado por voluntarios
+- **Gobernanza:** Por los usuarios
+- **Modelo económico innovador:** La creación de bloques se subvenciona mediante tarifas de transacción (basadas en subastas)
 
 Para más información sobre Bitcoin, su historia, su funcionamiento y su uso, también sugiero seguir este curso:
 
@@ -246,22 +246,22 @@ https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 <chapterId>c095c7ad-5469-4c7b-9510-b6c0b86244e7</chapterId>
 
-**¿QUÉ ES LIGHTNING?*
+**¿QUÉ ES LIGHTNING?**
 
 La Lightning Network es **un protocolo y una red** que facilita las transacciones de Bitcoin con una interacción mínima con la blockchain principal de Bitcoin. Así es como funciona:
 
 
-- Configuración inicial:** Los fondos se bloquean (escrowed) en la blockchain principal para establecer un canal de pago entre 2 partes.
-- Red de pagos:** Una red de canales de pago entre múltiples partes forma una red de pagos (encaminamiento e interconexión).
-- Transacciones off-chain:** Las transacciones se producen entre las partes pero **no se publican inmediatamente** en la cadena de bloques principal de Bitcoin. Se ejecutan **" off-chain "**.
-- Liquidaciones on-chain:** Sólo **el saldo final** de las transacciones de un canal se publica en la cadena de bloques principal de Bitcoin (**"on-chain**"), permitiendo que se produzcan numerosas transacciones a la vez. Esta agrupación de múltiples pagos reduce la congestión y por tanto las comisiones, en comparación con la realización de muchas transacciones on-chain.
-- Cierre del canal:** Un usuario puede cerrar su canal en cualquier momento y reclamar su Bitcoin publicando el último estado de la transacción. Este es el principio de que las transacciones sean **"publicables" en cualquier momento pero "no publicables "** hasta que sea necesario. La salida (cierre del canal) puede ser unilateral (decidida por cualquiera de las 2 partes en cualquier momento) o decidida mutuamente (resultando en menores comisiones en la cadena)
+- **Configuración inicial:** Los fondos se bloquean (escrowed) en la blockchain principal para establecer un canal de pago entre 2 partes.
+- **Red de pagos:** Una red de canales de pago entre múltiples partes forma una red de pagos (encaminamiento e interconexión).
+- **Transacciones off-chain:** Las transacciones se producen entre las partes pero **no se publican inmediatamente** en la cadena de bloques principal de Bitcoin. Se ejecutan **" off-chain "**.
+- **Liquidaciones on-chain:** Sólo **el saldo final** de las transacciones de un canal se publica en la cadena de bloques principal de Bitcoin (**"on-chain**"), permitiendo que se produzcan numerosas transacciones a la vez. Esta agrupación de múltiples pagos reduce la congestión y por tanto las comisiones, en comparación con la realización de muchas transacciones on-chain.
+- **Cierre del canal:** Un usuario puede cerrar su canal en cualquier momento y reclamar su Bitcoin publicando el último estado de la transacción. Este es el principio de que las transacciones sean **"publicables" en cualquier momento pero "no publicables "** hasta que sea necesario. La salida (cierre del canal) puede ser unilateral (decidida por cualquiera de las 2 partes en cualquier momento) o decidida mutuamente (resultando en menores comisiones en la cadena)
 
 ![BIZ101](assets/en/04.webp)
 
 Este enfoque evita la lentitud y complejidad de realizar cada transacción directamente en la blockchain principal de Bitcoin, registrando sólo los saldos finales y conservando su seguridad. La Lightning Network es una capa "por encima" de Bitcoin, pero permanece anclada a él.
 
-**Una red mundial de pagos
+**Una red mundial de pagos**
 
 El protocolo crea una **red** de máquinas donde los canales forman un sistema de pago universal. Estos nodos pueden ser operados libremente por particulares o empresas, lo que la convierte en una red completamente abierta.
 
@@ -269,12 +269,12 @@ Lightning Network permite el intercambio instantáneo de valor a la velocidad de
 
 ![BIZ101](assets/en/12.webp)
 
-**Principales ventajas
+**Principales ventajas**
 
 
-- Rapidez:** Transacciones instantáneas.
-- Comisiones bajas:** Costes mucho más bajos en comparación con las redes bancarias tradicionales.
-- Facilidad de adopción:** Las empresas pueden aceptar pagos Lightning utilizando simplemente una aplicación para smartphone o un botón de pago en su pàgina web.
+- **Rapidez:** Transacciones instantáneas.
+- **Comisiones bajas:** Costes mucho más bajos en comparación con las redes bancarias tradicionales.
+- **Facilidad de adopción:** Las empresas pueden aceptar pagos Lightning utilizando simplemente una aplicación para smartphone o un botón de pago en su pàgina web.
 
 La infraestructura Lightning supera a los sistemas de pago tradicionales en términos de velocidad, coste y eficiencia energética. Con la creciente adopción por parte de los comerciantes, el impulso se acelerará: 
 
@@ -282,7 +282,7 @@ La infraestructura Lightning supera a los sistemas de pago tradicionales en tér
 
 Las aplicaciones de Lightning van mucho más allá de las comisiones bajas y la velocidad. Al ofrecer una vía de pago completamente gratuita e instantánea, abre enormes oportunidades en toda la economía.
 
-**Potenciación de las capacidades de intercambio de Bitcoin:*
+**Potenciación de las capacidades de intercambio de Bitcoin:**
 
 Lightning amplifica el papel de Bitcoin como "medio de intercambio" Al aumentar la frecuencia y la libertad de las transacciones, refuerza la función principal del dinero: facilitar los intercambios económicos y la creación de valor para todos los participantes.
 
@@ -295,23 +295,23 @@ Lightning permite vislumbrar un futuro en el que todos los negocios basados en I
 La Lightning Network es ideal para pagos con Bitcoin en tiendas físicas u online por su rapidez de envio y acreditaciòn definitiva.
 
 
-- Velocidad:** Lightning (~500ms a unos pocos segundos) es significativamente más rápido que la red principal de Bitcoin, donde las transacciones pueden tardar unos 30 minutos en confirmarse. Para compras grandes (de más de 1.000 dólares), la red principal de Bitcoin puede seguir siendo preferible, ya que la velocidad es menos crítica. Sin embargo, estos detalles suelen quedar ocultos para el usuario medio, ya que las aplicaciones gestionan estas decisiones sin problemas en segundo plano.
-- Finalidad:** Una vez que se realiza un pago en Lightning, es definitivo. No hay posibilidad de devoluciones de cargo por parte de terceros ni de disputas relacionadas con fraudes.
-- Comisiones:** Las comisiones por transacción en la red Lightning son mínimas y las paga el usuario, no el comerciante. Los comerciantes solo incurren en comisiones si posteriormente necesitan transferir su Bitcoin a otra red o servicio.
+- **Velocidad:** Lightning (~500ms a unos pocos segundos) es significativamente más rápido que la red principal de Bitcoin, donde las transacciones pueden tardar unos 30 minutos en confirmarse. Para compras grandes (de más de 1.000 dólares), la red principal de Bitcoin puede seguir siendo preferible, ya que la velocidad es menos crítica. Sin embargo, estos detalles suelen quedar ocultos para el usuario medio, ya que las aplicaciones gestionan estas decisiones sin problemas en segundo plano.
+- **Finalidad:** Una vez que se realiza un pago en Lightning, es definitivo. No hay posibilidad de devoluciones de cargo por parte de terceros ni de disputas relacionadas con fraudes.
+- **Comisiones:** Las comisiones por transacción en la red Lightning son mínimas y las paga el usuario, no el comerciante. Los comerciantes solo incurren en comisiones si posteriormente necesitan transferir su Bitcoin a otra red o servicio.
 
 **DOCUMENTO DE IDENTIDAD LIGHTNING**
 
 
-- Invención:** 2015
-- Lanzamiento:** 2016
-- Edad:** 7 años (primera transacción: 28 de diciembre de 2017)
-- Capacidad técnica de la red:** a escala puede gestionar 1.000 veces más transacciones instantáneas que los sistemas tradicionales.
-- Tamaño de las transacciones:** Puede ser desde tan grande hasta 1.000 veces menor que en los sistemas tradicionales.
-- Velocidad de transacción:** Hasta 100 veces más rápido.
-- Comisiones:** Hasta un 90% menos.
-- Finalidad del pago:** Casi instantánea (a menudo ~500 milisegundos, a veces unos segundos).
-- Consumo de energía:** ~8% del sistema monetario mundial tradicional.
-- Características:**
+- **Invención:** 2015
+- **Lanzamiento:** 2016
+- **Edad:** 7 años (primera transacción: 28 de diciembre de 2017)
+- **Capacidad técnica de la red:** a escala puede gestionar 1.000 veces más transacciones instantáneas que los sistemas tradicionales.
+- **Tamaño de las transacciones:** Puede ser desde tan grande hasta 1.000 veces menor que en los sistemas tradicionales.
+- **Velocidad de transacción:** Hasta 100 veces más rápido.
+- **Comisiones:** Hasta un 90% menos.
+- **Finalidad del pago:** Casi instantánea (a menudo ~500 milisegundos, a veces unos segundos).
+- **Consumo de energía:** ~8% del sistema monetario mundial tradicional.
+- **Características:**
     - Persona a persona
     - Universal
     - Sin permiso
@@ -502,7 +502,7 @@ La adopción de Bitcoin por las instituciones financieras refuerza aún más su 
 
 Recientes declaraciones de **BlackRock** destacan el potencial de Bitcoin como activo de reserva de valor y herramienta de diversificación de carteras. El gigante institucional mundial sugirió recientemente que **el crecimiento de usuarios de Bitcoin está superando al de Internet** o los teléfonos móviles, impulsado sobre todo por **cambios demográficos y generacionales**, así como por la creciente desconfianza en las instituciones financieras tradicionales (!). Debido a su naturaleza escasa, no soberana y descentralizada, algunos inversores ven en Bitcoin una opción de refugio seguro **en tiempos de inestabilidad fiscal y monetaria**, miedo o acontecimientos geopolíticos perturbadores.
 
-El ** ETF Spot de Bitcoin**, lanzado en enero de 2024, ha disfrutado de un éxito fenomenal -el **lanzamiento de ETF más exitoso** de la historia- con casi 20.000 millones de dólares en entradas netas. de enero a noviembre. Eso es unas cuatro veces mejor que el siguiente mejor lanzamiento de ETF, el Nasdaq-100 QQQ. Estos ETF proporcionan un acceso más fácil y regulado al Bitcoin, lo que lo ha **legitimado** aún más y ha atraído una importante afluencia de capital institucional.
+El **ETF Spot de Bitcoin**, lanzado en enero de 2024, ha disfrutado de un éxito fenomenal -el **lanzamiento de ETF más exitoso** de la historia- con casi 20.000 millones de dólares en entradas netas. de enero a noviembre. Eso es unas cuatro veces mejor que el siguiente mejor lanzamiento de ETF, el Nasdaq-100 QQQ. Estos ETF proporcionan un acceso más fácil y regulado al Bitcoin, lo que lo ha **legitimado** aún más y ha atraído una importante afluencia de capital institucional.
 
 Los ETF de Bitcoin lideran por un amplio margen en términos de **adopción institucional**, superando a los diez ETF de más rápido crecimiento, ya sea en términos de número de instituciones involucradas o de tamaño de los activos bajo gestión (AUM). El éxito de estos ETF de Bitcoin subraya la creciente demanda de vehículos de inversión vinculados a activos digitales, consolidando así el lugar de Bitcoin en el panorama financiero tradicional.
 
@@ -767,35 +767,20 @@ Para simplificar el proceso de toma de decisiones, hemos definido cuatro perfile
 
 #### Perfil 1 - El principiante
 
-| Atributo | El Arrancador |
+| Atributo                         | Inicio                                                                                                                                                               |
+|----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Intenciòn**                    | "probando mi primer pago físico", "aceptando una propina por mi contenido en línea", "apuntando a ingresos muy pequeños"                                             |
+| **Frecuencia de transacción**    | "primera transacción para aprender", "cobrar de vez en cuando"                                                                                                       |
+| **Ejemplos de tipos de negocio** | Economía creativa (creadores de contenidos, blogs, artículos, etc.), consejos ocasionales, venta de productos en persona de forma puntual, asociaciones, eventos puntuales, economía de la información |
+| **Tipo de pago**                 | En general, de unos céntimos a unos euros/dólares; menos de ~300 euros/dólares por artículo                                                                          |
+| **Complejidad de la configuración** | Ninguna                                                                                                                                                             |
+| **Ejemplo de solución recomendada** | Un monedero Lightning custodial como Wallet of Satoshi o un monedero no custodial como Phoenix; billetera Bitcoin Lightning sencilla (una aplicación en el teléfono móvil) |
+| **Interfaz del cliente**         | Código QR de pago Bitcoin, escaneado a través del monedero personal del cliente; el cliente paga las tarifas de Bitcoin Lightning más las tarifas aplicables de la aplicación |
+| **Dispositivo de punto de venta** | Aplicación gratuita para smartphone u opción de terminal físico (p. ej. Bitcoinize)                                                                                  |
+| **Gestión y funciones**          | Gestión de una única aplicación; diferenciación mínima de funciones; lista básica del historial de transacciones                                                      |
+| **API**                          | No                                                                                                                                                                   |
 
-| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
 
-| **Estado de ánimo** | "probando mi primer pago físico", "aceptando una propina por mi contenido en línea", "apuntando a ingresos muy pequeños" | | "probando mi primer pago físico", "aceptando una propina por mi contenido en línea", "apuntando a ingresos muy pequeños
-
-| **Frecuencia de transacción** | "primera transacción para aprender", "cobrar de vez en cuando"                                                                    |
-
-| **Ejemplos de tipos de negocio** | Economía creativa (creadores de contenidos, blogs, artículos, etc.), consejos ocasionales, venta de productos en persona de forma puntual, asociaciones, eventos puntuales | | Economía de la información
-
-| **Tipo de pago** | En general, de unos céntimos a unos euros/dólares; menos de ~300 euros/dólares por artículo |
-
-| **Complejidad de la configuración** | Ninguna |
-
-| **Ejemplo de solución recomendada** | Un monedero Lightning custodial como Wallet of Satoshi o un monedero no custodial como Phoenix |
-
-| Billetera Bitcoin Lightning sencilla: una aplicación en el teléfono móvil
-
-| **Interfaz del cliente** | Código de pago QR de Bitcoin, escaneado a través del monedero personal del cliente | | Código de pago QR de Bitcoin, escaneado a través del monedero personal del cliente
-
-| El cliente paga las tarifas de Bitcoin Lightning más las tarifas aplicables de la aplicación
-
-| **Dispositivo de punto de venta** | Aplicación gratuita para smartphone u opción de terminal físico (p. ej. Bitcoinize) | | Dispositivo de punto de venta** | Aplicación gratuita para smartphone u opción de terminal físico (p. ej. Bitcoinize)
-
-| **Gestión y funciones** | Gestión de una única aplicación; diferenciación mínima de funciones | **Gestión y funciones** | Gestión de una única aplicación; diferenciación mínima de funciones
-
-| Lista básica del historial de transacciones
-
-| **API** | No |
 
 #### Perfil 2 - Lo esencial
 
