@@ -883,13 +883,13 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-c4792842-b046-44
 
 https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
-## Lo esencial
+## El Eencial
 
 <chapterId>89be421f-f7df-4bcc-a9e4-df96e39ef249</chapterId>
 
 El perfil Esencial es adecuado para pequeñas y medianas empresas, potencialmente con empleados, que quieren aceptar bitcoin fácil y rápidamente sin necesidad de conocimientos técnicos avanzados, sin dejar de tener un sistema más completo y profesional que un simple monedero. Esta categoría se aplica con mayor frecuencia a restaurantes, cafeterías, bares o pequeños comercios minoristas que sólo reciben un puñado de pagos en Bitcoin al mes, pero que desean una interfaz que sea a la vez sencilla y lo suficientemente robusta como para gestionar las operaciones diarias sin interrupciones.
 
-A diferencia del perfil Starter, las empresas Essential suelen considerar los pagos con Bitcoin como una parte permanente de su flujo de ingresos y no como un mero experimento. Todavía operan con volúmenes de transacciones relativamente bajos, pero la frecuencia es suficiente para que los propietarios y empleados se beneficien de un sistema más estructurado y fiable. Al mismo tiempo, el perfil Esencial sigue centrado en la simplicidad; aunque permite paneles prácticos y una gestión limitada de roles, no necesita recursos informáticos especializados ni integraciones complejas.
+A diferencia del perfil Principiante, las empresas Essential suelen considerar los pagos con Bitcoin como una parte permanente de su flujo de ingresos y no como un mero experimento. Todavía operan con volúmenes de transacciones relativamente bajos, pero la frecuencia es suficiente para que los propietarios y empleados se beneficien de un sistema más estructurado y fiable. Al mismo tiempo, el perfil Esencial sigue centrado en la simplicidad; aunque permite paneles prácticos y una gestión limitada de roles, no necesita recursos informáticos especializados ni integraciones complejas.
 
 Las recomendaciones tecnológicas en este segmento suelen centrarse en **Swiss Bitcoin Pay**, una solución simplificada para que los comerciantes acepten pagos con Bitcoin fácilmente. Cuenta con una aplicación PoS fácil de usar, que no requiere conocimientos técnicos por parte de los empleados. A diferencia de los monederos Bitcoin estándar, se centra únicamente en la recepción de pagos, lo que permite a los empleados utilizar el dispositivo sin riesgos de seguridad. Varias aplicaciones PoS pueden conectarse a la misma cuenta, utilizables en tabletas, registros, smartphones o a través de una versión web para ordenadores, compatible con Android e iOS. También puede crear un menú con los artículos que vende y sus precios asociados, lo que permite al empleado simplemente seleccionar una cesta de artículos para el cliente en el TPV y luego cobrar el total.
 
@@ -935,7 +935,7 @@ Una de las características que definen al comerciante Profesional es la necesid
 
 ![BIZ101-profiles](assets/en/25.webp)
 
-Un grupo de restauración, por ejemplo, puede tener empleados dedicados a la facturación y la gestión de existencias, mientras que otro equipo supervisa los listados de productos y las campañas de marketing. En este entorno, una solución de pago Bitcoin debe encajar perfectamente con estas estructuras organizativas preexistentes.
+Un grupo de restauración, por ejemplo, puede tener empleados dedicados a la facturación y la gestión de almacen, mientras que otro equipo supervisa los listados de productos y las campañas de marketing. En este entorno, una solución de pago Bitcoin debe encajar perfectamente con estas estructuras organizativas preexistentes.
 
 ![BIZ101-profiles](assets/en/26.webp)
 
