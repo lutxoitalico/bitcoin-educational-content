@@ -17,7 +17,7 @@ A lo largo de esta guía, aprenderá a entender Bitcoin como una red monetaria g
 
 Tanto si es un **pequeño negocio como una gran corporación**, integrar Bitcoin en sus operaciones diarias puede hacer que su empresa sea más **resiliente, productiva y competitiva**. Todo negocio basado en Internet se convertirá en una empresa orientada a Bitcoin, y este curso le asegura que está preparado. Las secciones iniciales recapitulan los fundamentos del funcionamiento de Bitcoin, por lo que incluso si usted es un principiante, obtendrá los conocimientos básicos necesarios para continuar. Aprender los fundamentos de la invención de Satoshi es siempre una buena idea, ya sea antes o después de sumergirse en BIZ101.
 
-+++
+
 # Introducción
 
 <partId>326cf945-5d3f-4d86-8c3e-4d1c35959799</partId>
@@ -883,7 +883,7 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-c4792842-b046-44
 
 https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
-## El Eencial
+## El Esencial
 
 <chapterId>89be421f-f7df-4bcc-a9e4-df96e39ef249</chapterId>
 
@@ -1088,7 +1088,7 @@ Si Bitcoin fuera tratado como una moneda, las empresas lo gestionarían como cua
 **Mismo ejemplo actualizado como si Bitcoin fuera reconocido como moneda:**
 
 
-- Una empresa tiene 1 BTC cuando Bitcoin vale 30.000 $. Más tarde, la empresa utiliza 0,5 BTC para un pago cuando Bitcoin vale 40.000 $.
+- Una empresa tiene 1 BTC cuando Bitcoin vale 30.000 $ . Más tarde, la empresa utiliza 0,5 BTC para un pago cuando Bitcoin vale 40.000 $ .
 - La empresa **no** calcula las ganancias o pérdidas realizadas. En su lugar, la transacción se registra como:
     - Pago: 20.000 $ (0,5 BTC × 40.000 $).
     - Saldo restante de Bitcoin: 0.5 BTC, que ahora valen 20.000 $ (actualizado al tipo de cambio actual).
@@ -1357,7 +1357,7 @@ Por último, tanto si es un pequeño comerciante como una empresa más estableci
 
 <chapterId>0fe8c49e-b7f8-46f7-9c42-b8a9a99a7b46</chapterId>
 
-<isCourseReview>verdadero</isCourseReview>
+<isCourseReview>true</isCourseReview>
 
 ## Examen final
 
