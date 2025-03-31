@@ -985,7 +985,7 @@ Para garantizar un despliegue seguro y sin problemas a nivel empresarial, la may
 
 <chapterId>59ff43a1-98e2-4a81-af3e-9654bdd60952</chapterId>
 
-Siempre hay compensaciones para cada categoría de solución. Por ejemplo, en la "fase de prueba" inicial, los monederos propuestos están diseñados para ser lo más sencillos posible en términos de interfaz de usuario, pero están alojados (**custodiados**). Esto significa que los fondos están controlados por el proveedor de la aplicación. Sin embargo, la ética de Bitcoin anima a avanzar hacia la plena propiedad de los fondos por parte del usuario (**autocustodia**). En este caso, se recomienda pasar a la siguiente categoría tan pronto como se realicen las primeras ventas -esencialmente, una vez que se confirme que tiene clientes dispuestos a pagar en Bitcoin.
+Siempre hay matices compensaciones para cada categoría. Por ejemplo, en la "fase de prueba" inicial, los monederos propuestos están diseñados para ser lo más sencillos posible en términos de interfaz de usuario, pero están alojados (**custodiados**). Esto significa que los fondos están controlados por el proveedor de la aplicación. Sin embargo, la ética de Bitcoin anima a avanzar hacia la plena propiedad de los fondos por parte del usuario (**autocustodia**). En este caso, se recomienda pasar a la siguiente categoría tan pronto como se realicen las primeras ventas -esencialmente, una vez que se confirme que tiene clientes dispuestos a pagar en Bitcoin.
 
 Una de las principales ventajas de Bitcoin es la posibilidad de mover fondos a voluntad, lo que hace **muy fácil cambiar de proveedor** o de componentes de su solución. Además, todas las aplicaciones y soluciones evolucionan rápidamente. Por ejemplo, pensemos en Bitcoinize, que ahora ofrece un terminal físico de punto de venta (TPV) que se integra con muchas aplicaciones del mercado, una solución que no existía hace apenas unos meses.
 
@@ -994,8 +994,8 @@ Una de las principales ventajas de Bitcoin es la posibilidad de mover fondos a v
 Si está empezando desde cero -sin tienda, sin software de gestión de productos y sin sistema de punto de venta (TPV)- tiene un par de opciones:
 
 
-- Subcontratación:** Puede subcontratar la creación de un sitio web con opciones de compra y luego añadir capacidades de pago con Bitcoin junto con las soluciones tradicionales en la tienda.
-- Soluciones sencillas:** Como alternativa, puede utilizar plataformas como Accessing.app para hacerlo usted mismo. Las principales ventajas son:
+- **Subcontratación:** Puede subcontratar la creación de un sitio web con opciones de compra y luego añadir capacidades de pago con Bitcoin junto con las soluciones tradicionales en la tienda.
+- **Soluciones sencillas:** Como alternativa, puede utilizar plataformas como Accessing.app para hacerlo usted mismo. Las principales ventajas son:
     - Crear una tienda física o en línea de forma rápida y asequible.
     - Adecuado para negocios de temporada, eventos, restaurantes o tiendas minoristas.
     - Definición y gestión de productos para la venta física y en línea.
@@ -1010,22 +1010,22 @@ Aunque la Lightning Network ofrece una eficiencia superior y unas comisiones má
 - Cuando aparecieron los coches, no había suficientes coches para justificar la construcción de carreteras, ni suficientes carreteras para justificar la posesión de coches.
 - Cuando se introdujo la electricidad, no había suficientes clientes para justificar la construcción de redes eléctricas, ni suficientes redes para atraer clientes.
 
-Las nuevas infraestructuras triunfan porque son más eficientes, y los primeros en adoptarlas se unen porque obtienen beneficios tangibles. He aquí algunas observaciones sobre la Red del Rayo en 2024:
+Las nuevas infraestructuras triunfan porque son más eficientes, y los primeros en adoptarlas se unen porque obtienen beneficios tangibles. He aquí algunas observaciones sobre la Lightning Network en 2024:
 
 
-- Transacciones ultrarrápidas:** Las transacciones suelen ser casi instantáneas (<500 ms) y tienen una tasa de fallos extremadamente baja.
-- Profesionalización de la red:** Los grandes operadores garantizan la liquidez en toda la red, mientras que los particulares han dejado en gran medida de encaminar los pagos y ahora gestionan sobre todo "nodos periféricos"
-- Experiencia de usuario mejorada:** Las aplicaciones móviles para usuarios individuales han mejorado significativamente. Funciones como el empalme, las facturas estáticas de Bolt12 y los pagos sin confirmación (0-conf) están ampliamente disponibles, lo que hace que las interacciones sean fluidas. Los problemas de interoperabilidad (por ejemplo, los cierres forzados) han dejado de ser una preocupación importante.
-- Gestión mejorada de nodos y canales:** Tanto las soluciones individuales como las profesionales han avanzado. Por ejemplo, BTC Pay Server admite ahora numerosos plugins para conectarse con otros proveedores (PSP, rampas on/off, etc.). También están entrando en producción nuevos proveedores de infraestructuras, como LightSpark y Alby Hub.
-- Crecimiento de la adopción por parte de los comerciantes:** Comerciantes como BitRefill informan de un aumento de los pagos con Bitcoin entre sus usuarios activos, con un claro cambio hacia Bitcoin frente a Lightning. Además, las comisiones ultrabajas de Lightning lo convierten en la opción preferida para pagos pequeños (una media de 32 € por transacción).
+- **Transacciones ultrarrápidas:** Las transacciones suelen ser casi instantáneas (<500 ms) y tienen una tasa de fallos extremadamente baja.
+- **Profesionalización de la red:** Los grandes operadores garantizan la liquidez en toda la red, mientras que los particulares han dejado en gran medida de encaminar los pagos y ahora gestionan sobre todo "nodos periféricos"
+- **Experiencia de usuario mejorada:** Las aplicaciones móviles para usuarios individuales han mejorado significativamente. Funciones como el empalme, las facturas estáticas de Bolt12 y los pagos sin confirmación (0-conf) están ampliamente disponibles, lo que hace que las interacciones sean fluidas. Los problemas de interoperabilidad (por ejemplo, los cierres forzados) han dejado de ser una preocupación importante.
+- **Gestión mejorada de nodos y canales:** Tanto las soluciones individuales como las profesionales han avanzado. Por ejemplo, BTC Pay Server admite ahora numerosos plugins para conectarse con otros proveedores (PSP, rampas on/off, etc.). También están entrando en producción nuevos proveedores de infraestructuras, como LightSpark y Alby Hub.
+- **Crecimiento de la adopción por parte de los comerciantes:** Comerciantes como BitRefill informan de un aumento de los pagos con Bitcoin entre sus usuarios activos, con un claro cambio hacia Bitcoin en Lightning. Además, las comisiones ultrabajas de Lightning lo convierten en la opción preferida para pagos pequeños (una media de 32 € por transacción).
 
 ![BIZ101-profiles](assets/en/30.webp)
 
 *[Fuente: BTC Map](https://btcmap.org/)*
 
 
-- Métricas de la red:** El número total de canales y Bitcoin bloqueados en Lightning se mantiene estable, con aproximadamente 20.000 nodos, 5.200 BTC y 60.000 canales. Sin embargo, esto refleja solo una parte de la red e indica una rotación entre los participantes, con menos particulares y más profesionales participando.
-- Lightning como puente entre redes:** La eficacia y disponibilidad de la red Lightning ya la han posicionado como puente hacia otras redes interconectadas (por ejemplo, FediMint, Liquid, etc.).
+- **Métricas de la red:** El número total de canales y Bitcoin moviendose en Lightning se mantiene estable, con aproximadamente 20.000 nodos, 5.200 BTC y 60.000 canales. Sin embargo, esto refleja solo una parte de la red e indica una rotación entre los participantes, con menos particulares y más profesionales participando.
+- **Lightning como puente entre redes:** La eficacia y disponibilidad de la red Lightning ya la han posicionado como puente hacia otras redes interconectadas (por ejemplo, FediMint, Liquid, etc.).
 
 **El regreso de la cartera**
 
@@ -1056,8 +1056,8 @@ La **consecuencia más importante** a tener en cuenta es que, en la mayoría de 
 Otro aspecto de la contabilidad de Bitcoin es la diferenciación entre dos tipos de plusvalías:
 
 
-- Ganancias/pérdidas latentes:** Ganancias o pérdidas no realizadas basadas en el valor del Bitcoin mantenido al final de un periodo contable.
-- Ganancias/Pérdidas efectivas:** Ganancias o pérdidas realizadas cuando se vende o intercambia Bitcoin durante el ejercicio fiscal.
+- **Ganancias/pérdidas latentes:** Ganancias o pérdidas no realizadas basadas en el valor del Bitcoin mantenido al final de un periodo contable.
+- **Ganancias/Pérdidas efectivas:** Ganancias o pérdidas realizadas cuando se vende o intercambia Bitcoin durante el ejercicio fiscal.
 
 Estos cálculos dependen en gran medida de si el Bitcoin se mantiene para inversión a largo plazo o para uso operativo a corto plazo. Además, las empresas deben adaptar sus prácticas contables a las estructuras fiscales locales, ya que la normativa varía considerablemente de un país a otro.
 
@@ -1073,10 +1073,10 @@ Esto le permitirá más adelante poder calcular la diferencia para determinar el
 **Ejemplo:** Una empresa compra 1 BTC a 30.000 $. Más tarde, vende 0,5 BTC por 20.000 $. Para calcular el beneficio o la pérdida, la empresa debe:
 
 
-- Han registrado la hora, el precio de coste fiat y la cantidad de Bitcoin adquiridos
-- Han registrado la hora, el precio de venta fiat y la cantidad de Bitcoin vendidos
-- Determine el coste del Bitcoin vendido : 0,5 BTC: 30.000 $ ÷ 2 = 15.000 $.
-- Compara el precio de venta con el precio de coste: 20.000 $ (precio de venta) - 15.000 $ (precio de coste) = 5.000 $ de beneficio.
+- Registrar la hora, el precio de coste fiat y la cantidad de Bitcoin adquiridos
+- Registrar la hora, el precio de venta fiat y la cantidad de Bitcoin vendidos
+- Determinar el costo del Bitcoin vendido : 0,5 BTC: 30.000 $ ÷ 2 = 15.000 $.
+- Comparar el precio de venta con el precio de coste: 20.000 $ (precio de venta) - 15.000 $ (precio de coste) = 5.000 $ de beneficio.
 - Actualizar las existencias de Bitcoin con el nuevo precio de coste
 
 Este proceso debe repetirse para cada transacción, y la naturaleza fluctuante del precio de Bitcoin hace aún más engorroso el mantenimiento de registros.
@@ -1085,7 +1085,7 @@ Este proceso debe repetirse para cada transacción, y la naturaleza fluctuante d
 
 Si Bitcoin fuera tratado como una moneda, las empresas lo gestionarían como cualquier otra moneda en su sistema contable. En lugar de realizar un seguimiento de la base de coste y de los beneficios realizados/no realizados de cada transacción, las tenencias de Bitcoin simplemente se registrarían en una cuenta de divisas. Al final de cada periodo contable, el valor de todas las tenencias de divisas, incluido Bitcoin, se convertiría a la divisa contable (por ejemplo, USD o EUR) utilizando el tipo de cambio actual.
 
-**Ejemplo actualizado si Bitcoin fuera reconocido como moneda:**
+**Mismo ejemplo actualizado como si Bitcoin fuera reconocido como moneda:**
 
 
 - Una empresa tiene 1 BTC cuando Bitcoin vale 30.000 $. Más tarde, la empresa utiliza 0,5 BTC para un pago cuando Bitcoin vale 40.000 $.
@@ -1108,9 +1108,9 @@ El tratamiento legal y contable de Bitcoin difiere significativamente entre part
 Para las empresas, Bitcoin puede clasificarse en varias cuentas dependiendo de su uso previsto:
 
 
-- Activos fijos:** Para Bitcoin mantenidos a largo plazo como inversión estratégica.
-- Existencias:** Para Bitcoin utilizado en procesos de producción (un caso de uso poco frecuente, por ejemplo este es el caso de los comerciantes profesionales).
-- Cuentas de tesorería:** Para Bitcoin mantenido como activo líquido, principalmente para transacciones operativas o gestión de tesorería a corto plazo.
+- **Activos fijos:** Para Bitcoin mantenidos a largo plazo como inversión estratégica.
+- **Stock:** Para Bitcoin utilizado en procesos de producción (un caso de uso poco frecuente, por ejemplo este es el caso de los traders profesionales).
+- **Cuentas de tesorería:** Para Bitcoin mantenido como activo líquido, principalmente para transacciones operativas o gestión de tesorería a corto plazo.
 
 La elección de la clasificación depende de la actividad y la estrategia de la empresa, con implicaciones para la información financiera y las obligaciones fiscales. Compruebe siempre la normativa local, ya que estas clasificaciones pueden variar según el país.
 
@@ -1121,16 +1121,16 @@ El reconocimiento legal y el tratamiento de Bitcoin varían según la jurisdicci
 En la mayoría de los países, Bitcoin se considera un activo digital y su tratamiento se rige por las normas generales de contabilidad. Las empresas deben contabilizar las transacciones con Bitcoin del siguiente modo:
 
 
-- Las empresas deben contabilizar las ganancias o pérdidas realizadas en sus resultados financieros.
-- Valoración de ganancias/pérdidas latentes:** Las ganancias o pérdidas no realizadas deben declararse a menudo, pero pueden no afectar directamente a los ingresos imponibles.
-- Cumplimiento de las normas contables:** Las empresas deben integrar las transacciones de Bitcoin en las prácticas contables habituales, garantizando la transparencia y la precisión.
+- **Registro de ganancias/perdidas de capitales:** Las empresas deben contabilizar las ganancias o pérdidas realizadas en sus resultados financieros.
+- **Valoración de ganancias/pérdidas latentes:** Las ganancias o pérdidas no realizadas deben declararse a menudo, pero pueden no afectar directamente a los ingresos imponibles.
+- **Cumplimiento de las normas contables:** Las empresas deben integrar las transacciones de Bitcoin en las prácticas contables habituales, garantizando la transparencia y la precisión.
 
 El enfoque de la contabilidad Bitcoin varía en función de la geografía:
 
 
-- Estados Unidos:** El IRS clasifica Bitcoin como **propiedad, similar a acciones, bonos o bienes inmuebles**. Esta clasificación significa que cualquier transacción que implique criptomoneda, como ganarla, venderla, comerciar con ella o incluso utilizarla para hacer compras, puede crear un hecho imponible y las ganancias están sujetas al impuesto sobre plusvalías.
-- Unión Europea:** Los Estados miembros suelen considerar Bitcoin como un activo especulativo y no como una moneda funcional. Por lo tanto, las ganancias suelen estar sujetas al impuesto sobre plusvalías.
-- Asia:** Países como Singapur y Japón han adoptado marcos reguladores progresivos, tratando favorablemente las transacciones de Bitcoin en contextos específicos. Pero Bitcoin se contabiliza generalmente como **activos intangibles**, y se mide a su valor razonable en la fecha de presentación de informes, reconociéndose los cambios en la cuenta de pérdidas y ganancias.
+- **Estados Unidos:** El IRS clasifica Bitcoin como **propiedad, similar a acciones, bonos o bienes inmuebles**. Esta clasificación significa que cualquier transacción que implique criptomoneda, como ganarla, venderla, comerciar con ella o incluso utilizarla para hacer compras, puede crear un hecho imponible y las ganancias están sujetas al impuesto sobre plusvalías.
+- **Unión Europea:** Los Estados miembros suelen considerar Bitcoin como un activo especulativo y no como una moneda funcional. Por lo tanto, las ganancias suelen estar sujetas al impuesto sobre plusvalías.
+- **Asia:** Países como Singapur y Japón han adoptado marcos reguladores progresivos, tratando favorablemente las transacciones de Bitcoin en contextos específicos. Pero Bitcoin se contabiliza generalmente como **activos intangibles**, y se mide a su valor razonable en la fecha de presentación de informes, reconociéndose los cambios en la cuenta de pérdidas y ganancias.
 
 Es esencial conocer la normativa del país en el que se opera y adaptar las prácticas contables en consecuencia.
 
@@ -1139,9 +1139,9 @@ Es esencial conocer la normativa del país en el que se opera y adaptar las prá
 El rápido ritmo de innovación de las criptomonedas a menudo supera los marcos reguladores. Desde el reconocimiento del Bitcoin como activo digital, la normativa mundial se ha ido actualizando, pero sigue habiendo lagunas:
 
 
-- Falta de jurisprudencia:** Son pocos los casos legales que han aclarado prácticas contables específicas, lo que deja margen para la interpretación.
-- Debates en curso:** Cuestiones como el tratamiento fiscal de las pérdidas latentes siguen sin resolverse en muchas jurisdicciones.
-- Complejidad transfronteriza:** Las empresas que operan a escala internacional se enfrentan a dificultades para conciliar las distintas normas contables nacionales.
+- **Falta de jurisprudencia:** Son pocos los casos legales que han aclarado prácticas contables específicas, lo que deja margen para la interpretación.
+- **Debates en curso:** Cuestiones como el tratamiento fiscal de las pérdidas latentes siguen sin resolverse en muchas jurisdicciones.
+- **Complejidad transfronteriza:** Las empresas que operan a escala internacional se enfrentan a dificultades para conciliar las distintas normas contables nacionales.
 
 A pesar de estos retos, las posturas proactivas de muchos países proporcionan una base sólida para que las empresas incorporen Bitcoin a sus operaciones. Las actualizaciones continuas y la armonización internacional serán esenciales para abordar las complejidades emergentes en la contabilidad de las criptomonedas.
 
@@ -1150,11 +1150,11 @@ A pesar de estos retos, las posturas proactivas de muchos países proporcionan u
 La clasificación de Bitcoin en los estados financieros varía según la jurisdicción y depende de su uso previsto dentro de una empresa. En términos generales, Bitcoin se trata como un activo digital, similar al inventario, la inversión o la moneda, pero con características únicas que influyen en su tratamiento contable.
 
 
-- Activo digital o intangible**: Muchas jurisdicciones, incluyendo Francia y la Unión Europea, clasifican Bitcoin como un activo digital o intangible en lugar de moneda de curso legal. Esta clasificación obliga a las empresas a contabilizar el Bitcoin de forma diferente a las monedas fiduciarias.
-- Inventario**: Si la actividad principal de una empresa implica el comercio de Bitcoin, como los intercambios de criptodivisas o los corredores, Bitcoin se clasifica como inventario. En este caso, la valoración sigue las normas de contabilidad de inventario.
-- Inversión financiera**: Las empresas que poseen Bitcoin como un activo a largo plazo pueden clasificarlo como una inversión financiera. Por ejemplo, en Estados Unidos, las empresas podrían contabilizar Bitcoin según las directrices del Consejo de Normas de Contabilidad Financiera (FASB), reconociendo deterioros cuando los valores de mercado disminuyan.
+- **Activo digital o intangible**: Muchas jurisdicciones, incluyendo Francia y la Unión Europea, clasifican Bitcoin como un activo digital o intangible en lugar de moneda de curso legal. Esta clasificación obliga a las empresas a contabilizar el Bitcoin de forma diferente a las monedas fiduciarias.
+- **Inventario**: Si la actividad principal de una empresa implica el trading de Bitcoin, como los intercambios de criptodivisas o los brokers, Bitcoin se clasifica como inventario. En este caso, la valoración sigue las normas de contabilidad de inventario.
+- **Inversión financiera**: Las empresas que poseen Bitcoin como un activo a largo plazo pueden clasificarlo como una inversión financiera. Por ejemplo, en Estados Unidos, las empresas podrían contabilizar Bitcoin según las directrices del Consejo de Normas de Contabilidad Financiera (FASB), reconociendo deterioros cuando los valores de mercado disminuyan.
 
-**Implicaciones de la clasificación :**
+**Implicaciones de la clasificación:**
 
 
 - Las participaciones a largo plazo suelen requerir pruebas de deterioro y amortización.
@@ -1165,8 +1165,8 @@ La clasificación de Bitcoin en los estados financieros varía según la jurisdi
 Los métodos de valoración son técnicas contables utilizadas para determinar la base de coste de Bitcoin, que es esencial para calcular con precisión las ganancias o pérdidas durante las transacciones. En general, es mejor **mantener un valor siempre actualizado de los costes actuales de las tenencias de Bitcoin** en el sistema contable. Esto asegura la transparencia, el cumplimiento de la normativa fiscal, y evita retrasarse a la hora de realizar los cálculos.
 
 
-- Primero en entrar, primero en salir (FIFO)**: Común en jurisdicciones como Australia e India, este método valora Bitcoin basándose en el coste de adquisición más temprano. Esto puede llegar a ser bastante **complejo**, ya que puede requerir el seguimiento de cada fracción de un bitcoin por separado cuando se produce una venta.
-- Coste medio ponderado (CMP)**: A menudo se prefiere para transacciones de gran volumen debido a su **simplicidad**, como se observa en países como Estados Unidos.
+- **Primero en entrar, primero en salir (FIFO)**: Común en jurisdicciones como Australia e India, este método valora Bitcoin basándose en el coste de adquisición más temprano. Esto puede llegar a ser bastante **complejo**, ya que puede requerir el seguimiento de cada fracción de un bitcoin por separado cuando se produce una venta.
+- **Coste medio ponderado (CMP)**: A menudo se prefiere para transacciones de gran volumen debido a su **simplicidad**, como se observa en países como Estados Unidos.
 
 Es muy recomendable mantener un libro de trabajo detallado de seguimiento de los costes de Bitcoin **desde el momento en que una empresa comienza a comprar Bitcoin o a aceptarlo como pago** para garantizar un registro preciso y organizado. Sólo esta consideración debería ser prioritaria a la hora de elegir una solución de software para aceptar pagos con Bitcoin o para comprar Bitcoin.
 
@@ -1184,11 +1184,11 @@ Las empresas deben asegurarse de que las herramientas de **pago** que utilizan l
 ### Desafíos
 
 
-- Volatilidad**: El precio del Bitcoin fluctúa considerablemente, lo que dificulta la valoración de las participaciones y la predicción de futuros resultados financieros.
-- Escrutinio regulador**: En países como China, el estatus restringido de Bitcoin limita su uso como activo de tesorería.
-- Incertidumbre normativa** : El cambiante panorama normativo de Bitcoin a menudo deja a las empresas en el limbo. Por ejemplo, los cambios en las políticas fiscales, como las de India o Estados Unidos, pueden afectar a las prácticas contables de la noche a la mañana.
-- Riesgos de mala gestión** : La clasificación incorrecta o la falta de supervisión de las transacciones de Bitcoin pueden dar lugar a problemas de cumplimiento, sanciones o daños a la reputación.
-- Riesgos de recalificación**: Mantener una parte importante de la tesorería de una empresa en Bitcoin expone al negocio a posibles pérdidas por caídas de precio. Esto puede tener graves consecuencias, sobre todo si dichas caídas se producen cuando hay que pagar a proveedores, empleados o impuestos. Además, el propietario de la empresa puede ser considerado responsable, lo que podría dar lugar a multas u otros problemas legales, como acusaciones de uso indebido de los activos de la empresa.
+- **Volatilidad**: El precio del Bitcoin fluctúa considerablemente, lo que dificulta la valoración de las participaciones y la predicción de futuros resultados financieros.
+- **Escrutinio regulador**: En países como China, el estatus restringido de Bitcoin limita su uso como activo de tesorería.
+- **Incertidumbre normativa**: El cambiante panorama normativo de Bitcoin a menudo deja a las empresas en el limbo. Por ejemplo, los cambios en las políticas fiscales, como las de India o Estados Unidos, pueden afectar a las prácticas contables de la noche a la mañana.
+- **Riesgos de mala gestión** : La clasificación incorrecta o la falta de supervisión de las transacciones de Bitcoin pueden dar lugar a problemas de cumplimiento, sanciones o daños a la reputación.
+- **Riesgos de recalificación**: Mantener una parte importante de la tesorería de una empresa en Bitcoin expone al negocio a posibles pérdidas por caídas de precio. Esto puede tener graves consecuencias, sobre todo si dichas caídas se producen cuando hay que pagar a proveedores, empleados o impuestos. Además, el propietario de la empresa puede ser considerado responsable, lo que podría dar lugar a multas u otros problemas legales, como acusaciones de uso indebido de los activos de la empresa.
 
 ## Herramientas y software de contabilidad
 
@@ -1225,12 +1225,12 @@ Por último, tanto si es un pequeño comerciante como una empresa más estableci
 **Ejemplo**:
 
 
-- Tasa de conversión de Bitcoin**: 1 Bitcoin = 40.000 euros.
-- Transacción 1**: El cliente compra varios pasteles por 20 euros.
+- **Tasa de conversión de Bitcoin**: 1 Bitcoin = 40.000 euros.
+- **Transacción 1**: El cliente compra varios pasteles por 20 euros.
     - Equivalente en Bitcoin: (20 / 40.000) = 0,0005 Bitcoin = 50.000 Satoshis.
     - Comisión de conversión: 1,5% (20 euros × 0,015) = 0,30 euros.
     - Neto recibido: 20 euros - 0,30 euros = 19,70 euros.
-- Transacción 2**: El cliente compra café por 5 euros.
+- **Transacción 2**: El cliente compra café por 5 euros.
     - Equivalente en Bitcoin: (5 / 40.000) = 0,000125 Bitcoin = 12.500 Satoshis.
     - Comisión de conversión: 1,5% (5 euros × 0,015) = 0,075 euros.
     - Neto recibido: 5 euros - 0,075 euros = 4,93 euros.
@@ -1238,15 +1238,15 @@ Por último, tanto si es un pequeño comerciante como una empresa más estableci
 **Resumen de transacciones**:
 
 
-- Ventas totales**: 25 euros.
-- Total tasas**: 0,375 euros.
-- Euros netos recibidos**: 24.625 euros.
+- **Ventas totales**: 25 euros.
+- **Total tasas**: 0,375 euros.
+- **Euros netos recibidos**: 24.625 euros.
 
 **Implicaciones contables**:
 
 
-- Registre las ventas totales (25 euros) como ingresos.
-- Deducir las comisiones de conversión (0,375 euros) como gasto.
+- Registro de las ventas totales (25 euros) como ingresos.
+- Deduccion de las comisiones de conversión (0,375 euros) como gasto.
 - En el balance no aparece ninguna tenencia de Bitcoin, ya que todas las cantidades se convirtieron inmediatamente.
 
 ### Caso práctico 2: Una tienda minorista retiene el 50% de los pagos con Bitcoin
@@ -1256,8 +1256,8 @@ Por último, tanto si es un pequeño comerciante como una empresa más estableci
 **Ejemplo**:
 
 
-- Tasa de conversión de Bitcoin**: 1 Bitcoin = 40.000 euros.
-- Transacción del cliente**: El cliente compra pasteles por 50 euros.
+- **Tasa de conversión de Bitcoin**: 1 Bitcoin = 40.000 euros.
+- **Transacción del cliente**: El cliente compra pasteles por 50 euros.
     - Equivalente en Bitcoin: (50 / 40.000) = 0,00125 Bitcoin = 125.000 Satoshis.
     - Conversión (50%): 25 euros de Bitcoin = 0,000625 Bitcoin = 62,500 Satoshis.
         - Comisión de conversión: 1,5% (25 euros × 0,015) = 0,375 euros.
@@ -1267,16 +1267,16 @@ Por último, tanto si es un pequeño comerciante como una empresa más estableci
 **Resumen**:
 
 
-- Ventas totales**: 50 euros.
-- Tasas**: 0,375 euros.
-- Euros netos recibidos**: 24.625 euros.
-- Bitcoin retenido**: 62.500 Satoshis.
+- **Ventas totales**: 50 euros.
+- **Tasas**: 0,375 euros.
+- **Euros netos recibidos**: 24.625 euros.
+- **Bitcoin retenido**: 62.500 Satoshis.
 
 **Implicaciones contables**:
 
 
-- Registre las ventas totales (50 euros) como ingresos.
-- Deducir las comisiones de conversión (0,375 euros) como gasto.
+- Registro de las ventas totales (50 euros) como ingresos.
+- Deduccion las comisiones de conversión (0,375 euros) como gasto.
 - El Bitcoin retenido (62.500 Satoshis) aparece en el balance como activo digital.
 - Ganancia no realizada: si la valoración del bitcoin al final del ejercicio es superior o inferior, habrá una ganancia o pérdida no realizada que se indicará en las notas financieras pero no se realizará como ingreso
 
@@ -1287,10 +1287,10 @@ Por último, tanto si es un pequeño comerciante como una empresa más estableci
 **Ejemplo**:
 
 
-- Tasa de conversión de Bitcoin en el momento del pago**: 1 Bitcoin = 30.000 €.
-- Transacción del cliente**: El cliente paga servicios por valor de 3.000 euros.
+- **Tasa de conversión de Bitcoin en el momento del pago**: 1 Bitcoin = 30.000 €.
+- **Transacción del cliente**: El cliente paga servicios por valor de 3.000 euros.
     - Equivalente en Bitcoin: (3.000 / 30.000) = 0,1 Bitcoin = 10.000.000 Satoshis.
-- Valoración a final de año**:
+- **Valoración a final de año**:
     - Tipo de conversión de Bitcoin a final de año: 1 Bitcoin = 35.000 euros.
     - Valoración de la participación en Bitcoin: 0.1 Bitcoin × 35.000 euros = 3.500 euros.
     - Ganancia no realizada: 3.500 euros - 3.000 euros = 500 euros.
@@ -1298,9 +1298,9 @@ Por último, tanto si es un pequeño comerciante como una empresa más estableci
 **Resumen**:
 
 
-- Total de ingresos reconocidos**: 3.000 euros.
-- Tenencia de Bitcoin**: 0.1 Bitcoin valorado en 3.500 euros en el balance.
-- Ganancia no realizada**: 500 euros consignados en las notas financieras pero no realizados como ingresos.
+- *Total de ingresos reconocidos**: 3.000 euros.
+- *Tenencia de Bitcoin**: 0.1 Bitcoin valorado en 3.500 euros en el balance.
+- *Ganancia no realizada**: 500 euros consignados en las notas financieras pero no realizados como ingresos.
 
 **Implicaciones contables**:
 
@@ -1316,16 +1316,16 @@ Por último, tanto si es un pequeño comerciante como una empresa más estableci
 **Ejemplo**:
 
 
-- Compras de Bitcoin a clientes**:
+- **Compras de Bitcoin a clientes**:
     - Compra 1: 2.000 euros a 20.000 euros/BTC = 0,1 Bitcoin = 10.000.000 Satoshis.
     - Compra 2: 3.000 euros a 25.000 euros/BTC = 0,12 Bitcoin = 12.000.000 Satoshis.
     - Compra 3: 5.000 euros a 30.000 euros/BTC = 0,1667 Bitcoin = 16.670.000 Satoshis.
     - Total de Bitcoin retenidos**: 0.3867 Bitcoin = 38.670.000 Satoshis.
-- Valoración a final de año**:
+- **Valoración a final de año**:
     - Precio de Bitcoin a final de año: 40.000 euros/BTC.
     - Valor total: 0,3867 Bitcoin × 40.000 euros = 15.468 euros.
     - Ganancia no realizada: 15.468 euros - 10.000 euros (coste total) = 5.468 euros.
-- Venta del 50% de Bitcoin**:
+- **Venta del 50% de Bitcoin**:
     - Bitcoin vendido: 0.19335 Bitcoin.
     - Ingresos de la venta: 0.19335 Bitcoin × 40.000 euros = 7.734 euros.
     - Base de costes (media ponderada):
@@ -1337,9 +1337,9 @@ Por último, tanto si es un pequeño comerciante como una empresa más estableci
 **Resumen**:
 
 
-- Bitcoin restantes**: 0.19335 Bitcoin valorados en 7.734 euros (a 40.000 euros/BTC).
-- Ganancia realizada**: 2.735 euros incluidos en la cuenta de resultados.
-- Ganancia no realizada**: 5.468 euros consignados en las notas financieras (incluido el valor no realizado del Bitcoin restante).
+- **Bitcoin restantes**: 0.19335 Bitcoin valorados en 7.734 euros (a 40.000 euros/BTC).
+- **Ganancia realizada**: 2.735 euros incluidos en la cuenta de resultados.
+- **Ganancia no realizada**: 5.468 euros consignados en las notas financieras (incluido el valor no realizado del Bitcoin restante).
 
 **Implicaciones contables**:
 
