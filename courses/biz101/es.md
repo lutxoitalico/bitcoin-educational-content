@@ -767,7 +767,7 @@ Para simplificar el proceso de toma de decisiones, hemos definido cuatro perfile
 
 #### Perfil 1 - El principiante
 
-| Atributo                         | Inicio                                                                                                                                                               |
+| Atributo                         | El principiante                                                                                                                                                      |
 |----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Intenciòn**                    | "probando mi primer pago físico", "aceptando una propina por mi contenido en línea", "apuntando a ingresos muy pequeños"                                             |
 | **Frecuencia de transacción**    | "primera transacción para aprender", "cobrar de vez en cuando"                                                                                                       |
@@ -782,9 +782,9 @@ Para simplificar el proceso de toma de decisiones, hemos definido cuatro perfile
 
 
 
-#### Perfil 2 - Lo esencial
+#### Perfil 2 - El Esencial
 
-| Atributo                          | Lo Esencial                                                                                                                                                                       |
+| Atributo                          | El Esencial                                                                                                                                                                       |
 |-----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Intenciòn**                     | "Acepto Bitcoin en mi negocio pero no espero un volumen significativo"                                                                                                            |
 | **Frecuencia de transacción**     | Pocas transacciones al mes                                                                                                                                                        |
@@ -818,11 +818,11 @@ Para simplificar el proceso de toma de decisiones, hemos definido cuatro perfile
 | **API**                            | Sí                                                                                                                                                                        |
 
 
-#### Perfil 4 - La empresa
+#### Perfil 4 - El Empresario
 
-| Atributo                           | La Empresa                                                                                                                                                          |
+| Atributo                           | El Empresario                                                                                                                                                          |
 |------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Estado de ánimo**                | "Un método de pago estratégico para la empresa, con cierto desarrollo para integrarse en la plataforma de servicios según especificaciones concretas"                 |
+| **Intenciòn**                      | "Un método de pago estratégico para la empresa, con cierto desarrollo para integrarse en la plataforma de servicios según especificaciones concretas"                 |
 | **Frecuencia de las transacciones**| Transacciones ilimitadas y de alta frecuencia                                                                                                                        |
 | **Ejemplos de tipos de empresas**  | Empresas medianas, empresas de servicios informáticos, grandes corporaciones, grandes mercados                                                                       |
 | **Tipo de pago**                   | Cualquier tamaño o volumen                                                                                                                                           |
@@ -837,11 +837,11 @@ Para simplificar el proceso de toma de decisiones, hemos definido cuatro perfile
 
 En los capítulos siguientes, detallaremos cada perfil de empresa y las soluciones adaptadas a cada uno de ellos.
 
-## El arranque
+## El principiante
 
 <chapterId>7edda53d-5b9f-432a-8493-115de8c94a67</chapterId>
 
-El perfil Starter está diseñado para empresas, creadores y particulares que deseen explorar los pagos con Bitcoin sin comprometer recursos o conocimientos sustanciales. Se trata normalmente de personas que gestionan un volumen muy pequeño de transacciones (quizás algunas propinas, donaciones o ventas ocasionales) y buscan una introducción sencilla y ligera al ecosistema de Bitcoin y la Red Lightning. El valor clave del enfoque Starter reside en su configuración mínima: en la mayoría de los casos, todo lo que se necesita es un smartphone o una tableta equipada con un monedero básico compatible con Lightning.
+El perfil de pricipiante está diseñado para negocios, creadores y particulares que deseen explorar los pagos con Bitcoin sin comprometer recursos o conocimientos sustanciales. Se trata normalmente de personas que gestionan un volumen muy pequeño de transacciones (quizás algunas propinas, donaciones o ventas ocasionales) y buscan una introducción sencilla y ligera al ecosistema de Bitcoin y la Red Lightning. El valor clave del enfoque Starter reside en su configuración mínima: en la mayoría de los casos, todo lo que se necesita es un smartphone o una tableta equipada con un monedero básico compatible con Lightning.
 
 ![BIZ101-profiles](assets/en/18.webp)
 
@@ -853,13 +853,13 @@ Las dos configuraciones de monedero más comunes para el perfil Starter implican
 
 Aunque los problemas de seguridad pueden parecer menos urgentes cuando las transacciones son pequeñas, es crucial establecer medidas básicas de protección. Incluso un único smartphone o tableta utilizado para recibir pagos de Bitcoin debería estar bloqueado mediante una contraseña o seguridad biométrica, y deben tomarse en serio los procedimientos de copia de seguridad (que van desde hacer un seguimiento de las credenciales de inicio de sesión para un monedero con custodia hasta salvaguardar una frase semilla para uno sin custodia). Los miembros del personal que gestionan transacciones en un entorno físico se beneficiarían de conocer los fundamentos: cómo abrir la aplicación, cómo presentar un código QR al cliente y cómo comprobar si el pago ha llegado efectivamente.
 
-La contabilidad y la presentación de informes, aunque relativamente sencillas en el perfil Starter, merecen una atención especial. Aunque el volumen de transacciones sea mínimo, conservar registros precisos evita confusiones y ayuda a mantener la transparencia en caso de auditorías financieras o declaraciones fiscales. Muchas aplicaciones de monedero permiten a los usuarios exportar un historial básico de transacciones en forma de archivo CSV; para una pequeña empresa o un empresario individual, guardar estos archivos con regularidad puede facilitar mucho la conciliación de las cuentas. También es aconsejable hacer un seguimiento del valor fiduciario aproximado (por ejemplo, en euros o dólares) en el momento en que se recibe cada transacción. Dado que el precio de Bitcoin puede fluctuar, tener un registro de los tipos de conversión es muy valioso para la contabilidad y el cumplimiento de las obligaciones fiscales.
+La contabilidad y la presentación de informes, aunque relativamente sencillas en el perfil Principiante, merecen una atención especial. Aunque el volumen de transacciones sea mínimo, conservar registros precisos evita confusiones y ayuda a mantener la transparencia en caso de auditorías financieras o declaraciones fiscales. Muchas aplicaciones de monedero permiten a los usuarios exportar un historial básico de transacciones en forma de archivo CSV; para una pequeña empresa o un empresario individual, guardar estos archivos con regularidad puede facilitar mucho la conciliación de las cuentas. También es aconsejable hacer un seguimiento del valor actualizado aproximado (por ejemplo, en euros o dólares) en el momento en que se recibe cada transacción. Dado que el precio de Bitcoin puede fluctuar, tener un registro de los tipos de conversión es muy valioso para la contabilidad y el cumplimiento de las obligaciones fiscales.
 
 ![BIZ101-profiles](assets/en/20.webp)
 
-Para las empresas que deseen complementar sus pagos físicos o en persona con donaciones o propinas en línea, ahora es sencillo integrar un botón de propina Lightning o un widget de donación en un sitio web o blog. Plataformas como BTCPay Server ofrecen botones de pago fáciles de configurar, mientras que algunas redes sociales y servicios de livestream ya admiten propinas Lightning con direcciones. En consecuencia, incluso una empresa Starter puede construir una red modesta pero global de mecenas. Mientras tanto, aquellos que prefieran no mantener Bitcoin a largo plazo pueden explorar la conversión parcial o automática en moneda fiduciaria utilizando ciertos monederos custodiados o servicios de terceros. Aunque esta opción conlleva comisiones adicionales y posibles obligaciones KYC, ayuda a las empresas a eludir la volatilidad de los tipos de cambio y mantener sus flujos de trabajo financieros existentes con una interrupción mínima.
+Para las empresas que deseen complementar sus pagos físicos o en persona con donaciones o propinas en línea, ahora es sencillo integrar un botón de propina Lightning o un widget de donación en un sitio web o blog. Plataformas como BTCPay Server ofrecen botones de pago fáciles de configurar, mientras que algunas redes sociales y servicios de livestream ya admiten propinas Lightning con direcciones. En consecuencia, incluso una empresa Starter puede construir una red modesta pero global de mecenas. Mientras tanto, aquellos que prefieran no mantener Bitcoin a largo plazo pueden explorar la conversión parcial o automática en moneda fiat utilizando ciertos monederos custodiados o servicios de terceros. Aunque esta opción conlleva comisiones adicionales y posibles obligaciones KYC, ayuda a las empresas a eludir la volatilidad de los tipos de cambio y mantener sus flujos de trabajo financieros existentes con una interrupción mínima.
 
-Un caso de uso sencillo ilustra cómo confluyen todos estos elementos. Imaginemos un artesano local que vende mermeladas caseras en un mercado de agricultores los sábados. Armado con un teléfono que ejecuta un monedero Lightning de custodia, fija el precio de cada tarro en euros; cuando un cliente pide pagar en Bitcoin, el comerciante introduce rápidamente la cantidad fiduciaria correspondiente, y la aplicación calcula automáticamente la sats debida. El código QR resultante es escaneado por el monedero del cliente, el pago se liquida en segundos y el artesano sabe al instante que la transacción se ha realizado con éxito. Al final del día, los detalles de la transacción pueden exportarse para llevar un registro, y el saldo del día puede enviarse total o parcialmente a una plataforma de intercambio para convertirlo en moneda fiduciaria.
+Un caso de uso sencillo ilustra cómo confluyen todos estos elementos. Imaginemos un artesano local que vende mermeladas caseras en un mercado de agricultores los sábados. Armado de un teléfono y un monedero Lightning de custodia, fija el precio de cada tarro en euros; cuando un cliente pide pagar en Bitcoin, el comerciante introduce rápidamente la cantidad de euros correspondiente, y la aplicación calcula automáticamente la sats debida. El código QR resultante es escaneado por el monedero del cliente, el pago se liquida en segundos y el artesano sabe al instante que la transacción se ha realizado con éxito. Al final del día, los detalles de la transacción pueden exportarse para llevar un registro, y el saldo del día puede enviarse total o parcialmente a una plataforma de intercambio para convertirlo en moneda fiduciaria.
 
 Al equilibrar herramientas fáciles de usar, requisitos mínimos de hardware y un mantenimiento de registros sencillo, las soluciones Starter ofrecen lo esencial sin abrumar a las empresas recién llegadas. Si el volumen de transacciones aumenta y las necesidades operativas de la empresa evolucionan, la actualización a las categorías más avanzadas que se detallan en los próximos capítulos se convierte en una progresión natural.
 
