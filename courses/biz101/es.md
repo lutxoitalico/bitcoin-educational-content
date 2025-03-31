@@ -784,99 +784,56 @@ Para simplificar el proceso de toma de decisiones, hemos definido cuatro perfile
 
 #### Perfil 2 - Lo esencial
 
-| Atributo | Lo Esencial |
+| Atributo                          | Lo Esencial                                                                                                                                                                       |
+|-----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Intenciòn**                     | "Acepto Bitcoin en mi negocio pero no espero un volumen significativo"                                                                                                            |
+| **Frecuencia de transacción**     | Pocas transacciones al mes                                                                                                                                                        |
+| **Ejemplos de tipos de negocio**  | Bares, restaurantes, venta semirregular de productos frescos o de origen directo, varias tiendas bajo un mismo propietario, economía creativa para artistas                        |
+| **Tipo de pago**                  | Por lo general, desde unos pocos euros/dólares hasta unos pocos cientos por artículo; menos de ~300 por artículo y menos de ~3.000 al mes                                          |
+| **Complejidad de la configuración** | Mínima (aplicación móvil)                                                                                                                                                         |
+| **Ejemplo de solución recomendada** | Swiss Bitcoin Pay                                                                                                                                                                 |
+| **Interfaz para comerciantes**    | Monedero Bitcoin Lightning sencillo (aplicación móvil); facturación sencilla con detalles mínimos                                                                                 |
+| **Interfaz del cliente**          | Código QR de pago Bitcoin, escaneado a través del monedero personal del cliente                                                                                                   |
+| **Cargos**                        | Normalmente <1% para enviar a una dirección Bitcoin, y <1,5% para convertir a fiat                                                                                                |
+| **Dispositivo de punto de venta** | Aplicación gratuita para smartphone u opción de terminal físico (p. ej. Bitcoinize)                                                                                                |
+| **Gestión y Roles**               | Opción de un rol de solo venta para los empleados; tablero online para la administración; exportación CSV con todos los detalles de las transacciones                              |
+| **API**                           | Sí                                                                                                                                                                                 |
 
-| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-
-| "Acepto Bitcoin en mi negocio pero no espero un volumen significativo"
-
-| Pocas transacciones al mes
-
-| **Ejemplos de tipos de negocio** | Bares, restaurantes, venta semirregular de productos frescos o de origen directo, varias tiendas bajo un mismo propietario, economía creativa para artistas | |
-
-| **Tipo de pago** | Por lo general, desde unos pocos euros/dólares hasta unos pocos cientos por artículo; menos de ~300 por artículo y menos de ~3.000 al mes. | **Tipo de pago** | Por lo general, desde unos pocos euros/dólares hasta unos pocos cientos por artículo
-
-| Complejidad de la configuración: mínima (aplicación móvil)
-
-| Ejemplo de solución recomendada: Swiss Bitcoin Pay
-
-| **Interfaz para comerciantes** | Monedero Bitcoin Lightning sencillo: una aplicación en un teléfono móvil; facturación sencilla con detalles mínimos |
-
-| **Interfaz del cliente** | Código de pago QR de Bitcoin, escaneado a través del monedero personal del cliente | | Código de pago QR de Bitcoin, escaneado a través del monedero personal del cliente
-
-| **Cargos** | Normalmente <1% para enviar a una dirección Bitcoin, y <1,5% para convertir a fiat |
-
-| **Dispositivo de punto de venta** | Aplicación gratuita para smartphone u opción de terminal físico (p. ej. Bitcoinize) | | Dispositivo de punto de venta** | Aplicación gratuita para smartphone u opción de terminal físico (p. ej. Bitcoinize)
-
-| **Gestión y Roles** | Opción de un rol de sólo venta para los empleados; tablero online para la administración |
-
-| Exportación CSV con todos los detalles de las transacciones
-
-| Sí
 
 #### Perfil 3 - El profesional
 
-| Atributo | El profesional |
+| Atributo                           | El Profesional                                                                                                                                                            |
+|------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Intenciòn**                      | "Un medio de pago como cualquier otro para mi comercio electrónico" o "una gestión conjunta para un grupo de empresas preparadas para mayores volúmenes"                  |
+| **Frecuencia de transacciones**    | Múltiples transacciones por día                                                                                                                                           |
+| **Ejemplos de tipos de negocio**   | Sitios de comercio electrónico con volumen moderado, pequeños marketplaces, grupos de tiendas físicas (por ejemplo, Click & Collect), operaciones de PYMEs                |
+| **Tipo de pago**                   | Suelen oscilar entre unos pocos euros/dólares y unos pocos cientos; no hay límite de tamaño de pago establecido; menos de 250.000 al año                                  |
+| **Complejidad de la configuración**| De ligera a completa (alojamiento local o en la nube); a menudo requiere una tienda de comercio electrónico                                                               |
+| **Ejemplo de solución recomendada**| BTC Pay Server para comercio electrónico y/o entornos físicos; ZapRite, Musqet o PayWithFlash para pagos; Be-BOP para tienda electrónica integrada                        |
+| **Interfaz del comerciante**       | Sitio web (móvil y escritorio) con edición de facturas, carrito de compras y creación de botones de pago; facturación automatizada con integración de comercio electrónico |
+| **Interfaz del cliente**           | Código QR de pago Bitcoin, escaneado a través del monedero personal del cliente                                                                                           |
+| **Tarifas**                        | Mezcla de backend gratuito (código abierto) y tarifas por alojamiento o servicio Lightning; las tarifas de front-end incluyen comisiones Lightning y conversión <1,5%      |
+| **Dispositivo de punto de venta**  | Tienda web, expositor físico opcional (por ejemplo, iPad mostrando el sitio o terminal Bitcoin)                                                                           |
+| **Gestión y Roles**                | Tienda totalmente equipada con múltiples roles de administrador; empleados y clientes interactúan con el sistema; exportación CSV con todos los detalles de transacciones  |
+| **API**                            | Sí                                                                                                                                                                        |
 
-| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-
-| Un medio de pago como cualquier otro para mi comercio electrónico - O una gestión conjunta para un grupo de empresas preparadas para mayores volúmenes |
-
-| **Frecuencia de transacciones** | Múltiples transacciones por día |
-
-| **Ejemplos de tipos de negocio** | Sitios de comercio electrónico con un volumen moderado, pequeños marketplaces, grupos de tiendas físicas (por ejemplo, Click & Collect), operaciones de PYMEs
-
-| **Tipo de pago** | Suelen oscilar entre unos pocos euros/dólares y unos pocos cientos; no hay límite de tamaño de pago establecido; menos de 250.000 al año
-
-| **Complejidad de la configuración** | De ligero a completo (alojamiento local o en la nube), a menudo requiere una tienda de comercio electrónico
-
-| BTC Pay Server para comercio electrónico y/o entornos físicos; ZapRite, Musqet o PayWithFlash para pagos; Be-BOP para una tienda electrónica integrada
-
-| **Interfaz de comerciante** | Sitio web (móvil y escritorio) con edición de facturas, opciones de carrito de la compra y creación de botones de pago; facturación automatizada con integración de comercio electrónico |
-
-| **Interfaz del cliente** | Código de pago QR de Bitcoin, escaneado a través del monedero personal del cliente | | Código de pago QR de Bitcoin, escaneado a través del monedero personal del cliente
-
-| **Tarifas** | Mezcla de backend gratuito de código abierto y tarifas de alojamiento/servicio Lightning de pago; las tarifas de front-end incluyen tarifas Bitcoin Lightning y tarifas de conversión <1,5% |
-
-| **Dispositivo de punto de venta** | Tienda web, expositor físico opcional (por ejemplo, iPad que muestre el sitio o terminal Bitcoin) | **Dispositivo de punto de venta** |Dispositivo de punto de venta
-
-| **Gestión y Roles** | Tienda totalmente equipada con múltiples roles de administrador; empleados y clientes interactúan con el sistema | | Gestión y Roles
-
-| Exportación CSV con todos los detalles de las transacciones
-
-| Sí
 
 #### Perfil 4 - La empresa
 
-| Atributo | La Empresa |
+| Atributo                           | La Empresa                                                                                                                                                          |
+|------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Estado de ánimo**                | "Un método de pago estratégico para la empresa, con cierto desarrollo para integrarse en la plataforma de servicios según especificaciones concretas"                 |
+| **Frecuencia de las transacciones**| Transacciones ilimitadas y de alta frecuencia                                                                                                                        |
+| **Ejemplos de tipos de empresas**  | Empresas medianas, empresas de servicios informáticos, grandes corporaciones, grandes mercados                                                                       |
+| **Tipo de pago**                   | Cualquier tamaño o volumen                                                                                                                                           |
+| **Complejidad de la configuración**| De media a alta, dependiendo de la arquitectura elegida; arquitectura personalizada u orquestación de soluciones SaaS, utilizando potencialmente servicios LSP (*Lightning Service Provider*) de terceros |
+| **Interfaz del comerciante**       | Interfaces front-end y back-end totalmente personalizadas e integradas en los flujos de trabajo y procesos de la empresa                                             |
+| **Interfaz del cliente**           | Desde un código QR de pago Bitcoin hasta una interfaz de usuario totalmente personalizada o integración mediante API                                                 |
+| **Tarifas**                        | Combinación de desarrollo interno y tarifas de terceros; el cliente paga las tarifas Bitcoin Lightning más cualquier tarifa adicional de proveedores de servicios     |
+| **Dispositivo para el punto de venta**| Soluciones a medida adaptadas al entorno empresarial                                                                                                               |
+| **Gestión y funciones**            | Funciones totalmente personalizadas en ventas, administración, desarrollo, contabilidad y finanzas; exportaciones contables totalmente personalizadas                 |
+| **API**                            | Sí                                                                                                                                                                   |
 
-| -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-
-| Un método de pago estratégico para la empresa - Con cierto desarrollo para integrarse en la plataforma de servicios según especificaciones concretas |
-
-| **Frecuencia de las transacciones** | Transacciones ilimitadas y de alta frecuencia
-
-| **Ejemplos de tipos de empresas** | Empresas medianas, empresas de servicios informáticos, grandes corporaciones, grandes mercados
-
-| **Tipo de pago** | Cualquier tamaño o volumen |
-
-| **Complejidad de la configuración** | De media a alta, dependiendo de la arquitectura elegida | **Complejidad de la configuración** | De media a alta, dependiendo de la arquitectura elegida
-
-| Arquitectura personalizada u orquestación de soluciones alojadas en SaaS, utilizando potencialmente servicios LSP (*Proveedor de servicios de iluminación*) de terceros
-
-| Interfaz de comerciante** | Interfaces front-end y back-end totalmente personalizadas e integradas en los flujos de trabajo y procesos de la empresa | Interfaz de comerciante** | Interfaz de comerciante** | Interfaz de comerciante** | Interfaz de comerciante** | Interfaz de comerciante
-
-| Desde un código de pago QR de Bitcoin hasta una interfaz de usuario totalmente personalizada o la integración de una API
-
-| **Tarifas** | Combinación de desarrollo interno y tasas de terceros; el cliente paga las tasas de Bitcoin Lightning más cualquier tasa de transacción de los proveedores de servicios | **Tarifas** | Combinación de desarrollo interno y tasas de terceros
-
-| **Dispositivo para el punto de venta** | Soluciones a medida adaptadas al entorno empresarial | Soluciones a medida adaptadas al entorno empresarial | Soluciones a medida adaptadas al entorno empresarial | Soluciones a medida adaptadas al entorno empresarial
-
-| Gestión y funciones: funciones totalmente personalizadas en ventas, administración, desarrollo, contabilidad y finanzas
-
-| Exportaciones contables totalmente personalizadas
-
-| Sí
 
 En los capítulos siguientes, detallaremos cada perfil de empresa y las soluciones adaptadas a cada uno de ellos.
 
