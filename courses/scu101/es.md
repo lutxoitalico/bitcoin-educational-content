@@ -173,7 +173,7 @@ La seguridad de nuestras computadoras es un tema importante en el mundo digital 
 
 En cuanto a la elección de la computadora, no hay una diferencia significativa en seguridad entre las computadoras antiguas y las nuevas. Sin embargo, existen diferencias de seguridad entre los sistemas operativos: Windows, Linux y Mac.
 ![](assets/notext/11.webp)
-En cuanto a Windows, se recomienda no utilizar una cuenta de administrador a diario, sino crear dos cuentas distintas: una cuenta de administrador y una cuenta para uso diario. Windows suele estar más expuesto a software malicioso debido a su gran cantidad de usuarios y a la facilidad de cambiar de usuario a administrador. Por otro lado, las amenazas son menos frecuentes en Linux y Mac.
+En cuanto a Windows, se recomienda no utilizar una cuenta de administrador a diario, sino crear dos cuentas distintas: una cuenta de administrador y otra cuenta normal para uso diario. Windows suele estar más expuesto a software malicioso debido a su gran cantidad de usuarios y a la facilidad de cambiar de usuario a administrador. Por otro lado, las amenazas son menos frecuentes en Linux y Mac.
 
 La elección del sistema operativo debe realizarse en función de sus necesidades y preferencias. Los sistemas Linux han evolucionado considerablemente en los últimos años, volviéndose cada vez más amigables. Ubuntu es una alternativa interesante para principiantes, con una interfaz gráfica fácil de usar. Es posible particionar un ordenador para experimentar con Linux manteniendo Windows, pero esto puede resultar complicado. A menudo es mejor tener un ordenador dedicado, una máquina virtual o una memoria USB para probar Linux o Ubuntu.
 ![](assets/notext/12.webp)
@@ -186,7 +186,7 @@ En Windows 10, las actualizaciones son casi constantes y es crucial no bloquearl
 
 La regla se aplica a casi todos los programas. De hecho, las actualizaciones no tienen como objetivo volver obsoleta o lenta su máquina, sino protegerla de las nuevas amenazas. Algunas actualizaciones se consideran importantes y sin ellas, su ordenador corre serios riesgos de explotación.
 
-Para darle un ejemplo concreto de error: un software pirateado que no se puede actualizar representa una doble amenaza potencial. La llegada del virus al descargarlo ilegalmente desde un sitio sospechoso y su uso no seguro frente a las nuevas formas de ataque.
+Para darle un ejemplo concreto de vulnerabilidad : un software pirateado que no se puede actualizar representa una doble amenaza potencial. La llegada del virus al descargarlo ilegalmente desde un sitio sospechoso y su uso no seguro frente a las nuevas formas de ataque.
 
 ### Antivirus
 
@@ -218,15 +218,15 @@ En general, los virus llegan porque usted ha permitido que su computadora los in
 
 ¡Atención! Los correos electrónicos son el primer vector de ataque, aquí hay algunos consejos:
 
-- Manténgase alerta ante intentos de phishing para obtener información sensible como sus credenciales y contraseñas. Evite hacer clic en enlaces sospechosos y compartir su información personal sin verificar la legitimidad del remitente.
+- Manténgase alerta ante intentos de phishing que intentan obtener información sensible como credenciales y contraseñas. Evite hacer clic en enlaces sospechosos y compartir su información personal sin verificar la legitimidad del remitente.
 - Tenga precaución con los archivos adjuntos e imágenes en los correos electrónicos:
-  Los archivos adjuntos e imágenes en los correos electrónicos pueden contener software malicioso. No descargue ni abra archivos adjuntos de remitentes desconocidos o sospechosos, y asegúrese de que su antivirus esté actualizado.
+  Los archivos adjuntos e imágenes: Los correos electrónicos pueden contener software malicioso. No descargue ni abra archivos adjuntos de remitentes desconocidos o sospechosos, y asegúrese de que su antivirus esté actualizado.
 
 La regla de oro aquí es verificar correctamente el nombre completo del remitente y el origen del correo electrónico. ¡Ante la duda, elimínelo!
 
 ### Ransomware y tipos de ciberataques:
 
-El ransomware es un tipo de software malicioso que cifra los datos del usuario y exige un rescate para descifrarlos. Este tipo de ataque es cada vez más común y puede resultar muy molesto para una empresa o un individuo. Para protegerse, es imperativo crear copias de seguridad de los archivos más sensibles. Esto no detendrá el ransomware, pero le permitirá simplemente ignorarlo.
+El ransomware es un tipo de software malicioso que cifra los datos del usuario y exige un rescate para descifrarlos, un secuestro de datos. Este tipo de ataque es cada vez más común y puede resultar muy molesto para una empresa o un individuo. Para protegerse, es imperativo crear copias de seguridad de los archivos más sensibles. Esto no detendrá el ransomware, pero le permitirá simplemente ignorarlo.
 ![](assets/notext/14.webp)
 Realice copias de seguridad regularmente de sus datos importantes en un dispositivo externo o un servicio de almacenamiento en línea seguro. De esta manera, en caso de un ataque informático o un fallo de hardware, podrá recuperar sus datos sin perder información crucial.
 
@@ -234,7 +234,7 @@ Solución sencilla:
 
 - Comprar un disco duro externo y copiar sus datos en él. Desconéctelo y guárdelo en algún lugar de la casa. (Hacer esto dos veces y almacenar uno de los discos en otro lugar ayudará a protegerlo de un posible incendio).
 
-- Crear una copia de seguridad "en la nube" a través de ProtonMail Drive, Sync o incluso Google Drive. Solo tiene que cargar sus datos sensibles en este servicio de alojamiento en línea. Sin embargo, tenga en cuenta que sus datos estarán potencialmente en Internet y serán propiedad de un tercero de confianza.
+- Crear una copia de seguridad "en la nube" a través de ProtonMail Drive, Sync o incluso Google Drive. Solo tiene que cargar sus datos sensibles en este servicio de alojamiento en línea. Sin embargo, tenga en cuenta que sus datos estarán potencialmente en Internet y serán custodiados en la computadora de un tercero de confianza.
 
 ### ¿Debería pagar a los hackers?
 
