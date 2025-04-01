@@ -2,7 +2,7 @@
 name: Seguridad informática y gestión de datos
 goal: Actualizar la gestión de contraseñas y datos personales. Crear una copia de seguridad, protegerse de los hackers y concienciarse sobre la vigilancia masiva.
 objectives:
-  - Actualizar sobre la gestión de sus datos personales y las herramientas que refuerzan su seguridad.
+  - Optimizar la gestión de datos personales y conocer las herramientas que refuerzan su seguridad.
   - Implementar un gestor de contraseñas seguro y fácil de usar.
   - Implementar una autenticación de dos factores para fortalecer su seguridad y minimizar los riesgos de hackeo.
 ---
@@ -30,7 +30,7 @@ Théo; contribución
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
-### Objetivo: ¡actualización!
+### Objetivo: ¡Mejorar tus habilidades en seguridad!
 
 Bienvenidos a todos a este programa de enseñanza dedicado a la seguridad digital. Esta formación está diseñada para ser accesible para todos, por lo que no se requieren conocimientos previos de informática. Nuestro objetivo principal es proporcionarles los conocimientos y habilidades necesarios para navegar de manera más segura y privada en el mundo digital.
 
@@ -42,11 +42,11 @@ Esta formación es un esfuerzo conjunto de tres de nuestros profesores:
 - Théo Pantamis, doctor en matemáticas aplicadas
 - Rogzy, CEO de DécouvreBitcoin
 
-Su higiene digital es crucial en un mundo cada vez más digital. A pesar del constante aumento de los ataques informáticos y la vigilancia masiva, aún no es demasiado tarde para dar el primer paso y protegerse.
+Su salud digital es crucial en un mundo cada vez más digital. A pesar del constante aumento de los ataques informáticos y la vigilancia masiva, aún no es demasiado tarde para dar el primer paso y protegerse.
 En esta formación, no buscamos convertirte en un experto, anónimo o invulnerable, esto es imposible. En cambio, te ofrecemos algunas soluciones simples y accesibles para todos, para comenzar a transformar tus hábitos en línea y recuperar el control de tu soberanía digital.
 Si estás buscando habilidades más avanzadas sobre el tema, nuestras recursos, tutoriales u otras formaciones sobre ciberseguridad están aquí para ti. Mientras tanto, aquí tienes un pequeño vistazo de nuestro programa durante las próximas horas juntos.
 
-### Sección 1: Todo sobre la navegación en línea
+### Sección 1: Todo lo que necesitas saber sobre la navegación en línea
 
 - Capítulo 1 - Navegación en línea
 - Capítulo 2 - Uso seguro de internet
@@ -59,7 +59,7 @@ Para empezar, discutiremos la importancia de elegir un navegador web y sus impli
 - Capítulo 3 - Uso de la computadora
 - Capítulo 4 - Hackeo y gestión de copias de seguridad
 
-En esta sección, abordaremos tres áreas clave de la seguridad informática. En primer lugar, exploraremos los diferentes sistemas operativos: Mac, PC y Linux, destacando sus especificidades y fortalezas. Luego, nos enfocaremos en métodos para protegerte eficazmente contra intentos de piratería y fortalecer la seguridad de tus dispositivos. Por último, haremos hincapié en la importancia de proteger y hacer copias de seguridad regularmente tus datos para prevenir pérdidas o ransomware.
+En esta sección, abordaremos tres áreas clave de la seguridad informática. En primer lugar, exploraremos los diferentes sistemas operativos: Mac, PC y Linux, destacando sus especificidades y fortalezas. Luego, nos enfocaremos en métodos para protegerte eficazmente contra intentos de piratería y fortalecer la seguridad de tus dispositivos. Por último, haremos hincapié en la importancia de proteger y hacer copias de seguridad regularmente de tus datos para prevenir pérdidas y ataques ransomware.
 ![](assets/es/2.webp)
 
 ### Sección 3: Implementación de soluciones
@@ -75,7 +75,7 @@ Primero, veremos cómo proteger tu correo electrónico, que es esencial para tus
 
 ### Sección Bonus: Entrevista con Pantamis y Renaud
 
-En bonus, te ofrecemos una entrevista exclusiva con Pantamis y Renaud, nuestros expertos en seguridad digital. Compartirán sus conocimientos profundos y consejos adicionales para fortalecer tu higiene digital. La idea es aprender más de estos profesionales experimentados.
+En bonus, te ofrecemos una entrevista exclusiva con Pantamis y Renaud, nuestros expertos en seguridad digital. Compartirán sus conocimientos profundos y consejos adicionales para fortalecer tu salud digital. La idea es aprender más de estos profesionales experimentados.
 
 Este programa de formación se ofrece de forma gratuita bajo una licencia redistribuible CC BY SA. Queremos expresar nuestra gratitud a nuestros Patreons y a nuestro equipo de grabación por su apoyo indispensable en la realización de esta formación. También agradecemos a todos nuestros donantes y seguidores que nos permiten seguir produciendo contenido educativo gratuito a nivel mundial.
 
@@ -109,7 +109,7 @@ Las cookies son archivos creados por los sitios web para almacenar información 
 ### Navegadores web: elección, seguridad
 
 Existen dos grandes familias de navegadores: aquellos basados en Chrome y aquellos basados en Firefox.
-Aunque ambas familias ofrecen un nivel de seguridad similar, se recomienda evitar el navegador Chrome de Google debido a sus rastreadores. Se pueden preferir alternativas más ligeras de Chrome, como Chromium o Brave. Brave es especialmente recomendado por su bloqueador de anuncios integrado. Puede ser necesario utilizar varios navegadores para acceder a ciertos sitios.
+Aunque ambas familias ofrecen un nivel de seguridad similar, se recomienda evitar el navegador Chrome de Google debido a sus rastreadores. Se pueden preferir alternativas más ligeras de Chrome, como Chromium o Brave. Brave es especialmente recomendado por su bloqueador de anuncios integrado. Puede ser necesario utilizar distintos navegadores segun los sitios que se desean visitar.
 ![](assets/notext/6.webp)
 
 ### Navegación privada, TOR y otras alternativas para una navegación más segura y anónima
@@ -153,7 +153,7 @@ En la Unión Europea, la protección de datos está regulada por el Reglamento G
 
 Para evitar estafas en línea, es crucial verificar la identidad del sitio en el que estás navegando, especialmente controlando la extensión y el nombre de dominio. Además, mantente alerta ante los estafadores que utilizan letras similares en las URL para engañar a los usuarios.
 ![](assets/es/10.webp)
-En resumen, el uso de una VPN puede mejorar en gran medida la seguridad en línea, tanto para las empresas como para los usuarios individuales. Además, poner en práctica buenos hábitos de navegación puede contribuir a una mejor higiene digital. En el próximo segmento de este curso, abordaremos la seguridad de la computadora, incluyendo las actualizaciones, el antivirus y la gestión de contraseñas.
+En resumen, el uso de una VPN puede mejorar en gran medida la seguridad en línea, tanto para las empresas como para los usuarios individuales. Además, poner en práctica buenos hábitos de navegación puede contribuir a una mejor salud digital. En el próximo segmento de este curso, abordaremos la seguridad de la computadora, incluyendo las actualizaciones, el antivirus y la gestión de contraseñas.
 
 # Buenas prácticas para el uso de la computadora
 
@@ -354,7 +354,7 @@ La biometría se puede utilizar como un sustituto, pero es menos segura que la c
 
 ### Conclusión del curso:
 
-Como has entendido, establecer una buena higiene digital no siempre es sencillo, ¡pero sigue siendo accesible!
+Como has entendido, establecer una buena salud digital no siempre es sencillo, ¡pero sigue siendo accesible!
 
 - Crear una nueva dirección de correo electrónico segura.
 - Utilizar un administrador de contraseñas.
