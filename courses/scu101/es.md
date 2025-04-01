@@ -462,7 +462,7 @@ Una sólida formación en informática, sistemas de información o en un campo r
 
 La ciberseguridad es un campo amplio y en constante evolución. Familiarizarse con las herramientas esenciales y los diferentes sistemas es crucial. Además, con tantos subcampos, desde la respuesta a incidentes hasta el hacking ético, es beneficioso encontrar tu nicho y especializarte en él.
 
-### Ganar experiencia práctica:
+### Obtener experiencia práctica:
 
 La importancia de la experiencia práctica no debe subestimarse. Buscar pasantías o puestos junior en empresas con equipos de seguridad informática es una excelente manera de aplicar tus conocimientos teóricos. Además, participar en competiciones de hacking ético o simulaciones de ciberseguridad puede afinar tus habilidades en situaciones concretas.
 
@@ -491,7 +491,7 @@ Dominando estas habilidades y herramientas, estarás bien equipado para navegar 
 
 ### Gestión eficiente de contraseñas y fortalecimiento de la autenticación: un enfoque académico
 
-En el módulo de formación "Seguridad 101" ofrecido por Découvre Bitcoin en la Academia, hemos abordado la importancia de los gestores de contraseñas. Tres dimensiones son esenciales a considerar: la creación, la actualización y la implementación de contraseñas en los sitios web.
+En el módulo de formación "Seguridad 101" ofrecido por *Découvre Bitcoin* en la Academia, hemos abordado la importancia de los gestores de contraseñas. Tres dimensiones son esenciales a considerar: la creación, la actualización y la implementación de contraseñas en los sitios web.
 
 Generalmente se desaconseja el uso de extensiones de navegador para el llenado automático de contraseñas. Estas herramientas pueden hacer que el usuario sea más vulnerable a ataques de phishing. Renaud, un experto reconocido en ciberseguridad, prefiere una gestión manual a través de KeePass, lo que implica copiar y pegar manualmente la contraseña. Las extensiones tienden a aumentar la superficie de ataque, pueden ralentizar el rendimiento del navegador y, por lo tanto, presentan un riesgo significativo. Por lo tanto, se recomienda minimizar el uso de extensiones en el navegador.
 
