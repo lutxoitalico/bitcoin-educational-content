@@ -167,7 +167,7 @@ La seguridad de nuestras computadoras es un tema importante en el mundo digital 
 
 - la elección de la computadora
 - las actualizaciones y el antivirus para una seguridad óptima
-- las buenas prácticas para la seguridad de la computadora y los datos.
+- las buenas prácticas para optimizar la seguridad de la computadora y proteger los datos.
 
 ### La elección de la computadora y del sistema operativo
 
