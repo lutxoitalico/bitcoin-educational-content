@@ -337,7 +337,7 @@ Este segundo paso puede ser:
 
 - Un código temporal enviado por SMS.
 - Un código generado por una aplicación como Google Authenticator o Authy.
-- Una clave de seguridad física que insertas en tu computadora.
+- Una llave electronica de seguridad que insertas fisicamente en tu computadora.
   ![](assets/notext/19.webp)
   Con la autenticación de dos factores (2FA), incluso si un pirata informático obtiene tu contraseña, no podrá acceder a tu cuenta sin este segundo factor de verificación. Esto hace que la 2FA sea esencial para proteger tus cuentas en línea contra accesos no autorizados.
 
@@ -349,7 +349,7 @@ Las diferentes opciones para la autenticación fuerte ofrecen niveles variables 
 - La autenticación de dos factores (2FA) es más segura porque utiliza varios tipos de pruebas, como el conocimiento, la posesión y la identificación. Los códigos de contraseña de un solo uso (HOTP y TOTP) son más seguros que los mensajes de texto porque requieren un cálculo criptográfico y se almacenan localmente en lugar de en la memoria.
 - Los tokens físicos, como las llaves USB o las tarjetas inteligentes, ofrecen una seguridad óptima al generar una clave privada única para cada sitio y verificar la URL antes de autorizar la conexión.
 
-Para una seguridad óptima con la autenticación fuerte, se recomienda utilizar una dirección de correo electrónico segura, un administrador de contraseñas seguro y adoptar el 2FA utilizando YubiKey. También se recomienda comprar dos YubiKey para prever la pérdida o el robo, por ejemplo, mantener una copia de seguridad en casa y otra en tu persona.
+Para una seguridad óptima con una autenticación mas fuerte, se recomienda utilizar una dirección de correo electrónico segura, un administrador de contraseñas seguro y adoptar el 2FA utilizando YubiKey. También se recomienda comprar dos YubiKey para prever la pérdida o el robo, por ejemplo, mantener una copia de seguridad en casa y otra en tu persona.
 
 La biometría se puede utilizar como un sustituto, pero es menos segura que la combinación de conocimiento y posesión. Los datos biométricos deben permanecer en el dispositivo de autenticación y no deben divulgarse en línea. Es importante tener en cuenta el modelo de amenaza asociado con los diferentes métodos de autenticación y adaptar tus prácticas en consecuencia.
 
