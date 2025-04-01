@@ -298,11 +298,11 @@ Con un gestor de contraseñas, ya no tienes que preocuparte por olvidar tus cont
 - Dashlane: También es un servicio de terceros, con una interfaz intuitiva y características adicionales como el seguimiento de la información de tarjetas de crédito y notas seguras.
   ![](assets/notext/17.webp)
 
-### Autohospedaje para más control:
+### Alojamiento propio para tener más control:
 
-- Bitwarden: Es una herramienta de código abierto, lo que significa que puedes revisar su código para verificar su seguridad. Aunque Bitwarden ofrece un servicio hospedado, también permite a los usuarios autohospedarse, lo que significa que puedes controlar dónde se almacenan tus contraseñas, ofreciendo potencialmente más seguridad y control.
+- Bitwarden: Es una herramienta de código abierto, lo que significa que puedes revisar su código para verificar su seguridad. Aunque Bitwarden ofrece un servicio de alojamiento, también permite a los usuarios de conservar localmente sus propios datos (self-hosting), lo que significa que puedes controlar dónde se almacenan tus contraseñas, ofreciendo potencialmente más seguridad y control.
 
-- KeePass: Es una solución de código abierto que está principalmente destinada al autohospedaje. Tus datos se almacenan localmente de forma predeterminada, pero puedes sincronizar la base de datos de contraseñas utilizando diferentes métodos si lo deseas. KeePass es ampliamente reconocido por su seguridad y flexibilidad, aunque puede ser un poco menos intuitivo para los principiantes.
+- KeePass: Es una solución de código abierto que está principalmente destinada al alojamiento propio. Tus datos se almacenan localmente de forma predeterminada, pero puedes sincronizar la base de datos de contraseñas utilizando diferentes métodos si lo deseas. KeePass es ampliamente reconocido por su seguridad y flexibilidad, aunque puede ser un poco menos intuitivo para los principiantes.
   ![](assets/notext/18.webp)
   (Nota: Elegir entre un servicio de terceros o un servicio de autohospedaje depende de tu nivel de comodidad tecnológica y de cómo priorices el control frente a la conveniencia. Los servicios de terceros suelen ser más convenientes para la mayoría de las personas, mientras que el autohospedaje requiere más conocimientos técnicos pero puede ofrecer más control y tranquilidad en términos de seguridad.)
 
@@ -315,7 +315,7 @@ Un buen contraseña generalmente es:
 - Única: no reutilizar la misma contraseña para diferentes cuentas.
 - No basada en información personal: evitar fechas de nacimiento, nombres, etc.
 
-Para garantizar la seguridad de su cuenta, es crucial crear contraseñas fuertes y seguras. La longitud de la contraseña no es suficiente para asegurar su seguridad. Los caracteres deben ser completamente aleatorios para resistir los ataques de fuerza bruta. La independencia de los eventos también es importante para evitar las combinaciones más probables. Las contraseñas comunes como "password" son fácilmente comprometidas.
+Para garantizar la seguridad de su cuenta, es crucial crear contraseñas fuertes y seguras. La longitud de la contraseña no es suficiente para asegurar su seguridad. Los caracteres deben ser completamente aleatorios para resistir los ataques de fuerza bruta. Evita usar datos personales relacionados, como fechas o nombres significativos, ya que pueden formar combinaciones fáciles de adivinar. Las contraseñas comunes como "password" son fácilmente comprometidas.
 
 Para crear una contraseña fuerte, se recomienda utilizar una gran cantidad de caracteres aleatorios, sin utilizar palabras o patrones predecibles. También es esencial incluir números y caracteres especiales. Sin embargo, cabe señalar que algunos sitios pueden restringir el uso de ciertos caracteres especiales. Las contraseñas que no se generan de manera aleatoria son fáciles de adivinar. Las variantes o adiciones a las contraseñas no son seguras. Los sitios web no pueden garantizar la seguridad de las contraseñas elegidas por los usuarios.
 
