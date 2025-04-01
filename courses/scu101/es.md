@@ -276,6 +276,7 @@ Se recomienda utilizar el sitio Have I Been Pwned (¿Me han pirateado?) - https:
 ![](assets/notext/16.webp)
 
 En general, comenzar a utilizar una nueva dirección de correo electrónico más segura no es una mala práctica e incluso es necesario si queremos empezar de nuevo en bases sólidas.
+
 Bonus Bitcoin: Puede ser recomendable crear una dirección de correo electrónico específicamente para nuestras actividades de Bitcoin (creación de cuentas de intercambio) para separar realmente las áreas de actividad en nuestras vidas.
 
 https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
