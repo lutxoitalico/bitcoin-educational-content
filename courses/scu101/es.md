@@ -394,7 +394,7 @@ Otra opción es utilizar una clave de seguridad física. Este otro tutorial te m
 
 https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
-## Creación de un gestor de contraseñas
+## Implementa un gestor de contraseñas
 
 <chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
 
@@ -404,7 +404,7 @@ En este tutorial, descubre cómo configurar Bitwarden, un gestor de contraseñas
 
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-Para usuarios más avanzados, también ofrezco un tutorial sobre otro software gratuito y de código abierto para usar localmente en la gestión de tus contraseñas:
+Para usuarios más avanzados, también ofrezco un tutorial sobre otro software gratuito y de código abierto que permite gestionar las contraseñas localmente:
 
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
@@ -412,7 +412,7 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 <chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
 
-En estos dos tutoriales, también te guío en la seguridad de tus cuentas en línea y te explico cómo adoptar progresivamente prácticas más seguras para la gestión de tus contraseñas en el día a día.
+En estos dos tutoriales, también te guío en como asegurar tus cuentas en línea y te explico cómo adoptar progresivamente prácticas más seguras para la gestión de tus contraseñas en el suo cotidiano.
 
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
@@ -450,7 +450,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 <partId>77113cad-a6d8-57e5-b903-50c223b277ba</partId>
 
-## Cómo trabajar en esta industria de ciberseguridad
+## Cómo trabajar en la industria de la ciberseguridad
 
 <chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
 
