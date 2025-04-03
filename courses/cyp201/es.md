@@ -86,9 +86,9 @@ Estas funciones hash criptográficas tienen varias características esenciales q
 
 #### 1. Irreversibilidad (resistencia a la imagen previa):
 
-La irreversibilidad significa que es fácil calcular el hash a partir de la información de entrada, pero que el cálculo inverso, es decir, encontrar la entrada a partir del hash, es prácticamente imposible. Esta propiedad hace que las funciones hash sean perfectas para crear huellas digitales únicas sin comprometer la información original.
+La irreversibilidad significa que es fácil calcular el hash a partir de la información de entrada, pero que el cálculo inverso, es decir, encontrar el input a partir del hash, es prácticamente imposible. Esta propiedad hace que las funciones hash sean perfectas para crear huellas digitales únicas sin comprometer la información original.
 
-En el ejemplo dado, obtener el hash `24f1b9…` sabiendo la entrada "_PlanB_" es simple y rápido. Sin embargo, encontrar el mensaje "_PlanB_" solo sabiendo `24f1b9…` es imposible.
+En el ejemplo dado, obtener el hash `24f1b9…` sabiendo el input "_PlanB_" es simple y rápido. Sin embargo, encontrar el mensaje "_PlanB_" solo sabiendo `24f1b9…` es imposible.
 
 ![CYP201](assets/fr/002.webp)
 
@@ -97,13 +97,13 @@ Por lo tanto, es imposible encontrar una preimagen $m$ para un hash $h$ tal que 
 #### 2. Resistencia a la manipulación (efecto avalancha)
 
 La segunda característica es la resistencia a la manipulación, también conocida como el **efecto avalancha**. Esta característica se observa en una función hash si un pequeño cambio en el mensaje de entrada resulta en un cambio radical en el hash de salida.
-Si volvemos a nuestro ejemplo con la entrada "_PlanB_" y la función SHA256, hemos visto que el hash generado es el siguiente:
+Si volvemos a nuestro ejemplo con el input "_PlanB_" y la función SHA256, hemos visto que el hash generado es el siguiente:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
 ```
 
-Si hacemos un cambio muy leve en la entrada usando "_Planb_" esta vez, entonces simplemente cambiando de una "B" mayúscula a una "b" minúscula altera completamente el hash de salida SHA256:
+Si hacemos un cambio muy leve en el input usando "_Planb_" esta vez, entonces simplemente cambiando de una "B" mayúscula a una "b" minúscula altera completamente el hash de salida SHA256:
 
 ```text
 bb038b4503ac5d90e1205788b00f8f314583c5e22f72bec84b8735ba5a36df3f
@@ -175,7 +175,7 @@ Las funciones SHA256 y SHA512 pertenecen a la misma familia SHA2. Su mecanismo s
 
 Como recordatorio, tenemos un mensaje de tamaño arbitrario como entrada a SHA256, y lo pasaremos a través de la función para obtener un hash de 256 bits como salida.
 
-### Pre-procesamiento de la entrada
+### Pre-procesamiento del input
 
 Para comenzar, necesitamos preparar nuestro mensaje de entrada $m$ para que tenga una longitud estándar que sea múltiplo de 512 bits. Este paso es crucial para el correcto funcionamiento del algoritmo posteriormente.
 
@@ -271,7 +271,7 @@ K[0 \ldots 63] = \begin{pmatrix}
 \end{pmatrix}
 $$
 
-### División de la Entrada
+### División del input
 
 Ahora que tenemos una entrada igualada, pasaremos a la fase principal de procesamiento del algoritmo SHA256: la función de compresión. Este paso es muy importante, ya que es principalmente lo que le da a la función hash sus propiedades criptográficas que estudiamos en el capítulo anterior.
 
@@ -500,7 +500,7 @@ Cada variable es un entero de 32 bits, por lo que su concatenación siempre prod
 
 Pero entonces, ¿cómo es esta función irreversible, resistente a colisiones y resistente a manipulaciones?
 
-Para la resistencia a manipulaciones, es bastante simple de entender. Se realizan tantos cálculos en cascada, que dependen tanto de la entrada como de las constantes, que la modificación más mínima del mensaje inicial cambia completamente el camino tomado, y por lo tanto, cambia completamente el hash de salida. Esto es lo que se llama el efecto avalancha. Esta propiedad se asegura en parte por la mezcla de los estados intermedios con los estados iniciales para cada pieza.
+Para la resistencia a manipulaciones, es bastante simple de entender. Se realizan tantos cálculos en cascada, que dependen tanto del input como de las constantes, que la modificación más mínima del mensaje inicial cambia completamente el camino tomado, y por lo tanto, cambia completamente el hash de salida. Esto es lo que se llama el efecto avalancha. Esta propiedad se asegura en parte por la mezcla de los estados intermedios con los estados iniciales para cada pieza.
 
 A continuación, al discutir una función hash criptográfica, el término "irreversibilidad" generalmente no se utiliza. En su lugar, hablamos de "resistencia a la preimagen", que especifica que para cualquier $y$ dado, es difícil encontrar un $x$ tal que $h(x) = y$. Esta resistencia a la preimagen está garantizada por la complejidad algebraica y la fuerte no linealidad de las operaciones realizadas en la función de compresión, así como por la pérdida de cierta información en el proceso. Por ejemplo, para un resultado dado de una adición módulo, hay varios operandos posibles:
 
@@ -1096,7 +1096,7 @@ En todos los diagramas de este capítulo, el color naranja representa los elemen
 
 ![CYP201](assets/fr/027.webp)
 
-- `SIGHASH_SINGLE` (`0x03`): La firma cubre todas las entradas así como una única salida, correspondiente al índice de la entrada firmada. Por ejemplo, si la firma desbloquea el _scriptPubKey_ de la entrada #0, entonces también cubre la salida #0. La firma también protege todas las otras entradas, las cuales ya no pueden ser modificadas. Sin embargo, cualquiera puede agregar una salida adicional sin invalidar la firma, siempre que la salida #0, que es la única cubierta por ella, no sea modificada.
+- `SIGHASH_SINGLE` (`0x03`): La firma cubre todas las entradas así como una única salida, correspondiente al índice del input firmado. Por ejemplo, si la firma desbloquea el _scriptPubKey_ del input #0, entonces también cubre la salida #0. La firma también protege todas las otras entradas, las cuales ya no pueden ser modificadas. Sin embargo, cualquiera puede agregar una salida adicional sin invalidar la firma, siempre que la salida #0, que es la única cubierta por ella, no sea modificada.
   ![CYP201](assets/fr/028.webp)
 
 Además de estos tres flags de sighash, también existe el modificador `SIGHASH_ANYONECANPAY` (`0x80`). Este modificador puede combinarse con un flag de sighash básico para crear tres nuevos flags de sighash:
@@ -1109,7 +1109,7 @@ Además de estos tres flags de sighash, también existe el modificador `SIGHASH_
 
 ![CYP201](assets/fr/030.webp)
 
-- `SIGHASH_SINGLE | SIGHASH_ANYONECANPAY` (`0x83`): La firma cubre una sola entrada así como la salida que tiene el mismo índice que esta entrada. Por ejemplo, si la firma desbloquea el _scriptPubKey_ de la entrada #3, también cubrirá la salida #3. El resto de la transacción permanece modificable, tanto en términos de otras entradas como de otras salidas.
+- `SIGHASH_SINGLE | SIGHASH_ANYONECANPAY` (`0x83`): La firma cubre una sola entrada así como la salida que tiene el mismo índice que esta entrada. Por ejemplo, si la firma desbloquea el _scriptPubKey_ del input #3, también cubrirá la salida #3. El resto de la transacción permanece modificable, tanto en términos de otras entradas como de otras salidas.
   ![CYP201](assets/fr/031.webp)
 
 ### Proyectos para Agregar Nuevas Banderas de Sighash
