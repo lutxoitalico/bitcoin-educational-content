@@ -16,7 +16,7 @@ Aprende sobre los mecanismos de las funciones hash, firmas digitales (ECDSA y Sc
 
 Este entrenamiento no solo te equipará con el conocimiento para entender la estructura de una cartera de Bitcoin, sino que también te preparará para sumergirte más profundamente en el emocionante mundo de la criptografía.
 
-Con una pedagogía clara, más de 60 diagramas explicativos y ejemplos concretos, CYP201 te permitirá entender de la A a la Z cómo funciona tu cartera, para que puedas navegar el universo de Bitcoin con confianza. ¡Toma control de tus UTXOs hoy entendiendo cómo funcionan las carteras HD!
+Con una pedagogía clara, más de 60 diagramas explicativos y ejemplos concretos, CYP201 te permitirá entender de la A a la Z cómo funciona tu cartera, para que puedas navegar el universo de Bitcoin con confianza. ¡Toma control de tus UTXOs hoy entendiendo cómo funcionan las carteras deterministas y jerárquicas (HD)!
 
 +++
 
@@ -28,22 +28,22 @@ Con una pedagogía clara, más de 60 diagramas explicativos y ejemplos concretos
 
 <chapterId>fb4e8857-ea35-5a8a-ae8a-5300234e0104</chapterId>
 
-Bienvenido al curso CYP201, donde exploraremos en profundidad el funcionamiento de las carteras de Bitcoin HD. Este curso está diseñado para cualquier persona que quiera entender los fundamentos técnicos del uso de Bitcoin, ya sean usuarios casuales, entusiastas iluminados o futuros expertos.
+Bienvenido al curso CYP201, donde exploraremos en profundidad el funcionamiento de las carteras de Bitcoin HD (del inglès deterministic and hierarchical). Este curso está diseñado para cualquier persona que quiera entender los fundamentos técnicos del uso de Bitcoin, ya sean usuarios casuales, entusiastas que han visto la luz o futuros expertos.
 
-El objetivo de esta formación es darte las claves para dominar las herramientas que usas a diario. Las carteras de Bitcoin HD, que están en el corazón de tu experiencia de usuario, se basan en conceptos a veces complejos, los cuales intentaremos hacer accesibles. ¡Juntos, los desmitificaremos!
+El objetivo de esta formación es darte las claves para dominar las herramientas que usas a diario. Las carteras de Bitcoin HD, que están en el corazón de tu experiencia de usuario, se basan en conceptos a veces complejos, los cuales intentaremos hacer accesibles. ¡Eliminemos esos mitos!
 
-Antes de sumergirnos en los detalles de la construcción y operación de las carteras de Bitcoin, comenzaremos con algunos capítulos sobre las primitivas criptográficas que hay que conocer para lo que sigue.
+Antes de sumergirnos en los detalles de la construcción y operación de las carteras de Bitcoin, comenzaremos con algunos capítulos sobre los fundamentos de la criptografía que hay que conocer para lo que sigue.
 Comenzaremos con las funciones hash criptográficas, fundamentales tanto para las carteras como para el propio protocolo de Bitcoin. Descubrirás sus principales características, las funciones específicas usadas en Bitcoin y, en un capítulo más técnico, aprenderás en detalle sobre el funcionamiento de la reina de las funciones hash: SHA256.
 ![CYP201](assets/fr/010.webp)
 
-A continuación, discutiremos el funcionamiento de los algoritmos de firma digital que usas todos los días para asegurar tus UTXOs. Bitcoin utiliza dos: ECDSA y el protocolo Schnorr. Aprenderás qué primitivas matemáticas subyacen a estos algoritmos y cómo aseguran la seguridad de las transacciones.
+A continuación, discutiremos el funcionamiento de los algoritmos de firma digital que usas todos los días para asegurar tus UTXOs. Bitcoin utiliza dos: ECDSA y el protocolo Schnorr. Aprenderás qué fundamentos matemátioas subyacen a estos algoritmos y cómo aseguran las transacciones.
 
 ![CYP201](assets/fr/021.webp)
 
 Una vez que tengamos una buena comprensión de estos elementos de criptografía, finalmente pasaremos al corazón de la formación: ¡las carteras deterministas y jerárquicas! Primero, hay una sección dedicada a las frases mnemotécnicas, estas secuencias de 12 o 24 palabras que te permiten crear y restaurar tus carteras. Descubrirás cómo se generan estas palabras a partir de una fuente de entropía y cómo facilitan el uso de Bitcoin.
 
 ![CYP201](assets/fr/040.webp)
-La formación continuará con el estudio de la frase de paso BIP39, la semilla (no confundir con la frase mnemotécnica), el código de cadena maestro y la llave maestra. Veremos en detalle qué son estos elementos, sus respectivos roles y cómo se calculan.
+La formación continuará con el estudio de la passphrase BIP39, la semilla (no confundir con la frase mnemotécnica), el código de cadena maestro y la llave maestra. Veremos en detalle qué son estos elementos, sus respectivos roles y cómo se calculan.
 ![CYP201](assets/fr/045.webp)
 
 Finalmente, a partir de la llave maestra, descubriremos cómo se derivan los pares de claves criptográficas de manera determinista y jerárquica hasta las direcciones de recepción.
@@ -606,11 +606,11 @@ HMAC se utiliza en Bitcoin notablemente para la derivación de claves en cartera
 
 PBKDF2 (*Password-Based Key Derivation Function 2*) es un algoritmo de derivación de claves diseñado para mejorar la seguridad de las contraseñas. El algoritmo aplica una función pseudoaleatoria (en este caso, HMAC-SHA512) sobre una contraseña y una sal criptográfica, y luego repite esta operación un cierto número de veces para producir una clave de salida.
 
-En Bitcoin, PBKDF2 se utiliza para generar la semilla de una cartera HD a partir de una frase mnemotécnica y una frase de paso (pero hablaremos de esto con más detalle en los próximos capítulos).
+En Bitcoin, PBKDF2 se utiliza para generar la semilla de una cartera HD a partir de una frase mnemotécnica y una passphrase (pero hablaremos de esto con más detalle en los próximos capítulos).
 
 El proceso PBKDF2 es el siguiente, con:
 - $m$: la frase mnemotécnica del usuario;
-- $s$: la frase de paso opcional para aumentar la seguridad (campo vacío si no hay frase de paso);
+- $s$: la passphrase opcional para aumentar la seguridad (campo vacío si no hay passphrase);
 - $n$: el número de iteraciones de la función, en nuestro caso, es 2048.
 
 La función PBKDF2 se define de manera iterativa. Cada iteración toma el resultado de la anterior, lo pasa a través de HMAC-SHA512 y combina los resultados sucesivos para producir la clave final:
@@ -1300,32 +1300,32 @@ Para ir más allá y aprender concretamente cómo generar manualmente una frase 
 
 https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
 
-Antes de continuar con la derivación de la billetera a partir de esta frase mnemotécnica, te presentaré, en el siguiente capítulo, la frase de paso BIP39, ya que juega un papel en el proceso de derivación, y está al mismo nivel que la frase mnemotécnica.
-## La frase de paso
+Antes de continuar con la derivación de la billetera a partir de esta frase mnemotécnica, te presentaré, en el siguiente capítulo, la passphrase BIP39, ya que juega un papel en el proceso de derivación, y está al mismo nivel que la frase mnemotécnica.
+## La passphrase
 <chapterId>6a51b397-f3b5-5084-b151-cef94bc9b93f</chapterId>
 
-Como acabamos de ver, las billeteras HD se generan a partir de una frase mnemotécnica que típicamente consiste en 12 o 24 palabras. Esta frase es muy importante porque permite la restauración de todas las claves de una billetera en caso de que su dispositivo físico (como una billetera de hardware, por ejemplo) se pierda. Sin embargo, constituye un único punto de fallo, porque si se ve comprometida, un atacante podría robar todos los bitcoins. Aquí es donde entra en juego la frase de paso BIP39.
+Como acabamos de ver, las billeteras HD se generan a partir de una frase mnemotécnica que típicamente consiste en 12 o 24 palabras. Esta frase es muy importante porque permite la restauración de todas las claves de una billetera en caso de que su dispositivo físico (como una billetera de hardware, por ejemplo) se pierda. Sin embargo, constituye un único punto de fallo, porque si se ve comprometida, un atacante podría robar todos los bitcoins. Aquí es donde entra en juego la passphrase BIP39.
 
-### ¿Qué es una frase de paso BIP39?
+### ¿Qué es una passphrase BIP39?
 
-La frase de paso es una contraseña opcional, que puedes elegir libremente, que se añade a la frase mnemotécnica en el proceso de derivación de claves para mejorar la seguridad de la billetera.
+La passphrase es una contraseña opcional, que puedes elegir libremente, que se añade a la frase mnemotécnica en el proceso de derivación de claves para mejorar la seguridad de la billetera.
 
-Ten cuidado, la frase de paso no debe confundirse con el código PIN de tu billetera de hardware o la contraseña utilizada para desbloquear el acceso a tu billetera en tu computadora. A diferencia de todos estos elementos, la frase de paso juega un papel en la derivación de las claves de tu billetera. **Esto significa que sin ella, nunca podrás recuperar tus bitcoins.**
+Ten cuidado, la passphrase no debe confundirse con el código PIN de tu billetera de hardware o la contraseña utilizada para desbloquear el acceso a tu billetera en tu computadora. A diferencia de todos estos elementos, la passphrase juega un papel en la derivación de las claves de tu billetera. **Esto significa que sin ella, nunca podrás recuperar tus bitcoins.**
 
-La frase de paso trabaja en conjunto con la frase mnemotécnica, modificando la semilla de la cual se generan las claves. Así, incluso si alguien obtiene tu frase de 12 o 24 palabras, sin la frase de paso, no pueden acceder a tus fondos. Usar una frase de paso crea esencialmente una nueva billetera con claves distintas. Modificar (incluso ligeramente) la frase de paso generará una billetera diferente.
+La passphrase trabaja en conjunto con la frase mnemotécnica, modificando la semilla de la cual se generan las claves. Así, incluso si alguien obtiene tu frase de 12 o 24 palabras, sin la passphrase, no pueden acceder a tus fondos. Usar una passphrase crea esencialmente una nueva billetera con claves distintas. Modificar (incluso ligeramente) la passphrase generará una billetera diferente.
 
 ![CYP201](assets/fr/041.webp)
 
-### ¿Por qué deberías usar una frase de paso?
+### ¿Por qué deberías usar una passphrase?
 
-La frase de paso es arbitraria y puede ser cualquier combinación de caracteres elegida por el usuario. Usar una frase de paso ofrece varias ventajas. En primer lugar, reduce todos los riesgos asociados con el compromiso de la frase mnemotécnica al requerir un segundo factor para acceder a los fondos (robo, acceso a tu hogar, etc.).
+La passphrase es arbitraria y puede ser cualquier combinación de caracteres elegida por el usuario. Usar una passphrase ofrece varias ventajas. En primer lugar, reduce todos los riesgos asociados con el compromiso de la frase mnemotécnica al requerir un segundo factor para acceder a los fondos (robo, acceso a tu hogar, etc.).
 
-Luego, puede usarse estratégicamente para crear una billetera señuelo, para enfrentar restricciones físicas para robar tus fondos como el infame "_ataque de la llave inglesa de 5 dólares_". En este escenario, la idea es tener una billetera sin frase de paso que contenga solo una pequeña cantidad de bitcoins, suficiente para satisfacer a un posible agresor, mientras se tiene una billetera oculta. Esta última utiliza la misma frase mnemotécnica pero está asegurada con una frase de paso adicional.
+Luego, puede usarse estratégicamente para crear una billetera señuelo, para enfrentar restricciones físicas para robar tus fondos como el infame "_ataque de la llave inglesa de 5 dólares_". En este escenario, la idea es tener una billetera sin passphrase que contenga solo una pequeña cantidad de bitcoins, suficiente para satisfacer a un posible agresor, mientras se tiene una billetera oculta. Esta última utiliza la misma frase mnemotécnica pero está asegurada con una passphrase adicional.
 
-Finalmente, el uso de una frase de paso es interesante cuando se desea controlar la aleatoriedad de la generación de la semilla de la billetera HD.
-### ¿Cómo elegir una buena frase de paso?
+Finalmente, el uso de una passphrase es interesante cuando se desea controlar la aleatoriedad de la generación de la semilla de la billetera HD.
+### ¿Cómo elegir una buena passphrase?
 
-Para que la frase de paso sea efectiva, debe ser suficientemente larga y aleatoria. Al igual que con una contraseña fuerte, recomiendo elegir una frase de paso que sea lo más larga y aleatoria posible, con una diversidad de letras, números y símbolos para hacer cualquier ataque de fuerza bruta imposible.
+Para que la passphrase sea efectiva, debe ser suficientemente larga y aleatoria. Al igual que con una contraseña fuerte, recomiendo elegir una passphrase que sea lo más larga y aleatoria posible, con una diversidad de letras, números y símbolos para hacer cualquier ataque de fuerza bruta imposible.
 
 También es importante guardar adecuadamente esta frase de contraseña, de la misma manera que la frase mnemotécnica. **Perderla significa perder el acceso a tus bitcoins**. Aconsejo encarecidamente no recordarla solo de memoria, ya que esto aumenta de manera irrazonable el riesgo de pérdida. Lo ideal es anotarla en un medio físico (papel o metal) separado de la frase mnemotécnica. Esta copia de seguridad debe, obviamente, almacenarse en un lugar diferente de donde se guarda tu frase mnemotécnica para evitar que ambos se vean comprometidos simultáneamente.
 
