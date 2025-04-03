@@ -67,7 +67,7 @@ El primer tipo de algoritmos criptográficos utilizados en Bitcoin abarca las fu
 El hashing es un proceso que transforma información de longitud arbitraria en otra pieza de información de longitud fija a través de una función hash criptográfica. En otras palabras, una función hash toma una entrada de cualquier tamaño y la convierte en una huella digital de tamaño fijo, llamada "hash".
 El hash también puede ser referido a veces como "digest", "condensado", o "hasheado".
 
-Por ejemplo, la función hash SHA256 produce un hash de una longitud fija de 256 bits. Así, si usamos la entrada "_PlanB_", un mensaje de longitud arbitraria, el hash generado será la siguiente huella digital de 256 bits:
+Por ejemplo, la función hash SHA256 produce un hash de una longitud fija de 256 bits. Así, si usamos el input "_PlanB_", un mensaje de longitud arbitraria, el hash generado será la siguiente huella digital de 256 bits:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
