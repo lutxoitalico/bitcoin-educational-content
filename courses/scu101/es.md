@@ -186,7 +186,7 @@ En Windows 10, las actualizaciones son casi constantes y es crucial no bloquearl
 
 La regla se aplica a casi todos los programas. De hecho, las actualizaciones no tienen como objetivo volver obsoleta o lenta su máquina, sino protegerla de las nuevas amenazas. Algunas actualizaciones se consideran importantes y sin ellas, su ordenador corre serios riesgos de explotación.
 
-Para darle un ejemplo concreto de vulnerabilidad : un software pirateado que no se puede actualizar representa una doble amenaza potencial. La llegada del virus al descargarlo ilegalmente desde un sitio sospechoso y su uso no seguro frente a las nuevas formas de ataque.
+Para darle un ejemplo concreto de vulnerabilidad: un software pirateado que no se puede actualizar representa una doble amenaza potencial. La llegada del virus al descargarlo ilegalmente desde un sitio sospechoso y su uso no seguro frente a las nuevas formas de ataque.
 
 ### Antivirus
 
