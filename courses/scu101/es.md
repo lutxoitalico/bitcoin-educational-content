@@ -1,540 +1,537 @@
 ---
-name: Update Your Online Security
-goal: Update password and personal data management. Create a backup, protect against hackers, and raise awareness about mass surveillance.
+name: Seguridad informática y gestión de datos
+goal: Actualizar la gestión de contraseñas y datos personales. Crear una copia de seguridad, protegerse de los hackers y concienciarse sobre la vigilancia masiva.
 objectives:
-  - Update on personal data management and tools that enhance your security.
-  - Implement a secure and user-friendly password manager.
-  - Implement two-factor authentication to strengthen security and minimize hacking risks.
+  - Optimizar la gestión de datos personales y conocer las herramientas que refuerzan su seguridad.
+  - Implementar un gestor de contraseñas seguro y fácil de usar.
+  - Implementar una autenticación de dos factores para fortalecer su seguridad y minimizar los riesgos de hackeo.
 ---
 
-# A journey towards protecting your data
+# Un viaje hacia la protección de sus datos
 
-Welcome everyone to this educational program dedicated to digital security. This training is designed to be accessible to everyone, so no prior knowledge of computer science is required. Our main goal is to provide you with the knowledge and skills necessary to navigate the digital world more safely and privately.
+Bienvenidos a todos a este programa de enseñanza dedicado a la seguridad digital. Esta formación está diseñada para ser accesible para todos, por lo que no se requieren conocimientos previos de informática. Nuestro objetivo principal es proporcionarles los conocimientos y habilidades necesarios para navegar de manera más segura y privada en el mundo digital.
 
-This will involve the implementation of several tools such as a secure email service, a tool to better manage your passwords, and various software to secure your online activities.
+Esto se traducirá en la implementación de varias herramientas, como un correo electrónico seguro, una herramienta para gestionar mejor sus contraseñas y varios programas para asegurar sus actividades diarias en línea.
 
-In this training, we are not aiming to make you an expert, anonymous, or invulnerable, as this is impossible. Instead, we offer you some simple and accessible solutions to start transforming your online habits and regain control of your digital sovereignty.
+En esta formación, no buscamos convertirlos en expertos, anónimos o invulnerables, ya que esto es imposible. En su lugar, les ofrecemos algunas soluciones simples y accesibles para todos, con el fin de comenzar una transformación de sus hábitos en línea y recuperar el control de su soberanía digital.
 
-Contributors team:
-Muriel; design
-Rogzy Noury & Fabian; production
-Théo; contribution
+Equipo de colaboradores:
+Muriel; diseño
+Rogzy Noury y Fabian; producción
+Théo; contribución
 
 +++
 
-# Introduction
+# Introducción
 
 <partId>534ab66c-b0e6-5757-a7dd-6ea04647edf2</partId>
 
-## Course Introduction
+## Introducción al curso
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
-### Objective: Update your security skills !
+### Objetivo: ¡Mejorar tus habilidades en seguridad!
 
-Welcome everyone to this educational program dedicated to digital security. This training is designed to be accessible to everyone, so no prior knowledge of computer science is required. Our main goal is to provide you with the knowledge and skills necessary to navigate the digital world more safely and privately.
+Bienvenidos a todos a este programa de enseñanza dedicado a la seguridad digital. Esta formación está diseñada para ser accesible para todos, por lo que no se requieren conocimientos previos de informática. Nuestro objetivo principal es proporcionarles los conocimientos y habilidades necesarios para navegar de manera más segura y privada en el mundo digital.
 
-This will involve the implementation of several tools such as a secure email service, a tool to better manage your passwords, and various software to secure your online activities.
+Esto se traducirá en la implementación de varias herramientas, como un correo electrónico seguro, una herramienta para gestionar mejor sus contraseñas y varios programas para asegurar sus actividades diarias en línea.
 
-This training is a collaborative effort of three of our professors:
+Esta formación es un esfuerzo conjunto de tres de nuestros profesores:
 
-- Renaud Lifchitz, cybersecurity expert
-- Théo Pantamis, PhD in applied mathematics
-- Rogzy, CEO of DécouvreBitcoin
+- Renaud Lifchitz, experto en ciberseguridad
+- Théo Pantamis, doctor en matemáticas aplicadas
+- Rogzy, CEO de DécouvreBitcoin
 
-Your digital hygiene is crucial in an increasingly digital world. Despite the constant increase in hacking and mass surveillance, it is not too late to take the first step and protect yourself.
-In this training, we are not trying to make you an expert, anonymous, or invulnerable, as this is impossible. Instead, we offer you some simple and accessible solutions for everyone to start transforming your online habits and regain control of your digital sovereignty.
-If you are looking for more advanced skills on the subject, our resources, tutorials, or other cybersecurity training are here for you. In the meantime, here is a brief overview of our program for the next few hours together.
+Su salud digital es crucial en un mundo cada vez más digital. A pesar del constante aumento de los ataques informáticos y la vigilancia masiva, aún no es demasiado tarde para dar el primer paso y protegerse.
+En esta formación, no buscamos convertirte en un experto, anónimo o invulnerable, esto es imposible. En cambio, te ofrecemos algunas soluciones simples y accesibles para todos, para comenzar a transformar tus hábitos en línea y recuperar el control de tu soberanía digital.
+Si estás buscando habilidades más avanzadas sobre el tema, nuestras recursos, tutoriales u otras formaciones sobre ciberseguridad están aquí para ti. Mientras tanto, aquí tienes un pequeño vistazo de nuestro programa durante las próximas horas juntos.
 
-### Section 1: Everything you need to know about online browsing
+### Sección 1: Todo lo que necesitas saber sobre la navegación en línea
 
-- Chapter 1 - Online browsing
-- Chapter 2 - Using the internet securely
+- Capítulo 1 - Navegación en línea
+- Capítulo 2 - Uso seguro de internet
 
-To start, we will discuss the importance of choosing a web browser and its implications for security. We will then explore the specifics of browsers, particularly regarding cookie management. We will also see how to ensure a more secure and anonymous browsing experience, using tools such as TOR. Afterwards, we will focus on the use of VPNs to enhance the protection of your data. Finally, we will end with recommendations for secure use of WiFi connections.
+Para empezar, discutiremos la importancia de elegir un navegador web y sus implicaciones en términos de seguridad. Luego exploraremos las especificidades de los navegadores, especialmente en lo que respecta a la gestión de cookies. También veremos cómo garantizar una navegación más segura y anónima, utilizando herramientas como TOR. A continuación, nos enfocaremos en el uso de VPN para fortalecer la protección de tus datos. Por último, terminaremos con recomendaciones sobre el uso seguro de conexiones WiFi.
+![](assets/es/1.webp)
 
-![](assets/en/1.webp)
+### Sección 2: Buenas prácticas para el uso de la computadora
 
-### Section 2: Best practices for computer usage
+- Capítulo 3 - Uso de la computadora
+- Capítulo 4 - Hackeo y gestión de copias de seguridad
 
-- Chapter 3 - Computer usage
-- Chapter 4 - Hacking & backup management
+En esta sección, abordaremos tres áreas clave de la seguridad informática. En primer lugar, exploraremos los diferentes sistemas operativos: Mac, PC y Linux, destacando sus especificidades y fortalezas. Luego, nos enfocaremos en métodos para protegerte eficazmente contra intentos de piratería y fortalecer la seguridad de tus dispositivos. Por último, haremos hincapié en la importancia de proteger y hacer copias de seguridad regularmente de tus datos para prevenir pérdidas y ataques ransomware.
+![](assets/es/2.webp)
 
-In this section, we will cover three key areas of computer security. First, we will explore different operating systems: Mac, PC, and Linux, highlighting their specificities and strengths. Then, we will delve into methods to effectively protect against hacking attempts and strengthen the security of your devices. Finally, we will emphasize the importance of regularly protecting and backing up your data to prevent any loss or ransomware.
-![](assets/en/2.webp)
+### Sección 3: Implementación de soluciones
 
-### Section 3: Implementation of solutions
+- Capítulo 6 - Gestión del correo electrónico
+- Capítulo 7 - Gestor de contraseñas
+- Capítulo 8 - Autenticación de dos factores
 
-- Chapter 6 - Email management
-- Chapter 7 - Password manager
-- Chapter 8 - Two-factor authentication
+En esta tercera sección práctica, pasaremos a la acción con la implementación de tus soluciones concretas.
 
-In this practical third section, we will move on to the implementation of your concrete solutions.
+Primero, veremos cómo proteger tu correo electrónico, que es esencial para tus comunicaciones y a menudo es objetivo de los piratas informáticos. Luego, te presentaremos qué es un gestor de contraseñas: una solución práctica para no olvidar o mezclar tus contraseñas, al mismo tiempo que las mantienes seguras. Por último, mencionaremos una medida de seguridad adicional, la autenticación de dos factores, que agrega una capa de protección a tus cuentas. Todo se explicará de manera clara y accesible.
+![](assets/es/3.webp)
 
-First, we will see how to protect your email inbox, which is essential for your communications and often targeted by hackers. Then, we will introduce you to a password manager: a practical solution to no longer forget or mix up your passwords while keeping them secure. Finally, we will discuss an additional security measure, two-factor authentication, which adds an extra layer of protection to your accounts. Everything will be explained clearly and accessibly.
-![](assets/en/3.webp)
+### Sección Bonus: Entrevista con Pantamis y Renaud
 
-# Everything you need to know about online browsing
+En bonus, te ofrecemos una entrevista exclusiva con Pantamis y Renaud, nuestros expertos en seguridad digital. Compartirán sus conocimientos profundos y consejos adicionales para fortalecer tu salud digital. La idea es aprender más de estos profesionales experimentados.
+
+Este programa de formación se ofrece de forma gratuita bajo una licencia redistribuible CC BY SA. Queremos expresar nuestra gratitud a nuestros Patreons y a nuestro equipo de grabación por su apoyo indispensable en la realización de esta formación. También agradecemos a todos nuestros donantes y seguidores que nos permiten seguir produciendo contenido educativo gratuito a nivel mundial.
+
+# Todo sobre la navegación en línea
 
 <partId>b4b5379a-d8ef-59ae-94d3-a6e88959c149</partId>
 
-## Online browsing
+## Navegación en línea
 
 <chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
 
-When browsing the internet, it is important to avoid certain common mistakes to preserve your online security. Here are some tips to avoid them:
+Al navegar por internet, es importante evitar algunos errores comunes para preservar tu seguridad en línea. Aquí tienes algunos consejos para evitarlos:
 
-### Be cautious with software downloads:
+### Atención a las descargas de software:
 
-It is recommended to download software from the official website of the publisher rather than generic sites.
-Example: Use www.signal.org/download instead of www.logicieltelechargement.fr/signal.
+Se recomienda descargar software desde el sitio web oficial del editor en lugar de sitios genéricos.
+Ejemplo: Utilizar www.signal.org/download en lugar de www.logicieltelechargement.fr/signal.
 ![](assets/notext/4.webp)
 
-It is also advisable to prioritize open-source software as they are often safer and free from malicious software. An "open-source" software is a software whose code is known and accessible to everyone. This allows for verification, among other things, that there is no hidden access to steal your personal data.
+También se aconseja preferir el software de código abierto, ya que suelen ser más seguros y libres de software malicioso. Un software "open-source" o de código abierto es aquel cuyo código es conocido y accesible para todos. Por lo tanto, se puede verificar, entre otras cosas, que no haya acceso oculto para robar tus datos personales.
 
-> Bonus: Open-source software is often free! This university is 100% open source, so you can also check our code on our GitHub.
+> Bonus: ¡El software libre suele ser gratuito! Esta universidad es 100% de código abierto, por lo que tú también puedes verificar nuestro código a través de nuestro GitHub.
 > ![](assets/notext/5.webp)
 
-### Cookie management: Errors and best practices
+### Gestión de cookies: Errores y buenas prácticas
 
-Cookies are files created by websites to store information on your device. While some sites require these cookies to function properly, they can also be exploited by third-party sites, especially for advertising tracking purposes. In accordance with regulations such as the GDPR, it is possible - and recommended - to refuse third-party tracking cookies while accepting those that are essential for the proper functioning of the site. After each visit to a site, it is wise to delete the associated cookies, either manually or through an extension or specific program. Some browsers even offer the possibility to selectively delete cookies. Despite these precautions, it is crucial to understand that the information collected by different sites can remain interconnected, hence the importance of finding a balance between convenience and security.
+Las cookies son archivos creados por los sitios web para almacenar información en tu dispositivo. Aunque algunos sitios requieren estas cookies para funcionar correctamente, también pueden ser explotadas por sitios de terceros, especialmente con fines de seguimiento publicitario. De acuerdo con regulaciones como el RGPD, es posible -y recomendado- rechazar las cookies de seguimiento de terceros, mientras se aceptan aquellas que son esenciales para el correcto funcionamiento del sitio. Después de cada visita a un sitio, es prudente eliminar las cookies asociadas, ya sea manualmente o a través de una extensión o programa específico. Algunos navegadores incluso ofrecen la posibilidad de realizar esta eliminación de forma selectiva. A pesar de estas precauciones, es crucial entender que la información recopilada por diferentes sitios puede permanecer interconectada, de ahí la importancia de encontrar un equilibrio entre practicidad y seguridad.
 
-> Note: Also limit the number of extensions installed on your browser to avoid potential security and performance issues.
+> Nota: También limita el número de extensiones instaladas en tu navegador para evitar posibles problemas de seguridad y rendimiento.
 
-### Web browsers: choices, security
+### Navegadores web: elección, seguridad
 
-There are two major families of browsers: those based on Chrome and those based on Firefox.
-Although both families offer a similar level of security, it is recommended to avoid Google Chrome browser due to its trackers. Lighter alternatives to Chrome, such as Chromium or Brave, may be preferred. Brave is particularly recommended for its built-in ad blocker. It may be necessary to use multiple browsers to access certain websites.
+Existen dos grandes familias de navegadores: aquellos basados en Chrome y aquellos basados en Firefox.
+Aunque ambas familias ofrecen un nivel de seguridad similar, se recomienda evitar el navegador Chrome de Google debido a sus rastreadores. Se pueden preferir alternativas más ligeras de Chrome, como Chromium o Brave. Brave es especialmente recomendado por su bloqueador de anuncios integrado. Puede ser necesario utilizar distintos navegadores segun los sitios que se desean visitar.
 ![](assets/notext/6.webp)
 
-### Private browsing, TOR, and other alternatives for more secure and anonymous browsing
+### Navegación privada, TOR y otras alternativas para una navegación más segura y anónima
 
-Private browsing, although it does not hide browsing from your internet service provider, allows you to not leave local traces on your computer. Cookies are automatically deleted at the end of each session, allowing you to accept all cookies without being tracked. Private browsing can be useful when purchasing online services, as websites track our search habits and adjust prices accordingly. However, it is important to note that private browsing is recommended for temporary and specific sessions, not for general internet browsing.
+La navegación privada, aunque no oculta la navegación a su proveedor de servicios de Internet, evita dejar rastros locales en su computadora. Las cookies se eliminan automáticamente al final de cada sesión, lo que permite aceptar todas las cookies sin ser rastreado. La navegación privada puede ser útil al comprar servicios en línea, ya que los sitios web siguen nuestros hábitos de búsqueda y ajustan los precios en consecuencia. Sin embargo, es importante tener en cuenta que la navegación privada se recomienda para sesiones temporales y específicas, no para un uso general de navegación en Internet.
 
-A more advanced alternative is the TOR (The Onion Router) network, which offers anonymity by masking the user's IP address and allowing access to the Darknet. TOR Browser is a browser specifically designed to use the TOR network. It allows you to visit both conventional websites and .onion websites, which are typically operated by individuals and may be of an illegal nature.
+Una alternativa más avanzada es la red TOR (The Onion Router), que ofrece anonimato al ocultar la dirección IP del usuario y permitir el acceso a la Darknet. TOR Browser es un navegador especialmente diseñado para utilizar la red TOR. Permite visitar tanto sitios web convencionales como sitios web en .onion, que generalmente son operados por individuos y pueden tener contenido ilegal.
 
-TOR is legal and is used by journalists, freedom activists, and others wishing to escape censorship in authoritarian countries. However, it is important to understand that TOR does not secure the visited sites or the computer itself. Additionally, using TOR can slow down the internet connection as data passes through three other people's computers before reaching its destination. It is also essential to note that TOR is not a foolproof solution to guarantee 100% anonymity and should not be used for illegal activities.
+TOR es legal y es utilizado por periodistas, activistas de la libertad y otras personas que desean evadir la censura en países autoritarios. Sin embargo, es importante entender que TOR no asegura los sitios visitados ni la computadora en sí. Además, el uso de TOR puede ralentizar la conexión a Internet, ya que los datos pasan por las computadoras de otras tres personas antes de llegar a su destino. También es esencial tener en cuenta que TOR no es una solución infalible para garantizar el anonimato al 100% y no debe ser utilizado para llevar a cabo actividades ilegales.
 ![](assets/notext/7.webp)
 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
-## VPN and internet connection
+## VPN y conexión a Internet
 
 <chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
 
-### VPNs
+### los VPN
 
-Protecting your internet connection is a crucial aspect of online security, and using virtual private networks (VPNs) is an effective method to enhance this security, both for businesses and individual users.
+La protección de su conexión a Internet es un aspecto crucial de la seguridad en línea, y el uso de redes privadas virtuales (VPN) es un método efectivo para mejorar esta seguridad, tanto para empresas como para usuarios individuales.
+Los VPN son herramientas que cifran los datos transmitidos por internet, haciendo que la conexión sea más segura. En un contexto profesional, los VPN permiten a los empleados acceder de forma segura a la red interna de la empresa de forma remota. Los datos intercambiados están encriptados, lo que dificulta su interceptación por parte de terceros. Además de asegurar el acceso a una red interna, el uso de un VPN puede permitir a un usuario hacer que su conexión a internet pase a través de la red interna de la empresa, dando la impresión de que su conexión proviene de la empresa. Esto puede ser especialmente útil para acceder a servicios en línea que están geográficamente restringidos.
+![](assets/es/8.webp)
 
-'VPNs are tools that encrypt data transmitted over the internet, making the connection more secure. In a professional context, VPNs allow employees to securely access the company's internal network remotely. The exchanged data is encrypted, making it much more difficult for third parties to intercept. In addition to securing access to an internal network, using a VPN can allow a user to route their internet connection through the company's internal network, giving the impression that their connection is coming from the company. This can be particularly useful for accessing online services that are geographically restricted.
-![](assets/en/8.webp)
+### Los tipos de VPN
 
-### Types of VPNs
+Existen dos tipos principales de VPN: los VPN de empresa y los VPN para el público en general, como NordVPN. Los VPN de empresa tienden a ser más costosos y complejos, mientras que los VPN para el público en general suelen ser más accesibles y fáciles de usar. NordVPN, por ejemplo, permite a los usuarios conectarse a internet a través de un servidor ubicado en otro país, lo que puede permitir eludir las restricciones geográficas.
 
-There are two main types of VPNs: enterprise VPNs and consumer VPNs, such as NordVPN. Enterprise VPNs tend to be more expensive and complex, while consumer VPNs are generally more accessible and user-friendly. For example, NordVPN allows users to connect to the internet through a server located in another country, which can bypass geographical restrictions.
-
-However, using a consumer VPN does not guarantee complete anonymity. Many VPN providers retain information about their users, which can potentially compromise their anonymity. Although VPNs can be useful for improving online security, they are not a universal solution. They are effective for certain specific uses, such as accessing geographically limited services or improving security while traveling, but they do not guarantee total security. When choosing a VPN, it is essential to prioritize reliability and technicality over popularity. VPN providers that collect the least personal information are generally the safest. Services like iVPN and Mullvad do not collect personal information and even allow payments in Bitcoin for increased privacy.
+Sin embargo, el uso de un VPN para el público en general no garantiza un anonimato completo. Muchos proveedores de VPN conservan información sobre sus usuarios, lo que puede comprometer potencialmente su anonimato. Aunque los VPN pueden ser útiles para mejorar la seguridad en línea, no son una solución universal. Son efectivos para algunos usos específicos, como el acceso a servicios geográficamente limitados o mejorar la seguridad mientras se está en movimiento, pero no garantizan una seguridad total. Al elegir un VPN, es esencial priorizar la confiabilidad y la tecnología en lugar de la popularidad. Los proveedores de VPN que recopilan la menor cantidad de información personal suelen ser los más seguros. Servicios como iVPN y Mullvad no recopilan información personal e incluso permiten pagos con Bitcoin para una mayor privacidad.
 ![](assets/notext/9.webp)
-Finally, a VPN can also be used to block online advertisements, providing a more enjoyable and secure browsing experience. However, it is important to do your own research to find the VPN that best suits your specific needs. Using a VPN is recommended to enhance security, even when browsing the internet at home. This helps ensure a higher level of security for exchanged data online. Finally, make sure to check the URLs and the small padlock in the address bar to confirm that you are on the site you intend to visit.
+Por último, un VPN también se puede utilizar para bloquear anuncios en línea, ofreciendo así una experiencia de navegación más agradable y segura. Sin embargo, es importante realizar su propia investigación para encontrar el VPN más adecuado para sus necesidades específicas. Se recomienda el uso de un VPN para fortalecer la seguridad, incluso cuando se navega por internet en casa. Esto ayuda a garantizar un nivel más alto de seguridad para los datos intercambiados en línea. Por último, asegúrese de verificar las URL y el candado en la barra de direcciones para confirmar que está en el sitio que cree que está visitando.
 
 https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-### HTTPS & public Wi-Fi networks'
+### HTTPS y las redes wifi públicas
 
-In terms of online security, it is essential to understand that 4G is generally more secure than public Wi-Fi. However, using 4G can quickly deplete your mobile data plan. The HTTPS protocol has become the standard for encrypting data on websites. It ensures that the data exchanged between the user and the website is secure. Therefore, it is crucial to verify that the site you are visiting is using the HTTPS protocol.
+En cuanto a la seguridad en línea, es esencial entender que la 4G generalmente es más segura que el Wi-Fi público. Sin embargo, el uso de la 4G puede agotar rápidamente tu plan de datos móviles. El protocolo HTTPS se ha convertido en la norma para el cifrado de datos en los sitios web. Asegura que los datos intercambiados entre el usuario y el sitio web estén seguros. Por lo tanto, es crucial verificar que el sitio que estás visitando esté utilizando el protocolo HTTPS.
 
-In the European Union, data protection is regulated by the General Data Protection Regulation (GDPR). Therefore, it is safer to use European Wi-Fi access point providers, such as SNCF, who do not resell user connection data. However, the mere fact that a site displays a padlock does not guarantee its authenticity. It is important to verify the site's public key using a certificate system to confirm its authenticity. Although data encryption prevents third parties from intercepting exchanged data, it is still possible for a malicious individual to impersonate the site and transfer data in plain text.
+En la Unión Europea, la protección de datos está regulada por el Reglamento General de Protección de Datos (RGPD). Por lo tanto, es más seguro utilizar proveedores europeos de puntos de acceso Wi-Fi, como la SNCF, que no revenden los datos de conexión de los usuarios. Sin embargo, el simple hecho de que un sitio muestre un candado no garantiza su autenticidad. Es importante verificar la clave pública del sitio utilizando un sistema de certificados para confirmar su autenticidad. Aunque el cifrado de datos evita que terceros intercepten los datos intercambiados, aún es posible que una persona malintencionada se haga pasar por el sitio y transfiera los datos en claro.
 
-To avoid online scams, it is crucial to verify the identity of the site you are browsing, especially by checking the extension and domain name. Additionally, be vigilant against scammers who use similar letters in URLs to deceive users.
-![](assets/en/10.webp)
-In summary, the use of VPN can greatly improve online security, both for businesses and individual users. Furthermore, practicing good browsing habits can contribute to better digital hygiene. In the next segment of this course, we will address computer security, including updates, antivirus, and password management.
+Para evitar estafas en línea, es crucial verificar la identidad del sitio en el que estás navegando, especialmente controlando la extensión y el nombre de dominio. Además, mantente alerta ante los estafadores que utilizan letras similares en las URL para engañar a los usuarios.
+![](assets/es/10.webp)
+En resumen, el uso de una VPN puede mejorar en gran medida la seguridad en línea, tanto para las empresas como para los usuarios individuales. Además, poner en práctica buenos hábitos de navegación puede contribuir a una mejor salud digital. En el próximo segmento de este curso, abordaremos la seguridad de la computadora, incluyendo las actualizaciones, el antivirus y la gestión de contraseñas.
 
-# Best Practices for Computer Use
+# Buenas prácticas para el uso de la computadora
 
 <partId>e6eac20b-ba24-5d9a-8d86-8e0164074457</partId>
 
-## Computer Use
+## Uso de la computadora
 
 <chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
 
-The security of our computers is a major concern in today's digital world. Today, we will address three key points:
+La seguridad de nuestras computadoras es un tema importante en el mundo digital actual. Hoy vamos a abordar tres puntos clave:
 
-- Choosing the computer
-- Updates and antivirus for optimal security
-- Best practices for the security of your computer and data.
+- la elección de la computadora
+- las actualizaciones y el antivirus para una seguridad óptima
+- las buenas prácticas para optimizar la seguridad de la computadora y proteger los datos.
 
-### Choosing the Computer and Operating System
+### La elección de la computadora y del sistema operativo
 
-Regarding the choice of the computer, there is no significant difference in security between old and new computers. However, security differences exist between operating systems: Windows, Linux, and Mac.
+En cuanto a la elección de la computadora, no hay una diferencia significativa en seguridad entre las computadoras antiguas y las nuevas. Sin embargo, existen diferencias de seguridad entre los sistemas operativos: Windows, Linux y Mac.
 ![](assets/notext/11.webp)
-Regarding Windows, it is recommended not to use an administrator account on a daily basis, but rather to create two separate accounts: an administrator account and an account for daily use. Windows is often more exposed to malware due to its large number of users and the ease of switching from user to administrator. On the other hand, threats are less common on Linux and Mac.
+En cuanto a Windows, se recomienda no utilizar una cuenta de administrador a diario, sino crear dos cuentas distintas: una cuenta de administrador y otra cuenta normal para uso diario. Windows suele estar más expuesto a software malicioso debido a su gran cantidad de usuarios y a la facilidad de cambiar de usuario a administrador. Por otro lado, las amenazas son menos frecuentes en Linux y Mac.
 
-The choice of operating system should be based on your needs and preferences. Linux systems have evolved considerably in recent years, becoming more and more user-friendly. Ubuntu is an interesting alternative for beginners, with an easy-to-use graphical interface. It is possible to partition a computer to experiment with Linux while keeping Windows, but this can be complex. It is often preferable to have a dedicated computer, a virtual machine, or a USB key to test Linux or Ubuntu.
+La elección del sistema operativo debe realizarse en función de sus necesidades y preferencias. Los sistemas Linux han evolucionado considerablemente en los últimos años, volviéndose cada vez más amigables. Ubuntu es una alternativa interesante para principiantes, con una interfaz gráfica fácil de usar. Es posible particionar un ordenador para experimentar con Linux manteniendo Windows, pero esto puede resultar complicado. A menudo es mejor tener un ordenador dedicado, una máquina virtual o una memoria USB para probar Linux o Ubuntu.
 ![](assets/notext/12.webp)
 
-### Software Updates
+### Actualización de software
 
-Regarding updates, the rule is simple: **regularly updating the operating system and applications is essential.**
+En cuanto a las actualizaciones, la regla es simple: **es fundamental actualizar regularmente el sistema operativo y las aplicaciones.**
 
-On Windows 10, updates are almost continuous and it is crucial not to block or delay them. Each year, about 15,000 vulnerabilities are identified, highlighting the importance of keeping software up to date to protect against viruses. In general, software support ends between 3 and 5 years after its release, so it is necessary to upgrade to the higher version to continue benefiting from security.
+En Windows 10, las actualizaciones son casi constantes y es crucial no bloquearlas ni retrasarlas. Cada año se identifican alrededor de 15,000 vulnerabilidades, lo que destaca la importancia de mantener el software actualizado para protegerse contra los virus. En general, el soporte de software finaliza entre 3 y 5 años después de su lanzamiento, por lo que es necesario actualizar a la versión superior para seguir disfrutando de la seguridad.
 
-The rule applies to almost all software. Indeed, updates are not intended to make your machine obsolete or slow, but to protect it from new threats. Some updates are even considered major, and without them, your computer is at serious risk of exploitation.
+La regla se aplica a casi todos los programas. De hecho, las actualizaciones no tienen como objetivo volver obsoleta o lenta su máquina, sino protegerla de las nuevas amenazas. Algunas actualizaciones se consideran importantes y sin ellas, su ordenador corre serios riesgos de explotación.
 
-To give you a concrete example of an error: cracked software that cannot be updated represents a double potential threat. The arrival of a virus during its illegal download from a suspicious website and an insecure use against new forms of attack.
+Para darle un ejemplo concreto de vulnerabilidad : un software pirateado que no se puede actualizar representa una doble amenaza potencial. La llegada del virus al descargarlo ilegalmente desde un sitio sospechoso y su uso no seguro frente a las nuevas formas de ataque.
 
-### Anti-virus
+### Antivirus
 
-- Do you need an anti-virus? YES
-- Do you have to pay? It depends!
+- ¿Necesita un antivirus? SÍ
+- ¿Debe pagar? ¡Depende!
 
-The choice and implementation of an anti-virus is important. Windows Defender, the built-in antivirus in Windows, is a safe and effective solution. For a free solution, it is extremely good and much better than many free solutions found online. Indeed, caution should be exercised with antivirus downloaded from the Internet, as they can be malicious or outdated.
-For those who wish to invest in a paid antivirus, it is recommended to choose an antivirus that intelligently analyzes unknown and emerging threats, such as Kaspersky. Antivirus updates are essential to protect against new threats.
+La elección e implementación de un antivirus es importante. Windows Defender, el antivirus integrado en Windows, es una solución segura y eficaz. Para una solución gratuita, es extremadamente bueno y mucho mejor que muchas soluciones gratuitas que se encuentran en línea. De hecho, se debe tener cuidado con los antivirus descargados de Internet, que pueden ser maliciosos u obsoletos.
+Para aquellos que deseen invertir en un antivirus de pago, se recomienda elegir un antivirus que analice de manera inteligente las amenazas desconocidas y emergentes, como Kaspersky. Las actualizaciones del antivirus son esenciales para protegerse contra las nuevas amenazas.
 ![](assets/notext/13.webp)
+Nota: Linux y Mac, gracias a su sistema de separación de derechos de los usuarios, a menudo no necesitan antivirus.
 
-> Note: Linux and Mac, thanks to their user rights separation system, often do not need antivirus.
+Para terminar, aquí hay algunas buenas prácticas para la seguridad de su computadora y sus datos. Es importante elegir un antivirus eficaz y fácil de usar. También es crucial adoptar buenas prácticas en su computadora, como no insertar unidades USB desconocidas o encontradas en lugares sospechosos. Estas unidades USB pueden contener programas maliciosos que se ejecutan automáticamente cuando se insertan. El control de la unidad USB no servirá de nada una vez que se haya insertado. Algunas empresas han sido víctimas de piratería debido a unidades USB dejadas descuidadamente en áreas accesibles, como un estacionamiento.
 
-Finally, here are some good practices for the security of your computer and data. It is important to choose an effective and user-friendly antivirus. It is also crucial to adopt good practices on your computer, such as not inserting unknown or suspicious USB keys. These USB keys may contain malicious programs that can automatically launch upon insertion. Checking the USB key will be useless once it has been inserted. Some companies have been victims of hacking due to USB keys carelessly left in accessible areas, such as a parking lot.
+Trate su computadora como lo haría con su hogar: manténgase alerta, realice actualizaciones regularmente, elimine archivos innecesarios y use una contraseña segura para la seguridad. Es crucial cifrar los datos en computadoras portátiles y teléfonos inteligentes para prevenir robos o pérdidas de datos. BitLocker para Windows, LUKS para Linux y la opción incorporada para Mac son soluciones para el cifrado de datos. Se recomienda activar sin dudarlo el cifrado de datos y anotar la contraseña en un papel para guardarla en un lugar seguro.
 
-Treat your computer as you would your home: stay vigilant, regularly update, delete unnecessary files, and use a strong password for security. It is crucial to encrypt data on laptops and smartphones to prevent theft or data loss. BitLocker for Windows, LUKS for Linux, and the built-in option for Mac are solutions for data encryption. It is recommended to activate data encryption without hesitation and to write down the password on a paper to be kept in a safe place.
+En conclusión, es fundamental optar por un sistema operativo adecuado a sus necesidades y mantenerlo actualizado regularmente, así como las aplicaciones instaladas en él. También es esencial utilizar un antivirus eficaz y fácil de usar, y adoptar buenas prácticas para la seguridad de su computadora y sus datos.
 
-In conclusion, it is essential to choose an operating system that suits your needs and regularly update it, as well as the installed applications. It is also essential to use an effective and user-friendly antivirus and adopt good practices for the security of your computer and data.
-
-## Hacking & Backup Management: Protecting Your Data
+## Hack y gestión de copias de seguridad: proteger sus datos
 
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
 
-### How do hackers attack?
+### ¿Cómo atacan los hackers?
 
-In order to protect yourself well, it is essential to understand how hackers try to infiltrate your computer. Indeed, viruses do not often appear magically, but are rather the consequences of our actions, even unintentionally!
+Para protegerse adecuadamente, es fundamental comprender cómo los piratas informáticos intentan infiltrarse en su computadora. De hecho, los virus no suelen aparecer por arte de magia, sino que son más bien consecuencia de nuestras acciones, ¡incluso involuntarias!
 
-As a general rule, viruses arrive because you have allowed your computer to invite them into your home. This can be visualized by downloading suspicious software, a compromised torrent file, or simply by clicking on the link of a fraudulent email!
+En general, los virus llegan porque usted ha permitido que su computadora los invite a su hogar. Esto puede manifestarse mediante la descarga de un software sospechoso, un archivo torrent comprometido o simplemente al hacer clic en el enlace de un correo electrónico fraudulento.
 
-### Phishing, vigilance against fraudulent emails:
+### Phishing, precaución frente a correos electrónicos fraudulentos:
 
-Attention! Emails are the first vector of attack, here are some tips:
+¡Atención! Los correos electrónicos son el primer vector de ataque, aquí hay algunos consejos:
 
-- Stay alert to phishing attempts aimed at extracting sensitive information such as your credentials and passwords. Avoid clicking on suspicious links and sharing your personal information without verifying the legitimacy of the sender.
-- Be cautious with email attachments and images:
-  Email attachments and images can contain malware. Do not download or open attachments from unknown or suspicious senders, and make sure your antivirus is up to date.
+- Manténgase alerta ante intentos de phishing que intentan obtener información sensible como credenciales y contraseñas. Evite hacer clic en enlaces sospechosos y compartir su información personal sin verificar la legitimidad del remitente.
+- Tenga precaución con los archivos adjuntos e imágenes en los correos electrónicos:
+  Los archivos adjuntos e imágenes: Los correos electrónicos pueden contener software malicioso. No descargue ni abra archivos adjuntos de remitentes desconocidos o sospechosos, y asegúrese de que su antivirus esté actualizado.
 
-The golden rule here is to carefully check the full name of the sender as well as the origin of the email. When in doubt, delete it!
+La regla de oro aquí es verificar correctamente el nombre completo del remitente y el origen del correo electrónico. ¡Ante la duda, elimínelo!
 
-### Ransomware and types of cyber attacks:
+### Ransomware y tipos de ciberataques:
 
-Ransomware is a type of malicious software that encrypts user data and demands a ransom to decrypt it. This type of attack is becoming increasingly common and can be very troublesome for a company or an individual. To protect yourself, it is imperative to create backups of the most sensitive files! This will not stop the ransomware, but it will allow you to simply ignore it.
+El ransomware es un tipo de software malicioso que cifra los datos del usuario y exige un rescate para descifrarlos, un secuestro de datos. Este tipo de ataque es cada vez más común y puede resultar muy molesto para una empresa o un individuo. Para protegerse, es imperativo crear copias de seguridad de los archivos más sensibles. Esto no detendrá el ransomware, pero le permitirá simplemente ignorarlo.
 ![](assets/notext/14.webp)
-Regularly back up your important data to an external storage device or a secure online storage service. This way, in the event of a cyber attack or hardware failure, you can recover your data without losing crucial information.
+Realice copias de seguridad regularmente de sus datos importantes en un dispositivo externo o un servicio de almacenamiento en línea seguro. De esta manera, en caso de un ataque informático o un fallo de hardware, podrá recuperar sus datos sin perder información crucial.
 
-Simple solution:
+Solución sencilla:
 
-- Purchase an external hard drive and copy your data onto it. Disconnect it and store it somewhere in the house. (Doing this twice and storing one of the drives in another location helps protect against potential fire.)
+- Comprar un disco duro externo y copiar sus datos en él. Desconéctelo y guárdelo en algún lugar de la casa. (Hacer esto dos veces y almacenar uno de los discos en otro lugar ayudará a protegerlo de un posible incendio).
 
-- Create a "cloud" backup using ProtonMail Drive, Sync, or even Google Drive. Simply upload your sensitive data to this online host. However, be aware that your data is potentially on the internet and held by a trusted third party.
+- Crear una copia de seguridad "en la nube" a través de ProtonMail Drive, Sync o incluso Google Drive. Solo tiene que cargar sus datos sensibles en este servicio de alojamiento en línea. Sin embargo, tenga en cuenta que sus datos estarán potencialmente en Internet y serán custodiados en la computadora de un tercero de confianza.
 
-### Should you pay the hackers?
+### ¿Debería pagar a los hackers?
 
-NO, it is generally not recommended to pay hackers in the case of ransomware or other types of attacks. Paying the ransom does not guarantee the recovery of your data and can encourage cybercriminals to continue their malicious activities. Instead, prioritize prevention and regular backup of your data to protect yourself.
+NO, generalmente se desaconseja pagar a los hackers en caso de ransomware u otros tipos de ataques. Pagar el rescate no garantiza la recuperación de sus datos y puede alentar a los ciberdelincuentes a continuar con sus actividades maliciosas. En su lugar, priorice la prevención y la copia de seguridad regular de sus datos para protegerse.
 
-If you detect a virus on your computer, disconnect it from the internet, perform a full antivirus scan, and delete infected files. Then, update your software and operating system, and change your passwords to prevent further intrusions.
+Si detecta un virus en su computadora, desconéctela de Internet, realice un análisis antivirus completo y elimine los archivos infectados. Luego, actualice su software y sistema operativo, y cambie sus contraseñas para evitar otras intrusiones.
 
 https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
-# Implementation of solutions.
+# Implementación de soluciones.
 
 <partId>215ec902-ba05-5549-87fc-cb8d82665f7b</partId>
 
-## Managing email accounts
+## Gestión de buzones de correo
 
 <chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
 
-### Setting up a new email account!
+### ¡Configuración de una nueva cuenta de correo electrónico!
 
-The email account is the central point of your online activity: if it is compromised, a hacker can use it to reset all your passwords via the "forgot password" function and gain access to many other sites. That's why you need to secure it properly.
+La cuenta de correo electrónico es el punto central de tu actividad en línea: si se ve comprometida, un pirata informático puede utilizarla para restablecer todas tus contraseñas a través de la función "olvidé mi contraseña" y así acceder a muchos otros sitios. Por eso es importante asegurarla correctamente.
 
-An email account should be created with a unique and strong password (details in chapter 7) and ideally with a two-factor authentication system (details in chapter 8).
+Por lo tanto, debes crear una cuenta de correo electrónico con una contraseña única y fuerte (detalles en el capítulo 7) e idealmente con un sistema de autenticación de dos factores (detalles en el capítulo 8).
 
-Although we all already have an email account, it is important to consider creating a new, more modern one to start fresh.
+Aunque todos tenemos una cuenta de correo electrónico, es importante considerar la creación de una nueva, más moderna, para comenzar desde una buena base.
 
-### Choosing an email provider and managing email addresses
+### Elección del proveedor de correo electrónico y gestión de las direcciones de correo electrónico
 
-Proper management of our email addresses is crucial to ensure the security of our online access. It is important to choose a secure and privacy-respecting email provider. For example, ProtonMail is a secure and privacy-respecting email service.
+La gestión adecuada de nuestras direcciones de correo electrónico es crucial para garantizar la seguridad de nuestros accesos en línea. Es importante elegir un proveedor de correo electrónico seguro y respetuoso de la privacidad. Por ejemplo, ProtonMail es un servicio de correo electrónico seguro y respetuoso de la privacidad.
 ![](assets/notext/15.webp)
-When choosing an email provider and creating a password, it is essential to never reuse the same password for different online services. It is recommended to regularly create new email addresses and separate uses by using different email addresses. It is preferable to opt for a secure email service for critical accounts. It should also be noted that some services limit the length of passwords, so it is important to be aware of this limitation. Services are also available for creating temporary email addresses, which can be used for limited-duration accounts.
+Al elegir un proveedor de correo electrónico y crear una contraseña, es esencial no reutilizar la misma contraseña para diferentes servicios en línea. Se recomienda crear nuevas direcciones de correo electrónico regularmente y separar los usos utilizando diferentes direcciones de correo electrónico. Es mejor optar por un servicio de correo electrónico seguro para las cuentas críticas. También es importante tener en cuenta que algunos servicios limitan la longitud de las contraseñas, considere tambien esta limitación. También hay servicios disponibles para la creación de direcciones de correo electrónico temporales, que se pueden utilizar para cuentas de duración limitada.
 
-It is important to consider that older email providers such as La Poste, Arobase, Wig, Hotmail, are still used, but their security practices may not be as good as those of Gmail. Therefore, it is recommended to have two separate email addresses, one for general communications and the other for account recovery, with the latter being better secured. It is best to avoid mixing the email address with your phone operator or internet service provider, as this can be an attack vector.
+Es importante tener en cuenta que los proveedores de correo electrónico antiguos como La Poste, Arobase, Wig, Hotmail, todavía se utilizan, pero sus prácticas de seguridad pueden ser peores que las de Gmail. Por lo tanto, se recomienda tener dos direcciones de correo electrónico distintas, una para comunicaciones generales y otra para la recuperación de cuentas, esta última debe estar más segura. Se recomienda no utilizar correos electrónicos proporcionados por tu operador o proveedor de servicios de Internet, ya que representan un posible vector de ataque.
 
-### Should I change my email account?
+### ¿Debo cambiar de cuenta de correo electrónico?
 
-It is advisable to use the website Have I Been Pwned (https://haveibeenpwned.com/) to check if our email address has been compromised and to be notified of future data breaches. A hacked database can be exploited by hackers to send phishing emails or reuse compromised passwords.
+Se recomienda utilizar el sitio Have I Been Pwned (¿Me han pirateado?) - https://haveibeenpwned.com/ - para verificar si nuestra dirección de correo electrónico ha sido comprometida y para recibir alertas sobre futuras filtraciones de datos. Una base de datos pirateada puede ser utilizada por piratas informáticos para enviar correos electrónicos de phishing o reutilizar contraseñas comprometidas.
 ![](assets/notext/16.webp)
-In general, starting to use a new, more secure email address is not a bad practice and even necessary if one wants to start fresh on a healthy basis.
-Bonus Bitcoin: It may be advisable to create a specific email address for our Bitcoin activities (creating exchange accounts) in order to truly separate the areas of activity in our lives.
+
+En general, comenzar a utilizar una nueva dirección de correo electrónico más segura no es una mala práctica e incluso es necesario si queremos empezar de nuevo en bases sólidas.
+
+Bonus Bitcoin: Puede ser recomendable crear una dirección de correo electrónico específicamente para nuestras actividades de Bitcoin (creación de cuentas de intercambio) para separar realmente las áreas de actividad en nuestras vidas.
 
 https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-## Password Manager
+## Gestor de contraseñas
 
 <chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
 
-### What is a password manager?
+### ¿Qué es un gestor de contraseñas?
 
-A password manager is a tool that allows you to store, generate, and manage your passwords for different online accounts. Instead of remembering multiple passwords, you only need one master password to access all the others.
+Un gestor de contraseñas es una herramienta que permite almacenar, generar y gestionar tus contraseñas para diferentes cuentas en línea. En lugar de recordar múltiples contraseñas, solo necesitas recordar una contraseña maestra para acceder a todas las demás.
 
-With a password manager, you no longer have to worry about forgetting your passwords or writing them down somewhere. You only need to remember one master password. Additionally, most of these tools generate strong passwords for you, which enhances the security of your accounts.
+Con un gestor de contraseñas, ya no tienes que preocuparte por olvidar tus contraseñas o anotarlas en algún lugar. Solo necesitas recordar una contraseña maestra. Además, la mayoría de estas herramientas generan contraseñas seguras para ti, lo que refuerza la seguridad de tus cuentas.
 
-### Differences between some popular managers:
+### Diferencias entre algunos gestores populares:
 
-- LastPass: One of the most popular managers. It is a third-party service, which means your passwords are stored on their servers. It offers a free version and a paid version, with a user-friendly interface.
+- LastPass: Uno de los gestores más populares. Es un servicio de terceros, lo que significa que tus contraseñas se almacenan en sus servidores. Ofrece una versión gratuita y una versión de pago, con una interfaz fácil de usar.
 
-- Dashlane: It is also a third-party service, with an intuitive interface and additional features such as tracking credit card information and secure notes.
+- Dashlane: También es un servicio de terceros, con una interfaz intuitiva y características adicionales como el seguimiento de la información de tarjetas de crédito y notas seguras.
   ![](assets/notext/17.webp)
 
-### Self-hosting for more control:
+### Alojamiento propio para tener más control:
 
-- Bitwarden: It is an open-source tool, which means you can review its code to verify its security. Although Bitwarden offers a hosted service, it also allows users to self-host, which means you can control where your passwords are stored, potentially offering more security and control.
+- Bitwarden: Es una herramienta de código abierto, lo que significa que puedes revisar su código para verificar su seguridad. Aunque Bitwarden ofrece un servicio de alojamiento, también permite a los usuarios de conservar localmente sus propios datos (self-hosting), lo que significa que puedes controlar dónde se almacenan tus contraseñas, ofreciendo potencialmente más seguridad y control.
 
-- KeePass: It is an open-source solution that is primarily intended for self-hosting. Your data is stored locally by default, but you can synchronize the password database using different methods if you wish. KeePass is widely recognized for its security and flexibility, although it may be slightly less user-friendly for beginners.
+- KeePass: Es una solución de código abierto que está principalmente destinada al alojamiento propio. Tus datos se almacenan localmente de forma predeterminada, pero puedes sincronizar la base de datos de contraseñas utilizando diferentes métodos si lo deseas. KeePass es ampliamente reconocido por su seguridad y flexibilidad, aunque puede ser un poco menos intuitivo para los principiantes.
   ![](assets/notext/18.webp)
-  (Note: Choosing between a third-party service or a self-hosted service depends on your level of technological comfort and how you prioritize control versus convenience. Third-party services are generally more convenient for most people, while self-hosting requires more technical knowledge but can offer more control and peace of mind in terms of security.)
+  (Nota: Elegir entre un servicio de terceros o un servicio de autohospedaje depende de tu nivel de comodidad tecnológica y de cómo priorices el control frente a la conveniencia. Los servicios de terceros suelen ser más convenientes para la mayoría de las personas, mientras que el autohospedaje requiere más conocimientos técnicos pero puede ofrecer más control y tranquilidad en términos de seguridad.)
 
-### What makes a good password:
+### ¿Qué es una buena contraseña?
 
-A good password is generally:
+Un buen contraseña generalmente es:
 
-- Long: at least 12 characters.
-- Complex: a mixture of uppercase and lowercase letters, numbers, and symbols.
-- Unique: do not reuse the same password for different accounts.
-- Not based on personal information: avoid birth dates, names, etc.
+- Larga: al menos 12 caracteres.
+- Compleja: una mezcla de letras mayúsculas y minúsculas, números y símbolos.
+- Única: no reutilizar la misma contraseña para diferentes cuentas.
+- No basada en información personal: evitar fechas de nacimiento, nombres, etc.
 
-To ensure the security of your account, it is crucial to create strong and secure passwords. The length of the password is not enough to ensure its security. The characters must be completely random in order to resist brute force attacks. The independence of events is also important to avoid the most likely combinations. Common passwords such as "password" are easily compromised.
+Para garantizar la seguridad de su cuenta, es crucial crear contraseñas fuertes y seguras. La longitud de la contraseña no es suficiente para asegurar su seguridad. Los caracteres deben ser completamente aleatorios para resistir los ataques de fuerza bruta. Evita usar datos personales relacionados, como fechas o nombres significativos, ya que pueden formar combinaciones fáciles de adivinar. Las contraseñas comunes como "password" son fácilmente comprometidas.
 
-To create a strong password, it is recommended to use a large number of random characters, without using predictable words or patterns. It is also essential to include numbers and special characters. However, it should be noted that some websites may restrict the use of certain special characters. Passwords that are not randomly generated are easy to guess. Variations or additions to passwords are not secure. Websites cannot guarantee the security of passwords chosen by users.
+Para crear una contraseña fuerte, se recomienda utilizar una gran cantidad de caracteres aleatorios, sin utilizar palabras o patrones predecibles. También es esencial incluir números y caracteres especiales. Sin embargo, cabe señalar que algunos sitios pueden restringir el uso de ciertos caracteres especiales. Las contraseñas que no se generan de manera aleatoria son fáciles de adivinar. Las variantes o adiciones a las contraseñas no son seguras. Los sitios web no pueden garantizar la seguridad de las contraseñas elegidas por los usuarios.
 
-Randomly generated passwords offer a higher level of security, although they may be more difficult to remember. Password managers can generate more secure random passwords. By using a password manager, you do not need to memorize all your passwords. It is important to gradually replace your old passwords with those generated by the manager, as they are stronger and longer. Make sure that the master password of your password manager is also strong and secure.
+Las contraseñas generadas de manera aleatoria ofrecen un nivel de seguridad superior, aunque pueden ser más difíciles de recordar. Los administradores de contraseñas pueden generar contraseñas aleatorias más seguras. Al utilizar un administrador de contraseñas, no es necesario memorizar todas sus contraseñas. Es importante reemplazar gradualmente sus contraseñas antiguas por las generadas por el administrador, ya que son más fuertes y más largas. Asegúrese de que la contraseña maestra de su administrador de contraseñas también sea fuerte y segura.
 
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-## Two-Factor Authentication
+## Los 2 factores de autenticación
 
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
 
-### Why implement 2FA
+### Por qué implementar el 2FA
 
-Two-factor authentication (2FA) is an additional layer of security used to ensure that the people attempting to access an online account are who they claim to be. Instead of just entering a username and password, 2FA requires a second form of verification.
+La autenticación de dos factores (2FA) es una capa adicional de seguridad utilizada para asegurarse de que las personas que intentan acceder a una cuenta en línea sean realmente quienes dicen ser. En lugar de simplemente ingresar un nombre de usuario y una contraseña, el 2FA requiere una segunda forma de verificación.
 
-This second step can be:
+Este segundo paso puede ser:
 
-- A temporary code sent via SMS.
-- A code generated by an application like Google Authenticator or Authy.
-- A physical security key that you insert into your computer.
+- Un código temporal enviado por SMS.
+- Un código generado por una aplicación como Google Authenticator o Authy.
+- Una llave electronica de seguridad que insertas fisicamente en tu computadora.
   ![](assets/notext/19.webp)
-  With 2FA, even if a hacker obtains your password, they will not be able to access your account without this second verification factor. This makes 2FA essential for protecting your online accounts against unauthorized access.
+  Con la autenticación de dos factores (2FA), incluso si un pirata informático obtiene tu contraseña, no podrá acceder a tu cuenta sin este segundo factor de verificación. Esto hace que la 2FA sea esencial para proteger tus cuentas en línea contra accesos no autorizados.
 
-### Which option to choose?
+### ¿Qué opción elegir?
 
-The different options for strong authentication offer varying levels of security.
+Las diferentes opciones para la autenticación fuerte ofrecen niveles variables de seguridad.
 
-- SMS is not considered the best option as it only provides proof of possession of a phone number.
-- 2FA (two-factor authentication) is more secure as it uses multiple types of evidence, such as knowledge, possession, and identification. One-time passwords (HOTP and TOTP) are safer than SMS because they require cryptographic calculation and are stored locally rather than in memory.
-- Hardware tokens, such as USB keys or smart cards, offer optimal security by generating a unique private key for each site and verifying the URL before allowing the connection.
+- Los mensajes de texto (SMS) no se consideran la mejor opción porque solo proporcionan una prueba de posesión de un número de teléfono.
+- La autenticación de dos factores (2FA) es más segura porque utiliza varios tipos de pruebas, como el conocimiento, la posesión y la identificación. Los códigos de contraseña de un solo uso (HOTP y TOTP) son más seguros que los mensajes de texto porque requieren un cálculo criptográfico y se almacenan localmente en lugar de en la memoria.
+- Los tokens físicos, como las llaves USB o las tarjetas inteligentes, ofrecen una seguridad óptima al generar una clave privada única para cada sitio y verificar la URL antes de autorizar la conexión.
 
-For optimal security with strong authentication, it is recommended to use a secure email address, a secure password manager, and adopt 2FA using YubiKeys. It is also advisable to purchase two YubiKeys to anticipate loss or theft, for example, keeping a backup copy both at home and on your person.
+Para una seguridad óptima con una autenticación mas fuerte, se recomienda utilizar una dirección de correo electrónico segura, un administrador de contraseñas seguro y adoptar el 2FA utilizando YubiKey. También se recomienda comprar dos YubiKey para prever la pérdida o el robo, por ejemplo, mantener una copia de seguridad en casa y otra en tu persona.
 
-As for potential threats to SIM 2FA, here is a common example: a SIM swap attack occurs when an attacker steals a user's phone number by linking it to a SIM card controlled by the attacker. There are several ways an attacker can successfully complete the attack; however, this threat is usually only a major concern for high-profiles and people of interest.
+La biometría se puede utilizar como un sustituto, pero es menos segura que la combinación de conocimiento y posesión. Los datos biométricos deben permanecer en el dispositivo de autenticación y no deben divulgarse en línea. Es importante tener en cuenta el modelo de amenaza asociado con los diferentes métodos de autenticación y adaptar tus prácticas en consecuencia.
 
-Biometrics can be used as a substitute, but it is less secure than the combination of knowledge and possession. Biometric data should remain on the authentication device and not be disclosed online. It is important to consider the threat model associated with different authentication methods and adjust practices accordingly.
+### Conclusión del curso:
 
-Finally, it may be useful to give a short context about HOTP and TOTP OTPs: HOTP is a one-time password based on the HMAC (Hash-based Message Authentication Code) algorithm, while a TOTP is a time-based OTP. Key features of such algorithms are that passwords can only be used once, each generated value is unique and exists a shared key between the user's device (client) and authentication service (server). The difference between the two systems is how factor moves: the TOTP is time-based, while the HOTP system is counter-based.
+Como has entendido, establecer una buena salud digital no siempre es sencillo, ¡pero sigue siendo accesible!
 
-### Conclusion of the training:
+- Crear una nueva dirección de correo electrónico segura.
+- Utilizar un administrador de contraseñas.
+- Activar el 2FA.
+- Reemplazar gradualmente nuestras contraseñas antiguas por contraseñas fuertes con 2FA.
 
-As you have understood, implementing good digital hygiene is not necessarily simple, but it remains accessible!
+¡Continúa aprendiendo y aplicando gradualmente las buenas prácticas!
 
-- Creating a new secure email address.
-- Setting up a password manager.
-- Activating 2FA.
-- Gradually replacing our old passwords with strong passwords with 2FA.
-
-Keep learning and gradually implement good practices!
-
-Golden rule: Cybersecurity is a moving target that will adapt to your learning journey!
+Regla de oro: ¡La seguridad informática es un objetivo en constante evolución que se adaptará a tu proceso de aprendizaje!
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
-# Practical Section
+# Sección Práctica
 
 <partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>
 
-## Setting up a Mailbox
+## Configuración de un Buzón de Correo
 
 <chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
-Protecting your email account is an important step to secure your online activities and safeguard your personal data. This tutorial will guide you, step by step, in creating and setting up a ProtonMail account, a provider known for its high level of security that offers end-to-end encryption of your communications. Whether you are a novice or an experienced user, the best practices presented here will help you strengthen the security of your email, while taking advantage of ProtonMail's advanced features:
+Proteger tu cuenta de correo electrónico es un paso importante para asegurar tus actividades en línea y preservar tus datos personales. Este tutorial te guiará, paso a paso, en la creación y configuración de una cuenta de ProtonMail, un proveedor reconocido por su alto nivel de seguridad que ofrece cifrado de extremo a extremo de tus comunicaciones. Ya seas principiante o usuario experimentado, las buenas prácticas propuestas aquí te ayudarán a fortalecer la seguridad de tu correo electrónico, mientras aprovechas las funciones avanzadas de ProtonMail:
 
 https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-## Securing in 2FA
+## Seguridad en 2FA
 
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
 
-Two-factor authentication (2FA) has become essential for securing your online accounts. In this tutorial, you will learn how to set up and use the 2FA app Authy, which generates dynamic 6-digit codes to protect your accounts. Authy is very easy to use and synchronizes across multiple devices. Discover how to install and configure Authy, and thus strengthen the security of your online accounts right now:
+La autenticación de dos factores (2FA) se ha vuelto esencial para asegurar tus cuentas en línea. En este tutorial, aprenderás a configurar y utilizar la aplicación 2FA Authy, que genera códigos dinámicos de 6 dígitos para proteger tus cuentas. Authy es muy fácil de usar y se sincroniza en varios dispositivos. Descubre cómo instalar y configurar Authy, y así refuerza la seguridad de tus cuentas en línea ahora mismo:
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-Another option is to use a physical security key. This additional tutorial shows you how to set up and use a security key as a second authentication factor:
+Otra opción es utilizar una clave de seguridad física. Este otro tutorial te muestra cómo configurar y usar una clave de seguridad como segundo factor de autenticación:
 
 https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
-## Creating a password manager
+## Implementa un gestor de contraseñas
 
 <chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
 
-Password management is a challenge in the digital age. We all have numerous online accounts to secure. A password manager helps you create and store strong and unique passwords for each account.
+La gestión de contraseñas es un desafío en la era digital. Todos tenemos numerosos cuentas en línea que asegurar. Un gestor de contraseñas te ayuda a crear y almacenar contraseñas fuertes y únicas para cada cuenta.
 
-In this tutorial, learn how to set up Bitwarden, an open-source password manager, and how to sync your credentials across all your devices to simplify your daily use:
+En este tutorial, descubre cómo configurar Bitwarden, un gestor de contraseñas de código abierto, y cómo sincronizar tus credenciales en todos tus dispositivos para simplificar su uso diario:
 
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-For more advanced users, I also offer a tutorial on another free and open-source software to use locally for managing your passwords:
+Para usuarios más avanzados, también ofrezco un tutorial sobre otro software gratuito y de código abierto que permite gestionar las contraseñas localmente:
 
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-## Securing your accounts
+## Asegurando tus cuentas
 
 <chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
 
-In these two tutorials, I also guide you in securing your online accounts and explain how to gradually adopt more secure practices for managing your passwords on a daily basis.
+En estos dos tutoriales, también te guío en como asegurar tus cuentas en línea y te explico cómo adoptar progresivamente prácticas más seguras para la gestión de tus contraseñas en el suo cotidiano.
 
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-## Back-up set-up
+## Configuración de copia de seguridad
 
 <chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
 
-Protecting your personal files is also a crucial point. This tutorial shows you how to implement an effective backup strategy using Proton Drive. Discover how to use this secure cloud solution to apply the 3-2-1 method: three copies of your data on two different media, with one copy offsite. This ensures the accessibility and security of your sensitive files:
+Proteger tus archivos personales también es un punto esencial. Este tutorial te muestra cómo implementar una estrategia de respaldo efectiva gracias a Proton Drive. Descubre cómo usar esta solución en la nube segura para aplicar el método 3-2-1: tres copias de tus datos en dos medios diferentes, de las cuales una copia está fuera del sitio. Así aseguras la accesibilidad y seguridad de tus archivos sensibles:
 
 https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-And to secure your files stored on removable media like a USB drive or external hard drive, I also show you how to easily encrypt and decrypt these media using VeraCrypt:
+Y para asegurar tus archivos almacenados en medios removibles como una unidad USB o un disco duro externo, también te muestro cómo cifrar y descifrar estos medios fácilmente usando VeraCrypt:
 
 https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
-## Change of browser & VPN
+## Cambio de navegador y VPN
 
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
 
-Protecting your online privacy is also a crucial point to ensure your security. Using a VPN can be a first solution to achieve this.
+La protección de tu privacidad en línea también es un aspecto a tener en cuenta para garantizar tu seguridad. El uso de una VPN puede ser una primera solución para lograrlo.
 
-I suggest discovering two reliable VPN solutions that are payable in Bitcoin, namely IVPN and Mullvad. These tutorials guide you on how to install, configure, and use Mullvad or IVPN on all your devices:
+Te propongo descubrir dos soluciones de VPN fiables y que aceptan pagos en bitcoin, que son IVPN y Mullvad. Estos tutoriales te guiarán para instalar, configurar y utilizar Mullvad o IVPN en todos tus dispositivos:
 
 https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-Also, learn how to use Tor Browser, a browser specifically designed to protect your online privacy:
+Además, descubre cómo usar Tor Browser, un navegador específicamente diseñado para proteger tu privacidad en línea:
 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
-# Go further
+# Ve más allá
 
 <partId>77113cad-a6d8-57e5-b903-50c223b277ba</partId>
 
-## How to work in the cybersecurity industry
+## Cómo trabajar en la industria de la ciberseguridad
 
 <chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
 
-### Cybersecurity: A Growing Field with Endless Opportunities
+La ciberseguridad, un campo en pleno auge, ofrece una multitud de oportunidades para aquellos apasionados por la protección de sistemas y datos. Si esta industria te intriga, aquí tienes algunos pasos clave para orientarte.
 
-If you are passionate about protecting systems and data, the field of cybersecurity offers a multitude of opportunities. If this industry intrigues you, here are some key steps to guide you.
+### Fundamentos académicos y certificaciones:
 
-### Academic Foundations and Certifications:
+Una sólida formación en informática, sistemas de información o en un campo relacionado suele ser el trampolín ideal para comenzar. Estos estudios proporcionan las bases necesarias para comprender los desafíos técnicos de la ciberseguridad. Para complementar esta formación, es recomendable obtener certificaciones reconocidas en el campo. Aunque estas certificaciones pueden variar según las regiones, algunas, como CISSP o CEH, gozan de reconocimiento mundial.
 
-A solid education in computer science, information systems, or a related field is often the ideal starting point. These studies provide the necessary foundation to understand the technical challenges of cybersecurity. To complement this education, it is wise to obtain recognized certifications in the field. While these certifications may vary by region, some, such as CISSP or CEH, enjoy global recognition.
+La ciberseguridad es un campo amplio y en constante evolución. Familiarizarse con las herramientas esenciales y los diferentes sistemas es crucial. Además, con tantos subcampos, desde la respuesta a incidentes hasta el hacking ético, es beneficioso encontrar tu nicho y especializarte en él.
 
-Cybersecurity is a vast and constantly evolving field. Familiarizing yourself with essential tools and different systems is crucial. Additionally, with so many subdomains, from incident response to ethical hacking, it is beneficial to find your niche and specialize in it.
+### Obtener experiencia práctica:
 
-### Gaining Practical Experience:
+La importancia de la experiencia práctica no debe subestimarse. Buscar pasantías o puestos junior en empresas con equipos de seguridad informática es una excelente manera de aplicar tus conocimientos teóricos. Además, participar en competiciones de hacking ético o simulaciones de ciberseguridad puede afinar tus habilidades en situaciones concretas.
 
-The importance of practical experience cannot be underestimated. Seeking internships or junior positions in companies with cybersecurity teams is an excellent way to apply your theoretical knowledge. Furthermore, engaging in ethical hacking competitions or cybersecurity simulations can refine your skills in real-world situations.
+La fuerza de una red profesional es invaluable. Unirse a asociaciones profesionales, hackerspaces o foros en línea ofrece una plataforma para intercambiar ideas con otros expertos. Del mismo modo, asistir a conferencias y talleres dedicados a la ciberseguridad no solo permite aprender, sino también establecer vínculos con profesionales del sector.
 
-The strength of a professional network is invaluable. Joining professional associations, hackerspaces, or online forums provides a platform to exchange ideas with other experts. Similarly, attending cybersecurity conferences and workshops not only allows you to learn but also helps you build connections with industry professionals.
+La evolución constante de las amenazas requiere estar al tanto de las noticias y foros especializados de forma regular. En un sector donde la confianza es primordial, actuar con ética e integridad es esencial en cada etapa de tu carrera.
 
-The constant evolution of threats requires regular monitoring of news and specialized forums. In a sector where trust is paramount, acting with ethics and integrity is essential at every stage of your career.
+### Habilidades y herramientas para profundizar:
 
-### Skills and Tools to Deepen:
+- Herramientas de ciberseguridad: Wireshark, Metasploit, Nmap.
+- Sistemas operativos: Linux, Windows, MacOS.
+- Lenguajes de programación: Python, C, Java.
+- Redes: TCP/IP, VPN, firewall.
+- Bases de datos: SQL, NoSQL.
+- Criptografía: SSL/TLS, cifrado simétrico/asimétrico.
+- Gestión de incidentes: Análisis de registros, respuesta a incidentes.
+- Hacking ético: Técnicas de penetración, pruebas de intrusión.
+- Gobernanza: Normas ISO, regulaciones GDPR/CCPA.
 
-- Cybersecurity Tools: Wireshark, Metasploit, Nmap.
-- Operating Systems: Linux, Windows, MacOS.
-- Programming Languages: Python, C, Java.
-- Networks: TCP/IP, VPN, firewall.
-- Databases: SQL, NoSQL.
-- Cryptography: SSL/TLS, symmetric/asymmetric encryption.
-- Incident Management: Log analysis, incident response.
-- Ethical Hacking: Penetration techniques, intrusion testing.
-- Governance: ISO standards, GDPR/CCPA regulations.
-
-By mastering these skills and tools, you will be well-equipped to navigate the world of cybersecurity successfully.
+Dominando estas habilidades y herramientas, estarás bien equipado para navegar con éxito en el mundo de la ciberseguridad.
 ![](assets/notext/20.webp)
 
-## Interview with Renaud
+## Entrevista a Renaud
 
 <chapterId>7d83fd98-ce22-514e-b9e8-729fbf71ee6e</chapterId>
 
-### Efficient Password Management and Authentication Strengthening: An Academic Approach
+### Gestión eficiente de contraseñas y fortalecimiento de la autenticación: un enfoque académico
 
-In the training module "Security 101" offered by Découvre Bitcoin within the Academy, we discussed the importance of password managers. Three dimensions are essential to consider: creation, updating, and implementation of passwords on websites.
+En el módulo de formación "Seguridad 101" ofrecido por *Découvre Bitcoin* en la Academia, hemos abordado la importancia de los gestores de contraseñas. Tres dimensiones son esenciales a considerar: la creación, la actualización y la implementación de contraseñas en los sitios web.
 
-It is generally not recommended to use browser extensions for automatic password filling. These tools can make the user more vulnerable to phishing attacks. Renaud, a recognized expert in cybersecurity, prefers manual management using KeePass, which involves manually copying and pasting the password. Extensions tend to increase the attack surface, can slow down browser performance, and therefore present a significant risk. Thus, minimal usage of extensions on the browser is a recommended practice.
+Generalmente se desaconseja el uso de extensiones de navegador para el llenado automático de contraseñas. Estas herramientas pueden hacer que el usuario sea más vulnerable a ataques de phishing. Renaud, un experto reconocido en ciberseguridad, prefiere una gestión manual a través de KeePass, lo que implica copiar y pegar manualmente la contraseña. Las extensiones tienden a aumentar la superficie de ataque, pueden ralentizar el rendimiento del navegador y, por lo tanto, presentan un riesgo significativo. Por lo tanto, se recomienda minimizar el uso de extensiones en el navegador.
 
-Password managers generally encourage the use of additional authentication factors, such as two-factor authentication. For optimal security, it is advisable to keep OTPs (One-Time Passwords) on your mobile device. AndoTP offers an open-source solution for generating and storing OTP codes on your phone. While Google Authenticator allows exporting authentication code seeds, trust in backup on a Google account remains limited. Therefore, the OTI and AndoTP applications are recommended for autonomous OTP management.
+Los gestores de contraseñas suelen fomentar el uso de factores de autenticación adicionales, como la autenticación de dos factores. Para una seguridad óptima, se recomienda almacenar los OTP (One-Time Passwords) en el dispositivo móvil. AndoTP ofrece una solución de código abierto para generar y almacenar códigos OTP en el teléfono. Si bien Google Authenticator permite exportar las semillas de los códigos de autenticación, la confianza en la copia de seguridad en una cuenta de Google es limitada. Por lo tanto, se recomiendan las aplicaciones OTI y AndoTP para una gestión autónoma de los OTP.
 ![](assets/notext/21.webp)
-The question of digital inheritance and digital mourning raises the importance of having a procedure to transmit passwords after a person's death. A password manager facilitates this transition by securely storing all digital secrets in one place. The password manager also allows identifying all open accounts and managing their closure or transfer. It is recommended to write down the master password on paper, but it should be kept in a concealed and secure location. If the hard drive is encrypted and the computer is locked, the password will not be accessible, even in the case of burglary.
+La cuestión de la herencia digital y el duelo digital destaca la importancia de tener un procedimiento para transmitir contraseñas después del fallecimiento de una persona. Un gestor de contraseñas facilita esta transición al almacenar de manera segura todos los secretos digitales en un solo lugar. El gestor de contraseñas también permite identificar todas las cuentas abiertas y gestionar su cierre o transferencia. Se recomienda anotar la contraseña maestra en papel, pero se debe guardar en un lugar oculto y seguro. Si el disco duro está cifrado y el ordenador está bloqueado, la contraseña no será accesible, incluso en caso de robo.
 
-### Towards a Post-Password Era: Exploring Credible Alternatives
+### Hacia una era post-contraseña: exploración de alternativas creíbles
 
-Passwords, although ubiquitous, have many disadvantages, including the possibility of risky transmission during the authentication process. Leading companies such as Microsoft and Apple offer innovative alternatives such as biometrics and hardware tokens, indicating a progressive trend towards abandoning passwords.
+Las contraseñas, aunque omnipresentes, tienen muchas desventajas, especialmente la posibilidad de una transmisión riesgosa durante el proceso de autenticación. Empresas líderes como Microsoft y Apple ofrecen alternativas innovadoras como la biometría y los tokens de hardware, lo que indica una tendencia progresiva hacia el abandono de las contraseñas.
+'Passkeys, por ejemplo, ofrece claves aleatorias cifradas, combinadas con un factor local (biometría o NIP), que son alojadas por un proveedor pero que permanecen fuera de su alcance. Aunque esto requiere una actualización de los sitios web, el enfoque elimina la necesidad de contraseñas, ofreciendo así un alto nivel de seguridad sin las limitaciones asociadas a las contraseñas tradicionales o la problemática de la gestión de la caja fuerte digital.
 
-'Passkeys, for example, offers encrypted random keys, combined with a local factor (biometrics or PIN), which are hosted by a provider but remain out of their reach. Although this requires updating websites, the approach eliminates the need for passwords, thus providing a high level of security without the constraints associated with traditional passwords or the issue of managing a digital safe.
+Passkiz es otra alternativa viable y segura para la gestión de contraseñas. Sin embargo, una pregunta importante sigue sin respuesta: la disponibilidad en caso de fallo del proveedor. Sería deseable que los gigantes de internet ofrecieran sistemas para garantizar la disponibilidad.
 
-Passkiz is another viable and secure alternative for password management. However, a major question remains: the availability in case of provider failure. It would therefore be desirable for internet giants to propose systems to guarantee this availability.
+La autenticación directa en el servicio correspondiente es una opción interesante para no depender de un tercero. Sin embargo, el SSO (Single Sign-On) propuesto por los gigantes de internet también plantea problemas en términos de disponibilidad y riesgos de censura. Para evitar fugas de datos, es crucial minimizar la cantidad de información recopilada durante el proceso de autenticación.
 
-Direct authentication to the relevant service is an interesting option to no longer depend on a third party. However, the Single Sign-On (SSO) offered by internet giants also poses problems in terms of availability and risks of censorship. In order to prevent data leaks, it is crucial to minimize the amount of information collected during the authentication process.
+### La seguridad informática: imperativos de prácticas seguras y riesgos relacionados con la negligencia humana
 
-### Computer security: imperatives of safe practices and risks related to human negligence
+La seguridad informática puede verse comprometida por prácticas simples y el uso de contraseñas predeterminadas, como "admin". No siempre son necesarios ataques sofisticados para poner en peligro la seguridad informática. Por ejemplo, las contraseñas de administrador de un canal de YouTube estaban escritas en el código fuente privado de una empresa. Las vulnerabilidades de seguridad suelen ser consecuencia de la negligencia humana.
 
-Computer security can be compromised by simple practices and the use of default passwords, such as "admin". Sophisticated attacks are not always necessary to jeopardize computer security. For example, the administrator passwords of a YouTube channel were written in a company's private source code. Security vulnerabilities are often the result of human negligence.
+También cabe destacar que Internet está muy centralizado y ampliamente bajo control estadounidense. El servidor DNS puede estar sujeto a censura y a menudo utiliza DNS falsos para bloquear el acceso a ciertos sitios. DNS es un protocolo antiguo e insuficientemente seguro, por lo que puede ocasionar problemas de seguridad. Han surgido nuevos protocolos, como DNSsec, pero todavía se utilizan poco. Para evitar la censura y el bloqueo de anuncios, es posible elegir proveedores DNS alternativos.
+Des alternatives a los anuncios intrusivos incluyen Google DNS, OpenDNS y otros servicios independientes. El protocolo DNS estándar deja las consultas DNS visibles para el proveedor de servicios de Internet. DOH (DNS sobre HTTPS) y DOT (DNS sobre TLS) permiten cifrar la conexión DNS, ofreciendo mayor privacidad y seguridad. Estos protocolos son ampliamente utilizados en empresas debido a su mayor seguridad y son compatibles de forma nativa con Windows, Android e iPhone. Para utilizar DOH y DOT, se debe ingresar un nombre de host TLS en lugar de una dirección IP. Los proveedores gratuitos de DOH y DOT están disponibles en línea. DOH y DOT mejoran la privacidad y la seguridad al evitar ataques de tipo "man in the middle". Otras consideraciones clave
 
-It should also be noted that the Internet is highly centralized and largely under American control. The DNS server can be subject to censorship and often employs deceptive DNS to block access to certain sites. DNS is an old and insufficiently secure protocol, which can lead to security issues. New protocols, such as DNSsec, have emerged but are still not widely used. To bypass censorship and ad blocking, it is possible to choose alternative DNS providers.'
+En el marco del módulo de formación "Seguridad 101" de *Découvre Bitcoin* en la Academia, también discutimos la autenticación Lightning. Este sistema genera una identificación diferente por servicio, sin necesidad de proporcionar una dirección de correo electrónico o información personal. Es posible tener identidades descentralizadas controladas por el usuario, pero falta normalización y estandarización en los proyectos de identidad descentralizada. Se recomiendan los administradores de paquetes como Nuget y Chocolaté, que permiten descargar software de código abierto fuera de Microsoft Store, para evitar ataques maliciosos. En resumen, el DNS es crucial para la seguridad en línea, pero es necesario estar atento a posibles ataques a los servidores DNS.
 
-Alternatives to intrusive advertisements include Google DNS, OpenDNS, and other independent services. The standard DNS protocol leaves DNS queries visible to the internet service provider. DOH (DNS over HTTPS) and DOT (DNS over TLS) encrypt the DNS connection, providing greater privacy and security. These protocols are widely used in enterprises due to their enhanced security and are natively supported by Windows, Android, and iPhone. To use DOH and DOT, a TLS hostname must be entered instead of an IP address. Free DOH and DOT providers are available online. DOH and DOT improve privacy and security by avoiding "man in the middle" attacks. Other key considerations
-
-As part of the "Security 101" training module on Découvre Bitcoin Academy, we also discussed Lightning authentication. This system generates a different identifier for each service, without the need to provide an email address or personal information. It is possible to have user-controlled decentralized identities, but there is a lack of standardization and normalization in decentralized identity projects. Package managers such as Nuget and Chocolaté, which allow downloading open-source software outside of the Microsoft Store, are recommended to avoid malicious attacks. In summary, DNS is crucial for online security, but it is necessary to remain vigilant against potential attacks on DNS servers.
-
-# Conclusion
+# Conclusión
 
 <partId>3d8ac4c9-f05b-4133-a40a-6e19d579f05f</partId>
 
-## Reviews & Ratings
+## Reseñas & Valoraciones
 
 <chapterId>6be74d2d-2116-5386-9d92-c4c3e2103c68</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Final Exam
+## Examen final
 
 <chapterId>a894b251-a85a-5fa4-bf2a-c2a876939b49</chapterId>
 <isCourseExam>true</isCourseExam>
 
-## Conclusion
+## Conclusión
 
 <chapterId>6270ea6b-7694-4ecf-b026-42878bfc318f</chapterId>
 <isCourseConclusion>true</isCourseConclusion>
