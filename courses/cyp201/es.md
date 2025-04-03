@@ -129,7 +129,7 @@ Por lo tanto, esta característica no significa que no haya colisiones para las 
 
 Para una función hash de $n$ bits, la resistencia a colisiones es del orden de $2^{\frac{n}{2}}$, de acuerdo con el ataque de cumpleaños. Por ejemplo, para SHA256 ($n = 256$), la complejidad de encontrar una colisión es del orden de $2^{128}$ intentos. En términos prácticos, esto significa que si uno pasa $2^{128}$ mensajes diferentes a través de la función, es probable que encuentre una colisión.
 
-#### 4. Resistencia a Segunda Preimagen
+#### 4. Resistencia a la Segunda Preimagen
 
 La resistencia a la segunda preimagen es otra característica importante de las funciones hash. Declara que dado un mensaje $m_1$ y su hash $h$, es computacionalmente inviable encontrar otro mensaje $m_2 \neq m_1$ tal que:
 
