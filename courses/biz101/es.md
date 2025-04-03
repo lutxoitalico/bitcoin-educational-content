@@ -156,6 +156,7 @@ En general, este proceso es intrincado, largo y costoso para lo que debería ser
 
 ### Comparación de los métodos de pago
 
+
 | Método de pago                     | Autorización necesaria                        | Tiempo de aprobación (vista del comerciante)             | Velocidad de liquidación (fondos totalmente liquidados)  | Finalidad (facilidad de anulación)                      | Número de intermediarios            | Typical Fees (to Payee)                |
 |------------------------------------|-----------------------------------------------|----------------------------------------------------------|----------------------------------------------------------|----------------------------------------------------------|-------------------------------------|----------------------------------------|
 | **Cash**                           | No                                            | Inmediato (Intercambio físico)                           | Inmediato (Sin demora en la liquidación)                 | Alta (Irreversible una vez pagado)                       | Ninguno                             | Ninguno                                |
@@ -171,6 +172,7 @@ En general, este proceso es intrincado, largo y costoso para lo que debería ser
 La industria tradicional de pagos representa una economía anual de aproximadamente 2,2 billones de dólares, aproximadamente una décima parte del PIB de Estados Unidos o igual al PIB de Francia. Dado que las monedas funcionan como redes autorizadas, la competencia es limitada, lo que hace que este "servicio" se parezca más a un impuesto que grava la economía productiva. Además de la carga de costes que genera, existen otras limitaciones, que se exponen a continuación.
 
 
+
 | **Limitación**                               | **Explicación**                                                                                                                                                                                                                                                                                                                                                                                                              | **Impacto**                                                                                                                                        |
 |---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Elevadas comisiones por uso de tarjetas     | Las comisiones de intercambio (~0,3%), las comisiones de red (fijas o 0,3%-1%), las suscripciones a terminales/PSP y los márgenes bancarios (0,5%-1,7%) suman un coste sustancial, como un "impuesto" global sobre los sectores productivos, que asciende a billones de dólares.                                                                                                                                            | Aumenta los costes de los comerciantes, reduciendo los márgenes y haciendo subir potencialmente los precios al consumo.                             |
@@ -184,6 +186,7 @@ La industria tradicional de pagos representa una economía anual de aproximadame
 | Falta de una unidad de cuenta universal     | La falta de una unidad de cuenta universal obliga a realizar costosas conversiones de divisas en las transacciones transfronterizas.                                                                                                                                                                                                                                                                                         | Añade costes adicionales al comercio internacional, haciendo que las transacciones globales sean menos asequibles.                                  |
 
 
+
 Del mismo modo que pasamos de pagar por minuto las llamadas de voz a utilizar comunicaciones casi gratuitas basadas en IP, la aparición de redes más abiertas y eficientes puede redefinir los pagos, reduciendo costes e intermediarios y fomentando nuevos modelos de negocio.
 
 ## Bitcoin para empresas: una moneda emergente
@@ -195,9 +198,11 @@ Del mismo modo que pasamos de pagar por minuto las llamadas de voz a utilizar co
 Bitcoin es un **sistema de intercambio de moneda digital entre pares** (dinero electrónico). El término "Bitcoin" hace referencia a los siguientes componentes:
 
 
+
 - **Protocolo informático** que facilita el intercambio de valores en Internet sin intermediarios, sin necesidad de autorización y de forma seudónima. Emplea principios criptográficos avanzados.
 - **Red física** de máquinas conectadas a Internet (nodos, mineros, etc.) operadas por particulares y empresas, que forman un sistema descentralizado (sin autoridad central ni punto único de control).
 - **La unidad de cuenta** dentro del sistema. Nunca existirán más de 21 millones de bitcoins. Cada bitcoin es divisible en 100 millones de unidades llamadas "satoshis", denominadas así en honor de su anónimo creador.
+
 
 Juntos hacen de Bitcoin un **activo al portador** y una moneda digital **sin emisor**. La propiedad se garantiza únicamente mediante la posesión de la **clave criptográfica privada**, lo que otorga un control total **sin intermediarios ni terceros de confianza**. Cuando se transfiere, la **finalidad** de la propiedad es inmediata: el nuevo titular la posee plenamente sin depender de una autoridad central para su protección o convertibilidad. Las transacciones son **inmutables**: una vez registradas en la cadena de bloques, no pueden alterarse ni borrarse.
 
@@ -509,7 +514,6 @@ Los ETF de Bitcoin lideran por un amplio margen en términos de **adopción inst
 Bitcoin juega ahora en el **mercado** de los "almacenes de valor". No representa más que una gota de agua en términos de escala: apenas unos 1.800 billones de dólares en comparación con los 18.000 billones de dólares del oro o los 500.000 billones de dólares de los bienes inmuebles. Sin embargo, su cuota de mercado de aproximadamente el 0,1% le da un enorme margen de crecimiento, sobre todo teniendo en cuenta que sus competidores luchan por atraer a nuevos usuarios.
 
 
-
 | Ticker | Flujo 1D (M USD) | Flujo 1W (M USD) | Flujo 1M (M USD) | Flujo 3M (M USD) | Flujo YTD (M USD) |
 |-------|------------------|------------------|------------------|------------------|-------------------|
 | **Suma** | +457,19 | +1.507,95 | +2.888,01 | +3.672,29 | **+20.262,94** |
@@ -529,6 +533,7 @@ Bitcoin juega ahora en el **mercado** de los "almacenes de valor". No representa
 
 
 
+
 *20.000 millones de dólares en 10 meses: Los ETF de bitcoin lograron en menos de un año lo que los ETF de oro tardaron 5 años en conseguir. Fuente: Flujos de inversión de fondos en USD. Bloomberg Terminal, Bloomberg L.P., 2024.*
 
 ### Bitcoin en la caja de herramientas de la empresa
@@ -545,6 +550,7 @@ Otros casos de uso hacen del Bitcoin un activo estratégico de tesorería, por e
 - Puede depositar **colateral** o liquidez 24/7
 - Puede transferir a la tesorería de otra empresa **rápidamente, en cualquier momento**
 - Cobertura del **riesgo de cambio** contra monedas extranjeras
+
 - Pagar a un **proveedor** que lo acepte, sobre todo en situaciones de emergencia
 
 ### ¿Es Bitcoin demasiado caro?
@@ -570,6 +576,7 @@ Actualmente, el escenario en el que un propietario mayoritario toma la decisión
 - **Ejecutivos del sector tecnológico**: Un ejecutivo que vendió su empresa e invirtió parte de los beneficios de su sociedad de cartera personal en Bitcoin hace unos años. Hoy disfruta de una situación financiera desahogada y reinvierte en nuevas empresas.
 - **Propietarios de empresas muy pequeñas** : Empresarios de servicios, agricultura o artesanía que han comprendido el potencial de Bitcoin y le destinan una parte de su tesorería. Su principal motivación radica en la diversificación y la libertad que proporciona
 - **Empresas que cotizan en bolsa** como MicroStrategy han sentado un precedente al convertir una parte significativa de su tesorería corporativa en Bitcoin, demostrando un cambio global en las estrategias de asignación de capital de las empresas. En otoño de 2024, muchas otras empresas habían seguido su ejemplo, legitimando aún más esta tendencia.
+
 
 ### Fiscalidad del bitcoin en manos de empresas
 
@@ -800,6 +807,7 @@ Para simplificar el proceso de toma de decisiones, hemos definido cuatro perfile
 | **API**                           | Sí                                                                                                                                                                                 |
 
 
+
 #### Perfil 3 - El profesional
 
 | Atributo                           | El Profesional                                                                                                                                                            |
@@ -833,6 +841,7 @@ Para simplificar el proceso de toma de decisiones, hemos definido cuatro perfile
 | **Dispositivo para el punto de venta**| Soluciones a medida adaptadas al entorno empresarial                                                                                                               |
 | **Gestión y funciones**            | Funciones totalmente personalizadas en ventas, administración, desarrollo, contabilidad y finanzas; exportaciones contables totalmente personalizadas                 |
 | **API**                            | Sí                                                                                                                                                                   |
+
 
 
 En los capítulos siguientes, detallaremos cada perfil de empresa y las soluciones adaptadas a cada uno de ellos.
@@ -879,7 +888,7 @@ https://planb.network/tutorials/wallet/mobile/zeus-3e89603c-501d-439c-8691-d4a0d
 
 **Monederos LN custodiados:**
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-c4792842-b046-44f9-a6f1-351191b7cc2b
+https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
