@@ -79,14 +79,14 @@ Por ejemplo, la función hash SHA256 produce un hash de una longitud fija de 256
 
 Estas funciones hash criptográficas tienen varias características esenciales que las hacen particularmente útiles en el contexto de Bitcoin y otros sistemas informáticos:
 
-- Irreversibilidad (o resistencia a la imagen previa)
+- Irreversibilidad (o resistencia a la preimagen)
 - Resistencia a la manipulación (efecto avalancha)
 - Resistencia a colisiones
-- Resistencia a la segunda imagen previa
+- Resistencia a la segunda preimagen
 
-#### 1. Irreversibilidad (resistencia a la imagen previa):
+#### 1. Irreversibilidad (resistencia a la preimagen):
 
-La irreversibilidad significa que es fácil calcular el hash a partir de la información de entrada, pero que el cálculo inverso, es decir, encontrar el input a partir del hash, es prácticamente imposible. Esta propiedad hace que las funciones hash sean perfectas para crear huellas digitales únicas sin comprometer la información original.
+La irreversibilidad significa que es fácil calcular el hash a partir de la información dada como input, pero que el cálculo inverso, es decir, encontrar el input a partir del hash, es prácticamente imposible. Esta propiedad hace que las funciones hash sean perfectas para crear huellas digitales únicas sin comprometer la información original.
 
 En el ejemplo dado, obtener el hash `24f1b9…` sabiendo el input "_PlanB_" es simple y rápido. Sin embargo, encontrar el mensaje "_PlanB_" solo sabiendo `24f1b9…` es imposible.
 
