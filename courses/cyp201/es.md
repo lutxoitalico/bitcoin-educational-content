@@ -143,7 +143,7 @@ Por lo tanto, la resistencia a la segunda preimagen es algo similar a la resiste
 
 ### Aplicaciones de las Funciones Hash en Bitcoin
 
-La función hash más utilizada en Bitcoin es **SHA256** ("_Secure Hash Algorithm 256 bits"_). Diseñada a principios de los años 2000 por la NSA y estandarizada por el NIST, produce una salida hash de 256 bits.
+La función hash más utilizada en Bitcoin es **SHA256** ("_Secure Hash Algorithm 256 bits"_). Diseñada a principios de los años 2000 por la NSA y estandarizada por el NIST, produce un output hash de 256 bits.
 
 Esta función se utiliza en muchos aspectos de Bitcoin. A nivel de protocolo, está involucrada en el mecanismo de Prueba de Trabajo, donde se aplica un doble hash para buscar una colisión parcial entre el encabezado de un bloque candidato, creado por un minero, y el objetivo de dificultad. Si se encuentra esta colisión parcial, el bloque candidato se valida y puede añadirse a la blockchain.
 
@@ -514,12 +514,12 @@ En este ejemplo, sabiendo solo el módulo utilizado (10) y el resultado (5), no 
 
 Para la operación XOR, nos enfrentamos al mismo problema. Recuerda la tabla de verdad para esta operación: cualquier salida de 1 bit puede ser determinada por dos configuraciones de entrada diferentes que tienen exactamente la misma probabilidad de ser los valores correctos. Por lo tanto, no se puede determinar con certeza los operandos de un XOR sabiendo solo su resultado. Si aumentamos el tamaño de los operandos de XOR, el número de entradas posibles sabiendo solo el resultado aumenta exponencialmente. Además, el XOR se usa a menudo junto con otras operaciones a nivel de bit, como la operación $\text{RotR}$, que añade aún más interpretaciones posibles al resultado.
 
-La función de compresión también utiliza la operación $\text{ShR}$. Esta operación elimina una parte de la información básica, que luego es imposible recuperar más tarde. Una vez más, no hay medios algebraicos para revertir esta operación. Todas estas operaciones unidireccionales y de pérdida de información se utilizan muy frecuentemente en funciones de compresión. El número de entradas posibles para una salida dada es casi infinito, y cada intento de cálculo inverso conduciría a ecuaciones con un número muy alto de incógnitas, que aumentaría exponencialmente en cada paso.
+La función de compresión también utiliza la operación $\text{ShR}$. Esta operación elimina una parte de la información básica, que luego es imposible recuperar más tarde. Una vez más, no hay medios algebraicos para revertir esta operación. Todas estas operaciones unidireccionales y de pérdida de información se utilizan muy frecuentemente en funciones de compresión. El número de entradas posibles para un output dado es casi infinito, y cada intento de cálculo inverso conduciría a ecuaciones con un número muy alto de incógnitas, que aumentaría exponencialmente en cada paso.
 
 Finalmente, para la característica de resistencia a colisiones, entran en juego varios parámetros. El preprocesamiento del mensaje original juega un papel esencial. Sin este preprocesamiento, podría ser más fácil encontrar colisiones en la función. Aunque, teóricamente, existen colisiones (debido al principio del palomar), la estructura de la función hash, combinada con las propiedades mencionadas anteriormente, hace que la probabilidad de encontrar una colisión sea extremadamente baja.
 
 Para que una función hash sea resistente a colisiones, es esencial que:
-- La salida sea impredecible: Cualquier previsibilidad puede ser explotada para encontrar colisiones más rápido que con un ataque de fuerza bruta. La función asegura que cada bit de la salida dependa de una manera no trivial del input. En otras palabras, la función está diseñada de tal manera que cada bit del resultado final tiene una probabilidad independiente de ser 0 o 1, incluso si esta independencia no es absoluta en la práctica.
+- El output sea impredecible: Cualquier previsibilidad puede ser explotada para encontrar colisiones más rápido que con un ataque de fuerza bruta. La función asegura que cada bit de el output dependa de una manera no trivial del input. En otras palabras, la función está diseñada de tal manera que cada bit del resultado final tiene una probabilidad independiente de ser 0 o 1, incluso si esta independencia no es absoluta en la práctica.
 - La distribución de los hashes sea pseudoaleatoria: Esto asegura que los hashes estén uniformemente distribuidos.
 - El tamaño del hash sea sustancial: cuanto mayor sea el espacio posible para los resultados, más difícil es encontrar una colisión.
 
@@ -554,7 +554,7 @@ Exploraremos juntos el funcionamiento y el papel de cada uno de ellos.
 
 ### HMAC-SHA512
 
-HMAC es un algoritmo criptográfico que calcula un código de autenticación basado en una combinación de una función hash y una clave secreta. Bitcoin utiliza HMAC-SHA512, la variante de HMAC que usa la función hash SHA512. Ya hemos visto en el capítulo anterior que SHA512 es parte de la misma familia de funciones hash que SHA256, pero produce una salida de 512 bits.
+HMAC es un algoritmo criptográfico que calcula un código de autenticación basado en una combinación de una función hash y una clave secreta. Bitcoin utiliza HMAC-SHA512, la variante de HMAC que usa la función hash SHA512. Ya hemos visto en el capítulo anterior que SHA512 es parte de la misma familia de funciones hash que SHA256, pero produce un output de 512 bits.
 
 Aquí está su esquema de funcionamiento general con $m$ siendo el mensaje de entrada y $K$ una clave secreta:
 
@@ -1092,24 +1092,24 @@ En Bitcoin, hay ante todo 3 flags de sighash básicos:
 
 En todos los diagramas de este capítulo, el color naranja representa los elementos cubiertos por la firma, mientras que el color negro indica aquellos que no lo están.
 
-- `SIGHASH_NONE` (`0x02`): La firma cubre todas las entradas pero ninguna de las salidas, permitiendo así la modificación de las salidas después de la firma. En términos concretos, esto es similar a un cheque en blanco. El firmante desbloquea los UTXOs en las entradas pero deja el campo de las salidas completamente modificable. Cualquiera que conozca esta transacción puede así agregar la salida de su elección, por ejemplo especificando una dirección de recepción para recoger los fondos consumidos por las entradas, y luego transmitir la transacción para recuperar los bitcoins. La firma del propietario de las entradas no será invalidada, ya que solo cubre las entradas.
+- `SIGHASH_NONE` (`0x02`): La firma cubre todas las entradas pero ninguna de las salidas, permitiendo así la modificación de las salidas después de la firma. En términos concretos, esto es similar a un cheque en blanco. El firmante desbloquea los UTXOs en las entradas pero deja el campo de las salidas completamente modificable. Cualquiera que conozca esta transacción puede así agregar el output de su elección, por ejemplo especificando una dirección de recepción para recoger los fondos consumidos por las entradas, y luego transmitir la transacción para recuperar los bitcoins. La firma del propietario de las entradas no será invalidada, ya que solo cubre las entradas.
 
 ![CYP201](assets/fr/027.webp)
 
-- `SIGHASH_SINGLE` (`0x03`): La firma cubre todas las entradas así como una única salida, correspondiente al índice del input firmado. Por ejemplo, si la firma desbloquea el _scriptPubKey_ del input #0, entonces también cubre la salida #0. La firma también protege todas las otras entradas, las cuales ya no pueden ser modificadas. Sin embargo, cualquiera puede agregar una salida adicional sin invalidar la firma, siempre que la salida #0, que es la única cubierta por ella, no sea modificada.
+- `SIGHASH_SINGLE` (`0x03`): La firma cubre todas las entradas así como una único output, correspondiente al índice del input firmado. Por ejemplo, si la firma desbloquea el _scriptPubKey_ del input #0, entonces también cubre el output #0. La firma también protege todas las otras entradas, las cuales ya no pueden ser modificadas. Sin embargo, cualquiera puede agregar un output adicional sin invalidar la firma, siempre que el output #0, que es la única cubierta por ella, no sea modificada.
   ![CYP201](assets/fr/028.webp)
 
 Además de estos tres flags de sighash, también existe el modificador `SIGHASH_ANYONECANPAY` (`0x80`). Este modificador puede combinarse con un flag de sighash básico para crear tres nuevos flags de sighash:
 
-- `SIGHASH_ALL | SIGHASH_ANYONECANPAY` (`0x81`): La firma cubre una única entrada mientras incluye todas las salidas de la transacción. Este flag de sighash combinado permite, por ejemplo, la creación de una transacción de crowdfunding. El organizador prepara la salida con su dirección y el monto objetivo, y cada inversor puede entonces agregar entradas para financiar esta salida. Una vez que se reúnen fondos suficientes en las entradas para satisfacer la salida, la transacción puede ser transmitida.
+- `SIGHASH_ALL | SIGHASH_ANYONECANPAY` (`0x81`): La firma cubre una única entrada mientras incluye todas las salidas de la transacción. Este flag de sighash combinado permite, por ejemplo, la creación de una transacción de crowdfunding. El organizador prepara el output con su dirección y el monto objetivo, y cada inversor puede entonces agregar entradas para financiar este output. Una vez que se reúnen fondos suficientes en las entradas para satisfacer el output, la transacción puede ser transmitida.
 
 ![CYP201](assets/fr/029.webp)
 
-- `SIGHASH_NONE | SIGHASH_ANYONECANPAY` (`0x82`): La firma cubre una única entrada, sin comprometerse con ninguna salida;
+- `SIGHASH_NONE | SIGHASH_ANYONECANPAY` (`0x82`): La firma cubre una única entrada, sin comprometerse con ningun output;
 
 ![CYP201](assets/fr/030.webp)
 
-- `SIGHASH_SINGLE | SIGHASH_ANYONECANPAY` (`0x83`): La firma cubre una sola entrada así como la salida que tiene el mismo índice que esta entrada. Por ejemplo, si la firma desbloquea el _scriptPubKey_ del input #3, también cubrirá la salida #3. El resto de la transacción permanece modificable, tanto en términos de otras entradas como de otras salidas.
+- `SIGHASH_SINGLE | SIGHASH_ANYONECANPAY` (`0x83`): La firma cubre una sola entrada así como el output que tiene el mismo índice que esta entrada. Por ejemplo, si la firma desbloquea el _scriptPubKey_ del input #3, también cubrirá el output #3. El resto de la transacción permanece modificable, tanto en términos de otras entradas como de otras salidas.
   ![CYP201](assets/fr/031.webp)
 
 ### Proyectos para Agregar Nuevas Banderas de Sighash
@@ -1352,7 +1352,7 @@ El estándar BIP39 define la semilla como una secuencia de 512 bits, que sirve c
 - $\text{PBKDF2}$ : la función de derivación con $\text{HMAC-SHA512}$ y $2048$ iteraciones;
 - $s$: la semilla de la cartera de 512 bits.
 
-Independientemente de la longitud de la frase mnemotécnica elegida (132 bits o 264 bits), la función PBKDF2 siempre producirá una salida de 512 bits, y la semilla por lo tanto siempre será de este tamaño.
+Independientemente de la longitud de la frase mnemotécnica elegida (132 bits o 264 bits), la función PBKDF2 siempre producirá un output de 512 bits, y la semilla por lo tanto siempre será de este tamaño.
 
 ### Esquema de Derivación de la Semilla con PBKDF2
 
@@ -1383,7 +1383,7 @@ $$
 \text{output} = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)
 $$
 
-La salida de esta función es, por lo tanto, de 512 bits. Luego se divide en 2 partes:
+El output de esta función es, por lo tanto, de 512 bits. Luego se divide en 2 partes:
 - Los 256 bits izquierdos forman la **llave privada maestra**;
 - Los 256 bits derechos forman el **código de cadena maestro**.
 
@@ -1545,12 +1545,12 @@ Cada par de claves hijo se identifica por un **índice** de 32 bits (denominado 
 
 ### Proceso de Derivación con HMAC-SHA512
 
-La derivación de cada clave hijo se basa en la función HMAC-SHA512, la cual discutimos en la Sección 2 sobre funciones hash. Toma dos entradas: el código de cadena padre $C_{\text{PAR}}$ y la concatenación de la clave padre (ya sea la clave pública $K_{\text{PAR}}$ o la clave privada $k_{\text{PAR}}$, dependiendo del tipo de clave hijo deseada) y el índice. La salida del HMAC-SHA512 es una secuencia de 512 bits, dividida en dos partes:
+La derivación de cada clave hijo se basa en la función HMAC-SHA512, la cual discutimos en la Sección 2 sobre funciones hash. Toma dos entradas: el código de cadena padre $C_{\text{PAR}}$ y la concatenación de la clave padre (ya sea la clave pública $K_{\text{PAR}}$ o la clave privada $k_{\text{PAR}}$, dependiendo del tipo de clave hijo deseada) y el índice. El output del HMAC-SHA512 es una secuencia de 512 bits, dividida en dos partes:
 
 - **Los primeros 32 bytes** (o $h_1$) se utilizan para calcular el nuevo par hijo.
 - **Los últimos 32 bytes** (o $h_2$) sirven como el nuevo código de cadena $C_{\text{CHD}}$ para el par hijo.
 
-En todos nuestros cálculos, denotaré $\text{hash}$ la salida de la función HMAC-SHA512.
+En todos nuestros cálculos, denotaré $\text{hash}$ El output de la función HMAC-SHA512.
 
 ![CYP201](assets/fr/049.webp)
 
@@ -1870,7 +1870,7 @@ Las direcciones de recepción son piezas de información incrustadas en _scriptP
 
 Como se explicó anteriormente, el papel de una transacción es transferir la propiedad de bitcoins de entradas a salidas. Este proceso implica consumir UTXOs como entradas mientras se crean nuevos UTXOs como salidas. Estos UTXOs están asegurados por scripts, que definen las condiciones necesarias para desbloquear los fondos.
 
-Cuando un usuario recibe bitcoins, el emisor crea una salida UTXO y la bloquea con un _scriptPubKey_. Este script contiene las reglas que especifican típicamente las firmas y claves públicas requeridas para desbloquear este UTXO. Para gastar este UTXO en una nueva transacción, el usuario debe proporcionar la información solicitada a través de un _scriptSig_. La ejecución de _scriptSig_ en combinación con _scriptPubKey_ debe retornar "verdadero" o `1`. Si se cumple esta condición, el UTXO puede gastarse para crear un nuevo UTXO, a su vez bloqueado por un nuevo _scriptPubKey_, y así sucesivamente.
+Cuando un usuario recibe bitcoins, el emisor crea un output UTXO y la bloquea con un _scriptPubKey_. Este script contiene las reglas que especifican típicamente las firmas y claves públicas requeridas para desbloquear este UTXO. Para gastar este UTXO en una nueva transacción, el usuario debe proporcionar la información solicitada a través de un _scriptSig_. La ejecución de _scriptSig_ en combinación con _scriptPubKey_ debe retornar "verdadero" o `1`. Si se cumple esta condición, el UTXO puede gastarse para crear un nuevo UTXO, a su vez bloqueado por un nuevo _scriptPubKey_, y así sucesivamente.
 
 ![CYP201](assets/fr/054.webp)
 
