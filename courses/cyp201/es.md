@@ -809,6 +809,7 @@ K = k \cdot G = 4G
 $$
 
 Gráficamente, esto corresponde a realizar una serie de adiciones y duplicaciones:
+
 - Calcular $2G$ duplicando $G$.
 - Calcular $4G$ duplicando $2G$.
 
@@ -846,7 +847,7 @@ $$
 
 Así hemos podido calcular fácilmente la clave pública $K$ conociendo $k$ y $G$.
 
-Ahora, si alguien solo conoce la clave pública $K$, se enfrenta al problema del logaritmo discreto: encontrar $k$ tal que $K = k \cdot G$. Este problema se considera difícil porque no existe un algoritmo eficiente para resolverlo en curvas elípticas. Esto asegura la seguridad de los algoritmos ECDSA y Schnorr.
+Ahora, si alguien solo conoce la clave pública $K$, se enfrenta al *problema del logaritmo discreto*: encontrar $k$ tal que $K = k \cdot G$. Este problema se considera difícil porque no existe un algoritmo eficiente para resolverlo en curvas elípticas. Esto asegura la seguridad de los algoritmos ECDSA y Schnorr.
 
 Por supuesto, en este ejemplo simplificado con $k = 4$, sería posible encontrar $k$ mediante prueba y error, ya que el número de posibilidades es bajo. Sin embargo, en la práctica en Bitcoin, $k$ es un entero de 256 bits, lo que hace que el número de posibilidades sea astronómicamente grande (alrededor de $1.158 \times 10^{77}$). Por lo tanto, es inviable encontrar $k$ por fuerza bruta.
 
@@ -989,7 +990,7 @@ El primer paso para generar una firma es hacer hash del mensaje. Pero a diferenc
 
 Además del mensaje, la coordenada $x$ de la clave pública $K_x$, así como un punto $R$ calculado a partir del nonce $r$ ($R=r \cdot G$) que es en sí mismo un entero único para cada firma, calculado de manera determinista a partir de la clave privada y el mensaje para evitar vulnerabilidades relacionadas con la reutilización del nonce, también se pasan a la función etiquetada. Al igual que para la clave pública, solo se retiene la coordenada $x$ del punto nonce $R_x$ para describir el punto.
 
-El resultado de este hash, notado $e$, se llama el "desafío":
+El resultado de este hash, notado $e$, se llama "the challenge" (el desafio):
 
 $$
 e = \text{HASH}(\text{``BIP0340/challenge''}, R_x \Vert K_x \Vert m) \mod n
