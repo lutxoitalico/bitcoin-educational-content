@@ -554,7 +554,7 @@ Exploraremos juntos el funcionamiento y el papel de cada uno de ellos.
 
 ### HMAC-SHA512
 
-HMAC es un algoritmo criptográfico que calcula un código de autenticación basado en una combinación de una función hash y una clave secreta. Bitcoin utiliza HMAC-SHA512, la variante de HMAC que usa la función hash SHA512. Ya hemos visto en el capítulo anterior que SHA512 es parte de la misma familia de funciones hash que SHA256, pero produce un output de 512 bits.
+HMAC (*Hash-based Message Authentication Code*) es un algoritmo criptográfico que calcula un código de autenticación basado en una combinación de una función hash y una clave secreta. Bitcoin utiliza HMAC-SHA512, la variante de HMAC que usa la función hash SHA512. Ya hemos visto en el capítulo anterior que SHA512 es parte de la misma familia de funciones hash que SHA256, pero produce un output de 512 bits.
 
 Aquí está su esquema de funcionamiento general con $m$ siendo el mensaje de entrada y $K$ una clave secreta:
 
@@ -604,7 +604,7 @@ HMAC se utiliza en Bitcoin notablemente para la derivación de claves en cartera
 
 ### PBKDF2
 
-PBKDF2 (*Password-Based Key Derivation Function 2*) es un algoritmo de derivación de claves diseñado para mejorar la seguridad de las contraseñas. El algoritmo aplica una función pseudoaleatoria (en este caso, HMAC-SHA512) sobre una contraseña y una sal criptográfica, y luego repite esta operación un cierto número de veces para producir una clave de salida.
+PBKDF2 (*Password-Based Key Derivation Function 2*) es un algoritmo de derivación de claves diseñado para mejorar la seguridad de las contraseñas. El algoritmo aplica una función pseudoaleatoria (en este caso, HMAC-SHA512) sobre una contraseña y una *sal criptográfica*, y luego repite esta operación un cierto número de veces para producir una clave de salida.
 
 En Bitcoin, PBKDF2 se utiliza para generar la semilla de una cartera HD a partir de una frase mnemotécnica y una passphrase (pero hablaremos de esto con más detalle en los próximos capítulos).
 
