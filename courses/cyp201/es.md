@@ -1140,11 +1140,11 @@ En la siguiente parte, propongo descubrir el funcionamiento de la frase mnemóni
 
 Ahora que hemos explorado el funcionamiento de las funciones hash y las firmas digitales, podemos estudiar cómo funcionan las billeteras Bitcoin. El objetivo será imaginar cómo se construye una billetera en Bitcoin, cómo se descompone y cuáles son las diferentes piezas de información que la constituyen y para qué se utilizan. Este entendimiento de los mecanismos de la billetera te permitirá mejorar tu uso de Bitcoin en términos de seguridad y privacidad.
 
-Antes de sumergirnos en los detalles técnicos, es esencial aclarar qué se entiende por "billetera Bitcoin" y entender su utilidad.
+Antes de sumergirnos en los detalles técnicos, es esencial aclarar qué se entiende por "billetera Bitcoin" y comprender su utilidad.
 
 ### ¿Qué es una billetera Bitcoin?
 
-A diferencia de las billeteras tradicionales, que te permiten almacenar billetes y monedas físicas, una billetera Bitcoin no "contiene" bitcoins per se. De hecho, los bitcoins no existen en una forma física o digital que pueda ser almacenada, sino que están representados por unidades de cuenta descritas en el sistema en forma de **UTXOs** (_Salida de Transacción No Gastada_).
+A diferencia de las billeteras tradicionales, que te permiten almacenar billetes y monedas físicas, una billetera Bitcoin no "contiene" bitcoins per se. De hecho, los bitcoins no existen en una forma física o digital que pueda ser almacenada, sino que están representados por unidades de cuenta descritas en el sistema en forma de **UTXOs** (_Unspent Transaction Outputs - Salida de Transacción No Gastada_).
 
 Los UTXOs representan fragmentos de bitcoins, de diversos tamaños, que pueden ser gastados siempre que su _scriptPubKey_ sea satisfecho. Para gastar sus bitcoins, un usuario debe proporcionar un _scriptSig_ que desbloquee el _scriptPubKey_ asociado con su UTXO. Esta prueba generalmente se realiza a través de una firma digital, generada desde la clave privada correspondiente a la clave pública presente en el _scriptPubKey_. Por lo tanto, el elemento crucial que el usuario debe asegurar es la clave privada. El papel de una billetera de Bitcoin es precisamente gestionar estas claves privadas de manera segura. En realidad, su papel es más similar al de un llavero que al de una billetera en el sentido tradicional.
 
@@ -1154,7 +1154,7 @@ Las primeras billeteras utilizadas en Bitcoin fueron las billeteras JBOK (_Just 
 
 ![CYP201](assets/fr/033.webp)
 
-Si se deseaba utilizar múltiples claves privadas, entonces era necesario hacer tantas copias de seguridad para asegurar el acceso a los fondos en caso de problemas con el dispositivo que aloja la billetera. Si se usa una única clave privada, esta estructura de billetera puede ser suficiente, ya que una sola copia de seguridad es suficiente. Sin embargo, esto plantea un problema: en Bitcoin, se desaconseja fuertemente siempre usar la misma clave privada. De hecho, una clave privada está asociada con una dirección única, y las direcciones de recepción de Bitcoin están diseñadas normalmente para un solo uso. Cada vez que recibes fondos, deberías generar una nueva dirección en blanco.
+Si se deseaba utilizar múltiples claves privadas, entonces era necesario hacer tantas copias de seguridad para asegurar el acceso a los fondos en caso de problemas con el dispositivo que aloja la billetera. Si se usa una única clave privada, esta estructura de billetera puede ser suficiente, ya que una sola copia de seguridad es suficiente. Sin embargo, esto plantea un problema: en Bitcoin, se desaconseja fuertemente usar siempre la misma clave privada. De hecho, una clave privada está asociada con una dirección única, y las direcciones de recepción de Bitcoin están diseñadas normalmente para un solo uso. Cada vez que recibes fondos, deberías generar una nueva dirección en blanco.
 
 Esta restricción proviene del modelo de privacidad de Bitcoin. Al reutilizar la misma dirección, facilita a los observadores externos rastrear todas mis transacciones de Bitcoin. Es por eso que se desaconseja fuertemente reutilizar una dirección de recepción. Sin embargo, para tener múltiples direcciones y separar públicamente nuestras transacciones, es necesario gestionar múltiples claves privadas. En el caso de las billeteras JBOK, esto implica crear tantas copias de seguridad como nuevos pares de claves, una tarea que rápidamente puede volverse compleja y difícil de mantener para los usuarios.
 
