@@ -1054,11 +1054,11 @@ El esquema de firma Schnorr ofrece varias ventajas para Bitcoin sobre el algorit
 
 ![CYP201](assets/fr/024.webp)
 
-Y de manera similar, múltiples firmas pueden ser agregadas en una única firma válida. Así, en el caso de una transacción de multisignatura, un conjunto de participantes puede firmar con una única firma y una única clave pública agregada. Esto reduce significativamente los costos de almacenamiento y computación para la red, ya que cada nodo solo necesita verificar una única firma.
+Y de manera similar, múltiples firmas pueden ser agregadas en una única firma válida. Así, en el caso de una transacción de multifirma, un conjunto de participantes puede firmar con una única firma y una única clave pública agregada. Esto reduce significativamente los costos de almacenamiento y computación para la red, ya que cada nodo solo necesita verificar una única firma.
 
 ![CYP201](assets/fr/025.webp)
 
-Además, la agregación de firmas mejora la privacidad. Con Schnorr, se vuelve imposible distinguir una transacción de multisignatura de una transacción de firma única estándar. Esta homogeneidad hace que el análisis de la cadena sea más difícil, ya que limita la capacidad de identificar huellas de billeteras.
+Además, la agregación de firmas mejora la privacidad. Con Schnorr, se vuelve imposible distinguir una transacción multifirma de una transacción de firma única estándar. Esta homogeneidad hace que el análisis de la cadena sea más difícil, ya que limita la capacidad de identificar huellas de billeteras.
 Finalmente, Schnorr también ofrece la posibilidad de verificación por lotes. Al verificar múltiples firmas simultáneamente, los nodos pueden ganar eficiencia, especialmente para bloques que contienen muchas transacciones. Esta optimización reduce el tiempo y los recursos necesarios para validar un bloque. Además, las firmas Schnorr no son maleables, a diferencia de las firmas producidas con ECDSA. Esto significa que un atacante no puede modificar una firma válida para crear otra firma válida para el mismo mensaje y la misma clave pública. Esta vulnerabilidad estaba previamente presente en Bitcoin y evitaba notablemente la implementación segura de la Lightning Network. Se resolvió para ECDSA con el softfork SegWit en 2017, que implica mover las firmas a una base de datos separada de las transacciones para prevenir su maleabilidad.
 
 ### ¿Por qué Satoshi eligió ECDSA?
@@ -1067,13 +1067,13 @@ Como hemos visto, Satoshi inicialmente eligió implementar ECDSA para firmas dig
 
 Bueno, realmente no sabemos por qué Satoshi no lo eligió, pero una hipótesis probable es que este protocolo estaba bajo patente hasta 2008. Aunque Bitcoin fue creado un año después, en enero de 2009, no había una estandarización de código abierto para las firmas Schnorr disponible en ese momento. Quizás Satoshi consideró más seguro usar ECDSA, que ya estaba ampliamente utilizado y probado en software de código abierto y tenía varias implementaciones reconocidas (notablemente la biblioteca OpenSSL utilizada hasta 2015 en Bitcoin Core, luego reemplazada por libsecp256k1 en la versión 0.10.0). O tal vez simplemente no estaba al tanto de que esta patente iba a expirar en 2008. En cualquier caso, la hipótesis más probable parece estar relacionada con esta patente y el hecho de que ECDSA tenía un historial probado y era más fácil de implementar.
 
-## Los flags de sighash
+## Los sighash flags
 
 <chapterId>231c41a2-aff2-4655-9048-47b6d2d83d64</chapterId>
 
 Como hemos visto en capítulos anteriores, las firmas digitales se utilizan a menudo para desbloquear el script de una entrada. En el proceso de firma, es necesario incluir los datos firmados en el cálculo, designados en nuestros ejemplos por el mensaje $m$. Estos datos, una vez firmados, no pueden ser modificados sin invalidar la firma. De hecho, ya sea para ECDSA o Schnorr, el verificador de la firma debe incluir en su cálculo el mismo mensaje $m$. Si difiere del mensaje $m$ inicialmente utilizado por el firmante, el resultado será incorrecto y la firma se considerará inválida. Entonces se dice que una firma cubre ciertos datos y los protege, de cierta manera, contra modificaciones no autorizadas.
 
-### ¿Qué es un flag de sighash?
+### ¿Qué es un sighash flash?
 
 En el caso específico de Bitcoin, hemos visto que el mensaje $m$ corresponde a la transacción. Sin embargo, en realidad, es un poco más complejo. De hecho, gracias a los flags de sighash, es posible seleccionar datos específicos dentro de la transacción que estarán cubiertos o no por la firma.
 
@@ -1085,7 +1085,7 @@ Generalmente, el software de billetera no te ofrece la opción de modificar manu
 
 ### ¿Cuáles son los flags de sighash existentes en Bitcoin?
 
-En Bitcoin, hay ante todo 3 flags de sighash básicos:
+En Bitcoin, hay 3 flags de sighash básicos:
 
 - `SIGHASH_ALL` (`0x01`): La firma se aplica a todas las entradas y todas las salidas de la transacción. La transacción está así completamente cubierta por la firma y ya no puede ser modificada. `SIGHASH_ALL` es el sighash más comúnmente usado en transacciones cotidianas cuando uno simplemente quiere realizar una transacción sin que pueda ser modificada.
 
@@ -1113,9 +1113,9 @@ Además de estos tres flags de sighash, también existe el modificador `SIGHASH_
 - `SIGHASH_SINGLE | SIGHASH_ANYONECANPAY` (`0x83`): La firma cubre una sola entrada así como el output que tiene el mismo índice que esta entrada. Por ejemplo, si la firma desbloquea el _scriptPubKey_ del input #3, también cubrirá el output #3. El resto de la transacción permanece modificable, tanto en términos de otras entradas como de otras salidas.
   ![CYP201](assets/fr/031.webp)
 
-### Proyectos para Agregar Nuevas Banderas de Sighash
+### Proyectos para Agregar Nuevos sighash flags
 
-Actualmente (2024), solo las banderas de sighash presentadas en la sección anterior son utilizables en Bitcoin. Sin embargo, algunos proyectos están considerando la adición de nuevas banderas de sighash. Por ejemplo, el BIP118, propuesto por Christian Decker y Anthony Towns, introduce dos nuevas banderas de sighash: `SIGHASH_ANYPREVOUT` y `SIGHASH_ANYPREVOUTANYSCRIPT` (_AnyPrevOut = "Cualquier Salida Anterior"_).
+Actualmente (2024), solo los sighash flags presentados en la sección anterior son utilizables en Bitcoin. Sin embargo, algunos proyectos están considerando la adición de nuevas banderas de sighash. Por ejemplo, el BIP118, propuesto por Christian Decker y Anthony Towns, introduce dos nuevos sighash flags: `SIGHASH_ANYPREVOUT` y `SIGHASH_ANYPREVOUTANYSCRIPT` (_AnyPrevOut = "Cualquier Salida Anterior"_).
 
 Estas dos banderas de sighash ofrecerían una posibilidad adicional en Bitcoin: crear firmas que no cubren ninguna entrada específica de la transacción.
 
@@ -1128,7 +1128,7 @@ Para profundizar tu conocimiento sobre la Red Lightning, después del curso CYP2
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-En la siguiente parte, propongo descubrir cómo funciona la frase mnemónica en la base de tu billetera Bitcoin.
+En la siguiente parte, propongo descubrir el funcionamiento de la frase mnemónica en tu billetera Bitcoin.
 
 # La frase mnemónica
 
