@@ -30,7 +30,8 @@ Théo; contribución
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
-### Objetivo: ¡Mejorar tus habilidades en seguridad!
+
+**Objetivo: ¡Mejorar tus habilidades en seguridad!**
 
 Bienvenidos a todos a este programa de enseñanza dedicado a la seguridad digital. Esta formación está diseñada para ser accesible para todos, por lo que no se requieren conocimientos previos de informática. Nuestro objetivo principal es proporcionarles los conocimientos y habilidades necesarios para navegar de manera más segura y privada en el mundo digital.
 
@@ -46,7 +47,8 @@ Su salud digital es crucial en un mundo cada vez más digital. A pesar del const
 En esta formación, no buscamos convertirte en un experto, anónimo o invulnerable, esto es imposible. En cambio, te ofrecemos algunas soluciones simples y accesibles para todos, para comenzar a transformar tus hábitos en línea y recuperar el control de tu soberanía digital.
 Si estás buscando habilidades más avanzadas sobre el tema, nuestras recursos, tutoriales u otras formaciones sobre ciberseguridad están aquí para ti. Mientras tanto, aquí tienes un pequeño vistazo de nuestro programa durante las próximas horas juntos.
 
-### Sección 1: Todo lo que necesitas saber sobre la navegación en línea
+
+**Sección 1: Todo lo que necesitas saber sobre la navegación en líneaa**
 
 - Capítulo 1 - Navegación en línea
 - Capítulo 2 - Uso seguro de internet
@@ -54,7 +56,7 @@ Si estás buscando habilidades más avanzadas sobre el tema, nuestras recursos, 
 Para empezar, discutiremos la importancia de elegir un navegador web y sus implicaciones en términos de seguridad. Luego exploraremos las especificidades de los navegadores, especialmente en lo que respecta a la gestión de cookies. También veremos cómo garantizar una navegación más segura y anónima, utilizando herramientas como TOR. A continuación, nos enfocaremos en el uso de VPN para fortalecer la protección de tus datos. Por último, terminaremos con recomendaciones sobre el uso seguro de conexiones WiFi.
 ![](assets/es/1.webp)
 
-### Sección 2: Buenas prácticas para el uso de la computadora
+**Sección 2: Buenas prácticas para el uso de la computadora**
 
 - Capítulo 3 - Uso de la computadora
 - Capítulo 4 - Hackeo y gestión de copias de seguridad
@@ -62,7 +64,7 @@ Para empezar, discutiremos la importancia de elegir un navegador web y sus impli
 En esta sección, abordaremos tres áreas clave de la seguridad informática. En primer lugar, exploraremos los diferentes sistemas operativos: Mac, PC y Linux, destacando sus especificidades y fortalezas. Luego, nos enfocaremos en métodos para protegerte eficazmente contra intentos de piratería y fortalecer la seguridad de tus dispositivos. Por último, haremos hincapié en la importancia de proteger y hacer copias de seguridad regularmente de tus datos para prevenir pérdidas y ataques ransomware.
 ![](assets/es/2.webp)
 
-### Sección 3: Implementación de soluciones
+**Sección 3: Implementación de soluciones**
 
 - Capítulo 6 - Gestión del correo electrónico
 - Capítulo 7 - Gestor de contraseñas
@@ -73,12 +75,13 @@ En esta tercera sección práctica, pasaremos a la acción con la implementació
 Primero, veremos cómo proteger tu correo electrónico, que es esencial para tus comunicaciones y a menudo es objetivo de los piratas informáticos. Luego, te presentaremos qué es un gestor de contraseñas: una solución práctica para no olvidar o mezclar tus contraseñas, al mismo tiempo que las mantienes seguras. Por último, mencionaremos una medida de seguridad adicional, la autenticación de dos factores, que agrega una capa de protección a tus cuentas. Todo se explicará de manera clara y accesible.
 ![](assets/es/3.webp)
 
-### Sección Bonus: Entrevista con Pantamis y Renaud
+**Sección Bonus: Entrevista con Pantamis y Renaud**
 
 En bonus, te ofrecemos una entrevista exclusiva con Pantamis y Renaud, nuestros expertos en seguridad digital. Compartirán sus conocimientos profundos y consejos adicionales para fortalecer tu salud digital. La idea es aprender más de estos profesionales experimentados.
 
 Este programa de formación se ofrece de forma gratuita bajo una licencia redistribuible CC BY SA. Queremos expresar nuestra gratitud a nuestros Patreons y a nuestro equipo de grabación por su apoyo indispensable en la realización de esta formación. También agradecemos a todos nuestros donantes y seguidores que nos permiten seguir produciendo contenido educativo gratuito a nivel mundial.
 
+¿Listo para fortalecer tu seguridad digital y recuperar el control de tus datos? ¡Vamos allá!
 # Todo sobre la navegación en línea
 
 <partId>b4b5379a-d8ef-59ae-94d3-a6e88959c149</partId>

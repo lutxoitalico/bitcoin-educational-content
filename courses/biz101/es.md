@@ -34,6 +34,8 @@ El curso comienza con un examen detallado de las monedas convencionales y los me
 
 Tanto si representa a una pequeño negocio como a una gran corporación, este curso pretende dotarle de los conocimientos necesarios para integrar Bitcoin en sus operaciones diarias, mejorando así la resistencia, eficiencia y ventaja competitiva de su empresa. A medida que Bitcoin continúa remodelando el panorama económico, la comprensión de estas tecnologías innovadoras no es simplemente una opción, sino una necesidad estratégica. Prepárese para intercatuar con un contenido perspicaz, ejemplos prácticos y orientación estratégica que le permitirán navegar y aprovechar el mundo en evolución de Bitcoin
 
+¿Listo para sumergirte en el mundo de Bitcoin para empresas? ¡Vamos allá!
+
 # Moneda, sistemas de pago y Bitcoin
 
 <partId>d9bd0e21-8488-44e0-af55-6d0b934f83c2</partId>
@@ -184,6 +186,7 @@ La industria tradicional de pagos representa una economía anual de aproximadame
 | Necesidad de una cuenta bancaria o tarjeta  | El acceso a estos métodos de pago requiere una cuenta bancaria o de tarjeta vinculada, lo que excluye automáticamente a quienes carecen de ellas.                                                                                                                                                                                                                                                                           | Limita la inclusión financiera, reduciendo el acceso de las poblaciones no bancarizadas o infrabancarizadas.                                        |
 | Creación repetida de cuentas en línea       | A menudo, los usuarios deben crear varias cuentas en línea, lo que provoca cansancio, reduce la comodidad y aumenta la exposición de los datos personales.                                                                                                                                                                                                                                                                  | Deteriora la experiencia del usuario, plantea problemas de privacidad y aumenta el riesgo de violación de datos.                                    |
 | Falta de una unidad de cuenta universal     | La falta de una unidad de cuenta universal obliga a realizar costosas conversiones de divisas en las transacciones transfronterizas.                                                                                                                                                                                                                                                                                         | Añade costes adicionales al comercio internacional, haciendo que las transacciones globales sean menos asequibles.                                  |
+
 
 
 
@@ -550,7 +553,6 @@ Otros casos de uso hacen del Bitcoin un activo estratégico de tesorería, por e
 - Puede depositar **colateral** o liquidez 24/7
 - Puede transferir a la tesorería de otra empresa **rápidamente, en cualquier momento**
 - Cobertura del **riesgo de cambio** contra monedas extranjeras
-
 - Pagar a un **proveedor** que lo acepte, sobre todo en situaciones de emergencia
 
 ### ¿Es Bitcoin demasiado caro?
@@ -576,6 +578,7 @@ Actualmente, el escenario en el que un propietario mayoritario toma la decisión
 - **Ejecutivos del sector tecnológico**: Un ejecutivo que vendió su empresa e invirtió parte de los beneficios de su sociedad de cartera personal en Bitcoin hace unos años. Hoy disfruta de una situación financiera desahogada y reinvierte en nuevas empresas.
 - **Propietarios de empresas muy pequeñas** : Empresarios de servicios, agricultura o artesanía que han comprendido el potencial de Bitcoin y le destinan una parte de su tesorería. Su principal motivación radica en la diversificación y la libertad que proporciona
 - **Empresas que cotizan en bolsa** como MicroStrategy han sentado un precedente al convertir una parte significativa de su tesorería corporativa en Bitcoin, demostrando un cambio global en las estrategias de asignación de capital de las empresas. En otoño de 2024, muchas otras empresas habían seguido su ejemplo, legitimando aún más esta tendencia.
+
 
 
 ### Fiscalidad del bitcoin en manos de empresas
@@ -789,6 +792,7 @@ Para simplificar el proceso de toma de decisiones, hemos definido cuatro perfile
 
 
 
+
 #### Perfil 2 - El Esencial
 
 | Atributo                          | El Esencial                                                                                                                                                                       |
@@ -805,6 +809,7 @@ Para simplificar el proceso de toma de decisiones, hemos definido cuatro perfile
 | **Dispositivo de punto de venta** | Aplicación gratuita para smartphone u opción de terminal físico (p. ej. Bitcoinize)                                                                                                |
 | **Gestión y Roles**               | Opción de un rol de solo venta para los empleados; tablero online para la administración; exportación CSV con todos los detalles de las transacciones                              |
 | **API**                           | Sí                                                                                                                                                                                 |
+
 
 
 
@@ -841,6 +846,7 @@ Para simplificar el proceso de toma de decisiones, hemos definido cuatro perfile
 | **Dispositivo para el punto de venta**| Soluciones a medida adaptadas al entorno empresarial                                                                                                               |
 | **Gestión y funciones**            | Funciones totalmente personalizadas en ventas, administración, desarrollo, contabilidad y finanzas; exportaciones contables totalmente personalizadas                 |
 | **API**                            | Sí                                                                                                                                                                   |
+
 
 
 
@@ -1379,4 +1385,4 @@ Por último, tanto si es un pequeño comerciante como una empresa más estableci
 <chapterId>5503c23e-3a90-4a23-8d89-75e3cc1ee53e</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
-<isConclusionCurso>true</isConclusionCurso>
+
