@@ -743,6 +743,7 @@ Como veremos en los próximos capítulos, hoy en día, la mayoría de las claves
 Para la continuación de la explicación, la clave privada se denotará con la letra minúscula $k$.
 
 ### La Clave Pública
+
 La clave pública es un punto en la curva elíptica, denotado por la letra mayúscula $K$, y se calcula a partir de la clave privada $k$. Este punto $K$ está representado por un par de coordenadas $(x, y)$ en la curva elíptica, siendo cada coordenada un entero módulo $p$, el número primo que define el campo finito $\mathbb{F}_p$.
 
 En la práctica, una clave pública no comprimida se representa por 512 bits (o 64 bytes), correspondientes a dos números de 256 bits ($x$ y $y$) colocados uno tras otro. Estos números son la abscisa ($x$) y la ordenada ($y$) de nuestro punto en secp256k1. Si añadimos el prefijo, la clave pública totaliza 520 bits.
@@ -835,6 +836,7 @@ $$
 
 Gráficamente, esto se representaría de la siguiente manera:
 ![CYP201](assets/fr/022.webp)
+
 ### Función Unidireccional
 
 Gracias a estas operaciones, podemos entender por qué es fácil derivar una clave pública a partir de una clave privada, pero lo contrario es prácticamente imposible.
@@ -1302,6 +1304,7 @@ Para ir más allá y aprender concretamente cómo generar manualmente una frase 
 https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
 
 Antes de continuar con la derivación de la billetera a partir de esta frase mnemotécnica, te presentaré, en el siguiente capítulo, la passphrase BIP39, ya que juega un papel en el proceso de derivación, y está al mismo nivel que la frase mnemotécnica.
+
 ## La passphrase
 <chapterId>6a51b397-f3b5-5084-b151-cef94bc9b93f</chapterId>
 
@@ -1324,6 +1327,7 @@ La passphrase es arbitraria y puede ser cualquier combinación de caracteres ele
 Luego, puede usarse estratégicamente para crear una billetera señuelo, para enfrentar restricciones físicas para robar tus fondos como el infame "_ataque de la llave inglesa de 5 dólares_". En este escenario, la idea es tener una billetera sin passphrase que contenga solo una pequeña cantidad de bitcoins, suficiente para satisfacer a un posible agresor, mientras se tiene una billetera oculta. Esta última utiliza la misma frase mnemotécnica pero está asegurada con una passphrase adicional.
 
 Finalmente, el uso de una passphrase es interesante cuando se desea controlar la aleatoriedad de la generación de la semilla de la billetera HD.
+
 ### ¿Cómo elegir una buena passphrase?
 
 Para que la passphrase sea efectiva, debe ser suficientemente larga y aleatoria. Al igual que con una contraseña fuerte, recomiendo elegir una passphrase que sea lo más larga y aleatoria posible, con una diversidad de letras, números y símbolos para hacer cualquier ataque de fuerza bruta imposible.
@@ -1372,6 +1376,7 @@ El valor de la semilla está así influenciado por el valor de la frase mnemoté
 **Nota:** En el lenguaje común, el término "semilla" a menudo se refiere, por mal uso del lenguaje, a la frase mnemotécnica. De hecho, en ausencia de una passphrase, una es simplemente la codificación de la otra. Sin embargo, como hemos visto, en la realidad técnica de las carteras, la semilla y la frase mnemotécnica son de hecho dos elementos distintos.
 
 Ahora que tenemos nuestra semilla, podemos continuar con la derivación de nuestra cartera de Bitcoin.
+
 ### La Llave Maestra y el Código de Cadena Maestro
 Una vez obtenida la semilla, el siguiente paso en la derivación de una cartera HD implica calcular la llave privada maestra y el código de cadena maestro, que representarán la profundidad 0 de nuestra cartera.
 
