@@ -1199,7 +1199,7 @@ En la mayoría de los casos, este número aleatorio se genera automáticamente p
 
 ![CYP201](assets/fr/035.webp)
 
-Una alternativa es generar manualmente la entropía, lo que ofrece un mejor control pero también es mucho más arriesgado. Aconsejo fuertemente en contra de generar la entropía para tu cartera HD tú mismo.
+Una alternativa es generar manualmente la entropía, lo que ofrece un mejor control pero también es mucho más arriesgado. Desaconsejo fuertemente de generar la entropía para tu cartera HD tú mismo.
 
 En el próximo capítulo, veremos cómo pasamos de un número aleatorio a una frase mnemotécnica de 12 o 24 palabras.
 
@@ -1208,7 +1208,7 @@ En el próximo capítulo, veremos cómo pasamos de un número aleatorio a una fr
 <chapterId>8f9340c1-e6dc-5557-a2f2-26c9669987d5</chapterId>
 
 La frase mnemotécnica, también llamada "frase semilla", "frase de recuperación", "frase secreta" o "frase de 24 palabras", es una secuencia compuesta usualmente de 12 o 24 palabras, que se genera a partir de la entropía. Se utiliza para derivar de manera determinista todas las claves de una cartera HD (Hierarchical Deterministic Wallet). Esto significa que a partir de esta frase, es posible generar y recrear de manera determinista todas las claves privadas y públicas de la cartera de Bitcoin, y consecuentemente acceder a los fondos que están protegidos con ella. El propósito de la frase mnemotécnica es proporcionar un medio de respaldo y recuperación de bitcoins que sea seguro y fácil de usar. Fue introducida en los estándares en 2013 con el BIP39.
-Descubramos juntos cómo pasar de la entropía a una frase mnemotécnica.
+Descubramos juntos cómo pasar de la entropía a la frase mnemotécnica.
 
 ### La Suma de Verificación
 
@@ -1295,7 +1295,7 @@ $$
 Por lo tanto, se considera que una clave privada utilizada en Bitcoin ofrece 128 bits de seguridad.
 
 Como resultado, elegir una frase de 24 palabras no proporciona protección adicional para la billetera, ya que 256 bits de seguridad en la frase son inútiles si las claves derivadas solo ofrecen 128 bits de seguridad. Para ilustrar este principio, es como tener una casa con dos puertas: una puerta de madera vieja y una puerta reforzada. En caso de un robo, la puerta reforzada no serviría de nada, ya que el intruso pasaría por la puerta de madera. Esta es una situación análoga aquí.
-Una frase de 12 palabras, que además ofrece 128 bits de seguridad, es por lo tanto actualmente suficiente para proteger tus bitcoins contra cualquier intento de robo. Mientras el algoritmo de firma digital no cambie para usar claves más grandes o para depender de un problema matemático distinto al ECDLP, una frase de 24 palabras sigue siendo superflua. Además, una frase más larga aumenta el riesgo de pérdida durante la copia de seguridad: una copia de seguridad que es dos veces más corta siempre es más fácil de manejar.
+Una frase de 12 palabras, que además ofrece 128 bits de seguridad, es por lo tanto actualmente suficiente para proteger tus bitcoins contra cualquier intento de robo. Mientras el algoritmo de firma digital no cambie para usar claves más grandes o para depender de un problema matemático distinto al ECDLP, una frase de 24 palabras sigue siendo superflua. Además, una frase más larga aumenta el riesgo de pérdida durante la copia de seguridad: una copia de seguridad que es la mitad de corta siempre es más fácil de manejar.
 
 Para ir más allá y aprender concretamente cómo generar manualmente una frase mnemotécnica de prueba, te aconsejo descubrir este tutorial:
 
@@ -1349,7 +1349,7 @@ Una vez generada la frase mnemotécnica y la frase de contraseña opcional, pued
 El estándar BIP39 define la semilla como una secuencia de 512 bits, que sirve como punto de partida para la derivación de todas las claves de una cartera HD. La semilla se deriva de la frase mnemotécnica y la posible frase de contraseña utilizando el algoritmo **PBKDF2** (*Password-Based Key Derivation Function 2*) del cual ya hemos hablado en el capítulo 3.3. En esta función de derivación, utilizaremos los siguientes parámetros:
 
 - $m$ : la frase mnemotécnica;
-- $p$ : una frase de contraseña opcional elegida por el usuario para aumentar la seguridad de la semilla. Si no hay frase de contraseña, este campo se deja vacío;
+- $p$ : una frase de contraseña (passphrase) opcional elegida por el usuario para aumentar la seguridad de la semilla. Si no hay frase de contraseña, este campo se deja vacío;
 - $\text{PBKDF2}$ : la función de derivación con $\text{HMAC-SHA512}$ y $2048$ iteraciones;
 - $s$: la semilla de la cartera de 512 bits.
 
@@ -1369,7 +1369,7 @@ $$
 
 El valor de la semilla está así influenciado por el valor de la frase mnemotécnica y la frase de contraseña. Al cambiar la frase de contraseña, se obtiene una semilla diferente. Sin embargo, con la misma frase mnemotécnica y frase de contraseña, siempre se genera la misma semilla, ya que PBKDF2 es una función determinista. Esto asegura que los mismos pares de claves pueden ser recuperados a través de nuestras copias de seguridad.
 
-**Nota:** En el lenguaje común, el término "semilla" a menudo se refiere, por mal uso del lenguaje, a la frase mnemotécnica. De hecho, en ausencia de una frase de contraseña, una es simplemente la codificación de la otra. Sin embargo, como hemos visto, en la realidad técnica de las carteras, la semilla y la frase mnemotécnica son de hecho dos elementos distintos.
+**Nota:** En el lenguaje común, el término "semilla" a menudo se refiere, por mal uso del lenguaje, a la frase mnemotécnica. De hecho, en ausencia de una passphrase, una es simplemente la codificación de la otra. Sin embargo, como hemos visto, en la realidad técnica de las carteras, la semilla y la frase mnemotécnica son de hecho dos elementos distintos.
 
 Ahora que tenemos nuestra semilla, podemos continuar con la derivación de nuestra cartera de Bitcoin.
 ### La Llave Maestra y el Código de Cadena Maestro
@@ -1645,7 +1645,7 @@ Podemos ver que la derivación normal y la derivación endurecida funcionan de l
 
 #### Derivando una clave pública de hijo a partir de una clave pública padre
 
-Si solo conocemos la clave pública del padre $K_{\text{PAR}}$ y el código de cadena asociado $C_{\text{PAR}}$, es decir, una clave pública extendida, es posible derivar claves públicas hijas $K_{\text{CHD}}^n$, pero solo para claves hijas normales (no endurecidas). Este principio permite notablemente monitorear los movimientos de una cuenta en una billetera de Bitcoin desde el `xpub` (_solo visualización_).
+Si solo conocemos la clave pública del padre $K_{\text{PAR}}$ y el código de cadena asociado $C_{\text{PAR}}$, es decir, una clave pública extendida, es posible derivar claves públicas hijas $K_{\text{CHD}}^n$, pero solo para claves hijas normales (no endurecidas). Este principio permite notablemente monitorear los movimientos de una cuenta en una billetera de Bitcoin desde el `xpub` (_solo visualización_, _watchonly_).
 Para realizar este cálculo, computaremos el $\text{hash}$ con un índice $i < 2^{31}$ (derivación normal):
 
 $$
