@@ -1835,14 +1835,14 @@ Un descriptor consiste en varios elementos:
 - Funciones de script como `pk` (_Pay-to-PubKey_), `pkh` (_Pay-to-PubKey-Hash_), `wpkh` (_Pay-to-Witness-PubKey-Hash_), `sh` (_Pay-to-Script-Hash_), `wsh` (_Pay-to-Witness-Script-Hash_), `tr` (_Pay-to-Taproot_), `multi` (_Multifirma_), y `sortedmulti` (_Multifirma con claves ordenadas_);
 - Caminos de derivación, por ejemplo, `[d34db33f/44h/0h/0h]` que indica un camino de cuenta derivada y una huella digital de clave maestra específica;
 - Claves en varios formatos como claves públicas hexadecimales o claves públicas extendidas (`xpub`);
-- Un checksum, precedido por un signo de hash, para verificar la integridad del descriptor.
+- Un checksum, precedido por un hash sign, para verificar la integridad del descriptor.
   Por ejemplo, un descriptor para una cartera P2WPKH (SegWit v0) podría verse así:
 
 ```text
 wpkh([cdeab12f/84h/0h/0h]xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfKsq2mK1rMsJKhtRUPZz7MQtp3y6atC1U/<0;1>/*)#jy0l7nr4
 ```
 
-En este descriptor, la función de derivación `wpkh` indica un tipo de script _Pago-a-Testigo-de-Clave-Pública-Hash_. Le sigue la ruta de derivación que contiene:
+En este descriptor, la función de derivación `wpkh` indica un tipo de script _Pay-to-Witness-Public-Key-Hash_. Le sigue la ruta de derivación que contiene:
 
 - `cdeab12f`: la huella de la clave maestra;
 - `84h`: que significa el uso de un propósito BIP84, destinado para direcciones SegWit v0;
@@ -1855,7 +1855,7 @@ El descriptor también incluye la clave pública extendida utilizada en esta car
 xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfKsq2mK1rMsJKhtRUPZz7MQtp3y6atC1U
 ```
 
-A continuación, la notación `/<0;1>/*` especifica que el descriptor puede generar direcciones de la cadena externa (`0`) y de la cadena interna (`1`), con un comodín (`*`) que permite la derivación secuencial de múltiples direcciones de manera configurable, similar a la gestión de un "límite de brecha" en el software de cartera tradicional.
+A continuación, la notación `/<0;1>/*` especifica que el descriptor puede generar direcciones de la cadena externa (`0`) y de la cadena interna (`1`), con un asterisco (`*`) que permite la derivación secuencial de múltiples direcciones de manera configurable, similar a la gestión de un "límite de brecha" en el software de cartera tradicional.
 
 Finalmente, `#jy0l7nr4` representa la suma de comprobación para verificar la integridad del descriptor.
 
@@ -1900,7 +1900,7 @@ OP_DUP OP_HASH160 OP_PUSHBYTES_20 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG
 Como veremos en este capítulo, `<pubKeyHash>` representa en realidad el payload de la dirección de recepción utilizada para bloquear el UTXO. Para desbloquear este _scriptPubKey_, es necesario proporcionar un _scriptSig_ que contenga:
 
 ```text
-<firma> <clave pública>
+<signature> <public key>
 ```
 
 En el lenguaje de script, la "pila" es una estructura de datos "_LIFO_" ("_Last In, First Out_" o "Último en Entrar, Primero en Salir") utilizada para almacenar temporalmente elementos durante la ejecución del script. Cada operación del script manipula esta pila, donde los elementos pueden ser añadidos (_push_) o eliminados (_pop_). Los scripts utilizan estas pilas para evaluar expresiones, almacenar variables temporales y gestionar condiciones.
