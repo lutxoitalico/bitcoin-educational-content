@@ -1949,7 +1949,7 @@ Este modelo de script fue introducido en la primera versión de Bitcoin por Sato
 
 **P2PKH (_Pay-to-PubKey-Hash_)**:
 
-Al igual que P2PK, el script P2PKH fue introducido en el lanzamiento de Bitcoin. A diferencia de su predecesor, bloquea los bitcoins usando el hash de la clave pública, en lugar de usar directamente la clave pública cruda. El _scriptSig_ debe entonces proporcionar la clave pública asociada con la dirección de recepción, así como una firma válida. Las direcciones correspondientes a este modelo comienzan con `1` y están codificadas en _base58check_. Este script también pertenece al estándar "_Legacy_".
+Al igual que P2PK, el script P2PKH fue introducido en el lanzamiento de Bitcoin. A diferencia de su predecesor, bloquea los bitcoins usando el hash de la clave pública, en lugar de usar directamente la clave pública sin procesar. El _scriptSig_ debe entonces proporcionar la clave pública asociada con la dirección de recepción, así como una firma válida. Las direcciones correspondientes a este modelo comienzan con `1` y están codificadas en _base58check_. Este script también pertenece al estándar "_Legacy_".
 
 **P2SH (_Pay-to-Script-Hash_)**:
 
@@ -2002,7 +2002,7 @@ Sin embargo, las curvas elípticas tienen una propiedad de simetría con respect
 
 ![CYP201](assets/fr/064.webp)
 Para comprimir una clave pública, solo se codifica $x$, que ocupa 256 bits, y se añade un prefijo para especificar la paridad de $y$. Este método reduce el tamaño de la clave pública a 264 bits en lugar de los 520 iniciales. El prefijo `0x02` indica que $y$ es par, y el prefijo `0x03` indica que $y$ es impar.
-Tomemos un ejemplo para entender bien, con una clave pública cruda (_raw public key_) en representación no comprimida:
+Tomemos un ejemplo para entender bien, con una clave pública sin procesar (_raw public key_) en representación no comprimida:
 
 ```text
 K = 04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f
