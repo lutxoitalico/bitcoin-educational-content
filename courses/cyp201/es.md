@@ -2206,8 +2206,8 @@ Desde el paso de la compresión de la clave pública, aparece una primera distin
 
 Como vimos en el capítulo anterior, un script P2TR bloquea bitcoins en una única clave pública Schnorr, designada por $Q$. Esta clave $Q$ es un agregado de dos claves públicas: $P$, una clave pública interna principal, y $M$, una clave pública derivada de la raíz de Merkle de una lista de _scriptPubKey_. Los bitcoins bloqueados con este tipo de script pueden gastarse de dos maneras:
 
-- Publicando una firma para la clave pública $P$ (_ruta de clave_);
-- Satisfaciendo uno de los scripts incluidos en el árbol de Merkle (_ruta de script_).
+- Publicando una firma para la clave pública $P$ (_key path_);
+- Satisfaciendo uno de los scripts incluidos en el árbol de Merkle (_script path_).
 
 En realidad, estas dos claves no están verdaderamente "agregadas". La clave $P$ en cambio es modificada por la clave $M$. En criptografía, "modificar" una clave pública significa modificar esta clave aplicando un valor aditivo llamado "modificación". Esta operación permite que la clave modificada siga siendo compatible con la clave privada original y la modificación. Técnicamente, una modificación es un valor escalar $t$ que se suma a la clave pública inicial. Si $P$ es la clave pública original, la clave modificada se convierte en:
 
