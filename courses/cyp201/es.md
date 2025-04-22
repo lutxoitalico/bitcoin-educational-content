@@ -1945,7 +1945,7 @@ A lo largo de la evolución de Bitcoin, se han añadido varios modelos de script
 
 **P2PK (_Pay-to-PubKey_)**:
 
-Este modelo de script fue introducido en la primera versión de Bitcoin por Satoshi Nakamoto. El script P2PK bloquea los bitcoins directamente usando una clave pública cruda (por lo tanto, no se utiliza ninguna dirección de recepción con este modelo). Su estructura es simple: contiene una clave pública y requiere una firma digital correspondiente para desbloquear los fondos. Este script es parte del estándar "_Legacy_".
+Este modelo de script fue introducido en la primera versión de Bitcoin por Satoshi Nakamoto. El script P2PK bloquea los bitcoins directamente usando una clave pública raw (por lo tanto, no se utiliza ninguna dirección de recepción con este modelo). Su estructura es simple: contiene una clave pública y requiere una firma digital correspondiente para desbloquear los fondos. Este script es parte del estándar "_Legacy_".
 
 **P2PKH (_Pay-to-PubKey-Hash_)**:
 
@@ -1973,8 +1973,8 @@ El modelo P2TR fue introducido con la implementación de Taproot en noviembre de
 
 Técnicamente, un script P2TR bloquea bitcoins en una clave pública Schnorr única, denotada como $Q$. Esta clave $Q$ es en realidad un agregado de una clave pública $P$ y una clave pública $M$, siendo esta última calculada a partir de la raíz de Merkle de una lista de _scriptPubKey_. Los bitcoins bloqueados con este tipo de script pueden gastarse de dos maneras:
 
-- Publicando una firma para la clave pública $P$ (_camino de clave_).
-- Satisfaciendo uno de los scripts contenidos en el árbol de Merkle (_camino de script_).
+- Publicando una firma para la clave pública $P$ (_key path_).
+- Satisfaciendo uno de los scripts contenidos en el árbol de Merkle (_script path_).
 
 P2TR ofrece así una gran flexibilidad, ya que permite bloquear bitcoins ya sea con una clave pública única, con varios scripts de elección, o ambos simultáneamente. La ventaja de esta estructura de árbol de Merkle es que solo se revela el script de gasto utilizado durante la transacción, pero todos los demás scripts alternativos permanecen en secreto. ![CYP201](assets/fr/063.webp)
 
@@ -2002,7 +2002,7 @@ Sin embargo, las curvas elípticas tienen una propiedad de simetría con respect
 
 ![CYP201](assets/fr/064.webp)
 Para comprimir una clave pública, solo se codifica $x$, que ocupa 256 bits, y se añade un prefijo para especificar la paridad de $y$. Este método reduce el tamaño de la clave pública a 264 bits en lugar de los 520 iniciales. El prefijo `0x02` indica que $y$ es par, y el prefijo `0x03` indica que $y$ es impar.
-Tomemos un ejemplo para entender bien, con una clave pública cruda en representación no comprimida:
+Tomemos un ejemplo para entender bien, con una clave pública cruda (_raw public key_) en representación no comprimida:
 
 ```text
 K = 04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f
@@ -2123,7 +2123,7 @@ Con el separador `0` entre los dos caracteres, la extensión del HRP es, por lo 
 03 03 00 02 03
 ```
 
-- **La versión del testigo**: Para la versión 0 de SegWit, es `00`;
+- **La versión witness**: Para la versión 0 de SegWit, es `00`;
 
 - **El payload**: Los valores decimales del hash de la clave pública;
 
