@@ -9,7 +9,7 @@ objectives:
   - Configure y gestione entornos de cadena de bloques seguros y eficientes para casos de uso del mundo real.
 
 ---
-# Construir sobre líquido y elementos
+# Construir sobre Liquid y Elements
 
 Descubra las funciones y capacidades avanzadas de Liquid y Elements, y aprenda a utilizar eficazmente estas herramientas para mejorar sus proyectos de desarrollo. Esta formación proporciona una base teórica y práctica completa que le permitirá dominar funciones como las transacciones confidenciales, los activos emitidos y la firma en bloque federada.
 
