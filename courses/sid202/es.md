@@ -51,7 +51,7 @@ Aquí profundizaremos en mecanismos avanzados, incluidos la firma de bloques fed
 ¿Listo para explorar el potencial de Elements y la sidechain Liquid? ¡Vamos allá!
 
 
-## Visión general de los elementos
+## Visión general de Elements
 
 <chapterId>7a7f2712-5300-4a6d-b1ed-05eab731bc35</chapterId>
 
