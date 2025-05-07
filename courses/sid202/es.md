@@ -1,5 +1,5 @@
 ---
-name: Construir con elements y red líquid
+name: Construir con elements y Líquid Network
 goal: Aprenda a utilizar y desarrollar con la plataforma blockchain de código abierto Elements y sus características clave
 objectives: 
 
@@ -34,7 +34,7 @@ Este curso está adaptado a desarrolladores de todos los niveles de experiencia.
 
 El objetivo de la *Elements Academy* es presentarte y explicar los conceptos clave de *Elements*, la plataforma de código abierto sobre la cual se construye la sidechain Liquid. Al finalizar este curso, deberías tener un sólido entendimiento de las características principales de Elements, como las transacciones confidenciales y los activos emitidos, así como los procesos involucrados en el funcionamiento de Elements Core. Cada sección del curso incluye lecciones con textos explicativos y videos, que concluyen con un cuestionario.
 
-Este curso tiene como objetivo enseñarte a usar y desarrollar con la plataforma de código abierto Elements, con un enfoque en la red Liquid. Descubrirás cómo estas tecnologías pueden mejorar la privacidad, la escalabilidad y la funcionalidad de tus proyectos de desarrollo. Ya seas principiante o desarrollador experimentado, este curso te proporcionará una base sólida para dominar los conceptos fundamentales de Elements y Liquid, así como sus aplicaciones prácticas.
+Este curso tiene como objetivo enseñarte a usar y desarrollar con la plataforma de código abierto Elements, con un enfoque en la Liquid Network. Descubrirás cómo estas tecnologías pueden mejorar la privacidad, la escalabilidad y la funcionalidad de tus proyectos de desarrollo. Ya seas principiante o desarrollador experimentado, este curso te proporcionará una base sólida para dominar los conceptos fundamentales de Elements y Liquid, así como sus aplicaciones prácticas.
 
 **Sección 1: Introducción**  
 Comenzaremos con una visión general completa de los conceptos de Elements. Aprenderás cómo esta plataforma fue diseñada para proporcionar una base modular y flexible para la creación de sidechains como Liquid. El objetivo es comprender la estructura de Elements antes de profundizar en sus aplicaciones prácticas.
@@ -48,7 +48,7 @@ Una vez dominados los fundamentos teóricos, abordaremos aplicaciones prácticas
 **Sección 4: Federación de Elements**  
 Aquí profundizaremos en mecanismos avanzados, incluidos la firma de bloques federados, el uso de Elements como una sidechain y la creación de blockchains independientes. Esta sección te permitirá comprender cómo garantizar la seguridad, integridad e interoperabilidad de las blockchains basadas en Elements.
 
-¿Listo para explorar el potencial de Elements y la sidechain Liquid? ¡Vamos allá!
+¿Listo para explorar el potencial de Elements y la sidechain Liquid? ¡Vamos!
 
 
 ## Visión general de Elements
@@ -79,21 +79,21 @@ Por defecto, todas las direcciones en Elements están cegadas utilizando Transac
 
 Los Activos Emitidos en Elements permiten emitir y transferir múltiples tipos de activos entre los participantes de la red. Un Activo Emitido también se beneficia de las Transacciones Confidenciales y puede ser reemitido o destruido por cualquiera que posea el token de reemisión correspondiente.
 
-#### Clavija federada de 2 vías
+#### Federated 2-Way Peg
 
 Elements es una plataforma de blockchain de uso general que también puede "vincularse" a una blockchain existente (como Bitcoin) para permitir la transferencia bidireccional de activos de una cadena a otra. Implementar Elements como una sidechain permite eludir algunas de las propiedades inherentes a la cadena principal, al tiempo que se conserva un buen grado de la seguridad proporcionada por los activos asegurados en la cadena principal.
 
 #### Bloques firmados
 
-Elements utiliza una Federación Fuerte de firmantes, llamados Firmantes de Bloques, que firman y crean bloques de forma fiable y puntual. Esto elimina la latencia de transacción del proceso de minería PoW, que está sujeta a una gran variación en el tiempo de bloque debido a su distribución poisson aleatoria. El proceso Federated Block Signing consigue una creación de bloques fiable sin introducir la necesidad de la confianza de terceros o la minería basada en "algoritmos" computacionales.
+Elements utiliza una Federación Fuerte de firmantes, llamados Firmantes de Bloques, que firman y crean bloques de forma fiable y puntual. Esto elimina la latencia de transacción del proceso de minería PoW, que está sujeta a una gran variación en el tiempo de bloque debido a la naturaleza aleatoria de su distribución de Poisson. El proceso Federated Block Signing consigue una creación de bloques fiable sin introducir la necesidad de la confianza de terceros o la minería basada en "algoritmos" computacionales.
 
 Elements añade todas estas características sobre la base de código de Bitcoin Core, ampliando la capacidad del protocolo mainchain y permitiendo nuevos casos de uso empresarial cuando se despliega como sidechain o como solución blockchain independiente.
 
-# Elemento
+# Elements
 
 <partId>ac68d611-be84-432f-a3a8-620d310e131c</partId>
 
-## Cómo funcionan los Elements
+## Cómo funciona Elements
 
 <chapterId>05d88877-58b0-455b-9ae6-a72d19070525</chapterId>
 
@@ -103,11 +103,11 @@ Elements ofrece una solución técnica a los problemas a los que se enfrentan a 
 
 Elements supera estos problemas mediante el uso de la Firma en Bloque Federada y las Transacciones Confidenciales.
 
-A diferencia de la red Bitcoin, el proceso de firma de bloques en Elements no depende de las firmas multiparte de membresía dinámica (DMMS) ni de la prueba de trabajo (PoW). En su lugar, Elements utiliza una Federación Fuerte de firmantes, llamados Firmantes de Bloques, que pueden firmar y crear bloques de forma fiable y oportuna. Esto elimina la latencia de transacción del proceso de minería PoW, que está sujeto a una gran varianza de tiempo de bloque debido a su distribución poisson aleatoria. El proceso Federated Block Signing consigue una creación de bloques fiable sin introducir la necesidad de la confianza de terceros.
+A diferencia de la red Bitcoin, el proceso de firma de bloques en Elements no depende de las firmas Multi-Sig de membresía dinámica (DMMS) ni de la prueba de trabajo (PoW). En su lugar, Elements utiliza una Federación Fuerte de firmantes, llamados Firmantes de Bloques, que pueden firmar y crear bloques de forma fiable y oportuna. Esto elimina la latencia de transacción del proceso de minería PoW, que está sujeto a una gran variaciòn de tiempo de bloque debido a su distribución Poisson aleatoria. El proceso Federated Block Signing consigue una creación de bloques fiable sin introducir la necesidad de la confianza de terceros.
 
 Los Elements pueden funcionar como una sidechain de otra blockchain, como Bitcoin, o como una blockchain independiente sin depender de otras redes.
 
-Cuando se utiliza como sidechain, la Strong Federation también contiene miembros que permiten la transferencia segura y controlada de activos entre una cadena principal y una sidechain de Elements. La transferencia controlada de activos se denomina Federated 2-Way Peg y los miembros que desempeñan la función de transferencia de activos se llaman Watchmen.
+Cuando se utiliza como sidechain, en la Strong Federation también participan miembros que permiten la transferencia segura y controlada de activos entre una cadena principal y una sidechain de Elements. La transferencia controlada de activos se denomina Federated 2-Way Peg y los miembros que desempeñan la función de transferencia de activos se llaman Watchmen.
 
 Los procesos que intervienen en el funcionamiento de una red Elements y las funciones de los participantes en la red son importantes para entender cómo funciona Elements.
 
