@@ -154,7 +154,7 @@ A alto nivel, las transferencias a la sidechain se producen cuando alguien enví
 
 Para transferir activos de vuelta a la cadena principal, el usuario realiza una transacción especial en la sidechain. Esta transacción es comprobada por los Watchmen, que a continuación firman un gasto de transacción desde la cartera multifirma que controlan en la cadena principal. Para que la transacción de la cadena principal sea válida, debe firmar un número mínimo de participantes de la federación. Cuando los Vigilantes envían un activo de vuelta a la cadena principal, también destruyen la cantidad correspondiente en la sidechain, transfiriendo de hecho los activos entre cadenas de bloques.
 
-## Configuración y funcionamiento de los Elements
+## Configuración y funcionamiento de Elements
 
 <chapterId>cc806e5a-81ab-457b-9531-9f863120a019</chapterId>
 
@@ -162,7 +162,7 @@ Para transferir activos de vuelta a la cadena principal, el usuario realiza una 
 
 Dado que Elements se basa en el código base de Bitcoin, los componentes que conforman una red operativa son muy similares.
 
-El propio software del nodo Elements se llama `elementsd` y se ejecuta como un demonio en la máquina de un usuario. Un demonio (o servicio en Windows) es un programa que se ejecuta como un servicio en segundo plano sin requerir el control directo de un usuario conectado.
+El propio software del nodo Elements se llama `elementsd` y se ejecuta como demonio en la máquina de un usuario. Un demonio (o servicio en Windows) es un programa que se ejecuta como un servicio en segundo plano sin requerir el control directo de un usuario conectado.
 
 Nota: A lo largo de este documento, siempre nos referiremos a elementsd como la versión daemon, pero todo podría hacerse con elements-qt, siempre que la opción de servidor esté activada.
 
@@ -231,7 +231,7 @@ $HOME/elements/src/elements-cli -datadir=$HOME/elementsdir2 getnewaddress
 
 Esto nos permitirá realizar todo tipo de operaciones como la transacción de activos entre nodos, la emisión de activos y la comprobación del uso del cegamiento en Transacciones Confidenciales entre diferentes nodos de la misma red.
 
-# Uso del elemento Caso práctico
+# Uso de Element Caso práctico
 
 <partId>3f31a30a-957a-4813-b5fe-5dccbb5366f3</partId>
 
