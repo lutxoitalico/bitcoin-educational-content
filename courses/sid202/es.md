@@ -359,11 +359,11 @@ Los activos emitidos permiten emitir y transferir múltiples tipos de activos en
 
 Un Activo Emitido también se beneficia de las Transacciones Confidenciales y puede ser reemitido por cualquiera que posea el token asociado.
 
-El primer paso es que necesitaremos acceso a dos nodos Elements, que llamaremos e1 y e2. Los nodos han tenido sus blockchains reiniciados y el activo por defecto dividido entre ellos.
+El primer paso es que necesitaremos acceso a dos nodos Elements, que llamaremos e1 y e2. Los nodos han tenido sus blockchains reiniciadas y el activo por defecto dividido entre ellos.
 
 Los dos nodos se encuentran en la misma red local y están conectados entre sí, por lo que comparten las mismas transacciones en su mempool de transacciones y blockchains idénticos. Aunque se ejecutan en la misma máquina, cabe señalar que no comparten los mismos archivos de blockchain. Cada nodo gestiona su propia copia local del blockchain, que contiene el mismo historial de transacciones porque están en consenso y se adhieren a las mismas reglas de protocolo que los demás.
 
-Empecemos por comprobar la opinión de cada nodo sobre las emisiones de activos existentes en la red.
+Empecemos por comprobar que visualiza cada nodo sobre las emisiones de activos existentes en la red.
 
 Para ello se utiliza el comando listissuances.
 
@@ -422,7 +422,7 @@ Para ello necesitamos averiguar la dirección a la que se envió el activo. Para
 e1-cli gettransaction <the-issuance-transaction-id>
 ```
 
-Desplazándose hacia arriba más allá del hexágono de los datos de la transacción verá la dirección que recibió 100 de nuestro nuevo activo, identificada por su valor hexadecimal.
+Desplazándose hacia arriba, más allá del hexadecimal de los datos de la transacción, verá la dirección que recibió 100 de nuestro nuevo activo, identificada por su valor hexadecimal.
 
 Coge la dirección y cópiala para poder importarla a e2.
 
@@ -438,13 +438,13 @@ Si ahora comprobamos la lista de emisiones de e2.
 e2-cli listissuances
 ```
 
-Puede ver que nuestro activo recién emitido está ahora incluido en la lista. El nodo e2 también es capaz de determinar el importe del activo que se emitió, junto con el importe del token asociado, ya que la emisión fue una emisión no oculta. Para habilitar el uso de la asignación de ID de activo a nombre dentro de Elements, primero detenga Elements.
+Puede ver que nuestro activo recién emitido está ahora incluido en la lista. El nodo e2 también es capaz de determinar el importe del activo que se emitió, junto con el importe del token asociado, ya que la emisión fue una emisión no oculta. Para habilitar el uso de la asignación de nomnbre ID de activo dentro de Elements, primero detenga Elements.
 
 ```
 e1-cli stop
 ```
 
-A continuación, reinícielo con un parámetro adicional que asigne el hexágono de un activo a la etiqueta proporcionada. Esto permite que el nodo nos muestre datos sobre el activo en un formato más legible para los humanos. Puedes añadir esto al final de elements.conf si lo prefieres, entonces no necesitarás añadir el argumento al demonio cada vez que lo inicies. Por ejemplo:
+A continuación, reinícielo con un parámetro adicional que asigne el hexadecimal de un activo a la etiqueta proporcionada. Esto permite que el nodo nos muestre datos sobre el activo en un formato más legible para los humanos. Puedes añadir esto al final de elements.conf si lo prefieres, entonces no necesitarás añadir el argumento al demonio cada vez que lo inicies. Por ejemplo:
 
 ```
 assetdir=5186d0bc8ed15e6ef85571bd2d8070573adf0e06fd4507082694526975ce4f35:My new asset (MNA)
@@ -468,13 +468,13 @@ Eso nos muestra que el mapeo del valor hexadecimal del activo a su etiqueta est�
 e2-cli listissuances
 ```
 
-Puede ver que el nodo e2 no tiene acceso a esta etiqueta, porque las etiquetas sólo están disponibles para el nodo que las estableció. De hecho, podemos asignar una etiqueta diferente al mismo hexágono de activo en e2 de lo que hicimos en e1. Primero detenga el nodo e2.
+Puede ver que el nodo e2 no tiene acceso a esta etiqueta, porque las etiquetas sólo están disponibles para el nodo que las estableció. De hecho, podemos asignar una etiqueta diferente al mismo hex de activo en e2 de lo que hicimos en e1. Primero detenga el nodo e2.
 
 ```
 e2-cli stop
 ```
 
-Reiniciando con una etiqueta diferente asignada al hexágono de nuestro nuevo activo.
+Reiniciando con una etiqueta diferente asignada al hex de nuestro nuevo activo.
 
 ```
 e2-dae -assetdir=<assetid-here>:<another-name-for-the-new-asset>
@@ -486,9 +486,9 @@ Listado de emisiones de e2.
 e2-cli listissuances
 ```
 
-Las etiquetas de los activos son locales a cada nodo, sólo el hexágono del activo es reconocido por otros nodos de la red.
+Las etiquetas de los activos son locales a cada nodo, sólo el hex del activo es reconocido por otros nodos de la red.
 
-El mapeo de etiqueta a hexágono de activo es útil cuando se realizan acciones como transacciones y consultas de saldo de cartera, ya que permite una forma abreviada de referirse a un activo. Por ejemplo, si quisiéramos enviar parte de nuestro nuevo activo (una cantidad de 10) de e1 a e2 sin utilizar la etiqueta.
+El mapeo de etiqueta a hex de activo es útil cuando se realizan acciones como transacciones y consultas de saldo de cartera, ya que permite una forma abreviada de referirse a un activo. Por ejemplo, si quisiéramos enviar parte de nuestro nuevo activo (una cantidad de 10) de e1 a e2 sin utilizar la etiqueta.
 
 Primero tenemos que obtener una dirección a la que enviar el activo.
 
@@ -564,7 +564,7 @@ Ahora comprobaremos los detalles de la transacción utilizando el comando gettra
 e1-cli gettransaction <txid>
 ```
 
-Desplazándose hacia arriba más allá del hexágono de los datos de la transacción verá que en la transacción e1 recibió 1 token de reemisión y 100 del activo asociado.
+Desplazándose hacia arriba más allá del hex de los datos de la transacción verá que en la transacción e1 recibió 1 token de reemisión y 100 del activo asociado.
 
 Tome una copia de la dirección para que podamos importarla a e2.
 
@@ -761,7 +761,7 @@ Para confirmar esto podemos ver que actualmente no hay bloques en nuestra blockc
 e1-cli getblockcount
 ```
 
-Si intentamos enviar el hexágono de bloque sin firmarlo antes.
+Si intentamos enviar el hex de bloque sin firmarlo antes.
 
 ```
 e1-cli submitblock <block-hex>
@@ -775,7 +775,7 @@ Así que hagamos que e1 firme el bloque propuesto.
 e1-cli signblock <block-hex>
 ```
 
-Que e2 firme el hexágono.
+Que e2 firme el hex.
 
 ```
 e2-cli signblock <block-hex>
@@ -791,7 +791,7 @@ e1-cli combineblocksigs <block-hex> '["<signed-hex-from-e1>", "<signed-hex-from-
 
 Puede ver que el comando combineblocksigs muestra el hexadecimal del bloque firmado, así como un estado de completo, que nos indica que el hexadecimal del bloque está listo para ser enviado.
 
-Ahora cualquiera de los nodos puede enviar el hexágono de bloque completado. Haremos que e1 lo haga.
+Ahora cualquiera de los nodos puede enviar el hex de bloque completado. Haremos que e1 lo haga.
 
 ```
 e1-cli submitblock <combined-signed-hex>
