@@ -287,7 +287,7 @@ Observando la transacción en la que e2 se envió algunos fondos a sí misma des
 e2-cli gettransaction <txid>
 ```
 
-Al desplazarse hacia arriba por los detalles de la transacción, puede ver que e2 puede ver los importes enviados y recibidos, así como el activo transaccionado. También puede ver las propiedades amountblinder y assetblinder, que se utilizan para ocultar los detalles de otros nodos que no participan en la transacción.
+Al desplazarse hacia arriba por los detalles de la transacción, puede ver que e2 es capaz de ver los importes enviados y recibidos, así como el activo transaccionado. También puede ver las propiedades amountblinder y assetblinder, que se utilizan para ocultar los detalles de otros nodos que no participan en la transacción.
 
 Para comprobar los detalles de la misma transacción desde e1, primero necesitamos obtener los detalles de la transacción sin procesar.
 
