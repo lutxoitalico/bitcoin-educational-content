@@ -103,7 +103,7 @@ Elements ofrece una solución técnica a los problemas a los que se enfrentan a 
 
 Elements supera estos problemas mediante el uso de la Firma en Bloque Federada y las Transacciones Confidenciales.
 
-A diferencia de la red Bitcoin, el proceso de firma de bloques en Elements no depende de las firmas Multi-Sig de membresía dinámica (DMMS) ni de la prueba de trabajo (PoW). En su lugar, Elements utiliza una Federación Fuerte de firmantes, llamados Firmantes de Bloques, que pueden firmar y crear bloques de forma fiable y oportuna. Esto elimina la latencia de transacción del proceso de minería PoW, que está sujeto a una gran variaciòn de tiempo de bloque debido a su distribución Poisson aleatoria. El proceso Federated Block Signing consigue una creación de bloques fiable sin introducir la necesidad de la confianza de terceros.
+A diferencia de la red Bitcoin, el proceso de firma de bloques en Elements no depende de las firmas Dinamic Membership Multiparty Signatures (DMMS) ni de la prueba de trabajo (PoW). En su lugar, Elements utiliza una Federación Fuerte de firmantes, llamados Firmantes de Bloques, que pueden firmar y crear bloques de forma fiable y oportuna. Esto elimina la latencia de transacción del proceso de minería PoW, que está sujeto a una gran variaciòn de tiempo de bloque debido a su distribución Poisson aleatoria. El proceso Federated Block Signing consigue una creación de bloques fiable sin introducir la necesidad de la confianza de terceros.
 
 Los Elements pueden funcionar como una sidechain de otra blockchain, como Bitcoin, o como una blockchain independiente sin depender de otras redes.
 
@@ -127,7 +127,7 @@ Puede leer el informe sobre Federaciones Fuertes aquí: https://blockstream.com/
 
 ### Bloquear firmantes
 
-Una blockchain como la de Bitcoin se amplía cuando cualquiera que forme parte de un grupo dinámico de firmantes de bloques amplía la cadena demostrando el trabajo realizado. La naturaleza dinámica del conjunto introduce los problemas de latencia inherentes a estos sistemas.
+Una blockchain como la de Bitcoin se amplía cuando cualquiera que forme parte de un grupo dinámico de firmantes de bloques amplía la cadena demostrando el trabajo realizado POW. La naturaleza dinámica del conjunto introduce los problemas de latencia inherentes a estos sistemas.
 
 Mediante el uso de un conjunto fijo de firmantes, un modelo federado sustituye el conjunto dinámico por un conjunto conocido, un esquema multi-firma. La reducción del número de participantes necesarios para ampliar la blockchain aumenta la velocidad y escalabilidad del sistema, mientras que la validación por todas las partes garantiza la integridad del historial de transacciones.
 
@@ -142,7 +142,7 @@ La firma federada de bloques consta de varias fases:
 
 Dado que la generación de bloques de una federación sólida no es probabilística y se basa en un conjunto fijo de firmantes, nunca estará sujeta a reorganizaciones multibloque. Esto permite reducir significativamente el tiempo de espera asociado a la confirmación de transacciones. También elimina el incentivo de minar para obtener beneficios (es decir, las recompensas por bloque) y lo sustituye por un incentivo para participar de forma productiva en una red en la que todos los participantes tienen el mismo objetivo compartido: garantizar que la red siga funcionando de forma beneficiosa para todos. Y lo hace sin introducir un único punto de fallo ni mayores requisitos de confianza.
 
-### Elements como sidechain - Watchmen y la clavija bidireccional federada
+### Elements como sidechain - Watchmen y la Federated 2-Way Peg
 
 Cuando se ejecuta como una sidechain, algunos miembros de la Strong Federation tienen un papel adicional que desempeñar, el de Vigilantes. Los Vigilantes son responsables de la transferencia de activos dentro y fuera de una sidechain de Elements, procesos conocidos como `Peg-In` y `Peg-Out`.
 
