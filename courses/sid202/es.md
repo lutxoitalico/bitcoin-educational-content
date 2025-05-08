@@ -817,9 +817,9 @@ Para resumir el proceso. En esta sección tenemos:
 
 Cada nodo de la red validaba el bloque y lo añadía a su copia local de la blockchain.
 
-### BLOQUEO
+### Firma de bloques
 
-Aunque inicialmente el proceso parece complejo, la secuencia de firma de bloques en Elements es siempre la misma y la configuración inicial sólo debe realizarse una vez:
+Aunque inicialmente el proceso parece complejo, la secuencia de la firma de bloques en Elements es siempre la misma y la configuración inicial sólo debe realizarse una vez:
 
 1. Configuración inicial (se realiza una vez)
 
