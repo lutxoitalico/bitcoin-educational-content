@@ -903,7 +903,7 @@ e1-cli generate 1
 
 No necesitamos necesariamente generar bloques ahora mismo para los Elements. Pero, vamos a generar uno de todos modos. Es una buena práctica para evitar posibles incoherencias.
 
-Ahora nuestra cadena está lista para el peg-in. Para hacer el peg-in necesitamos generar un tipo especial de dirección usando el comando getpeginaddress. Ten en cuenta que el tiempo que transcurre entre la generación de una dirección peg-in con getpeginaddress y su reclamación con claimpegin debe ser el mínimo posible. las direcciones peg-in no son duraderas y no deben reutilizarse.
+Ahora nuestra cadena está lista para el peg-in. Para hacer el peg-in necesitamos generar un tipo especial de dirección usando el comando `getpeginaddress`. Ten en cuenta que el tiempo que transcurre entre la generación de una dirección peg-in con getpeginaddress y su reclamación con claimpegin debe ser el mínimo posible. las direcciones peg-in no son duraderas y no deben reutilizarse.
 
 ```
 e1-cli getpeginaddress
@@ -911,7 +911,7 @@ e1-cli getpeginaddress
 
 Puedes ver que el comando crea una nueva dirección mainchain, así como un nuevo script que necesitará ser satisfecho para reclamar los fondos peg-in. La dirección mainchain es una dirección `pay to script hash` que será utilizada por los funcionarios que desempeñen el papel de Watchmen dentro de la red Elements.
 
-Al igual que getnewaddress, getpeginaddress añade un nuevo secreto a la cartera del nodo de llamada, por lo que es importante factor de copia de seguridad del archivo de cartera en su proceso de gestión de nodos.
+Al igual que getnewaddress, getpeginaddress añade un nuevo secreto a la wallet del nodo, por lo que es importante el backup del wallet file en el proceso de gestión de nodos.
 
 Ahora enviaremos algunos bitcoin desde la mainchain a la sidechain. Nuestra billetera de prueba de regresión mainchain ya tiene algunos fondos.
 
@@ -939,19 +939,19 @@ Necesitamos madurar la transacción de nuevo.
 b-cli generate 101
 ```
 
-Para que nuestro nodo Elements reclame los fondos de peg-in necesitamos obtener la `prueba` de que se ha realizado la transacción de peg-in. La prueba criptográfica utiliza el ID de la transacción de financiación para calcular la ruta de merkel y demuestra que la transacción está presente en un bloque confirmado.
+Para que nuestro nodo Elements reclame los fondos de peg-in necesitamos obtener la "prueba" `proof` de que se ha realizado la transacción de peg-in. La prueba criptográfica utiliza el ID de la transacción de financiación para calcular la ruta de merkel y demuestra que la transacción está presente en un bloque confirmado.
 
 ```
 b-cli gettxoutproof '["<tx-id>"]'
 ```
 
-También necesitamos los datos brutos de las transacciones.
+También necesitamos los datos raw de las transacciones.
 
 ```
 b-cli getrawtransaction <tx-id>
 ```
 
-Con la prueba y los datos sin procesar de la transacción, nuestro nodo de Elements puede ahora reclamar el peg-in utilizando la transacción sin procesar y la prueba de la transacción.
+Con la prueba y los datos raw de la transacción, nuestro nodo de Elements puede ahora reclamar el peg-in utilizando la transacción raw y la prueba de la transacción.
 
 ```
 e1-cli claimpegin <raw> <proof>
@@ -1009,9 +1009,9 @@ En esta sección hemos visto cómo:
 
 
 - Generar un script de peg federado.
-- Inicializa una nueva cadena que utiliza el script como regla de parámetro de consenso de red.
+- Inicializar una nueva cadena que utiliza el script como regla de parámetro de consenso de red.
 - Enviar fondos de la mainchain a la sidechain.
-- Reclama los fondos dentro de la sidechain Elements.
+- Reclamar los fondos dentro de la sidechain Elements.
 - Entender cómo se inicia el envío de fondos de vuelta a la mainchain.
 
 ### FederatedPegScript
@@ -1034,7 +1034,7 @@ Se esperan breves reorganizaciones de la punta de la blockchain de Bitcoin como 
 
 ### Peg-Out
 
-Un peg-out se produce cuando un nodo Elements llama al comando `sendtomainchain`, que toma como entrada una dirección mainchain (el destino del peg-out), así como la cantidad del activo pegged a `retirar`. De este modo, se crea una transacción de "peg-out" en la sidechain. Una vez que los Funcionarios que actúan como Vigilantes detectan que la transacción de "peg-out" ha sido confirmada en la sidechain, se encargan de liberar el activo en la cadena principal hacia el destino del "peg-out", como aprendimos en secciones anteriores del curso.
+Un peg-out se produce cuando un nodo Elements llama al comando `sendtomainchain`, que toma como entrada una dirección mainchain (el destino del peg-out), así como la cantidad del activo pegged a `retirar`. De este modo, se crea una transacción de `peg-out` en la sidechain. Una vez que los Funcionarios que actúan como Vigilantes detectan que la transacción de "peg-out" ha sido confirmada en la sidechain, se encargan de liberar el activo en la cadena principal hacia el destino del "peg-out", como aprendimos en secciones anteriores del curso.
 
 ## Elements como blockchain independiente
 
