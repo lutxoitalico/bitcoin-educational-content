@@ -811,9 +811,9 @@ Para resumir el proceso. En esta sección tenemos:
 
 - Propuso un bloque.
 - Hizo que cada nodo lo firmara.
-- Combina las firmas.
-- Comprobado que las firmas son válidas y cumplen el umbral de redenominación de la cadena.
-- Presentado el bloque.
+- Combino las firmas.
+- Comprobo que las firmas son válidas y cumplen el umbral de redenominación de la cadena.
+- Presento el bloque.
 
 Cada nodo de la red validaba el bloque y lo añadía a su copia local de la blockchain.
 
