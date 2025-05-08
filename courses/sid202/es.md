@@ -1024,7 +1024,7 @@ El `fedpegscript` se compone de claves públicas controladas por las personas au
 fedpegscript=5221<public key 1>21<public key 2>52ae
 ```
 
-Nota: Los caracteres fuera de las claves públicas son delimitadores que indican los requisitos de clave pública y `n de m`. Por ejemplo, la plantilla para un fedpegscript 1-de-1 sería '5121<clave pública 1>51ae'.
+Nota: Los caracteres fuera de las claves públicas son delimitadores que indican los requisitos de clave pública y `n de m`. Por ejemplo, la plantilla para un fedpegscript 1-de-1 sería '5121<public key 1>51ae'.
 
 ### Peg-in
 
@@ -1034,7 +1034,7 @@ Se esperan breves reorganizaciones de la punta de la blockchain de Bitcoin como 
 
 ### Peg-Out
 
-Un peg-out se produce cuando un nodo Elements llama al comando `sendtomainchain`, que toma como entrada una dirección mainchain (el destino del peg-out), así como la cantidad del activo pegged a `retirar`. De este modo, se crea una transacción de `peg-out` en la sidechain. Una vez que los Funcionarios que actúan como Vigilantes detectan que la transacción de "peg-out" ha sido confirmada en la sidechain, se encargan de liberar el activo en la cadena principal hacia el destino del "peg-out", como aprendimos en secciones anteriores del curso.
+Un peg-out se produce cuando un nodo Elements llama al comando `sendtomainchain`, que toma como entrada una dirección mainchain (el destino del peg-out), así como la cantidad del activo pegged a "retirar" `witdraw`. De este modo, se crea una transacción de `peg-out` en la sidechain. Una vez que los Funcionarios que actúan como Vigilantes detectan que la transacción de "peg-out" ha sido confirmada en la sidechain, se encargan de liberar el activo en la cadena principal hacia el destino del "peg-out", como aprendimos en secciones anteriores del curso.
 
 ## Elements como blockchain independiente
 
