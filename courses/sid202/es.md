@@ -833,13 +833,13 @@ Aunque inicialmente el proceso parece complejo, la secuencia de la firma de bloq
 
 Una vez que un número mínimo de firmantes ha firmado el bloque propuesto, éste se combina y se envía a la red. Si cumple los criterios del `signblockscript` de la cadena, los nodos lo aceptan como bloque válido.
 
-## Elemento como sidechain
+## Elements como sidechain
 
 <chapterId>432d7a65-255f-44a3-8b38-78508202cb37</chapterId>
 
 :::video id=c15e7eaf-9b5d-4696-bb36-bd10e7b56967:::
 
-Elements es una plataforma de blockchain de código abierto y uso general que también puede vincularse a una blockchain existente, como Bitcoin. Cuando se vincula a otra blockchain, se dice que Elements funciona como una "sidechain". Las sidechains permiten la transferencia bidireccional de activos de una cadena a otra. Implementar Elements como sidechain permite sortear algunas de las limitaciones inherentes a la mainchain, al tiempo que se conserva un buen grado de la seguridad proporcionada por los activos asegurados en la mainchain.
+Elements es una plataforma de blockchain de código abierto y uso general que también puede "vincularse" `pegged` a una blockchain existente, como Bitcoin. Cuando se vincula a otra blockchain, se dice que Elements funciona como una `sidechain`. Las sidechains permiten la transferencia bidireccional de activos de una cadena a otra. Implementar Elements como sidechain permite sortear algunas de las limitaciones inherentes a la mainchain, al tiempo que se conserva un buen grado de la seguridad proporcionada por los activos asegurados en la mainchain.
 
 Mientras que una sidechain conoce la mainchain y su historial de transacciones, la mainchain no tiene conocimiento de la sidechain y no necesita ninguno para su funcionamiento. Esto permite a las sidechains innovar sin restricciones ni los retrasos asociados a las propuestas de mejora del protocolo de la mainchain. En lugar de intentar alterarlo directamente, ampliar el protocolo principal permite que la propia mainchain siga siendo segura y especializada, apuntalando el buen funcionamiento de la sidechain.
 
@@ -847,7 +847,7 @@ Al ampliar la funcionalidad de Bitcoin y aprovechar su seguridad subyacente, una
 
 Para inicializar un blockchain de Elements como sidechain, necesitamos utilizar el parámetro de script federated peg. Este parámetro puede establecerse en el archivo de configuración de un nodo o pasarse al inicio.
 
-El guión de peg federado define qué miembros de la federación fuerte pueden realizar funciones de peg-in y peg-out. A estos funcionarios se les denomina "vigilantes", ya que vigilan la cadena principal y las sidechains en busca de transacciones válidas de entrada y salida de activos (peg-in y peg-out) y las ejecutan si son válidas. Salir" significa mover activos bloqueados de la sidechain a la principal, y "entrar" significa mover activos bloqueados de la cadena principal a la sidechain. Cuando decimos "mover a la sidechain", lo que realmente queremos decir es que los fondos se bloquean en una dirección multi-firma en la cadena principal y se crea una cantidad correspondiente del activo en la sidechain de Elements. Cuando decimos "salir de la sidechain", lo que queremos decir es que los activos se destruyen en la sidechain de Elements y se libera la cantidad correspondiente de los fondos bloqueados en la cadena principal. El permiso para realizar las funciones de peg-in y peg-out requiere que los funcionarios demuestren la propiedad de las claves públicas utilizadas en el script de peg federado. Para ello se utilizan las claves privadas correspondientes.
+El guión de peg federado define qué miembros de la federación fuerte pueden realizar funciones de peg-in y peg-out. A estos funcionarios se les denomina "vigilantes" `watchmen`, ya que vigilan la cadena principal y las sidechains en busca de transacciones válidas de entrada y salida de activos (peg-in y peg-out) y las ejecutan si son válidas. "Salir" `peg-out` significa mover activos bloqueados de la sidechain a la principal, y "entrar" `peg-in` significa mover activos bloqueados de la cadena principal a la sidechain. Cuando decimos "mover a la sidechain", lo que realmente queremos decir es que los fondos se bloquean en una dirección multi-firma en la cadena principal y se crea una cantidad correspondiente del activo en la sidechain de Elements. Cuando decimos "salir de la sidechain", lo que queremos decir es que los activos se destruyen en la sidechain de Elements y se libera la cantidad correspondiente de los fondos bloqueados en la cadena principal. El permiso para realizar las funciones de peg-in y peg-out requiere que los funcionarios demuestren la propiedad de las claves públicas utilizadas en el script de peg federado. Para ello se utilizan las claves privadas correspondientes.
 
 Por lo tanto, para crear un script peg federado, primero necesitamos que cada uno de nuestros nodos genere una clave pública. También tenemos que almacenar las claves privadas asociadas para su uso posterior, ya que tendremos que borrar cualquier dato de la cadena existente e inicializar una nueva cadena utilizando el script de la clavija federada. Esto se debe a que el script peg federado forma parte de las reglas de consenso de una sidechain, y no puede aplicarse a una blockchain existente, no pegada, en una fecha posterior.
 
@@ -878,14 +878,14 @@ Almacena las claves privada y pública para su uso posterior.
 
 Ahora tenemos que borrar la blockchain existente y los datos del monedero, ya que vamos a inicializar una nueva cadena utilizando un script peg federado. Puedes hacerlo ahora. No olvide iniciar el demonio Bitcoin, que necesitaremos para peg-in.
 
-Ahora podemos inicializar una nueva cadena con un script de peg federado creado utilizando las claves públicas que almacenamos anteriormente. Los números que introducimos y que rodean a nuestras claves públicas definen y delimitan el número de claves utilizadas, y la propiedad de las claves que debe probarse para pegar y sacar de nuestra sidechain.
+Ahora podemos inicializar una nueva cadena con un script peg federado creado utilizando las claves públicas que almacenamos anteriormente. Los números que introducimos y que rodean a nuestras claves públicas definen y delimitan el número de claves utilizadas, y la propiedad de las claves que debe probarse para pegar y sacar de nuestra sidechain.
 
 ```
 e1-dae -fedpegscript=5221<e1-pubkey>21<e2-pubkey>52ae
 e2-dae -fedpegscript=5221<e1-pubkey>21<e2-pubkey>52ae
 ```
 
-Ahora importaremos las claves privadas que guardamos antes, para que nuestros nodos puedan después firmar y completar la transferencia de activos entre cadenas y satisfacer los requisitos del script de la clavija federada.
+Ahora importaremos las claves privadas que guardamos antes, para que nuestros nodos puedan después firmar y completar la transferencia de activos entre cadenas y satisfacer los requisitos del script peg federado.
 
 ```
 e1-cli importprivkey <priv-key-1>
