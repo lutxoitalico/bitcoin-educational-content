@@ -849,7 +849,7 @@ Para inicializar un blockchain de Elements como sidechain, necesitamos utilizar 
 
 El guión de peg federado define qué miembros de la federación fuerte pueden realizar funciones de peg-in y peg-out. A estos funcionarios se les denomina "vigilantes" `watchmen`, ya que vigilan la cadena principal y las sidechains en busca de transacciones válidas de entrada y salida de activos (peg-in y peg-out) y las ejecutan si son válidas. "Salir" `peg-out` significa mover activos bloqueados de la sidechain a la principal, y "entrar" `peg-in` significa mover activos bloqueados de la cadena principal a la sidechain. Cuando decimos "mover a la sidechain", lo que realmente queremos decir es que los fondos se bloquean en una dirección multi-firma en la cadena principal y se crea una cantidad correspondiente del activo en la sidechain de Elements. Cuando decimos "salir de la sidechain", lo que queremos decir es que los activos se destruyen en la sidechain de Elements y se libera la cantidad correspondiente de los fondos bloqueados en la cadena principal. El permiso para realizar las funciones de peg-in y peg-out requiere que los funcionarios demuestren la propiedad de las claves públicas utilizadas en el script de peg federado. Para ello se utilizan las claves privadas correspondientes.
 
-Por lo tanto, para crear un script peg federado, primero necesitamos que cada uno de nuestros nodos genere una clave pública. También tenemos que almacenar las claves privadas asociadas para su uso posterior, ya que tendremos que borrar cualquier dato de la cadena existente e inicializar una nueva cadena utilizando el script de la clavija federada. Esto se debe a que el script peg federado forma parte de las reglas de consenso de una sidechain, y no puede aplicarse a una blockchain existente, no pegada, en una fecha posterior.
+Por lo tanto, para crear un script peg federado, primero necesitamos que cada uno de nuestros nodos genere una clave pública. También tenemos que almacenar las claves privadas asociadas para su uso posterior, ya que tendremos que borrar cualquier dato de la cadena existente e inicializar una nueva cadena utilizando el script peg federado. Esto se debe a que el script peg federado forma parte de las reglas de consenso de una sidechain, y no puede aplicarse a una blockchain existente, no pegada, en una fecha posterior.
 
 Así que vamos a generar una dirección con cada uno de nuestros nodos, almacenar los datos relevantes para su uso posterior y generar el script peg federado que utilizaremos para inicializar nuestra sidechain más tarde.
 
@@ -894,7 +894,7 @@ e2-cli importprivkey <priv-key-1>
 
 Ahora necesitamos madurar algunos bloques en ambas cadenas. La madurez de los bloques es un requisito del proceso de vinculación, ya que protege contra las reorganizaciones de bloques en la cadena principal que conducen a una inflación de la oferta de activos vinculados dentro de la sidechain.
 
-Para mantener esta sección centrada en la clavija federada, generaremos bloques sin utilizar el modelo de firma de bloques que vimos en la última sección, y volveremos a utilizar el comando "generate" para crear nuevos bloques.
+Para mantener esta sección centrada en peg federado, generaremos bloques sin utilizar el modelo de firma de bloques que vimos en la última sección, y volveremos a utilizar el comando `generate` para crear nuevos bloques.
 
 ```
 b-cli generate 101
@@ -977,7 +977,7 @@ Comprobación del saldo de e1.
 e1-cli getwalletinfo
 ```
 
-Podemos ver que la clavija ha sido reclamada con éxito.
+Podemos ver que el peg ha sido reclamado con éxito.
 
 Para peg-out, el proceso es similar. Se genera una dirección, se le envían fondos y éstos se liberan si la transacción es válida. No cubriremos todo el proceso de peg-out ya que implica trabajo en la mainchain que está fuera del alcance de este curso. Los pasos en términos de los eventos de Elements son que se genera una dirección en la mainchain.
 
