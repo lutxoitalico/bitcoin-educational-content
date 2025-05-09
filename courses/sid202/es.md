@@ -1232,7 +1232,7 @@ En este curso hemos aprendido que Elements es un protocolo de red de código abi
 
 Hemos visto que el código fuente y el sitio web de Elements (https://github.com/ElementsProject/elements) están alojados en GitHub y que existen foros de debate comunitarios, como Build On L2(https://community.liquid.net/c/developers/), o Liquid Developers Telegram (https://t.me/liquid_devel), que pueden utilizarse para obtener más información sobre la implantación y el desarrollo de aplicaciones en Elements y Liquid. Se trataron aspectos clave como las transacciones confidenciales y los activos emitidos, así como el modo en que los miembros de una federación sólida permiten la firma federada de bloques y el mecanismo 2-Way Peg.
 
-El siguiente paso es desafiarte a ti mismo con un cuestionario acumulativo que cubra todas las secciones anteriores, y después comenzar tu viaje en Elements... ¡buena suerte!
+El siguiente paso es desafiarte a ti mismo con un cuestionario acumulativo que cubra todas las secciones anteriores, y después comenzar tu viaje en Elements... ¡suerte!
 
 # Sección final
 
