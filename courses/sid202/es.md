@@ -1044,19 +1044,19 @@ Un peg-out se produce cuando un nodo Elements llama al comando `sendtomainchain`
 
 Hasta ahora, hemos visto cómo ejecutar Elements como sidechain. Sin embargo, también puede funcionar como una solución de blockchain independiente con su propio activo nativo predeterminado. En esta configuración, una blockchain de Elements conserva todas las características de una implementación sidechain, como las transacciones confidenciales y los activos emitidos, pero no necesita peg-in o peg-out para añadir o eliminar cantidades de activos predeterminados de la circulación.
 
-En esta sección lo haremos:
+Que haremos en esta sección:
 
-Inicializa una nueva blockchain de Elements con un activo por defecto llamado `newasset`.
+Inicializar una nueva blockchain de Elements con un activo por defecto llamado `newasset`.
 
-Especifique que se crearán 1.000.000 `newasset` junto con 2 tokens de reemisión para él.
+Especificar que se crearán 1.000.000 `newasset` junto con 2 tokens de reemisión para él.
 
-Reclama todas las monedas "newasset" que cualquiera pueda gastar.
+Reclamar todas las monedas "newasset" que cualquiera pueda gastar.
 
-Reclama todos los tokens de reemisión que cualquiera pueda gastar para "newasset".
+Reclamar todos los tokens de reemisión que cualquiera pueda gastar para "newasset".
 
-Envía el activo y su token de reemisión a la cartera de otro nodo.
+Envíar el activo y su token de reemisión a la cartera de otro nodo.
 
-Reemite más 'newasset' de ambos nodos.
+Reemitir más 'newasset' de ambos nodos.
 
 Con el fin de inicializar una red Elements para que funcione como una blockchain independiente, es necesario iniciar cada nodo con algunos parámetros básicos. Se utilizan para indicar al nodo que no intente validar peg-ins de otra blockchain, el nombre del activo predeterminado de la red y la cantidad de activo predeterminado y token de reemisión asociado que se creará.
 
@@ -1166,13 +1166,13 @@ e2-cli getwalletinfo
 
 En esta sección hemos configurado Elements como una blockchain independiente y hemos comprobado que la funcionalidad básica funciona como cabría esperar.
 
-Utilizamos parámetros de arranque para:
+Utilizamos los parámetros de arranque para:
 
-Inicializa una nueva blockchain de Elements con un activo por defecto llamado 'newasset'.
+Inicializar una nueva blockchain de Elements con un activo por defecto llamado 'newasset'.
 
-Especifica la cantidad del activo por defecto a crear en la inicialización de la cadena.
+Especificar la cantidad del activo por defecto a crear en la inicialización de la cadena.
 
-Crea algunos tokens de reemisión para el activo por defecto y reemite más del activo por defecto desde ambos nodos.
+Crear algunos tokens de reemisión para el activo por defecto y reemitir más del activo por defecto desde ambos nodos.
 
 En nuestra red autónoma blockchain Elements, todas las demás operaciones transaccionales funcionarán de la misma manera que los ejemplos cubiertos en las secciones principales del curso, pero utilizarán "newasset" en lugar de "bitcoin" como activo por defecto y de pago.
 
@@ -1180,19 +1180,19 @@ En nuestra red autónoma blockchain Elements, todas las demás operaciones trans
 
 Para indicarle a un nodo Elements que funcione como una blockchain autónoma se deben utilizar algunos parámetros juntos. Echemos un vistazo a cada uno de ellos y averigüemos qué hacen.
 
-#### `validatepegin=0`
+`validatepegin=0`
 
 Como una blockchain autónoma no necesita validar ninguna transacción peg-in o peg-out, necesitamos desactivar esas comprobaciones. Con esta configuración, no es necesario ejecutar el software cliente de Bitcoin ni almacenar una copia de la blockchain de Bitcoin, ya que la red Elements funcionará de forma independiente.
 
-#### nombredeactivopegadopordefecto
+`defaultpeggedassetname`
 
 Permite especificar el nombre del activo por defecto creado al inicializar el blockchain.
 
-#### `initialfreecoins`
+`initialfreecoins`
 
 El número (en el equivalente a la unidad Satoshi de Bitcoin) del activo por defecto a crear.
 
-#### `fichas de reemisión inicial
+`initialreissuancetokens`
 
 El número (en el equivalente a la unidad Satoshi de Bitcoin) de tokens de reemisión para el activo por defecto a crear. Sin esto sería imposible crear más del activo por defecto. Si no quieres que sea posible crear más del activo por defecto esto puede ser puesto a cero u omitido.
 
