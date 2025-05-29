@@ -53,7 +53,7 @@ Este curso es una fusión entre economía y filosofía, dirigido por una discusi
 
 > "El problema fundamental con la moneda convencional es toda la confianza que se requiere para que funcione. Se debe confiar en el banco central para que no devalúe la moneda, pero la historia de las monedas fiduciarias está llena de violaciones de esa confianza. Se debe confiar en los bancos para que guarden nuestro dinero y lo transfieran electrónicamente, pero lo prestan en oleadas de burbujas de crédito con apenas una fracción en reserva. Debemos confiar en ellos con nuestra privacidad, confiar en que no permitirán que los ladrones de identidad vacíen nuestras cuentas".
 >
-> Satoshi Nakamoto, inventor pseudónimo de Bitcoin
+> Satoshi Nakamoto (seudónimo del creador de Bitcoin).
 
 ### Cómo se Crea el Dinero
 
