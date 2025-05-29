@@ -1,5 +1,5 @@
 ---
-name: Construir con elements y Líquid Network
+name: Construir con Elements y Líquid Network
 goal: Aprenda a utilizar y desarrollar con la plataforma blockchain de código abierto Elements y sus características clave
 objectives: 
 
@@ -321,7 +321,7 @@ e1-cli gettransaction <txid>
 
 Efectivamente, muestra 0 como cantidad de tx cuando en realidad era 1.
 
-Para poder ver el valor real unblined value, necesitamos la blinding key. Para ello, primero exportamos la blinding key de e2.
+Para poder ver el valor real unblinded value, necesitamos la blinding key. Para ello, primero exportamos la blinding key de e2.
 
 ```
 e2-cli dumpblindingkey <address>
