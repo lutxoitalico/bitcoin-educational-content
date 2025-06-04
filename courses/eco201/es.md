@@ -117,7 +117,7 @@ Figura 5: Distribución de la riqueza en China + Europa + EE. UU. / Fuente: OECD
 
 Durante períodos prolongados de Políticas de Tasa de Interés Cero (ZIRP), los bancos tienen oportunidades limitadas para reconstruir su patrimonio porque sus márgenes se erosionan. Los bancos suelen ganar dinero tomando prestado a tasas a corto plazo y prestando a tasas a largo plazo. Sin embargo, cuando los bancos centrales compran grandes cantidades de bonos y establecen tasas en cero, los bancos tienen poco incentivo para prestar, especialmente a emprendedores y otros tomadores de riesgo. En cambio, asignan sus recursos para titularizar el capital existente o proporcionar préstamos con garantía para satisfacer la demanda de aquellos que se benefician del efecto Cantillon.
 
-Otra consecuencia no deseada de ZIRP es que alienta a los gobiernos a realizar gastos extensos. Dado que los gobiernos no enfrentan costos de endeudamiento y pueden confiar en que los bancos centrales compren sus bonos a través de programas de QE, tienen un incentivo natural para gastar tanto como sea posible, especialmente en contextos democráticos donde el gasto puede obtener votos. Esta tendencia a menudo pasa por alto las consecuencias a largo plazo de tal prodigalidad fiscal, lo que lleva a un aumento significativo en los niveles de deuda pública en las economías desarrolladas desde la Crisis Financiera Global (GFC).
+Otra consecuencia no deseada de ZIRP es que alienta a los gobiernos a realizar gastos extensos. Dado que los gobiernos no enfrentan costos de endeudamiento y pueden confiar en que los bancos centrales compren sus bonos a través de programas de QE, tienen un incentivo natural para gastar tanto como sea posible, especialmente en contextos democráticos donde el gasto puede obtener votos. Esta tendencia a menudo pasa por alto las consecuencias a largo plazo de tal desperdicio fiscal, lo que lleva a un aumento significativo en los niveles de deuda pública en las economías desarrolladas desde la Crisis Financiera Global (GFC).
 
 ![image](assets/en/06.webp)
 
@@ -127,7 +127,7 @@ Con la inflación en aumento debido a la creación sustancial de dinero en respu
 
 ### Conclusión
 
-> "De esta manera (banca de reserva fraccionaria), los gobiernos pueden confiscar la riqueza de las personas en secreto y sin ser observados, y no habría un hombre entre un millón que detectara el robo".
+> "De esta manera (con la reserva fraccionaria bancaria), los gobiernos pueden en secreto y sin ser observados, confiscar la riqueza de las personas y no habría ni un hombre entre un millón que detectara el robo".
 >
 > John Maynard Keynes
 
@@ -146,11 +146,11 @@ En el próximo capítulo, profundizaremos en la piedra angular fundamental de cu
 
 > "El valor solo existe dentro de la conciencia humana"
 >
-> Carl Menger, Principios de Economía Política
+> Carl Menger, Principios de Política Economica
 
 ### La Revolución Marginal
 
-En el corazón del razonamiento económico se encuentra la pregunta del valor. ¿Cómo determinamos el valor de algo? ¿Es el valor una propiedad inherente de las cosas? ¿O es, por el contrario, un fenómeno subjetivo? ¿Cómo comparamos el valor de dos cosas? ¿De dónde proviene el valor?
+En la base del razonamiento económico se encuentra la pregunta acerca del valor. ¿Cómo determinamos el valor de algo? ¿Es el valor una propiedad inherente de las cosas? ¿O es, por el contrario, un fenómeno subjetivo? ¿Cómo comparamos el valor de dos cosas? ¿De dónde proviene el valor?
 
 Estas preguntas han ocupado a economistas y filósofos durante muchos siglos y han recibido numerosas respuestas diferentes. En muchos aspectos, la evolución epistemológica de la economía ha estado marcada por la evolución de las teorías del valor.
 
@@ -160,7 +160,7 @@ Después de que la teoría del valor de la tierra de los fisiócratas, que postu
 
 De izquierda a derecha: William Stanley Jevons, Carl Menger, Léon Walras
 
-La teoría marginal del valor sostiene que el valor económico corresponde a lo que un agente económico está dispuesto a pagar por la siguiente unidad de un bien o servicio. Como esta teoría enfatiza el hecho de que los precios se forman en el margen, es decir, para la siguiente unidad de un bien dado, se le denominó "marginalismo".
+La teoría marginal del valor sostiene que el valor económico corresponde a lo que un agente económico está dispuesto a pagar por la siguiente unidad de un bien o servicio. Dado que esta teoría pone énfasis en el hecho de que los precios se forman en el margen, es decir, en relación con la próxima unidad de un bien determinado, recibió el nombre de “marginalismo”.
 
 Es común presentar el marginalismo de estas tres corrientes como similares. De hecho, Walras y Jevons son altamente compatibles, pero la teorización de Menger difiere de las otras de manera profunda. En su obra, ahora considerada fundamental para la teoría económica austriaca, titulada "Grundsätze des Volkswirtschaftlehre" (Principios de Economía Política), publicada en 1874, Menger ofrece una explicación marginal, pero principalmente subjetiva, del valor, a diferencia de Walras y Jevons, quienes consideran que el valor es un fenómeno objetivo y medible.
 
@@ -183,7 +183,7 @@ A partir de este punto, Menger deduce que el intercambio voluntario entre dos in
 
 Sin embargo, dicho beneficio social, o el valor subjetivo atribuido a un bien, no se puede medir. Para Menger, el valor es un fenómeno cognitivo de comparación (ordinal) en lugar de medición (cardinal). No es, como han pensado los economistas neoclásicos desde Walras y Jevons, la asignación por parte del individuo de un valor numérico que refleje la utilidad que obtienen de él, sino más bien un acto de ordenación de los deseos humanos mediante el cual un individuo expresa que desea una cantidad del bien A más intensamente que una cantidad del bien B.
 
-Cualquier agente puede decir si prefiere 2 plátanos a un curso de economía, pero nadie puede decir razonablemente que valora 2 plátanos en 3.1416 utils, mientras valora un curso de economía en 3 utils, y por lo tanto, prefiere tener los plátanos. Tal descripción de las preferencias humanas, basada en funciones reales continuas, no corresponde a la realidad de los procesos cognitivos que experimentamos en nuestra vida diaria. Un individuo nunca evalúa los bienes que se le presentan comparándolos con un estándar abstracto de utilidad. En cambio, compara subjetivamente diferentes cursos de acción, que no puede juzgar en términos absolutos pero que puede clasificar según su deseabilidad relativa.
+Cualquier agente puede decir si prefiere 2 bananas a un curso de economía, pero nadie puede decir razonablemente que valora 2 bananas en 3.1416 utils, mientras valora un curso de economía en 3 utils, y por lo tanto, prefiere tener las bananas. Tal descripción de las preferencias humanas, basada en funciones reales continuas, no corresponde a la realidad de los procesos cognitivos que experimentamos en nuestra vida diaria. Un individuo nunca evalúa los bienes que se le presentan comparándolos con un estándar abstracto de utilidad. En cambio, compara subjetivamente diferentes cursos de acción, que no puede juzgar en términos absolutos pero que puede clasificar según su deseabilidad relativa.
 
 Esta concepción subjetiva del valor, entendida como una relación psicológica que el individuo mantiene con sus metas y los medios relevantes para alcanzarlas, también permite a los economistas austriacos explicar el fenómeno de la división del trabajo.
 
@@ -192,6 +192,7 @@ Esta concepción subjetiva del valor, entendida como una relación psicológica 
 ![image](assets/en/09.webp)
 
 Visita a una fábrica de clavos, Léonard Defrance (siglo XVIII)
+
 Todos son únicos y tienen una situación personal particular. Por lo tanto, cada persona posee una habilidad superior para realizar ciertas tareas en comparación con sus pares (ventaja absoluta) o una habilidad superior para realizar ciertas tareas en comparación con otros (ventaja comparativa). No puede ser de otra manera; negar este hecho elemental sería afirmar que todos los seres humanos son iguales en todos los aspectos.
 
 En el caso de que un individuo tenga una habilidad superior en comparación con sus pares en la producción de un bien determinado (ventaja absoluta), tiene interés en especializarse en la producción de ese bien y luego intercambiar el excedente obtenido por los bienes que desea. Al hacerlo, satisface su utilidad subjetiva de manera más económica que si se dedicara a la producción de todos los bienes que desea.
@@ -207,7 +208,7 @@ En esencia, existe un beneficio en la especialización, incluso para las persona
 Una vez que el individuo se especializa en una producción particular, puede reservar la cantidad de productos que considere necesaria para su consumo personal e intercambiar el excedente por otros bienes deseados. Al hacerlo, satisface su deseo de los bienes que produce, lo que significa que las unidades restantes de su producción tienen poco valor para ellos. Es lo que los economistas llaman utilidad marginal decreciente: cada unidad adicional de un bien es menos deseada que la anterior. Para otros que carecen de esos bienes, es otra historia: por las mismas razones, tienden a desear los bienes que no producen con más intensidad que los que sí producen. Esto lleva a una situación en la que hay una fuerte asimetría entre las diversas valoraciones subjetivas de los individuos, lo que es altamente propicio para los intercambios: cada parte tiene interés en intercambiar su producción excedente porque de esta manera aumentan su utilidad subjetiva.
 
 El resultado del análisis anterior es que las personas siempre están mejor cuando se especializan en su trabajo y se dedican a los intercambios. Por lo tanto, los economistas austriacos, especialmente Ludwig Von Mises, concluyen que la ventaja productiva que surge de la división del trabajo es la fuerza impulsora detrás del proceso de cooperación social. Aquí, puede ser útil citarlo directamente:
-Los hechos fundamentales que dieron lugar a la cooperación, la sociedad y la civilización, y transformaron al hombre animal en un ser humano, son los hechos de que el trabajo realizado bajo la división del trabajo es más productivo que el trabajo aislado y que la razón del hombre es capaz de reconocer esta verdad. [...] Las personas no cooperan bajo la división del trabajo porque se aman o deberían amarse entre sí. Cooperan porque esto sirve mejor a sus propios intereses.
+Los hechos fundamentales que dieron lugar a la cooperación, la sociedad y la civilización, y que transformaron al hombre-animal en ser humano, son que el trabajo realizado bajo la división del trabajo es más productivo que el trabajo aislado y que la razón humana es capaz de reconocer esta verdad. [...] Los hombres no cooperan bajo la división del trabajo porque se amen unos a otros o debieran amarse, sino porque la cooperación responde mejor a sus propios intereses.
 
 ### Conclusión
 
