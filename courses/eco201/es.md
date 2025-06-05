@@ -103,7 +103,10 @@ No obstante, se puede extraer un principio económico esencial de este episodio:
 
 ![image](assets/en/04.webp)
 
-Figura 4: Resumen del efecto Cantillon / Fuente: River Financial
+Figura 4: El efecto Cantillon / Fuente: River Financial
+
+> Cuanto más cercano estas de la fuente de creación monetaria, más beneficio recibes.
+
 
 En esta instancia, los banqueros, ejecutivos bancarios, propietarios de acciones y bonos, desarrolladores inmobiliarios, prestamistas de bienes raíces y cualquier persona que posea activos financieros o bienes raíces recibieron una ganancia financiera, mientras que la carga recayó sobre todos los demás. Esta situación persistió durante años y explica en gran medida la creciente desigualdad de riqueza, la sensación de exclusión entre las personas trabajadoras y el aparentemente imparable aumento de los precios de los activos a pesar del lento crecimiento del PIB.
 
