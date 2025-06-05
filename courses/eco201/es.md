@@ -334,6 +334,8 @@ El concepto de preferencia temporal y cómo expresamos nuestra propia preferenci
 
 ![image](assets/en/13.webp)
 
+> El valor presente de los bienes de orden superior es igual al valor del producto final menos el valor de los servicios del capital necesarios para su producción. Carl Menger.
+
 Al comienzo de este curso, vimos que, para Carl Menger, los bienes solo se consideran bienes económicos (valorados) porque sirven como medios para fines elegidos y valorados por los individuos. Según esta visión, todo análisis económico gira en torno al consumo porque es en última instancia el objetivo motivador detrás de toda actividad económica. Por lo tanto, para Menger, el punto de partida del análisis económico son los bienes de consumo, o bienes finales, ya que representan el propósito último de la actividad económica. Todos los demás bienes en la economía, que podemos llamar "bienes intermedios", solo tienen valor porque permiten a los individuos obtener estos bienes de consumo: son bienes utilizados en la producción de otros bienes.
 
 Para producir bienes de consumo, los empresarios combinan estos diversos bienes intermedios con factores originales de producción (trabajo, tierra y capital) de acuerdo con un patrón que maximiza la producción resultante. Esta disposición, realizada por los empresarios, o la estructura de producción, incluye varias etapas durante las cuales los bienes intermedios sufren transformaciones hasta que finalmente se convierten en bienes de consumo.
@@ -378,6 +380,7 @@ Ahora bien, como se insinuó en el primer capítulo, los bancos centrales han ma
 Esto se ilustra perfectamente en el gráfico a continuación: las tasas a largo plazo son más bajas que las tasas a corto plazo. En primer lugar, esto no tiene absolutamente ningún sentido, porque implicaría que el futuro es más seguro que el presente. En segundo lugar, plantea una pregunta sobre las consecuencias para la asignación de capital: si todos tienen incentivos para actuar como si el ahorro fuera abundante, mientras que los ahorradores no se encuentran en ninguna parte porque no se les recompensa por ahorrar, ¿qué consecuencias podría tener esto para la economía?
 
 ![imagen](assets/en/16.webp)
+> Curva de Rendimiento de los bonos governativos de Estados Unidos
 
 ¡Esto es lo que descubriremos en el próximo capítulo dedicado a la Teoría Austriaca del Ciclo Económico!
 
