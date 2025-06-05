@@ -172,7 +172,8 @@ Es común presentar el marginalismo de estas tres corrientes como similares. De 
 ![image](assets/en/08.webp)
 
 > El valor no es intrínseco, no está en las cosas. Está dentro de nosotros; es la forma en que el hombre reacciona ante las condiciones de su entorno. El valor no está en las palabras ni en las doctrinas, se refleja en la conducta humana. No importa lo que un hombre o un grupo diga acerca del valor, sino cómo actúan.
-> Ludwig von Mises, La acción humana, 1949
+> 
+> Ludwig von Mises, La acción humana
 
 El economista austriaco refuta la concepción de los sucesores de Adam Smith y abandona la idea de que el valor de un bien proviene de la cantidad de trabajo utilizado en su producción, a favor de la noción de que su valor es determinado por el individuo, quien, en cada contexto, realiza un acto mental de valoración con respecto a una cantidad específica de un bien o servicio. Este salto intelectual realizado por Menger desafía la objetividad del valor: para él, el valor no es una propiedad objetiva de los bienes; es simplemente el resultado de la relación que el individuo tiene con esa cosa: "el valor no existe fuera de la conciencia humana".
 En otras palabras, Menger nos invita a considerar que el valor existe solo como un fenómeno psicológico subjetivo dentro del individuo, que el valor no es una propiedad inherente de los bienes, sino que surge de la opinión del individuo sobre la utilidad que pueden obtener de esos bienes.
@@ -261,7 +262,8 @@ Este juego ilustra un problema que se encuentra con frecuencia en la vida real: 
 ![image](assets/en/10.webp)
 
 > El dinero no es una invención del Estado. No es el producto de un acto legislativo. Ni siquiera es necesaria la sanción de la autoridad política para su existencia. Ciertos bienes llegaron a convertirse en dinero de manera bastante natural, como resultado de relaciones económicas que eran independientes del poder del Estado."
-> Carl Menger, *El origen del dinero*
+> 
+> Carl Menger, El origen del dinero
 
 Este problema tiene menos impacto en comunidades pequeñas (por ejemplo, familia, círculos de amigos) porque, en esos casos, todos se conocen directamente, lo que permite recordar las contribuciones de cada uno. Suponiendo que abandonar la comunidad (deserción) conlleva un costo, un sistema de reputación basado en la memoria de los agentes individuales suele ser suficiente para evitar los problemas planteados por el dilema del prisionero.
 
@@ -282,6 +284,7 @@ En tiempos pre-civilización, estas tecnologías no existían. Por lo tanto, nue
 ### Doble Coincidencia de Deseos y Salibilidad
 
 ![image](assets/en/11.webp)
+
 > La evolucion del dinero
 
 El dinero puede verse como la solución descubierta por nuestros antepasados para abordar lo que los economistas llaman el problema de la "doble coincidencia de deseos". Este problema tiene tres dimensiones: espacial, temporal e interpersonal.
@@ -334,7 +337,9 @@ El concepto de preferencia temporal y cómo expresamos nuestra propia preferenci
 
 ![image](assets/en/13.webp)
 
-> El valor presente de los bienes de orden superior es igual al valor del producto final menos el valor de los servicios del capital necesarios para su producción. Carl Menger.
+> El valor presente de los bienes de orden superior es igual al valor del producto final menos el valor de los servicios del capital necesarios para su producción.
+>
+> Carl Menger
 
 Al comienzo de este curso, vimos que, para Carl Menger, los bienes solo se consideran bienes económicos (valorados) porque sirven como medios para fines elegidos y valorados por los individuos. Según esta visión, todo análisis económico gira en torno al consumo porque es en última instancia el objetivo motivador detrás de toda actividad económica. Por lo tanto, para Menger, el punto de partida del análisis económico son los bienes de consumo, o bienes finales, ya que representan el propósito último de la actividad económica. Todos los demás bienes en la economía, que podemos llamar "bienes intermedios", solo tienen valor porque permiten a los individuos obtener estos bienes de consumo: son bienes utilizados en la producción de otros bienes.
 
@@ -489,7 +494,10 @@ Con su artículo, Mises introdujo una nueva dimensión al debate. Dejando de lad
 ### Explicando la Imposibilidad del Cálculo Económico
 
 ![image](assets/en/21.webp)
-> Lo que el cálculo económico requiere es un sistema monetario cuyo funcionamiento no esté saboteado por la interferencia gubernamental. Ludwig von Mises
+
+> Lo que el cálculo económico requiere es un sistema monetario cuyo funcionamiento no esté saboteado por la interferencia gubernamental.
+>
+> Ludwig von Mises
 
 La mayoría de los malentendidos sobre los argumentos de Mises surgen de una falta de comprensión de los roles desempeñados por las clases gerenciales y empresariales en una economía capitalista. Mises nunca descartó la capacidad de los gerentes para diseñar planes de producción eficientes dentro de sus propias operaciones. En cambio, enfatizó la importancia de los empresarios y accionistas, quienes, como propietarios de los medios de producción, asignan capital a diferentes industrias, formando así precios que sirven como insumos en los cálculos económicos de los gerentes.
 
@@ -497,7 +505,7 @@ Sin mercados de capital y dinero, se vuelve imposible racionalizar el uso de rec
 
 > "La falacia cardinal implícita en las propuestas del socialismo de mercado es que consideran el problema económico desde la perspectiva del empleado subalterno, cuyo horizonte intelectual no se extiende más allá de las tareas subordinadas. Consideran la estructura de la producción industrial y la asignación de capital a las diversas ramas y agregados de producción como rígidas y no tienen en cuenta la necesidad de alterar esta estructura para ajustarla a los cambios en las condiciones. No se dan cuenta de que las operaciones de los directivos consisten meramente en la ejecución leal de las tareas encomendadas por sus superiores, los accionistas. Las operaciones de los gerentes, sus compras y ventas, son solo un pequeño segmento de la totalidad de las operaciones del mercado. El mercado de la sociedad capitalista también realiza aquellas operaciones que asignan los bienes de capital a las diversas ramas de la industria. Los empresarios y capitalistas establecen corporaciones y otras empresas, amplían o reducen su tamaño, las disuelven o las fusionan con otras empresas; compran y venden las acciones y bonos de corporaciones ya existentes y nuevas; otorgan, retiran y recuperan créditos; en resumen, realizan todos aquellos actos cuya totalidad se denomina mercado de capitales y dinero. Son estas transacciones financieras de promotores y especuladores las que dirigen la producción hacia aquellos canales en los que satisface de la mejor manera posible las necesidades más urgentes de los consumidores."
 >
->  La acción humana – Ludwig von Mises
+>  Ludwig von Mises, La acción humana
 
 En esencia, Mises argumenta que los derechos de propiedad, que colocan a los propietarios de capital en un contexto de ganancias y pérdidas, los motivan a asignar sus recursos a las industrias que actualmente más necesitan recursos para satisfacer las demandas de los consumidores. Cuando tienen éxito, obtienen ganancias, pero cuando fracasan, incurren en pérdidas financieras. Su "participación en el juego" los anima a especular sobre la mejor asignación de capital para el estado actual de la economía. Esto crea una dinámica impulsada por el mercado donde los resultados colectivos de sus acciones producen información vital sobre el uso más eficiente de los recursos.
 
@@ -509,9 +517,9 @@ Desde esta perspectiva, una economía planificada centralmente inevitablemente e
 
 ![image](assets/en/22.webp)
 
-> *"La curiosa tarea de la economía es mostrar a los hombres cuán poco saben realmente acerca de aquello que creen poder diseñar."*
+> "La curiosa tarea de la economía es mostrar a los hombres cuán poco saben realmente acerca de aquello que creen poder diseñar."
 >
-> Friedrich A. Hayek, *The Fatal Conceit: The Errors of Socialism*
+> Friedrich A. Hayek, The Fatal Conceit: The Errors of Socialism
 
 ### La Perspectiva Austriaca y los Fracasos de Otras Escuelas de Economía
 
@@ -522,9 +530,9 @@ A pesar de esta impresionante predicción y numerosas demostraciones empíricas 
 ### La Teoría del Ciclo Económico Austriaco como un Caso Específico de la Imposibilidad del Cálculo Económico bajo el Socialismo
 
 ![image](assets/en/23.webp)
-> *"En la comunidad socialista, todo cambio económico se convierte en una empresa cuyo éxito no puede ser ni anticipadamente evaluado ni determinado retrospectivamente. No hay más que tanteo en la oscuridad. El socialismo es la abolición de la economía racional."*
+> "En la comunidad socialista, todo cambio económico se convierte en una empresa cuyo éxito no puede ser ni anticipadamente evaluado ni determinado retrospectivamente. No hay más que tanteo en la oscuridad. El socialismo es la abolición de la economía racional."
 >
-> Ludwig von Mises, *La acción humana*
+> Ludwig von Mises, La acción humana
 
 
 En un capítulo anterior, elucidamos la dinámica de la sobreinversión y la mala asignación de capital resultante de la manipulación de las tasas de interés por parte de los bancos centrales. Esencialmente, lo que explicamos se puede ver como un caso específico de la imposibilidad del cálculo económico bajo el socialismo, aplicado al ámbito de los mercados monetarios. Cuando los precios se fijan fuera de sus valores de mercado, los empresarios y los asignadores de capital se ven incentivados a realizar inversiones que no pueden mantenerse a largo plazo debido a la falta de ahorro. Al interferir con el sistema de precios, los planificadores centrales (en este caso, los banqueros centrales) crean una descoordinación entre los agentes económicos. En este caso, la descoordinación intertemporal implica una sobreinversión en bienes de inversión de orden superior y una subinversión en bienes de inversión de orden inferior, lo que representa una manifestación específica de la mala asignación de capital entre las industrias.
@@ -535,7 +543,9 @@ Hoy en día, el debate sobre el cálculo económico resurge principalmente en di
 
 Para una aplicación concreta del problema del cálculo económico a una situación contemporánea, puedes consultar este artículo que aborda el problema de la asignación de recursos en la China moderna.
 
-> The Road to Financial Repression: China the Paper Tiger, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
+> The Road to Financial Repression: China the Paper Tiger, Theo Mogenet,
+> 
+> https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 ### Conclusión
 
@@ -561,7 +571,7 @@ Los economistas austriacos a menudo encuentran dificultades al debatir con otras
 Un ejemplo de diferencia metodológica es la posición de los defensores de la Teoría Monetaria Moderna (TMM) que han abogado por la impresión de dinero para lograr objetivos políticos, utilizando la ausencia de inflación entre 2008 y 2019 como argumento. Los economistas austriacos y los defensores de la TMM no hablan el mismo idioma y no están de acuerdo en los criterios para determinar la validez de una ley económica. Esto hace que los debates entre estas diferentes escuelas sean difíciles y a menudo improductivos.
 Es importante tener en cuenta que la selección selectiva, que implica elegir selectivamente datos para establecer relaciones entre variables, es un método no científico y no riguroso en economía. La creación monetaria, por ejemplo, no necesariamente causa inflación, y se necesita un enfoque más matizado para comprender los mecanismos económicos complejos. Los axiomas desempeñan un papel crucial en el razonamiento económico austriaco. Son elementos fundamentales a partir de los cuales se pueden hacer deducciones lógicas. Sin embargo, es importante reconocer que la predicción precisa del futuro en economía a menudo es difícil debido a la complejidad de los fenómenos económicos y la incertidumbre inherente.
 
-La metodología es un aspecto esencial en economía y en ciencias sociales en general. Influye en cómo se formulan las preguntas, se formulan las hipótesis y se interpreta los datos. Comprender las diferencias metodológicas entre las escuelas de pensamiento económico puede ayudarnos a apreciar perspectivas diversas y desarrollar nuestras propias opiniones sobre los temas discutidos en episodios anteriores .
+La metodología es un aspecto esencial en economía y en ciencias sociales en general. Influye en cómo se formulan las preguntas, se formulan las hipótesis y se interpreta los datos. Comprender las diferencias metodológicas entre las escuelas de pensamiento económico puede ayudarnos a apreciar perspectivas diversas y desarrollar nuestras propias opiniones sobre los temas discutidos en episodios anteriores.
 
 # Sección final
 
