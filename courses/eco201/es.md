@@ -509,6 +509,10 @@ Desde esta perspectiva, una economía planificada centralmente inevitablemente e
 
 ![image](assets/en/22.webp)
 
+> *"La curiosa tarea de la economía es mostrar a los hombres cuán poco saben realmente acerca de aquello que creen poder diseñar."*
+>
+> Friedrich A. Hayek, *The Fatal Conceit: The Errors of Socialism*
+
 ### La Perspectiva Austriaca y los Fracasos de Otras Escuelas de Economía
 
 Se podría argumentar que pintar tal panorama a posteriori es fácil. Después de todo, todos somos conscientes de los estantes vacíos en la URSS, las dificultades de Venezuela y la catástrofe humanitaria en Camboya. Pero Mises predijo estos eventos tan temprano como en 1920. Sin embargo, hasta el colapso de la URSS en 1989, muchos economistas, incluidos numerosos premios Nobel, elogiaban el milagro económico soviético y predecían que la economía soviética pronto superaría a la de Estados Unidos.
