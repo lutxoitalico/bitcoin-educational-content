@@ -168,6 +168,9 @@ Es común presentar el marginalismo de estas tres corrientes como similares. De 
 
 ![image](assets/en/08.webp)
 
+> El valor no es intrínseco, no está en las cosas. Está dentro de nosotros; es la forma en que el hombre reacciona ante las condiciones de su entorno. El valor no está en las palabras ni en las doctrinas, se refleja en la conducta humana. No importa lo que un hombre o un grupo diga acerca del valor, sino cómo actúan.
+> Ludwig von Mises, La acción humana, 1949
+
 El economista austriaco refuta la concepción de los sucesores de Adam Smith y abandona la idea de que el valor de un bien proviene de la cantidad de trabajo utilizado en su producción, a favor de la noción de que su valor es determinado por el individuo, quien, en cada contexto, realiza un acto mental de valoración con respecto a una cantidad específica de un bien o servicio. Este salto intelectual realizado por Menger desafía la objetividad del valor: para él, el valor no es una propiedad objetiva de los bienes; es simplemente el resultado de la relación que el individuo tiene con esa cosa: "el valor no existe fuera de la conciencia humana".
 En otras palabras, Menger nos invita a considerar que el valor existe solo como un fenómeno psicológico subjetivo dentro del individuo, que el valor no es una propiedad inherente de los bienes, sino que surge de la opinión del individuo sobre la utilidad que pueden obtener de esos bienes.
 
@@ -254,6 +257,9 @@ Este juego ilustra un problema que se encuentra con frecuencia en la vida real: 
 
 ![image](assets/en/10.webp)
 
+> El dinero no es una invención del Estado. No es el producto de un acto legislativo. Ni siquiera es necesaria la sanción de la autoridad política para su existencia. Ciertos bienes llegaron a convertirse en dinero de manera bastante natural, como resultado de relaciones económicas que eran independientes del poder del Estado."
+> Carl Menger, *El origen del dinero*
+
 Este problema tiene menos impacto en comunidades pequeñas (por ejemplo, familia, círculos de amigos) porque, en esos casos, todos se conocen directamente, lo que permite recordar las contribuciones de cada uno. Suponiendo que abandonar la comunidad (deserción) conlleva un costo, un sistema de reputación basado en la memoria de los agentes individuales suele ser suficiente para evitar los problemas planteados por el dilema del prisionero.
 
 Sin embargo, al tratar con comunidades más grandes que se benefician significativamente de la división del trabajo, los problemas de coordinación vuelven a surgir. Esto se debe a dos razones principales:
@@ -273,11 +279,12 @@ En tiempos pre-civilización, estas tecnologías no existían. Por lo tanto, nue
 ### Doble Coincidencia de Deseos y Salibilidad
 
 ![image](assets/en/11.webp)
+> La evolucion del dinero
 
 El dinero puede verse como la solución descubierta por nuestros antepasados para abordar lo que los economistas llaman el problema de la "doble coincidencia de deseos". Este problema tiene tres dimensiones: espacial, temporal e interpersonal.
 
 En un intercambio directo (trueque) entre Alice y Bob, ambos necesitan poseer algo que el otro desee al mismo tiempo y lugar. Mediante el uso de un intercambio indirecto, es decir, a través del dinero, Alice puede comprarle a Bob, y Bob puede usar esa unidad monetaria en otro lugar, en otro momento y con otra persona (siempre y cuando la otra persona acepte esa forma de dinero).
-Para que un bien sirva como dinero, debe tener una alta salabilidad, es decir, debe ser deseado por la mayor cantidad de personas posible, la mayor parte del tiempo. Al utilizar un bien altamente vendible, se resuelve el problema de la doble coincidencia de deseos en términos espaciales e interpersonales: si el bien que uso como dinero es deseado en todas partes y por la mayoría de las personas, puedo separar fácilmente el acto de vender del acto de comprar en términos de ubicación e interacción social.
+Para que un bien sirva como dinero, debe tener una alta salabilidad (aceptación generalizada), es decir, debe ser deseado por la mayor cantidad de personas posible, la mayor parte del tiempo. Al utilizar un bien altamente vendible, se resuelve el problema de la doble coincidencia de deseos en términos espaciales e interpersonales: si el bien que uso como dinero es deseado en todas partes y por la mayoría de las personas, puedo separar fácilmente el acto de vender del acto de comprar en términos de ubicación e interacción social.
 
 Sin embargo, el problema de la salabilidad a lo largo del tiempo es más difícil de resolver por dos razones:
 
@@ -285,7 +292,7 @@ En primer lugar, la entropía (comúnmente conocida como "efecto del tiempo") al
 
 En segundo lugar, la escasez relativa de un bien en el momento "t" no garantiza su escasez relativa en el futuro. Al dedicar suficientes recursos a un área específica de producción, los seres humanos pueden aumentar la oferta de cualquier bien. La única limitación para aumentar la producción de un bien es el costo de oportunidad asociado. En consecuencia, la escasez relativa actual de un bien no puede garantizar su escasez relativa futura. Solo los bienes cuya producción marginal puede aumentarse a costos muy altos pueden ser consistentemente escasos, por eso esta es una característica de los bienes monetarios que han surgido libremente a lo largo de la historia humana.
 
-En tiempos pre-civilizacionales, una variedad de bienes como conchas marinas, joyas elaboradas, collares o cuentas servían como dinero. Estos bienes eran fácilmente transportables, no tenían utilidad directa más allá de su valor ornamental, resistían la entropía (es decir, no se deterioraban con el tiempo), eran naturalmente escasos y/o requerían una cantidad significativa de trabajo especializado para producirse. Dado que el nivel de división del trabajo era bajo en ese momento, y por lo tanto, el costo de oportunidad asociado con la producción de artefactos ornamentales era alto, estos artículos no podían producirse en grandes cantidades. Por lo tanto, aquellos que usaban estos artículos como dinero podían estar seguros de su futura escasez relativa.
+En tiempos pre-civilizacionales, una variedad de bienes como conchas marinas, joyas elaboradas, collares o cuentas (bolitas decorativas) servían como dinero. Estos bienes eran fácilmente transportables, no tenían utilidad directa más allá de su valor ornamental, resistían la entropía (es decir, no se deterioraban con el tiempo), eran naturalmente escasos y/o requerían una cantidad significativa de trabajo especializado para producirse. Dado que el nivel de división del trabajo era bajo en ese momento, y por lo tanto, el costo de oportunidad asociado con la producción de artefactos ornamentales era alto, estos artículos no podían producirse en grandes cantidades. Por lo tanto, aquellos que usaban estos artículos como dinero podían estar seguros de su futura escasez relativa.
 
 El hecho de que nuestros antepasados cazadores-recolectores se dedicaran a estas tareas intensivas en recursos, aunque no generaran bienes con utilidad directa, demuestra las ganancias significativas que esperaban al expandir el alcance espacial, social y temporal del intercambio. Si este no fuera el caso, y les resultara más útil emplear estos recursos en la construcción de refugios, la caza u otras actividades, en lugar de la producción de bienes monetarios, probablemente no encontraríamos tanta evidencia arqueológica de estas actividades artesanales. Otros grupos que utilizaban sus recursos de manera más eficiente habrían disfrutado de un mejor desarrollo y mayor prosperidad, y estas actividades artesanales habrían desaparecido rápidamente en favor de actividades que producen bienes con utilidad directa.
 
