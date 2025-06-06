@@ -285,8 +285,6 @@ En tiempos pre-civilización, estas tecnologías no existían. Por lo tanto, nue
 
 ![image](assets/en/11.webp)
 
-> La evolucion del dinero
-
 El dinero puede verse como la solución descubierta por nuestros antepasados para abordar lo que los economistas llaman el problema de la "doble coincidencia de deseos". Este problema tiene tres dimensiones: espacial, temporal e interpersonal.
 
 En un intercambio directo (trueque) entre Alice y Bob, ambos necesitan poseer algo que el otro desee al mismo tiempo y lugar. Mediante el uso de un intercambio indirecto, es decir, a través del dinero, Alice puede comprarle a Bob, y Bob puede usar esa unidad monetaria en otro lugar, en otro momento y con otra persona (siempre y cuando la otra persona acepte esa forma de dinero).
